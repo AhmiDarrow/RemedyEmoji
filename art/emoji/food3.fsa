@@ -409,7 +409,7 @@ emoji bagel U+1F96F | bread breakfast cream cheese
   circle 48 24 1.2
   circle 14 30 1.2
 
-emoji salt U+1F9C2 | shaker seasoning cooking
+emoji salt_shaker U+1F9C2 | shaker seasoning cooking
   fill lin #c4ccd6 #7d8795 0 4 0 20
   stroke #4a525c 2.2
   path M 20 20 Q 20 4 32 4 Q 44 4 44 20 Z
