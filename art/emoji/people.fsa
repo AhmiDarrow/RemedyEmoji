@@ -346,7 +346,7 @@ emoji bust U+1F464 | person user profile silhouette
   path M 6 60 Q 6 38 32 38 Q 58 38 58 60 Z
   circle 32 21 14.5
 
-emoji facepalm | ugh disappointed sigh doh
+emoji facepalm U+1F926 | ugh disappointed sigh doh
   use face
   stroke $ink 3
   arc 30 53 8 4.5 205 335
@@ -360,7 +360,7 @@ emoji facepalm | ugh disappointed sigh doh
   line 14 14 27 21
   line 24 10 33 17
 
-emoji shrug | dunno whatever idk maybe
+emoji shrug U+1F937 | dunno whatever idk maybe
   use face 0 -4 0.68
   xf 0 -4 0.68
   use eyes

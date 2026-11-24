@@ -1,0 +1,834 @@
+// Newer faces, hands, body parts and people, real and fantastic. Original Remedy Emoji art.
+category smileys
+
+part sp_mini
+  fill $skin
+  stroke $skinl 1.6
+  circle 32 11 7.5
+  fill $p3brown
+  nostroke
+  path M 24.5 10 Q 25 3 32 3 Q 39 3 39.5 10 Q 32 6 24.5 10 Z
+
+emoji thermometer_face U+1F912 | sick fever ill temperature
+  use face
+  use eyes_closed 0 2
+  use brows_sad
+  fill $white
+  stroke #b9c4cf 1.6
+  path M 30 44 L 52 52 Q 55 54 54 56.5 Q 52 59 49 57.5 L 28 48 Z
+  fill $red
+  nostroke
+  circle 52.4 55.6 2
+  rect 40 49 9 2.4 1
+  stroke $ink 3
+  arc 27 47 6 4 205 335
+
+emoji head_bandage U+1F915 | hurt injured ouch bandage
+  use face
+  use eyes
+  stroke $ink 3
+  arc 32 48 8 5 205 335
+  fill $white
+  stroke #b9c4cf 1.6
+  path M 5 24 Q 30 8 58 16 L 59 24 Q 30 16 6.5 32 Z
+  nofill
+  stroke #b9c4cf 1.2
+  line 20 15 22 22
+  line 36 12 37 19
+
+emoji hugging U+1F917 | hug embrace warm thanks
+  use face
+  use eyes_happy
+  use blush
+  use smile
+  fill rad $skin $skind 14 50 14
+  stroke $skinl 1.8
+  mirror path M 4 44 Q 8 38 14 42 L 22 48 Q 24 54 18 56 L 8 56 Q 2 52 4 44 Z
+  nofill
+  stroke $skinl 1.2
+  mirror line 9 44 12 51
+  mirror line 13 44 16 51
+
+emoji drooling U+1F924 | drool hungry want yum
+  use face
+  use eyes_closed 0 1
+  fill $mouth
+  path M 20 40 Q 32 44 44 40 Q 42 50 32 50 Q 22 50 20 40 Z
+  fill lin #c9ebff $tear 0 46 0 60
+  stroke $teard 1.2
+  path M 38 47 Q 37 58 41 59.5 Q 45 58 43.5 47 Z
+
+emoji lying_face U+1F925 | liar pinocchio lie nose
+  use face -4 0
+  use eyes -4 0
+  stroke $ink 3
+  arc 28 47 8 5 205 335
+  fill rad #ffd86a #f2a01c 40 34 12
+  stroke $rim 1.8
+  path M 28 30 L 58 33 Q 62 35 58 37 L 28 39 Z
+
+emoji sneezing U+1F927 | achoo sick cold tissue
+  use face
+  use f3_squint
+  fill $white
+  stroke #b9c4cf 1.8
+  path M 20 38 Q 32 34 44 38 L 48 54 Q 32 62 16 54 Z
+  nofill
+  stroke #b9c4cf 1.4
+  curve 24 44 32 42 40 44
+  stroke $tear 2.4
+  line 52 40 60 38
+  line 53 46 61 48
+
+emoji hand_over_mouth U+1F92D | giggle oops shy secret
+  use face
+  use eyes_happy
+  use blush
+  fill rad $skin $skind 30 46 16
+  stroke $skinl 1.8
+  path M 16 44 Q 18 36 28 38 L 44 40 Q 50 42 48 50 Q 44 58 30 56 Q 16 54 16 44 Z
+  nofill
+  stroke $skinl 1.2
+  line 26 41 26 49
+  line 33 42 33 50
+  line 40 43 40 50
+
+emoji vomiting U+1F92E | sick throw up puke ill
+  use face_green
+  use f3_squint
+  fill #6fb82a
+  stroke #3c5a12 1.8
+  path M 22 38 Q 32 34 42 38 L 46 60 Q 32 64 18 60 Z
+  fill #a6e05a
+  nostroke
+  circle 28 50 2.4
+  circle 37 55 2
+
+emoji yawning U+1F971 | tired sleepy bored yawn
+  use face
+  use eyes_closed 0 -1
+  fill $mouth
+  ellipse 30 44 8 9
+  fill rad $skin $skind 44 46 14
+  stroke $skinl 1.8
+  path M 34 42 Q 40 34 50 38 Q 58 44 54 52 Q 46 60 38 54 Q 32 50 34 42 Z
+
+emoji disguised U+1F978 | disguise glasses moustache incognito
+  use face
+  fill #ffffffcc
+  stroke $ink 2.4
+  mirror circle 21.5 27 7.5
+  line 29 27 35 27
+  fill $ink
+  nostroke
+  mirror circle 21.5 27.5 2
+  fill rad #ffb08a #e8805a 32 34 8
+  stroke #a8502c 1.4
+  ellipse 32 35.5 4.4 5.4
+  fill #4a2c10
+  nostroke
+  path M 32 42 Q 22 38 16 44 Q 24 50 32 44 Q 40 50 48 44 Q 42 38 32 42 Z
+  stroke $ink 3
+  mirror line 13 17 27 16
+
+emoji holding_back_tears U+1F979 | touched moved emotional aww
+  use face
+  fill $white
+  stroke $ink 1.6
+  mirror ellipse 21.5 28 6.5 7
+  fill $ink
+  nostroke
+  mirror circle 21.5 29 3.4
+  fill $white
+  mirror circle 23 27.5 1.4
+  fill $tear
+  mirror path M 15.5 32 Q 21.5 36 27.5 32 Q 26 35.4 21.5 35.4 Q 17 35.4 15.5 32 Z
+  use brows_sad 0 -2
+  stroke $ink 2.6
+  arc 32 49 6 3.4 205 335
+
+emoji troll U+1F9CC | monster ogre creature fantasy
+  fill rad #a8b87a #6a7c3a 24 20 46
+  stroke #3a4a14 2.2
+  path M 6 30 L 2 18 L 14 24 Z
+  path M 58 30 L 62 18 L 50 24 Z
+  path M 10 34 Q 10 10 32 10 Q 54 10 54 34 Q 54 58 32 58 Q 10 58 10 34 Z
+  fill #8a9c5a
+  stroke #3a4a14 1.6
+  ellipse 32 38 7 8
+  fill #ffe27a
+  stroke #3a4a14 1.4
+  mirror ellipse 21 28 4.4 3.6
+  fill $ink
+  nostroke
+  mirror circle 21.5 28.5 1.6
+  stroke #3a4a14 3
+  mirror line 14 21 27 24
+  nofill
+  stroke #3a4a14 2.4
+  arc 32 52 10 5 200 340
+  fill #fff6e0
+  stroke #b8a37a 1.2
+  poly 22 49 24 43 27 48.4
+  poly 42 49 40 43 37 48.4
+
+category people
+
+emoji pinched_fingers U+1F90C | italian gesture what chef kiss
+  fill rad $skin $skind 28 30 30
+  stroke $skinl 2.2
+  path M 22 60 L 20 40 Q 14 30 20 20 L 28 6 Q 32 4 34 8 L 34 18 L 38 6 Q 42 4 44 9 L 42 22 L 48 14 Q 52 13 53 18 L 46 34 Q 48 44 42 50 L 42 60 Z
+  nofill
+  stroke $skinl 1.4
+  line 30 22 30 34
+  line 38 22 37 34
+
+emoji brown_heart U+1F90E | heart brown love
+  fill rad #c98a5a #8a4a22 24 22 40
+  stroke #4a2208 2.4
+  path M 32 55 C 6 38 5 22 13 14.5 C 20.5 8 29 11.5 32 19 C 35 11.5 43.5 8 51 14.5 C 59 22 58 38 32 55 Z
+
+emoji pinching_hand U+1F90F | small tiny little bit pinch
+  fill rad $skin $skind 28 36 30
+  stroke $skinl 2.2
+  path M 8 58 L 10 40 Q 12 30 24 30 L 50 30 Q 56 30 56 35 Q 56 40 50 40 L 34 40 L 34 44 L 48 46 Q 54 47 53 52 Q 52 56 46 55.4 L 30 56 Q 26 60 20 60 Z
+  path M 22 30 L 26 14 Q 28 9 32.5 10.5 Q 37 12 35.5 17 L 32 30 Z
+
+emoji raised_back_of_hand U+1F91A | hand back stop raised
+  use pp_hand 3 0 1 0 flip
+  nofill
+  stroke $skind 1.6
+  line 22 20 22 28
+  line 30 16 30 26
+  line 38 18 38 28
+
+emoji left_fist U+1F91B | fist bump left punch
+  use fist 0 0 1 -90
+
+emoji right_fist U+1F91C | fist bump right punch
+  use fist 0 0 1 90
+
+emoji love_you_gesture U+1F91F | ily sign love hand
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  rect 14 6 9.5 34 4.7
+  rect 43 8 9.5 32 4.7
+  rect 24 22 9 18 4.5
+  rect 33.5 22 9 18 4.5
+  path M 14 34 L 52.5 34 L 52.5 46 Q 52 59 36 59 Q 22 59 16 50 Z
+  path M 16 44 L 2 34 Q -1 30 3 27.5 Q 7 26 10 30 L 20 40 Z
+  nostroke
+  rect 15.1 30 36.3 8
+
+emoji pregnant_woman U+1F930 | pregnancy expecting mother baby
+  fill $p3brown
+  path M 20 26 Q 14 4 32 4 Q 50 4 44 26 Z
+  fill lin #ff9ac4 #e23c86 0 22 0 60
+  stroke #a31a5a 2
+  path M 22 60 L 24 28 Q 24 22 32 22 Q 40 22 40 28 Q 54 36 50 48 Q 46 54 42 54 L 42 60 Z
+  fill $skin
+  stroke $skinl 1.6
+  circle 32 14 8.5
+  fill $p3brown
+  nostroke
+  path M 23.5 13 Q 24 5 32 5 Q 40 5 40.5 13 Q 32 9 23.5 13 Z
+  nofill
+  stroke $skinl 5.6
+  line 36 30 46 42
+  stroke $skin 3.4
+  line 36 30 46 42
+
+emoji breast_feeding U+1F931 | nursing baby mother feeding
+  fill $p3brown
+  path M 14 34 Q 10 6 30 6 Q 50 6 46 34 Z
+  fill lin #b98cf5 #7a48d6 0 28 0 60
+  stroke #4a2596 2
+  path M 8 60 Q 8 34 30 34 Q 52 34 52 60 Z
+  fill $skin
+  stroke $skinl 1.6
+  circle 30 18 10.5
+  fill $p3brown
+  nostroke
+  path M 19.5 17 Q 20 7 30 7 Q 40 7 40.5 17 Q 30 12 19.5 17 Z
+  fill lin #ffffff #dfe5ec 0 40 0 58
+  stroke #8793a3 1.6
+  ellipse 40 49 14 8 -15
+  fill $skin
+  stroke $skinl 1.4
+  circle 30 44 6
+
+emoji palms_up U+1F932 | pray dua open hands offering
+  use pp_hand -13 6 0.62 -18
+  use pp_hand 13 6 0.62 18 flip
+
+emoji selfie U+1F933 | phone camera photo arm
+  nofill
+  stroke $skinl 12
+  line 14 60 26 34
+  stroke $skin 8.4
+  line 14 60 26 34
+  fill lin #5a6270 #22262e 0 4 0 40
+  stroke #0e1014 2
+  rect 24 4 22 34 4
+  fill lin #9fdcff #5aa8e0 0 8 0 34
+  nostroke
+  rect 27 8 16 24 1
+  fill rad $skin $skind 30 36 12
+  stroke $skinl 1.8
+  rect 20 20 9 8 4
+  rect 20 28 9 8 4
+  rect 42 26 9 9 4
+
+emoji prince U+1F934 | crown royal king
+  use p3_face 0 3
+  fill $p3brown
+  path M 11.5 34 Q 10 16 32 16 Q 54 16 52.5 34 Q 46 24 32 26 Q 18 24 11.5 34 Z
+  fill $sym_gold
+  stroke #7a4a08 1.6
+  poly 16 18 14 4 24 11 32 2 40 11 50 4 48 18
+  fill #3a78d8
+  nostroke
+  circle 32 12 2.4
+
+emoji man_in_tuxedo U+1F935 | groom formal suit wedding
+  fill lin #3a3f4c #16181d 0 44 0 62
+  stroke #0e1014 2
+  path M 8 62 Q 8 46 32 46 Q 56 46 56 62 Z
+  fill #ffffff
+  nostroke
+  poly 26 47 38 47 32 60
+  fill #16181d
+  poly 26 50 32 53 26 56
+  poly 38 50 32 53 38 56
+  fill $skin
+  stroke $skinl 1.8
+  circle 32 28 14
+  fill $p3brown
+  nostroke
+  path M 18.5 26 Q 19 12 32 12 Q 45 12 45.5 26 Q 40 19 32 20 Q 24 19 18.5 26 Z
+  fill $ink
+  mirror ellipse 27 29 1.7 2.3
+  nofill
+  stroke $ink 2
+  arc 32 33 4.5 3.2 25 155
+
+emoji mrs_claus U+1F936 | christmas mother santa xmas
+  fill $p3grey
+  stroke #8793a3 1.6
+  circle 10 40 7
+  circle 54 40 7
+  use p3_face 0 4
+  fill rad #ff6a5a #d8281c 28 10 22
+  stroke #8a140c 2.2
+  path M 11 28 Q 14 6 36 8 Q 52 9 55 24 L 58 32 L 52 28 L 11 30 Z
+  fill #ffffff
+  stroke #b9c4cf 1.8
+  circle 57 32 4.5
+  rect 8 24 46 8 4
+  fill #ffffffcc
+  stroke $ink 1.6
+  mirror circle 24 38 5
+  line 29 38 35 38
+
+emoji cartwheel U+1F938 | gymnastics flip acrobat sport
+  nofill
+  stroke $skinl 6.2
+  line 24 32 8 22
+  line 28 40 16 56
+  line 40 26 56 16
+  line 42 36 58 44
+  stroke $skin 4
+  line 24 32 8 22
+  line 28 40 16 56
+  line 40 26 56 16
+  line 42 36 58 44
+  fill lin #5aa8f0 #2f6ad8 0 22 0 44
+  stroke #1a3f9a 2
+  path M 24 26 L 40 22 L 44 38 L 28 42 Z
+  use sp_mini 16 14 1 115
+
+emoji juggling U+1F939 | juggle circus balls skill
+  fill #e2584a
+  stroke #8a140c 1.4
+  circle 14 10 4
+  fill #ffd23a
+  stroke #a8801c 1.4
+  circle 32 4 4
+  fill #5aa8f0
+  stroke #1a3f9a 1.4
+  circle 50 10 4
+  nofill
+  stroke $skinl 6.2
+  line 26 32 14 22
+  line 38 32 50 22
+  stroke $skin 4
+  line 26 32 14 22
+  line 38 32 50 22
+  fill lin #b98cf5 #7a48d6 0 28 0 60
+  stroke #4a2596 2
+  path M 22 60 L 24 30 L 40 30 L 42 60 Z
+  use sp_mini 0 10
+
+emoji fencer U+1F93A | fencing sword sport duel
+  nofill
+  stroke #9aa6b6 2.4
+  line 40 28 62 22
+  stroke #5d6a7c 5.4
+  line 30 40 20 58
+  line 36 40 50 54
+  line 36 26 44 28
+  line 28 26 16 30
+  fill lin #ffffff #dfe5ec 0 20 0 44
+  stroke #5d6a7c 2
+  path M 24 22 L 40 20 L 40 42 L 26 42 Z
+  fill lin #c4ccd6 #7d8795 0 4 0 20
+  stroke #4a525c 2
+  circle 33 12 8
+  nofill
+  stroke #4a525c 1.2
+  line 27 9 39 9
+  line 26.5 13 39.5 13
+  line 31 5 31 19
+  line 35 5 35 19
+
+emoji wrestlers U+1F93C | wrestling grapple sport fight
+  nofill
+  stroke $skinl 6.2
+  line 16 26 30 34
+  line 48 26 34 34
+  line 14 44 10 58
+  line 22 44 26 58
+  line 50 44 54 58
+  line 42 44 38 58
+  stroke $skin 4
+  line 16 26 30 34
+  line 48 26 34 34
+  line 14 44 10 58
+  line 22 44 26 58
+  line 50 44 54 58
+  line 42 44 38 58
+  fill lin #ff7a6a #d8281c 0 22 0 46
+  stroke #8a140c 2
+  path M 10 24 L 24 24 L 24 46 L 12 46 Z
+  fill lin #5aa8f0 #2f6ad8 0 22 0 46
+  stroke #1a3f9a 2
+  path M 40 24 L 54 24 L 52 46 L 40 46 Z
+  use sp_mini -12 6 0.9
+  use sp_mini 12 6 0.9
+
+emoji water_polo U+1F93D | swim ball pool sport
+  fill rad #ffd23a #f2a01c 46 10 8
+  stroke #a8680a 1.6
+  circle 48 10 7
+  nofill
+  stroke $skinl 6.2
+  line 32 34 44 18
+  stroke $skin 4
+  line 32 34 44 18
+  fill $skin
+  stroke $skinl 1.6
+  circle 26 28 7.5
+  fill #e2584a
+  nostroke
+  path M 18.5 27 Q 19 20 26 20 Q 33 20 33.5 27 Z
+  fill lin #6fd0ff #1f74d8 0 36 0 58
+  stroke #134c9c 2
+  path M 2 44 Q 10 36 18 42 Q 26 36 34 42 Q 42 36 50 42 Q 56 38 62 44 L 62 58 L 2 58 Z
+
+emoji handball U+1F93E | throw ball sport jump
+  fill rad #ffb04a #e8701c 50 8 8
+  stroke #a8420a 1.6
+  circle 52 9 6.5
+  nofill
+  stroke $skinl 6.2
+  line 36 24 48 14
+  line 26 26 14 34
+  line 28 42 18 54
+  line 36 42 46 54
+  stroke $skin 4
+  line 36 24 48 14
+  line 26 26 14 34
+  line 28 42 18 54
+  line 36 42 46 54
+  fill lin #7fd47a #2f9a3c 0 20 0 44
+  stroke #145a24 2
+  path M 24 22 L 40 20 L 40 44 L 26 44 Z
+  use sp_mini 0 2
+
+emoji ninja U+1F977 | stealth warrior shinobi mask
+  fill lin #3a3f4c #16181d 0 6 0 60
+  stroke #0e1014 2.2
+  circle 32 34 22
+  fill $skin
+  stroke #0e1014 1.6
+  path M 14 30 Q 32 22 50 30 Q 50 40 32 40 Q 14 40 14 30 Z
+  fill $ink
+  nostroke
+  mirror ellipse 24 32 2.4 2.8
+  stroke $ink 2.4
+  mirror line 18 26 28 28
+  fill #16181d
+  stroke #0e1014 1.6
+  path M 52 26 L 62 18 L 60 28 L 62 34 L 52 32 Z
+
+emoji leg U+1F9B5 | limb kick knee body
+  fill rad $skin $skind 28 30 34
+  stroke $skinl 2.2
+  path M 18 4 L 40 4 Q 44 20 38 32 Q 36 40 40 48 L 58 52 Q 62 56 58 60 L 22 60 Q 18 56 20 46 Q 12 26 18 4 Z
+
+emoji foot U+1F9B6 | toes barefoot step body
+  fill rad $skin $skind 28 30 34
+  stroke $skinl 2.2
+  path M 14 6 L 32 6 Q 34 26 44 34 Q 60 40 60 50 Q 60 58 50 58 L 20 58 Q 8 56 10 40 Q 12 24 14 6 Z
+  circle 54 40 4
+  circle 47 34 3.6
+  circle 40 30 3.2
+
+emoji tooth U+1F9B7 | dentist teeth molar dental
+  fill lin #ffffff #dfe5ec 0 6 0 58
+  stroke #8793a3 2.4
+  path M 12 12 Q 20 2 32 8 Q 44 2 52 12 Q 58 24 50 40 Q 48 58 42 58 Q 38 56 38 44 Q 32 36 26 44 Q 26 56 22 58 Q 16 58 14 40 Q 6 24 12 12 Z
+  fill #ffffffaa
+  nostroke
+  ellipse 20 18 4 6 30
+
+emoji superhero U+1F9B8 | hero power cape save
+  fill lin #ff7a6a #d8281c 0 28 0 62
+  stroke #8a140c 2
+  path M 14 34 L 50 34 L 60 62 L 4 62 Z
+  fill lin #5aa8f0 #2f6ad8 0 36 0 62
+  stroke #1a3f9a 2
+  path M 16 62 Q 16 42 32 42 Q 48 42 48 62 Z
+  use p3_face 0 -8 0.8
+  use p3_short_hair 0 -8 0.8
+  fill #2f6ad8
+  stroke #1a3f9a 1.4
+  path M 16 18 Q 32 14 48 18 L 47 25 Q 32 21 17 25 Z
+  fill #ffffff
+  nostroke
+  mirror ellipse 26 21.5 2.6 1.8
+
+emoji supervillain U+1F9B9 | villain evil bad power cape
+  fill lin #5a4a7a #2a2044 0 28 0 62
+  stroke #16102a 2
+  path M 14 34 L 50 34 L 60 62 L 4 62 Z
+  fill lin #7fd47a #2f9a3c 0 36 0 62
+  stroke #145a24 2
+  path M 16 62 Q 16 42 32 42 Q 48 42 48 62 Z
+  use p3_face 0 -8 0.8
+  fill $p3black
+  path M 15.6 18 Q 15 0 32 0 Q 49 0 48.4 18 Q 43 9 32 10.6 Q 21 9 15.6 18 Z
+  fill #2a2044
+  stroke #16102a 1.4
+  path M 16 18 Q 32 14 48 18 L 47 25 Q 32 21 17 25 Z
+  fill #ffffff
+  nostroke
+  mirror ellipse 26 21.5 2.6 1.8
+
+emoji ear_hearing_aid U+1F9BB | hearing aid deaf accessibility
+  use ear
+  fill lin #9aa6b6 #5d6a7c 0 20 0 44
+  stroke #3a4452 1.6
+  path M 44 16 Q 54 18 52 34 Q 50 42 44 40 Q 48 30 44 16 Z
+
+emoji mechanical_arm U+1F9BE | prosthetic robot arm strong
+  fill lin #c4ccd6 #7d8795 0 4 0 60
+  stroke #4a525c 2.2
+  path M 8 58 L 10 36 Q 12 26 22 22 L 30 6 Q 34 2 40 6 Q 52 16 48 28 Q 46 34 38 34 L 36 44 L 40 58 Z
+  nofill
+  stroke #4a525c 1.6
+  line 12 40 36 40
+  line 24 22 44 30
+  fill #2f6ad8
+  nostroke
+  circle 20 49 3.4
+
+emoji mechanical_leg U+1F9BF | prosthetic robot leg
+  fill lin #c4ccd6 #7d8795 0 4 0 60
+  stroke #4a525c 2.2
+  path M 20 4 L 40 4 L 38 22 L 34 26 L 36 44 L 56 50 Q 60 54 56 58 L 24 58 L 26 26 L 22 22 Z
+  nofill
+  stroke #4a525c 1.6
+  line 23 22 37 22
+  line 25 44 36 44
+  fill #2f6ad8
+  nostroke
+  circle 30 15 3
+
+emoji standing_person U+1F9CD | stand person upright wait
+  nofill
+  stroke #2f3a4c 6
+  line 29 40 29 60
+  line 35 40 35 60
+  stroke $skinl 6.2
+  line 24 22 22 40
+  line 40 22 42 40
+  stroke $skin 4
+  line 24 22 22 40
+  line 40 22 42 40
+  fill lin #5aa8f0 #2f6ad8 0 18 0 42
+  stroke #1a3f9a 2
+  path M 24 18 L 40 18 L 39 42 L 25 42 Z
+  use sp_mini 0 -1
+
+emoji kneeling_person U+1F9CE | kneel person rest pray
+  nofill
+  stroke #2f3a4c 6
+  line 32 40 44 50 26 58
+  line 30 40 30 56
+  stroke $skinl 6.2
+  line 34 24 42 38
+  stroke $skin 4
+  line 34 24 42 38
+  fill lin #5aa8f0 #2f6ad8 0 18 0 42
+  stroke #1a3f9a 2
+  path M 24 18 L 40 18 L 39 42 L 25 42 Z
+  use sp_mini 0 -1
+
+emoji deaf_person U+1F9CF | deaf sign hearing accessibility
+  use f3_shirt
+  nofill
+  stroke $skinl 9
+  line 46 56 44 40
+  stroke $skin 6
+  line 46 56 44 40
+  fill $skin
+  stroke $skinl 1.8
+  rect 40.5 26 7 16 3.5
+  use f3_head
+  nofill
+  stroke $ink 2
+  arc 32 31 4.5 3.2 25 155
+  stroke $pp_blue 2.2
+  line 50 24 55 21
+  line 51 30 57 30
+
+emoji child U+1F9D2 | kid young person
+  use p3_face
+  fill $p3brown
+  path M 11.5 32 Q 10 12 32 12 Q 54 12 52.5 32 Q 46 23 40 22 Q 36 16 28 22 Q 18 22 11.5 32 Z
+
+emoji older_adult U+1F9D3 | elderly senior old person
+  use p3_face
+  fill $p3grey
+  path M 11.5 32 Q 10 12 32 12 Q 54 12 52.5 32 Q 46 21 32 23 Q 18 21 11.5 32 Z
+  nofill
+  stroke $skinl 1.4
+  curve 24 27 32 25.5 40 27
+  mirror line 17 42 20 45
+
+emoji bearded_person U+1F9D4 | beard man face hair
+  use p3_face
+  use p3_short_hair
+  fill $p3brown
+  nostroke
+  path M 12.5 38 Q 14 58 32 58 Q 50 58 51.5 38 Q 46 46 38 44 Q 32 40 26 44 Q 18 46 12.5 38 Z
+  fill $skin
+  ellipse 32 47 5.4 2.2
+
+emoji headscarf U+1F9D5 | hijab scarf woman muslim
+  fill lin #6fd4c8 #2f9a8c 0 6 0 60
+  stroke #145a52 2.2
+  path M 6 60 Q 2 8 32 8 Q 62 8 58 60 Z
+  fill $skin
+  stroke $skinl 1.8
+  path M 16 34 Q 16 20 32 20 Q 48 20 48 34 Q 48 50 32 50 Q 16 50 16 34 Z
+  fill $ink
+  nostroke
+  mirror ellipse 25.5 34 2 2.8
+  nofill
+  stroke $ink 2.2
+  arc 32 39 6 4.4 25 155
+
+emoji steamy_room U+1F9D6 | sauna steam spa relax
+  nofill
+  stroke $fdsteam 2.6
+  curve 10 16 6 10 12 6 8 0
+  curve 54 16 50 10 56 6 52 0
+  use p3_face 0 -4 0.8
+  use p3_short_hair 0 -4 0.8
+  fill lin #ffffff #dfe5ec 0 40 0 60
+  stroke #8793a3 2
+  path M 10 60 Q 10 42 32 42 Q 54 42 54 60 Z
+  fill #ffffffaa
+  nostroke
+  ellipse 32 58 28 5
+
+emoji climbing U+1F9D7 | climb rock wall boulder sport
+  fill lin #a8a090 #6a6254 0 0 0 64
+  stroke #3a3428 2
+  path M 40 2 L 62 2 L 62 62 L 46 62 L 50 44 L 42 30 L 46 16 Z
+  nofill
+  stroke $skinl 6.2
+  line 32 22 44 12
+  line 28 24 20 14
+  line 30 40 42 44
+  line 26 40 20 56
+  stroke $skin 4
+  line 32 22 44 12
+  line 28 24 20 14
+  stroke #2f3a4c 5
+  line 30 40 42 44
+  line 26 40 20 56
+  fill lin #ff7a6a #d8281c 0 20 0 42
+  stroke #8a140c 2
+  path M 22 22 L 36 20 L 36 42 L 24 42 Z
+  use sp_mini -4 2 0.9
+
+emoji lotus_position U+1F9D8 | yoga meditate calm zen
+  fill lin #b98cf5 #7a48d6 0 24 0 60
+  stroke #4a2596 2
+  path M 24 24 L 40 24 L 42 44 L 22 44 Z
+  path M 4 52 Q 18 40 32 46 Q 46 40 60 52 Q 46 60 32 56 Q 18 60 4 52 Z
+  nofill
+  stroke $skinl 6.2
+  line 24 28 12 44
+  line 40 28 52 44
+  stroke $skin 4
+  line 24 28 12 44
+  line 40 28 52 44
+  use sp_mini 0 5
+
+emoji mage U+1F9D9 | wizard witch magic sorcerer
+  use p3_face 0 8 0.86
+  fill $p3grey
+  nostroke
+  path M 16 44 Q 18 62 32 62 Q 46 62 48 44 Q 40 52 32 48 Q 24 52 16 44 Z
+  fill lin #7a5ad8 #3a2a8a 0 2 0 30
+  stroke #1e1458 2
+  path M 32 0 Q 40 12 46 28 L 18 28 Q 24 12 32 0 Z
+  ellipse 32 29 26 5.5
+  fill #ffd23a
+  nostroke
+  use star 0 -16 0.14
+
+emoji fairy U+1F9DA | pixie magic wings fantasy
+  fill #dff4ffcc
+  stroke #7fc0f0 1.8
+  ellipse 12 30 10 16 -20
+  ellipse 52 30 10 16 20
+  use p3_face 0 0 0.86
+  fill #f29a4a
+  path M 14.4 32 Q 13 12 32 12 Q 51 12 49.6 32 Q 44 22 32 24 Q 20 22 14.4 32 Z
+  fill #ffd23a
+  nostroke
+  use star 20 -22 0.16
+
+emoji vampire U+1F9DB | dracula fangs undead halloween
+  fill lin #5a1420 #2a0a10 0 30 0 62
+  stroke #16060a 2
+  path M 4 62 L 12 34 L 52 34 L 60 62 Z
+  fill #c8ccd4
+  stroke #8a8e98 2
+  circle 32 30 18
+  fill $p3black
+  nostroke
+  path M 14 28 Q 14 10 32 10 Q 50 10 50 28 Q 44 20 38 22 L 32 16 L 26 22 Q 20 20 14 28 Z
+  fill #b8182c
+  mirror ellipse 25 30 2.2 2.8
+  nofill
+  stroke $ink 2
+  arc 32 37 6 3.6 25 155
+  fill #ffffff
+  stroke #8a8e98 1
+  poly 27 39.6 29 44 30.6 40.4
+  poly 37 39.6 35 44 33.4 40.4
+
+emoji merperson U+1F9DC | mermaid merman sea fantasy
+  fill lin #6fd4c8 #2f9a8c 0 34 0 62
+  stroke #145a52 2
+  path M 22 36 L 42 36 Q 44 48 36 54 L 46 62 L 18 62 L 28 54 Q 20 48 22 36 Z
+  nofill
+  stroke #145a52 1.4
+  curve 24 42 32 46 40 42
+  curve 26 48 32 51 38 48
+  fill $skin
+  stroke $skinl 1.6
+  path M 24 26 L 40 26 L 42 38 L 22 38 Z
+  fill #e2584a
+  path M 10 40 Q 8 6 32 6 Q 56 6 54 40 Q 48 42 46 34 L 18 34 Q 16 42 10 40 Z
+  use p3_face 0 -12 0.62
+  fill #e2584a
+  path M 19.6 10 Q 20 -1 32 -1 Q 44 -1 44.4 10 Q 40 3.6 32 4.6 Q 24 3.6 19.6 10 Z
+
+emoji elf U+1F9DD | fantasy pointed ears archer
+  fill $skin
+  stroke $skinl 1.8
+  path M 14 38 L 2 22 L 14 28 Z
+  path M 50 38 L 62 22 L 50 28 Z
+  fill $p3blond
+  path M 9 58 Q 6 12 32 12 Q 58 12 55 58 Q 46 60 44 50 L 20 50 Q 18 60 9 58 Z
+  use p3_face
+  fill $p3blond
+  path M 12 32 Q 14 13 32 13 Q 50 13 52 32 Q 44 22 32 24 Q 20 22 12 32 Z
+
+emoji genie U+1F9DE | djinn wish lamp magic
+  fill lin #6fb8f0 #2f6ad8 0 30 0 62
+  stroke #1a3f9a 2
+  path M 14 36 Q 32 28 50 36 Q 50 50 38 54 Q 34 60 26 62 Q 28 56 26 52 Q 14 48 14 36 Z
+  use face_blue 0 -10 0.62
+  fill $ink
+  mirror ellipse 26.5 20 1.8 2.4
+  nofill
+  stroke $ink 2
+  arc 32 24 5 3.6 25 155
+  fill #16181d
+  nostroke
+  path M 29 5 Q 32 -2 35 5 Q 34 8 32 8 Q 30 8 29 5 Z
+  fill $sym_gold
+  stroke #7a4a08 1.2
+  rect 12 40 8 5 2
+  rect 44 40 8 5 2
+
+emoji zombie U+1F9DF | undead walker horror halloween
+  fill rad #b8d48a #7a9a4a 26 26 34
+  stroke #3a5a14 2.2
+  circle 32 34 21
+  fill #5a4a3a
+  nostroke
+  path M 11.5 30 Q 12 10 32 10 Q 52 10 52.5 30 Q 46 22 40 24 L 36 18 L 30 24 Q 20 20 11.5 30 Z
+  fill #ffffff
+  stroke #3a5a14 1.4
+  ellipse 24 32 4.4 5
+  ellipse 41 33 3.2 3.6
+  fill $ink
+  nostroke
+  circle 24.5 32.5 1.6
+  circle 41 33.5 1.4
+  fill #3a2a1c
+  path M 22 44 Q 32 40 42 45 Q 38 52 30 51 Q 24 50 22 44 Z
+  fill #ffffff
+  rect 27 44 3 3.4
+  rect 34 44.6 3 3.4
+
+category symbols
+
+emoji red_hair U+1F9B0 | hair ginger redhead component
+  fill rad #f2884a #c8501c 24 22 40
+  stroke #7a2c08 2.2
+  path M 8 54 Q 2 10 32 8 Q 62 10 56 54 Q 48 58 44 46 Q 42 26 32 24 Q 22 26 20 46 Q 16 58 8 54 Z
+
+emoji curly_hair U+1F9B1 | hair curls afro component
+  fill rad #7a5232 #45280f 24 22 40
+  stroke #2a1808 2
+  circle 16 22 9
+  circle 30 14 9
+  circle 46 18 9
+  circle 52 32 9
+  circle 12 36 9
+  circle 46 44 8
+  circle 18 46 8
+  circle 32 30 12
+
+emoji bald U+1F9B2 | hairless head component
+  fill rad $skin $skind 24 20 44
+  stroke $skinl 2.2
+  path M 8 56 Q 6 8 32 8 Q 58 8 56 56 Z
+  fill #ffffff66
+  nostroke
+  ellipse 22 22 5 9 30
+
+emoji white_hair U+1F9B3 | hair grey silver component
+  fill rad #ffffff #c4ccd6 24 22 40
+  stroke #8793a3 2.2
+  path M 8 54 Q 2 10 32 8 Q 62 10 56 54 Q 48 58 44 46 Q 42 26 32 24 Q 22 26 20 46 Q 16 58 8 54 Z
