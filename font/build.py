@@ -312,6 +312,7 @@ def main():
         usWinAscent=ASCENT,
         usWinDescent=-DESCENT,
         achVendID="AHMI",
+        fsType=0,  # installable and embeddable without restriction
     )
     fb.setupPost(keepGlyphNames=False)
     font = fb.font

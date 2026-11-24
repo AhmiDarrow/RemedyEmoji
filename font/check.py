@@ -28,6 +28,7 @@ def main():
     painted = {r.BaseGlyph for r in colr.BaseGlyphList.BaseGlyphPaintRecord}
 
     assert colr.Version == 1, "a COLRv1 font"
+    assert font["OS/2"].fsType == 0, "installable and embeddable without restriction"
     assert [g["name"] for g in listing] == [g["name"] for g in art], "the listing follows the art"
     texts = [g["text"] for g in listing]
     assert len(set(texts)) == len(texts), "two glyphs share their text"
