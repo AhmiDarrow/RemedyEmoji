@@ -1,0 +1,504 @@
+// Landscapes and buildings. Original Remedy Emoji art.
+category travel
+
+color p2win #bfe6ff
+color p2wind #4f6a8a
+
+part p2_sky
+  fill lin #9fdcff #dff4ff 0 8 0 50
+  stroke #5a9ad0 2.2
+  rect 4 8 56 48 8
+
+part p2_door
+  fill #6e4526
+  stroke #45280f 1.4
+  path M 27 58 L 27 46 Q 32 41 37 46 L 37 58 Z
+
+part p2_windows
+  fill $p2win
+  stroke $p2wind 1.2
+  rect 16 24 7 7 1
+  rect 28.5 24 7 7 1
+  rect 41 24 7 7 1
+  rect 16 36 7 7 1
+  rect 41 36 7 7 1
+
+part p2_ground
+  fill #7fbf4a
+  stroke #3f7a1c 1.6
+  rect 2 56 60 5 2
+
+emoji snow_mountain U+1F3D4 | mountain peak alps snow cold
+  fill lin #8fa0c8 #4b5c96 0 6 0 58
+  stroke #33406e 2.2
+  poly 2 58 24 8 38 34 46 22 62 58
+  fill #ffffff
+  stroke #b9c8e0 1.4
+  poly 24 8 32 23 27 20 23 25 19 20 15.5 27.5
+  poly 46 22 51 33 46 30 42 33 40.5 30.5
+
+emoji camping U+1F3D5 | tent camp outdoors nature
+  fill lin #1f8a3c #0f5a24 0 0 0 40
+  stroke #0a3f18 1.8
+  poly 50 44 56 20 62 44
+  poly 42 46 49 26 56 46
+  fill lin #ffb04a #e8701c 0 14 0 56
+  stroke #a8420a 2.2
+  poly 26 12 50 56 2 56
+  fill #5f2a0c
+  nostroke
+  poly 26 30 34 56 18 56
+  use p2_ground
+
+emoji beach_umbrella U+1F3D6 | beach sand sea vacation parasol
+  fill lin #6fd0ff #1f74d8 0 30 0 46
+  nostroke
+  rect 2 30 60 16
+  fill lin #ffe9a0 #f2c86a 0 42 0 60
+  stroke #b8902a 1.8
+  path M 2 46 Q 32 38 62 46 L 62 60 L 2 60 Z
+  nofill
+  stroke #6e7684 3
+  line 34 20 28 54
+  fill lin #ff7a5a #d8321c 0 4 0 26
+  stroke #8a140c 2.2
+  path M 8 26 Q 12 4 36 4 Q 56 6 60 26 Q 52 20 46 26 Q 40 20 34 26 Q 26 20 20 26 Q 14 20 8 26 Z
+  fill #ffffff
+  nostroke
+  path M 20 26 Q 22 10 35 5 Q 30 16 34 26 Q 26 20 20 26 Z
+  path M 46 26 Q 48 14 38 5 Q 52 8 60 26 Q 52 20 46 26 Z
+
+emoji construction_site U+1F3D7 | crane building works
+  nofill
+  stroke #f2b01c 3.4
+  line 16 60 16 6
+  line 6 14 56 14
+  line 16 6 30 14
+  line 16 6 8 14
+  stroke #5d6670 1.8
+  line 48 14 48 30
+  fill #5d6670
+  nostroke
+  rect 44 30 8 6 1
+  fill lin #c9d3df #8f9db0 0 38 0 60
+  stroke #5d6a7c 2
+  rect 30 40 26 20 1
+  nofill
+  stroke #5d6a7c 1.6
+  line 30 50 56 50
+  line 39 40 39 60
+  line 48 40 48 60
+
+emoji houses U+1F3D8 | neighborhood homes village suburb
+  fill lin #ff8a6a #d8402c 0 14 0 30
+  stroke #8a1c0c 2
+  poly 4 30 18 14 32 30
+  fill lin #fff3d6 #e8cf9a 0 30 0 58
+  stroke #8a6a2c 2
+  rect 6 30 24 28 1
+  fill lin #6fb8f0 #2f6ad8 0 22 0 38
+  stroke #1a3f9a 2
+  poly 28 38 44 20 60 38
+  fill lin #ffffff #dfe5ec 0 38 0 58
+  stroke #5d6a7c 2
+  rect 30 38 28 20 1
+  fill $p2win
+  stroke $p2wind 1.2
+  rect 11 36 6 6 1
+  rect 19 36 6 6 1
+  rect 46 43 7 7 1
+  fill #6e4526
+  nostroke
+  rect 35 46 6 12 1
+  rect 14 48 6 10 1
+
+emoji cityscape U+1F3D9 | city skyline buildings downtown
+  use p2_sky
+  fill lin #8fa0c8 #5a6aa0 0 14 0 56
+  stroke #33406e 1.8
+  path M 5 55 L 5 34 L 15 34 L 15 20 L 27 20 L 27 38 L 37 38 L 37 26 L 47 26 L 47 40 L 59 40 L 59 48 Q 59 55 51 55 L 13 55 Q 5 55 5 48 Z
+  fill #dff4ff
+  nostroke
+  rect 18 24 2.6 2.6
+  rect 22 30 2.6 2.6
+  rect 18 36 2.6 2.6
+  rect 40 30 2.6 2.6
+  rect 43 36 2.6 2.6
+  rect 8.5 40 2.6 2.6
+  rect 51 45 2.6 2.6
+
+emoji derelict_house U+1F3DA | abandoned ruin old haunted
+  fill lin #9a8a7a #6a5a4a 0 10 0 30
+  stroke #3a2f24 2.2
+  poly 4 32 30 8 40 18 40 12 48 12 48 26 60 34 52 34 52 30
+  fill lin #c9b89a #9a8468 0 30 0 58
+  stroke #3a2f24 2.2
+  path M 10 32 L 54 32 L 54 58 L 10 58 Z
+  fill #2a2018
+  nostroke
+  rect 16 38 8 8
+  path M 34 58 L 34 44 L 44 44 L 44 58 Z
+  nofill
+  stroke #3a2f24 1.4
+  line 16 38 24 46
+  line 46 34 50 42 46 46
+  line 28 34 30 40
+
+emoji classical_building U+1F3DB | museum bank government columns
+  fill lin #f2ece0 #cfc4b0 0 6 0 58
+  stroke #7a6f5a 2.2
+  poly 32 5 60 22 4 22
+  rect 6 22 52 6 1
+  rect 4 52 56 6 1
+  rect 9 28 6 24 1
+  rect 21 28 6 24 1
+  rect 37 28 6 24 1
+  rect 49 28 6 24 1
+
+emoji desert U+1F3DC | sand dunes cactus dry hot
+  fill lin #ffd27a #ff9a5c 0 8 0 40
+  stroke #c2562c 2.2
+  rect 4 8 56 48 8
+  fill rad #fff6a0 #ffc21c 46 20 10
+  nostroke
+  circle 46 20 7
+  fill lin #f2c86a #d09a3a 0 36 0 56
+  stroke #9a6a1c 1.8
+  path M 5 44 Q 20 30 34 42 Q 46 34 59 44 L 59 48 Q 59 55 51 55 L 13 55 Q 5 55 5 48 Z
+  fill #4fa03a
+  stroke #1f6a14 1.6
+  path M 20 46 L 20 26 Q 20 22 23 22 Q 26 22 26 26 L 26 46 Z
+  nofill
+  stroke #1f6a14 4
+  curve 20 36 14 36 14 30
+  curve 26 34 31 34 31 28
+  stroke #4fa03a 2
+  curve 20 36 14 36 14 30
+  curve 26 34 31 34 31 28
+
+emoji desert_island U+1F3DD | island palm tropical beach
+  fill lin #6fd0ff #1f74d8 0 40 0 60
+  stroke #134c9c 1.8
+  ellipse 32 50 30 9
+  fill lin #ffe9a0 #f2c86a 0 40 0 54
+  stroke #b8902a 1.8
+  path M 12 50 Q 32 34 52 50 Q 32 56 12 50 Z
+  nofill
+  stroke #6e4526 6
+  curve 32 46 34 34 30 20
+  stroke #a8763a 3
+  curve 32 46 34 34 30 20
+  fill rad #8fe06a #2f9a3c 30 16 22
+  stroke #145a24 1.8
+  path M 30 20 Q 14 12 6 20 Q 18 18 30 24 Z
+  path M 30 20 Q 44 8 56 14 Q 44 14 32 24 Z
+  path M 30 20 Q 22 4 34 2 Q 30 10 32 22 Z
+  path M 30 22 Q 46 22 52 30 Q 42 26 30 26 Z
+
+emoji national_park U+1F3DE | nature mountains river outdoors
+  use p2_sky
+  fill lin #8fa0c8 #5a6aa0 0 18 0 44
+  stroke #33406e 1.8
+  poly 6 44 22 18 34 38 42 28 58 44
+  fill #7fbf4a
+  stroke #3f7a1c 1.8
+  path M 5 42 L 59 42 L 59 48 Q 59 55 51 55 L 13 55 Q 5 55 5 48 Z
+  fill #6fd0ff
+  nostroke
+  path M 28 42 Q 36 46 30 55 L 40 55 Q 42 46 34 42 Z
+  fill #1f8a3c
+  stroke #0f5a24 1.2
+  poly 14 46 18 34 22 46
+  poly 46 48 50 36 54 48
+
+emoji stadium U+1F3DF | arena sports match concert
+  fill lin #c9d3df #8f9db0 0 16 0 54
+  stroke #5d6a7c 2.2
+  path M 3 26 Q 3 14 32 14 Q 61 14 61 26 L 61 44 Q 61 56 32 56 Q 3 56 3 44 Z
+  fill #5fbf3c
+  stroke #2f7d1c 1.8
+  ellipse 32 27 22 8
+  nofill
+  stroke #ffffff 1.2
+  line 32 19 32 35
+  circle 32 27 3
+  stroke #5d6a7c 1.6
+  line 14 38 14 52
+  line 26 40 26 55
+  line 38 40 38 55
+  line 50 38 50 52
+  fill #e2584a
+  nostroke
+  poly 10 12 10 4 18 8
+
+emoji house U+1F3E0 | home building family residence
+  fill #c9553a
+  stroke #8a1c0c 1.8
+  rect 42 10 7 14 1
+  fill lin #ff8a6a #d8402c 0 6 0 30
+  stroke #8a1c0c 2.2
+  poly 2 32 32 5 62 32
+  fill lin #fff3d6 #e8cf9a 0 30 0 58
+  stroke #8a6a2c 2.2
+  rect 9 30 46 28 1
+  use p2_door
+  fill $p2win
+  stroke $p2wind 1.2
+  rect 14 36 9 9 1
+  rect 41 36 9 9 1
+
+emoji house_garden U+1F3E1 | home yard tree cottage
+  fill lin #6fb8f0 #2f6ad8 0 10 0 32
+  stroke #1a3f9a 2.2
+  poly 2 34 26 10 50 34
+  fill lin #fff3d6 #e8cf9a 0 32 0 56
+  stroke #8a6a2c 2.2
+  rect 8 32 36 24 1
+  fill #6e4526
+  stroke #45280f 1.4
+  rect 22 42 8 14 1
+  fill $p2win
+  stroke $p2wind 1.2
+  rect 12 37 7 7 1
+  rect 33 37 7 7 1
+  fill #8a5226
+  nostroke
+  rect 51 40 4 16
+  fill rad #8fe06a #2f9a3c 50 28 14
+  stroke #145a24 1.8
+  circle 53 30 9.5
+  use p2_ground
+
+emoji japanese_post_office U+1F3E3 | post mail japan building
+  fill lin #ffffff #dfe5ec 0 14 0 58
+  stroke #5d6a7c 2.2
+  rect 8 14 48 44 2
+  fill #e2584a
+  nostroke
+  rect 8.8 14.8 46.4 9
+  use p2_windows 0 6
+  use p2_door
+  nofill
+  stroke #ffffff 2
+  line 27 17 37 17
+  line 27 20.5 37 20.5
+  line 32 20.5 32 23
+
+emoji post_office U+1F3E4 | mail letters european building
+  fill lin #ffe9a0 #f2c86a 0 14 0 58
+  stroke #a8801c 2.2
+  rect 8 16 48 42 2
+  fill lin #ff8a6a #d8402c 0 6 0 18
+  stroke #8a1c0c 2.2
+  poly 4 18 32 5 60 18
+  use p2_windows 0 4
+  use p2_door
+  nofill
+  stroke #a8801c 2.4
+  curve 27 12 29 9 35 9 37 12
+
+emoji hospital U+1F3E5 | medical doctor health clinic
+  fill lin #ffffff #dfe5ec 0 10 0 58
+  stroke #5d6a7c 2.2
+  rect 8 10 48 48 3
+  fill #e2584a
+  nostroke
+  rect 29 14 6 16 1
+  rect 24 19 16 6 1
+  fill $p2win
+  stroke $p2wind 1.2
+  rect 14 36 8 8 1
+  rect 42 36 8 8 1
+  use p2_door
+
+emoji atm U+1F3E7 | cash machine bank money withdraw
+  use s2_square_blue
+  fill $white
+  text 32 38.5 16 ATM 3.8
+
+emoji hotel U+1F3E8 | lodging stay sleep building
+  fill lin #b9c8ff #6a86e8 0 6 0 58
+  stroke #2f3f9a 2.2
+  rect 10 6 44 52 3
+  fill #2f3f9a
+  nostroke
+  rect 22 9 20 9 2
+  fill $white
+  text 32 16 6 H 1.6
+  use p2_windows 0 0
+  use p2_door
+
+emoji love_hotel U+1F3E9 | hotel romance couple heart
+  fill lin #ffc6dc #f07aa8 0 6 0 58
+  stroke #a31a5a 2.2
+  rect 10 6 44 52 3
+  use heart 0 -17 0.24
+  use p2_windows 0 4
+  use p2_door
+
+emoji convenience_store U+1F3EA | shop 24 hours corner store
+  fill lin #ffffff #dfe5ec 0 16 0 58
+  stroke #5d6a7c 2.2
+  rect 4 16 56 42 2
+  fill #2f9a3c
+  nostroke
+  rect 4.8 16.8 54.4 6
+  fill #f2a01c
+  rect 4.8 22.8 54.4 5
+  fill #e2584a
+  rect 4.8 27.8 54.4 4
+  fill $p2win
+  stroke $p2wind 1.2
+  rect 9 37 16 14 1
+  rect 39 37 16 14 1
+  fill #6e4526
+  nostroke
+  rect 28 40 8 18 1
+
+emoji school U+1F3EB | education building class learn
+  fill lin #ffe9a0 #f2c86a 0 22 0 58
+  stroke #a8801c 2.2
+  rect 4 28 56 30 2
+  fill lin #ffe9a0 #f2c86a 0 8 0 28
+  rect 22 12 20 46 2
+  fill #ffffff
+  stroke #5d6a7c 1.6
+  circle 32 22 6
+  nofill
+  stroke #5d6a7c 1.6
+  line 32 22 32 18.5
+  line 32 22 34.5 23.5
+  fill $p2win
+  stroke $p2wind 1.2
+  rect 8 34 9 8 1
+  rect 47 34 9 8 1
+  use p2_door
+  fill #e2584a
+  nostroke
+  poly 32 12 32 4 40 8
+
+emoji department_store U+1F3EC | shopping mall retail building
+  fill lin #9fdcd4 #4fa89a 0 6 0 58
+  stroke #1f6a5a 2.2
+  rect 8 6 48 52 3
+  fill $p2win
+  stroke $p2wind 1.2
+  rect 13 11 38 8 1
+  rect 13 23 38 8 1
+  rect 13 35 38 8 1
+  use p2_door
+
+emoji factory U+1F3ED | industry plant manufacturing smoke
+  fill #dfe5ec
+  nostroke
+  circle 16 9 5
+  circle 24 5 4
+  fill lin #c9553a #8a2c1c 0 14 0 40
+  stroke #5f140c 2
+  rect 10 16 10 26 1
+  fill lin #b9c4cf #7d8795 0 28 0 58
+  stroke #515a68 2.2
+  path M 4 58 L 4 40 L 22 40 L 22 30 L 36 40 L 36 30 L 50 40 L 50 30 L 60 38 L 60 58 Z
+  fill #ffe27a
+  stroke #a8801c 1.2
+  rect 10 46 8 6 1
+  rect 28 46 8 6 1
+  rect 46 46 8 6 1
+
+category objects
+
+emoji izakaya_lantern U+1F3EE | red lantern japanese bar light
+  fill #2a2f3b
+  stroke #0e1014 1.6
+  rect 22 4 20 6 2
+  rect 22 54 20 6 2
+  fill rad #ff8a6a #d8281c 26 26 30
+  stroke #8a140c 2.2
+  ellipse 32 32 20 23
+  nofill
+  stroke #8a140c 1.4
+  curve 14 24 32 28 50 24
+  curve 12 34 32 38 52 34
+  curve 15 44 32 48 49 44
+  fill #ffe27a66
+  nostroke
+  ellipse 24 24 4 9 15
+
+category travel
+
+emoji japanese_castle U+1F3EF | castle fortress japan tower
+  fill lin #ffffff #dfe5ec 0 10 0 58
+  stroke #5d6a7c 2
+  rect 24 12 16 10 1
+  rect 18 28 28 12 1
+  rect 12 46 40 12 1
+  fill lin #5a86c8 #2f4f9a 0 4 0 48
+  stroke #1a2f6a 2
+  poly 32 3 44 12 20 12
+  path M 14 28 Q 22 26 22 20 L 42 20 Q 42 26 50 28 Z
+  path M 6 46 Q 16 44 16 38 L 48 38 Q 48 44 58 46 Z
+  fill #2a2f3b
+  nostroke
+  rect 29 49 6 9 1
+  rect 29.5 31 5 5 1
+
+category symbols
+
+emoji white_flag U+1F3F3 | surrender truce peace waving
+  nofill
+  stroke #6e7684 4
+  line 12 60 12 5
+  fill lin #ffffff #dfe5ec 12 0 58 0
+  stroke #8793a3 2.2
+  path M 12 8 Q 24 2 36 8 Q 48 14 58 8 L 58 34 Q 48 40 36 34 Q 24 28 12 34 Z
+
+emoji black_flag U+1F3F4 | waving flag dark pirate
+  nofill
+  stroke #6e7684 4
+  line 12 60 12 5
+  fill lin #4a5060 #1e2129 12 0 58 0
+  stroke #0e1014 2.2
+  path M 12 8 Q 24 2 36 8 Q 48 14 58 8 L 58 34 Q 48 40 36 34 Q 24 28 12 34 Z
+
+category activities
+
+emoji rosette U+1F3F5 | flower award decoration badge
+  fill rad #ffe27a #f2a01c 32 32 30
+  stroke #a8680a 2
+  ellipse 32 13 9 11
+  ellipse 48.5 22.5 9 11 60
+  ellipse 48.5 41.5 9 11 120
+  ellipse 32 51 9 11
+  ellipse 15.5 41.5 9 11 60
+  ellipse 15.5 22.5 9 11 120
+  fill rad #ff8a6a #d8402c 28 28 14
+  stroke #8a1c0c 2
+  circle 32 32 10
+  fill #ffe27a
+  nostroke
+  circle 32 32 4
+
+category objects
+
+emoji label U+1F3F7 | tag price name sale
+  fill lin #ffe9a0 #f2c86a 0 0 60 60
+  stroke #a8801c 2.2
+  path M 6 12 Q 6 6 12 6 L 30 6 L 58 34 Q 61 38 58 41 L 41 58 Q 38 61 34 58 L 6 30 Z
+  fill #151515
+  stroke #a8801c 1.6
+  circle 17 17 4.4
+
+emoji amphora U+1F3FA | vase jar pottery ancient greek
+  fill lin #e8a05a #b8601c 10 0 54 0
+  stroke #6e3408 2.2
+  path M 24 4 L 40 4 L 38 12 Q 54 22 50 40 Q 46 54 38 58 L 26 58 Q 18 54 14 40 Q 10 22 26 12 Z
+  nofill
+  stroke #6e3408 3
+  curve 25 12 12 12 14 26
+  curve 39 12 52 12 50 26
+  fill #2a2018
+  nostroke
+  rect 18 30 28 4
+  rect 22 38 4 4
+  rect 30 38 4 4
+  rect 38 38 4 4
