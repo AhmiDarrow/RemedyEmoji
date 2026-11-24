@@ -1067,7 +1067,7 @@ emoji dancing | dance groove party moves
   use mu_note -22 -20 0.3
   use mu_note 23 6 0.3
 
-emoji disco_ball | party dance mirror ball club
+emoji disco_ball U+1FAA9 | party dance mirror ball club
   stroke $steeld 2.4
   line 32 2 32 10
   fill rad #ffffff #7f93b5 24 24 34

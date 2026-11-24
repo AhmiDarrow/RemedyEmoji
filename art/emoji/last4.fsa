@@ -1,0 +1,577 @@
+// The newest additions: small creatures, plants, body, food, faces and hands.
+// Original Remedy Emoji art.
+category nature
+
+emoji fly U+1FAB0 | insect bug pest buzz
+  fill #dff4ffaa
+  stroke #7fa8d8 1.6
+  ellipse 16 24 14 8 30
+  ellipse 48 24 14 8 -30
+  nofill
+  stroke #16181d 2.4
+  line 24 40 12 48
+  line 26 46 18 58
+  line 40 40 52 48
+  line 38 46 46 58
+  fill rad #5a6270 #22262e 28 32 18
+  stroke #0e1014 2.2
+  ellipse 32 42 10 13
+  circle 32 22 10
+  fill rad #ff7a6a #b8281c 24 18 6
+  stroke #7a100c 1.4
+  ellipse 25.5 20 5 6
+  ellipse 38.5 20 5 6
+
+emoji worm U+1FAB1 | earthworm bait garden soil
+  fill rad #ffb0a0 #e87a6a 28 26 34
+  stroke #a84a3c 2.4
+  path M 4 50 Q 4 38 14 38 Q 24 38 26 46 Q 28 52 34 50 Q 38 46 36 34 Q 32 14 46 10 Q 60 8 60 22 Q 60 30 52 30 Q 46 30 46 24 Q 46 20 48 20 Q 44 22 46 34 Q 50 56 34 60 Q 20 62 16 52 Q 14 48 12 50 Q 10 54 4 50 Z
+  nofill
+  stroke #a84a3c 1.4
+  curve 34 30 40 30 44 28
+  curve 36 40 42 40 46 38
+  curve 20 44 20 52 24 56
+  fill $natk
+  nostroke
+  circle 52 16 1.8
+  circle 57 18 1.6
+
+emoji beetle U+1FAB2 | bug insect scarab
+  nofill
+  stroke #16181d 2.6
+  line 18 26 6 20
+  line 16 36 4 38
+  line 18 46 8 56
+  line 46 26 58 20
+  line 48 36 60 38
+  line 46 46 56 56
+  curve 28 12 24 4 18 4
+  curve 36 12 40 4 46 4
+  fill rad #5a8af0 #2a3f9a 26 30 26
+  stroke #101a4a 2.2
+  ellipse 32 38 16 20
+  fill rad #3a5ad8 #1a2a7a 30 16 10
+  circle 32 16 9
+  nofill
+  stroke #101a4a 2
+  line 32 22 32 58
+  curve 18 30 32 26 46 30
+  fill #ffffff55
+  nostroke
+  ellipse 24 36 3 8 15
+
+emoji cockroach U+1FAB3 | roach pest bug insect
+  nofill
+  stroke #3a1c08 2.4
+  line 20 26 6 18
+  line 18 38 4 40
+  line 20 48 10 58
+  line 44 26 58 18
+  line 46 38 60 40
+  line 44 48 54 58
+  curve 28 12 20 6 12 2
+  curve 36 12 44 6 52 2
+  fill rad #b8703a #6e3410 26 30 26
+  stroke #3a1c08 2.2
+  ellipse 32 38 13 21
+  fill rad #a85a2a #5a2a0c 30 16 10
+  ellipse 32 16 9 7
+  nofill
+  stroke #3a1c08 1.6
+  line 32 24 32 58
+  curve 22 30 32 34 42 30
+  curve 21 42 32 46 43 42
+
+emoji potted_plant U+1FAB4 | houseplant grow green pot
+  fill rad #8fe06a #2f9a3c 30 20 26
+  stroke #145a24 2
+  path M 32 36 Q 12 30 8 12 Q 26 12 32 36 Z
+  path M 32 36 Q 52 30 56 12 Q 38 12 32 36 Z
+  path M 32 36 Q 24 16 32 2 Q 40 16 32 36 Z
+  fill lin #e8904a #a8501c 0 34 0 60
+  stroke #6e2c08 2.4
+  path M 14 36 L 50 36 L 46 58 Q 46 60 42 60 L 22 60 Q 18 60 18 58 Z
+  rect 11 32 42 8 3
+
+emoji wood U+1FAB5 | log timber lumber tree
+  fill lin #b9783a #7a4a1c 0 14 0 54
+  stroke #45280f 2.4
+  path M 14 16 L 48 16 Q 60 20 60 34 Q 60 48 48 52 L 14 52 Z
+  fill rad #f2d6a0 #c8964a 14 34 16
+  stroke #45280f 2.2
+  ellipse 14 34 10 18
+  nofill
+  stroke #a8763a 1.6
+  ellipse 14 34 6 11
+  ellipse 14 34 2.4 4.4
+  stroke #45280f 1.4
+  line 28 24 46 24
+  line 30 34 52 34
+  line 28 44 46 44
+
+emoji feather U+1FAB6 | bird plume light quill
+  nofill
+  stroke #6e7684 2.4
+  curve 8 58 20 44 50 12
+  fill rad #dff4ff #6fb8f0 34 26 30
+  stroke #2f6ad8 2.2
+  path M 14 50 Q 12 30 30 14 Q 46 2 58 6 Q 60 20 48 36 Q 34 52 14 50 Z
+  nofill
+  stroke #2f6ad8 1.4
+  line 24 38 20 28
+  line 32 30 28 20
+  line 40 22 37 13
+  line 28 40 38 44
+  line 36 32 46 36
+  line 44 24 52 27
+
+emoji lotus U+1FAB7 | flower pink water lily zen
+  fill rad #7fd47a #2f9a3c 32 54 26
+  stroke #145a24 2
+  path M 4 50 Q 32 44 60 50 Q 46 60 32 60 Q 18 60 4 50 Z
+  fill rad #ffc6dc #f07aa8 32 30 28
+  stroke #a31a5a 2.2
+  path M 32 52 Q 6 46 6 24 Q 22 26 32 52 Z
+  path M 32 52 Q 58 46 58 24 Q 42 26 32 52 Z
+  path M 32 52 Q 14 36 20 12 Q 32 22 32 52 Z
+  path M 32 52 Q 50 36 44 12 Q 32 22 32 52 Z
+  path M 32 52 Q 22 30 32 6 Q 42 30 32 52 Z
+
+emoji coral U+1FAB8 | reef sea ocean marine
+  nofill
+  stroke #a8201c 9
+  path M 32 60 L 32 34
+  path M 32 44 Q 18 42 16 26 Q 16 16 10 12
+  path M 16 26 Q 22 20 22 10
+  path M 32 34 Q 34 20 30 6
+  path M 32 40 Q 48 38 48 22 Q 48 14 54 10
+  path M 48 22 Q 42 16 42 8
+  stroke #ff7a6a 5.4
+  path M 32 60 L 32 34
+  path M 32 44 Q 18 42 16 26 Q 16 16 10 12
+  path M 16 26 Q 22 20 22 10
+  path M 32 34 Q 34 20 30 6
+  path M 32 40 Q 48 38 48 22 Q 48 14 54 10
+  path M 48 22 Q 42 16 42 8
+
+emoji empty_nest U+1FAB9 | nest bird home twigs
+  fill rad #c8963a #7a5214 28 34 30
+  stroke #4a3008 2.4
+  path M 4 30 Q 32 22 60 30 Q 58 54 32 56 Q 6 54 4 30 Z
+  fill #4a3008
+  nostroke
+  ellipse 32 31 22 6
+  nofill
+  stroke #4a3008 1.6
+  curve 8 38 22 44 36 40
+  curve 26 48 40 50 56 40
+  curve 12 46 22 52 34 52
+  stroke #e8c06a 1.6
+  curve 10 34 20 40 30 36
+  curve 34 44 46 46 54 36
+
+emoji nest_with_eggs U+1FABA | nest eggs bird hatch
+  fill rad #dff4ff #9fd4f5 26 22 14
+  stroke #5a9ad0 1.8
+  ellipse 22 24 7 9
+  ellipse 42 24 7 9
+  ellipse 32 20 7 9
+  fill rad #c8963a #7a5214 28 40 30
+  stroke #4a3008 2.4
+  path M 4 32 Q 32 40 60 32 Q 58 56 32 58 Q 6 56 4 32 Z
+  nofill
+  stroke #4a3008 1.6
+  curve 8 40 22 46 36 42
+  curve 26 50 40 52 56 42
+  stroke #e8c06a 1.6
+  curve 10 36 20 42 30 38
+  curve 34 46 46 48 54 38
+
+category people
+
+emoji anatomical_heart U+1FAC0 | heart organ cardiac pulse
+  fill #5a86c8
+  stroke #1a2f6a 1.8
+  path M 22 22 Q 18 10 22 4 L 28 4 Q 26 12 30 20 Z
+  fill #e8382c
+  stroke #7a100c 1.8
+  path M 34 20 Q 34 8 44 6 L 50 4 L 52 9 L 46 12 Q 42 14 42 22 Z
+  fill rad #ff7a6a #c8201c 26 30 30
+  stroke #7a100c 2.4
+  path M 14 28 Q 16 18 28 20 Q 34 16 42 20 Q 54 22 54 36 Q 54 48 40 58 Q 34 62 28 56 Q 12 44 14 28 Z
+  nofill
+  stroke #7a100c 1.6
+  curve 26 24 34 34 30 54
+  curve 40 26 44 34 42 46
+
+emoji lungs U+1FAC1 | breathe organ respiratory chest
+  fill #f5c0c8
+  stroke #a84a5a 2
+  path M 29 4 L 35 4 L 35 22 L 42 30 L 38 33 L 32 26 L 26 33 L 22 30 L 29 22 Z
+  fill rad #ff9ab0 #e0506a 20 36 22
+  stroke #a82a44 2.4
+  path M 24 26 Q 8 30 6 48 Q 6 60 16 58 Q 28 56 28 44 Z
+  path M 40 26 Q 56 30 58 48 Q 58 60 48 58 Q 36 56 36 44 Z
+  nofill
+  stroke #a82a44 1.4
+  curve 24 34 18 40 14 50
+  curve 40 34 46 40 50 50
+
+emoji people_hugging U+1FAC2 | hug embrace support comfort
+  fill lin #a9bdd4 #6f88a6 0 6 0 60
+  stroke #4f6682 2.2
+  circle 20 16 9
+  circle 44 16 9
+  path M 4 60 Q 4 30 20 30 Q 30 30 32 40 Q 34 30 44 30 Q 60 30 60 60 Z
+  nofill
+  stroke #4f6682 2.4
+  curve 14 46 26 52 40 44
+  curve 50 46 38 54 26 46
+
+emoji pregnant_man U+1FAC3 | pregnancy expecting belly man
+  fill lin #5aa8f0 #2f6ad8 0 22 0 60
+  stroke #1a3f9a 2
+  path M 22 60 L 24 28 Q 24 22 32 22 Q 40 22 40 28 Q 54 36 50 48 Q 46 54 42 54 L 42 60 Z
+  fill $skin
+  stroke $skinl 1.6
+  circle 32 14 8.5
+  fill $p3brown
+  nostroke
+  path M 23.5 13 Q 24 5 32 5 Q 40 5 40.5 13 Q 32 9 23.5 13 Z
+  path M 26 19 Q 32 24 38 19 Q 36 23 32 23.4 Q 28 23 26 19 Z
+  nofill
+  stroke $skinl 5.6
+  line 36 30 46 42
+  stroke $skin 3.4
+  line 36 30 46 42
+
+emoji pregnant_person U+1FAC4 | pregnancy expecting belly person
+  fill lin #7fd47a #2f9a3c 0 22 0 60
+  stroke #145a24 2
+  path M 22 60 L 24 28 Q 24 22 32 22 Q 40 22 40 28 Q 54 36 50 48 Q 46 54 42 54 L 42 60 Z
+  fill $skin
+  stroke $skinl 1.6
+  circle 32 14 8.5
+  fill $p3brown
+  nostroke
+  path M 23 15 Q 22 4 32 4 Q 42 4 41 15 Q 38 9 32 9.6 Q 26 9 23 15 Z
+  nofill
+  stroke $skinl 5.6
+  line 36 30 46 42
+  stroke $skin 3.4
+  line 36 30 46 42
+
+emoji person_with_crown U+1FAC5 | royal monarch crown ruler
+  use p3_face 0 3
+  fill $p3brown
+  path M 11.5 34 Q 10 16 32 16 Q 54 16 52.5 34 Q 46 24 40 25 Q 36 20 28 25 Q 18 24 11.5 34 Z
+  fill $sym_gold
+  stroke #7a4a08 1.6
+  poly 16 18 14 4 24 11 32 2 40 11 50 4 48 18
+  fill #e2584a
+  nostroke
+  circle 32 12 2.4
+
+category food
+
+emoji blueberries U+1FAD0 | berry fruit blue sweet
+  fill $fdleaf
+  stroke $fdleafd 1.6
+  path M 32 14 Q 40 2 52 6 Q 48 18 32 14 Z
+  fill rad #7a9af5 #2f4fb8 18 28 16
+  stroke #1a2f7a 2.2
+  circle 20 32 14
+  fill rad #7a9af5 #2f4fb8 42 26 16
+  circle 44 30 14
+  fill rad #8aaaf8 #3a5ac8 30 44 16
+  circle 32 46 14
+  fill #1a2f7a
+  nostroke
+  poly 17 28 20 26 23 28 22 31 18 31
+  poly 41 26 44 24 47 26 46 29 42 29
+  poly 29 42 32 40 35 42 34 45 30 45
+
+emoji bell_pepper U+1FAD1 | capsicum vegetable green pepper
+  fill #6fbf4a
+  stroke #2f7d1c 2
+  path M 28 14 Q 28 4 36 2 L 38 6 Q 34 8 35 14 Z
+  fill rad #a6e06a #3f9a2a 24 26 36
+  stroke #1f6a14 2.4
+  path M 32 14 Q 20 8 12 18 Q 4 32 12 48 Q 18 60 28 56 Q 32 58 36 56 Q 46 60 52 48 Q 60 32 52 18 Q 44 8 32 14 Z
+  nofill
+  stroke #1f6a14 1.6
+  curve 26 16 22 34 28 56
+  curve 38 16 42 34 36 56
+  fill #ffffff66
+  nostroke
+  ellipse 18 28 3 7 15
+
+emoji olive U+1FAD2 | fruit green mediterranean oil
+  nofill
+  stroke #6a5a2c 2.6
+  curve 32 6 34 14 30 22
+  fill rad #a6e06a #4f9a2a 44 10 14
+  stroke #2f6a14 1.8
+  path M 34 8 Q 46 0 58 6 Q 50 18 34 8 Z
+  fill rad #b8c84a #6a7a1c 20 34 18
+  stroke #3a4a0c 2.4
+  ellipse 22 40 15 18 15
+  fill rad #7a5a8a #3a2a4a 44 38 14
+  stroke #1e142a 2.4
+  ellipse 46 42 12 15 -10
+  fill #ffffff66
+  nostroke
+  ellipse 16 32 3 6 25
+  ellipse 42 34 2.6 5 10
+
+emoji flatbread U+1FAD3 | naan pita bread roti
+  fill rad #ffe9b8 #e8c078 26 26 38
+  stroke #a8801c 2.4
+  path M 8 30 Q 8 10 30 8 Q 54 6 58 26 Q 62 46 44 54 Q 22 60 10 46 Q 6 38 8 30 Z
+  fill #c8862a
+  nostroke
+  ellipse 22 22 5 3 20
+  ellipse 40 18 4 2.6 -10
+  ellipse 46 36 5 3 30
+  ellipse 28 42 4 2.6
+  ellipse 34 30 3 2
+
+emoji tamale U+1FAD4 | mexican corn husk wrap
+  fill lin #e8d08a #b8964a 0 0 60 60
+  stroke #7a5a14 2.4
+  path M 4 44 L 20 20 L 44 8 L 60 20 L 44 44 L 20 56 Z
+  fill #f2c04a
+  stroke #a8801c 1.8
+  path M 22 30 L 42 20 L 50 26 L 30 42 Z
+  nofill
+  stroke #7a5a14 1.6
+  line 20 20 30 42
+  line 44 8 50 26
+  stroke #e2584a 2.4
+  line 12 34 18 40
+  line 46 12 54 20
+
+emoji fondue U+1FAD5 | cheese pot melt swiss dip
+  nofill
+  stroke #6e7684 2.6
+  line 22 26 10 4
+  line 42 26 54 6
+  fill #ffd23a
+  stroke #a8801c 1.6
+  rect 6 2 7 7 2
+  fill #e8a05a
+  stroke #a8680a 1.6
+  rect 51 3 7 7 2
+  fill rad #ffe27a #f2b01c 32 26 22
+  stroke #a87a0c 1.8
+  ellipse 32 26 22 6
+  fill lin #ff7a6a #c8281c 0 26 0 46
+  stroke #7a100c 2.4
+  path M 8 26 Q 10 32 32 32 Q 54 32 56 26 L 52 42 Q 50 46 32 46 Q 14 46 12 42 Z
+  rect 56 28 7 5 2
+  nofill
+  stroke #5d6a7c 3
+  line 18 46 14 58
+  line 46 46 50 58
+  fill #ff9a1c
+  stroke #e0701c 1.2
+  path M 32 48 Q 36 54 32 58 Q 28 54 32 48 Z
+
+emoji teapot U+1FAD6 | tea pot brew kettle
+  nofill
+  stroke #2f6ad8 5
+  curve 16 28 2 26 4 40 14 44
+  fill lin #9fdcff #5aa8e0 0 16 0 56
+  stroke #2f6ad8 2.4
+  path M 12 28 Q 12 18 32 18 Q 50 18 50 28 L 54 26 Q 60 20 62 24 L 56 36 Q 54 54 32 54 Q 12 54 12 28 Z
+  fill #5aa8e0
+  stroke #2f6ad8 2
+  ellipse 31 18 12 4
+  circle 31 11 3.4
+  fill #ffffff66
+  nostroke
+  ellipse 22 30 3 7 15
+
+emoji pouring_liquid U+1FAD7 | pour drink spill water
+  fill #dff4ff88
+  stroke #7fa8d8 2.2
+  path M 20 4 L 54 20 L 46 36 L 12 20 Z
+  fill lin #6fd0ff #1f74d8 0 14 0 58
+  stroke #134c9c 1.8
+  path M 12 20 L 28 27.6 Q 20 36 22 48 Q 22 56 16 56 Q 10 56 10 48 Q 12 36 8 26 Z
+  fill #6fd0ff
+  stroke #134c9c 1.4
+  circle 30 54 3
+  circle 6 50 2
+
+emoji beans U+1FAD8 | legume kidney pulse food
+  fill rad #c8503a #7a1c14 20 26 16
+  stroke #4a0c08 2.4
+  path M 8 30 Q 8 12 22 12 Q 32 14 30 26 Q 24 30 28 38 Q 30 48 20 48 Q 8 46 8 30 Z
+  fill rad #d8604a #8a2418 42 34 16
+  path M 56 34 Q 56 16 44 16 Q 34 18 36 30 Q 42 34 38 42 Q 36 52 46 52 Q 56 50 56 34 Z
+  fill #ffffff55
+  nostroke
+  ellipse 14 24 2.4 5 10
+  ellipse 50 28 2.4 5 -10
+
+emoji jar U+1FAD9 | container glass storage preserve
+  fill lin #c4ccd6 #7d8795 0 4 0 16
+  stroke #4a525c 2.2
+  rect 16 4 32 11 3
+  fill #dff4ff88
+  stroke #7fa8d8 2.4
+  path M 18 15 L 46 15 Q 54 20 54 30 L 54 52 Q 54 60 46 60 L 18 60 Q 10 60 10 52 L 10 30 Q 10 20 18 15 Z
+  fill #ffffffaa
+  nostroke
+  ellipse 18 36 2.6 10
+
+category smileys
+
+emoji melting U+1FAE0 | melt hot embarrassed dissolve
+  fill rad #ffec7d #ffbd1c 24 20 48
+  stroke $rim 2.2
+  path M 4.4 30 Q 4.4 4.4 32 4.4 Q 59.6 4.4 59.6 30 Q 59.6 44 52 48 Q 56 56 62 54 Q 60 62 48 60 Q 42 56 36 60 Q 30 62 26 58 Q 18 62 10 58 Q 2 60 2 54 Q 10 54 10 46 Q 4.4 40 4.4 30 Z
+  fill $ink
+  nostroke
+  ellipse 22 26 3.3 4.5
+  ellipse 43 30 3.3 4.5
+  nofill
+  stroke $ink 3
+  curve 20 42 30 48 44 44
+
+emoji face_open_eyes_hand_over_mouth U+1FAE2 | gasp shock oops surprise
+  use face
+  use eyes_wide
+  fill rad $skin $skind 30 46 16
+  stroke $skinl 1.8
+  path M 16 44 Q 18 36 28 38 L 44 40 Q 50 42 48 50 Q 44 58 30 56 Q 16 54 16 44 Z
+  nofill
+  stroke $skinl 1.2
+  line 26 41 26 49
+  line 33 42 33 50
+  line 40 43 40 50
+
+emoji peeking U+1FAE3 | peek shy scared cover eyes
+  use face
+  fill $white
+  stroke $ink 1.6
+  ellipse 42 26 5.4 6.4
+  fill $ink
+  nostroke
+  circle 42 26.6 2.6
+  stroke $ink 3
+  arc 32 46 7 4 205 335
+  fill rad $skin $skind 22 26 18
+  stroke $skinl 1.8
+  path M 6 30 Q 6 18 18 18 L 30 18 Q 34 20 32 26 L 30 34 Q 26 40 16 38 Q 6 36 6 30 Z
+  path M 34 20 L 52 20 Q 56 22 54 26 L 50 26 L 50 22 L 36 22 Z
+  nofill
+  stroke $skinl 1.2
+  line 14 20 14 30
+  line 21 19 21 30
+  line 28 19 27 30
+
+emoji diagonal_mouth U+1FAE4 | unsure skeptical meh hmm
+  use face
+  use eyes
+  stroke $ink 3
+  line 22 47 42 41
+
+emoji dotted_line_face U+1FAE5 | invisible hidden ignored fading
+  nofill
+  stroke $rim 2.6
+  arc 32 32 27 27 0 22
+  arc 32 32 27 27 45 67
+  arc 32 32 27 27 90 112
+  arc 32 32 27 27 135 157
+  arc 32 32 27 27 180 202
+  arc 32 32 27 27 225 247
+  arc 32 32 27 27 270 292
+  arc 32 32 27 27 315 337
+  fill #ffd86a55
+  nostroke
+  circle 32 32 25
+  use eyes
+  stroke $ink 3
+  line 24 44 40 44
+
+emoji biting_lip U+1FAE6 | flirt nervous lips bite
+  fill rad #ff7a8a #d8284a 26 26 34
+  stroke #8a1430 2.2
+  path M 4 28 Q 14 14 24 20 Q 32 26 40 20 Q 50 14 60 28 Q 50 34 32 34 Q 14 34 4 28 Z
+  path M 6 32 Q 32 40 58 32 Q 52 52 32 52 Q 12 52 6 32 Z
+  fill #ffffff
+  stroke #8793a3 1.4
+  path M 34 30 L 50 30 L 49 39 Q 42 42 35 39 Z
+  nofill
+  stroke #8793a3 1.2
+  line 42 30 42 40
+
+category objects
+
+emoji bubbles U+1FAE7 | soap bubble float clean
+  fill #dff4ff66
+  stroke #7fc0f0 2.2
+  circle 22 38 18
+  circle 46 18 12
+  circle 50 48 8
+  nofill
+  stroke #ffffff 2.4
+  arc 22 38 12 12 200 260
+  arc 46 18 8 8 200 260
+  arc 50 48 5 5 200 260
+
+category people
+
+emoji finger_heart U+1FAF0 | love heart k-pop gesture crossed
+  use heart 14 -22 0.2
+  fill rad $skin $skind 26 36 30
+  stroke $skinl 2.2
+  path M 30 30 L 36 10 Q 38 5 42.5 6.5 Q 47 8 45.5 13 L 40 32 Z
+  path M 22 34 L 40 20 Q 44 17 47 20.5 Q 50 24 46 27 L 30 40 Z
+  path M 12 60 L 12 44 Q 14 32 26 32 L 42 32 Q 48 34 48 42 Q 48 54 40 60 Z
+
+emoji rightwards_hand U+1FAF1 | hand right offer shake
+  fill rad $skin $skind 26 30 34
+  stroke $skinl 2.2
+  path M 2 22 L 26 22 L 34 14 Q 38 10 41.5 13 Q 45 17 41 21 L 38 24 L 56 24 Q 61 24 61 29 Q 61 34 56 34 L 44 34 L 52 34 Q 57 34 57 39 Q 57 44 52 44 L 46 44 Q 51 44 51 48.5 Q 51 53 46 53 L 24 53 Q 14 53 10 46 L 2 46 Z
+
+emoji leftwards_hand U+1FAF2 | hand left offer shake
+  fill rad $skin $skind 38 30 34
+  stroke $skinl 2.2
+  path M 62 22 L 38 22 L 30 14 Q 26 10 22.5 13 Q 19 17 23 21 L 26 24 L 8 24 Q 3 24 3 29 Q 3 34 8 34 L 20 34 L 12 34 Q 7 34 7 39 Q 7 44 12 44 L 18 44 Q 13 44 13 48.5 Q 13 53 18 53 L 40 53 Q 50 53 54 46 L 62 46 Z
+
+emoji palm_down_hand U+1FAF3 | drop dismiss hand down
+  fill rad $skin $skind 28 22 34
+  stroke $skinl 2.2
+  path M 2 14 L 30 12 Q 46 12 50 22 L 58 22 Q 62 24 61 28 Q 60 31 56 31 L 52 31 L 52 44 Q 52 49 47.6 49 Q 43 49 43 44 L 43 48 Q 43 53 38.6 53 Q 34 53 34 48 L 34 49 Q 34 54 29.6 54 Q 25 54 25 49 L 25 46 Q 25 51 20.6 51 Q 16 51 16 46 L 16 36 L 2 36 Z
+
+emoji palm_up_hand U+1FAF4 | offer receive hand up beg
+  fill rad $skin $skind 28 42 34
+  stroke $skinl 2.2
+  path M 2 50 L 30 52 Q 46 52 50 42 L 58 42 Q 62 40 61 36 Q 60 33 56 33 L 52 33 L 52 20 Q 52 15 47.6 15 Q 43 15 43 20 L 43 16 Q 43 11 38.6 11 Q 34 11 34 16 L 34 15 Q 34 10 29.6 10 Q 25 10 25 15 L 25 18 Q 25 13 20.6 13 Q 16 13 16 18 L 16 28 L 2 28 Z
+
+emoji point_at_viewer U+1FAF5 | you point index finger
+  fill rad $skin $skind 28 30 34
+  stroke $skinl 2.2
+  rect 8 28 12 22 6
+  rect 44 28 12 22 6
+  path M 16 30 Q 16 20 26 20 L 38 20 Q 48 20 48 30 L 48 46 Q 48 58 32 58 Q 16 58 16 46 Z
+  fill rad $skin $skind 30 30 12
+  circle 32 34 9.5
+  fill $skind
+  nostroke
+  ellipse 32 31 5 4
+  nofill
+  stroke $skinl 1.4
+  arc 32 34 6.4 6.4 20 160
+
+emoji heart_hands U+1FAF6 | love heart hands gesture
+  fill rad $skin $skind 28 30 34
+  stroke $skinl 2.2
+  path M 30 16 Q 22 6 12 12 Q 2 20 6 34 Q 10 46 22 54 L 22 62 L 6 62 Q 0 40 2 26 Q 4 8 20 6 Q 28 6 32 14 Z
+  path M 34 16 Q 42 6 52 12 Q 62 20 58 34 Q 54 46 42 54 L 42 62 L 58 62 Q 64 40 62 26 Q 60 8 44 6 Q 36 6 32 14 Z
+  fill #15151500
+  nostroke
+  circle 32 32 1

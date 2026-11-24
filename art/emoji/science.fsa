@@ -771,7 +771,7 @@ emoji eureka | idea lightbulb discovery aha
   fill #ffffff88
   ellipse 20.5 16 2.4 5.5 25
 
-emoji lab_coat | scientist doctor white coat
+emoji lab_coat U+1F97C | scientist doctor white coat
   fill lin #6fb8ff #2a62c8 0 6 0 22
   stroke #1d3f8f 1.6
   poly 21 5 43 5 32 24
