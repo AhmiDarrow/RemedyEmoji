@@ -1,0 +1,186 @@
+// The Japanese word buttons. The characters are drawn as plain strokes.
+// Original Remedy Emoji art.
+category symbols
+
+part t3_green_tile
+  fill lin #7fd47a #2f9a3c 0 5 0 59
+  stroke #145a24 2.4
+  rect 5 5 54 54 12
+
+part t3_orange_disc
+  fill rad #ffb04a #e8701c 24 22 40
+  stroke #a8420a 2.4
+  circle 32 32 27
+
+emoji koko U+1F201 | japanese here button katakana
+  use sym_blue_tile
+  nofill
+  stroke $white 3.6
+  line 13 22 28 22 28 42 13 42
+  line 36 22 51 22 51 42 36 42
+
+emoji sa U+1F202 | japanese service charge button katakana
+  use sym_blue_tile
+  nofill
+  stroke $white 3.6
+  line 13 25 51 25
+  line 24 15 24 35
+  curve 41 15 42 34 30 49
+
+emoji free_of_charge U+1F21A | japanese free no charge button
+  use sh_orange_tile
+  nofill
+  stroke $white 3
+  line 23 13 16 20
+  line 17 20 48 20
+  line 13 28 51 28
+  line 17 36 48 36
+  line 22 20 22 36
+  line 29 20 29 36
+  line 36 20 36 36
+  line 43 20 43 36
+  line 18 42 15 49
+  line 27 42 26 49
+  line 37 42 38 49
+  line 46 42 49 49
+
+emoji reserved U+1F22F | japanese reserved finger button
+  use t3_green_tile
+  nofill
+  stroke $white 3
+  line 14 22 28 22
+  line 21 13 21 49 17 47
+  line 14 36 28 30
+  line 35 15 35 26 49 26
+  line 48 16 36 21
+  rect 35 32 14 17
+  line 35 40.5 49 40.5
+
+emoji prohibited U+1F232 | japanese forbidden button
+  use sh_red_tile
+  nofill
+  stroke $white 2.8
+  line 13 19 31 19
+  line 22 13 22 31
+  line 22 19 14 28
+  line 22 19 30 28
+  line 33 19 51 19
+  line 42 13 42 31
+  line 42 19 34 28
+  line 42 19 50 28
+  line 21 36 43 36
+  line 14 42 50 42
+  line 32 42 32 52
+  line 24 46 20 51
+  line 40 46 44 51
+
+emoji vacancy U+1F233 | japanese empty vacant button
+  use sym_blue_tile
+  nofill
+  stroke $white 3.2
+  line 32 11 32 17
+  line 14 24 14 18 50 18 50 24
+  line 26 22 18 32
+  line 38 22 46 32
+  line 22 37 42 37
+  line 32 37 32 49
+  line 15 49 49 49
+
+emoji passing_grade U+1F234 | japanese pass agreement button
+  use sh_red_tile
+  nofill
+  stroke $white 3.4
+  line 32 12 13 31
+  line 32 12 51 31
+  line 23 30 41 30
+  rect 20 37 24 14
+
+emoji no_vacancy U+1F235 | japanese full occupied button
+  use sh_red_tile
+  nofill
+  stroke $white 2.8
+  line 13 17 18 21
+  line 12 27 17 31
+  line 12 47 18 38
+  line 24 20 51 20
+  line 31 14 31 26
+  line 44 14 44 26
+  rect 25 31 25 18
+  line 37.5 31 37.5 49
+  line 25 40 50 40
+
+emoji not_free_of_charge U+1F236 | japanese charge paid button
+  use sh_orange_tile
+  nofill
+  stroke $white 3.2
+  line 13 22 51 22
+  line 31 12 16 41
+  line 28 30 46 30 46 51 41 50
+  line 28 30 28 51
+  line 28 37 46 37
+  line 28 44 46 44
+
+emoji monthly_amount U+1F237 | japanese month button
+  use sh_orange_tile
+  nofill
+  stroke $white 3.4
+  line 22 14 22 40 16 51
+  line 22 14 44 14 44 51 38 50
+  line 22 26 44 26
+  line 22 37 44 37
+
+emoji application U+1F238 | japanese apply request button
+  use sh_orange_tile
+  nofill
+  stroke $white 3.4
+  rect 17 20 30 20
+  line 17 30 47 30
+  line 32 11 32 53
+
+emoji discount U+1F239 | japanese discount sale button
+  use sh_red_tile
+  nofill
+  stroke $white 2.8
+  line 24 11 24 16
+  line 14 22 14 17 34 17 34 22
+  line 16 25 32 25
+  line 16 31 32 31
+  line 24 21 24 35
+  line 13 36 35 36
+  rect 17 41 14 10
+  line 42 16 42 40
+  line 50 12 50 51 46 49
+
+emoji open_for_business U+1F23A | japanese open shop button
+  use sh_orange_tile
+  nofill
+  stroke $white 2.8
+  line 20 11 22 16
+  line 32 10 32 16
+  line 44 11 42 16
+  line 14 25 14 20 50 20 50 25
+  rect 24 26 16 8
+  line 32 34 32 38
+  rect 20 38 24 13
+
+emoji bargain U+1F250 | japanese advantage deal circle
+  use t3_orange_disc
+  nofill
+  stroke $white 2.8
+  line 23 15 16 22
+  line 23 23 16 32
+  line 20 28 20 50
+  rect 31 15 14 12
+  line 31 21 45 21
+  line 27 33 50 33
+  line 27 40 50 40
+  line 42 33 42 51 38 49
+  line 33 44 35 47
+
+emoji acceptable U+1F251 | japanese accept ok circle
+  use t3_orange_disc
+  nofill
+  stroke $white 3.4
+  line 15 19 49 19
+  rect 19 27 14 13
+  line 43 19 43 50 37 48
