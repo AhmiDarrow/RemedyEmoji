@@ -1,0 +1,1140 @@
+// The newer animals. Original Remedy Emoji art.
+// The four-legged ones are written by art/gen_animals2.py; the rest are art/animals3_hand.fsa.
+category nature
+
+emoji deer U+1F98C | stag buck antlers forest animal
+  fill rad #e0a868 #b0702c 5 36 8
+  stroke #5f3a10 2
+  circle 6 38 5.5
+  fill #b0702c
+  stroke #5f3a10 2
+  rect 8 46 9.5 14 4.7
+  rect 17 48 9.5 12 4.7
+  rect 27 48 9.5 12 4.7
+  rect 36 46 9.5 14 4.7
+  fill rad #e0a868 #b0702c 20 34 30
+  stroke #5f3a10 2.2
+  ellipse 26 41 21 13.5
+  fill #fff3d6
+  nostroke
+  circle 14 36 1.8
+  circle 21 32.5 1.8
+  circle 22 41 1.6
+  circle 29 36 1.8
+  fill rad #e0a868 #b0702c 40 18 26
+  stroke #5f3a10 2.2
+  ellipse 29 20 6 4 -25
+  ellipse 61 20 6 4 25
+  fill rad #e0a868 #b0702c 40 18 26
+  stroke #5f3a10 2.2
+  circle 45 26 15.5
+  fill #f5dcb8
+  nostroke
+  ellipse 45 33 8.5 6.5
+  nofill
+  stroke #6e4526 4.4
+  curve 39 13 36 6 30 4
+  line 36.5 7.5 37 1.5
+  curve 51 13 54 6 60 4
+  line 53.5 7.5 53 1.5
+  stroke #c9a878 2
+  curve 39 13 36 6 30 4
+  line 36.5 7.5 37 1.5
+  curve 51 13 54 6 60 4
+  line 53.5 7.5 53 1.5
+  use a3_eyes
+  fill #3a2a22
+  nostroke
+  poly 43 30 47 30 45 32.6
+  use a3_mouth
+
+emoji rhinoceros U+1F98F | rhino horn safari animal
+  nofill
+  stroke #434a54 4.6
+  curve 7 38 2 42 3 50
+  stroke #868f9c 2.4
+  curve 7 38 2 42 3 50
+  fill #434a54
+  nostroke
+  ellipse 3 52 2.6 4
+  fill #9aa3b0
+  stroke #434a54 2
+  rect 8 46 9.5 14 4.7
+  rect 17 48 9.5 12 4.7
+  rect 27 48 9.5 12 4.7
+  rect 36 46 9.5 14 4.7
+  fill rad #c4ccd6 #868f9c 20 34 30
+  stroke #434a54 2.2
+  ellipse 26 41 21 13.5
+  fill rad #c4ccd6 #868f9c 40 18 26
+  stroke #434a54 2.2
+  ellipse 29 20 6 4 -25
+  ellipse 61 20 6 4 25
+  fill rad #c4ccd6 #868f9c 40 18 26
+  stroke #434a54 2.2
+  circle 45 26 15.5
+  fill rad #d6dde6 #9aa3b0 45 34 10
+  stroke #434a54 1.6
+  ellipse 45 34.5 9 6.5
+  fill #fff6e0
+  stroke #b8a37a 1.6
+  path M 41.5 32 Q 44 18 46 16 Q 48 24 48.5 32 Z
+  fill #434a54
+  nostroke
+  ellipse 41.5 36.5 1.4 1.8
+  ellipse 48.5 36.5 1.4 1.8
+  use a3_eyes
+  fill #00000000
+  nostroke
+  poly 43 30 47 30 45 32.6
+
+emoji llama U+1F999 | alpaca wool andes animal
+  fill rad #fbf2e2 #dcc9a6 5 36 8
+  stroke #7a6646 2
+  circle 6 38 5.5
+  fill #dcc9a6
+  stroke #7a6646 2
+  rect 8 46 9.5 14 4.7
+  rect 17 48 9.5 12 4.7
+  rect 27 48 9.5 12 4.7
+  rect 36 46 9.5 14 4.7
+  fill rad #fbf2e2 #dcc9a6 20 34 30
+  stroke #7a6646 2.2
+  ellipse 26 41 21 13.5
+  fill #7a6646
+  nostroke
+  circle 9 39 8.2
+  circle 15 31 9.2
+  circle 25 28 9.7
+  circle 35 31 8.2
+  circle 11 47 8.2
+  circle 21 51 8.7
+  circle 32 50 8.2
+  circle 24 40 14.2
+  fill rad #ffffff #ece0c8 18 30 34
+  circle 9 39 7
+  circle 15 31 8
+  circle 25 28 8.5
+  circle 35 31 7
+  circle 11 47 7
+  circle 21 51 7.5
+  circle 32 50 7
+  circle 24 40 13
+  nofill
+  stroke #ece0c8 1.8
+  arc 16 38 5 4 200 330
+  arc 27 36 5 4 200 330
+  arc 20 46 5 4 200 330
+  arc 31 44 4 3.4 200 330
+  fill rad #fbf2e2 #dcc9a6 40 18 26
+  stroke #7a6646 2.2
+  poly 31 22 31.5 6 43 14
+  poly 59 22 58.5 6 47 14
+  fill #f5c8c0
+  nostroke
+  poly 34 18 34.4 11 39.6 15
+  poly 56 18 55.6 11 50.4 15
+  fill rad #fbf2e2 #dcc9a6 40 18 26
+  stroke #7a6646 2.2
+  circle 45 26 15.5
+  fill #ffffff
+  nostroke
+  ellipse 45 33 8.5 6.5
+  fill #7a6646
+  nostroke
+  circle 38.5 13.5 6.7
+  circle 45 11 7.7
+  circle 51.5 13.5 6.7
+  fill rad #ffffff #ece0c8 44 9 12
+  circle 38.5 13.5 5.5
+  circle 45 11 6.5
+  circle 51.5 13.5 5.5
+  use a3_eyes
+  fill #7a5a4a
+  nostroke
+  poly 43 30 47 30 45 32.6
+  use a3_mouth
+
+emoji hippopotamus U+1F99B | hippo river africa animal
+  fill #a892c0
+  stroke #4a3a62 2
+  rect 8 46 9.5 14 4.7
+  rect 17 48 9.5 12 4.7
+  rect 27 48 9.5 12 4.7
+  rect 36 46 9.5 14 4.7
+  fill rad #c8b4d8 #8f78a8 20 34 30
+  stroke #4a3a62 2.2
+  ellipse 26 41 21 13.5
+  fill rad #c8b4d8 #8f78a8 40 18 26
+  stroke #4a3a62 2.2
+  circle 33.5 13.5 6
+  circle 56.5 13.5 6
+  fill #f0c0d0
+  nostroke
+  circle 33.5 14 3
+  circle 56.5 14 3
+  fill rad #c8b4d8 #8f78a8 40 18 26
+  stroke #4a3a62 2.2
+  circle 45 26 15.5
+  fill rad #dccdea #b29ccc 45 34 12
+  stroke #4a3a62 1.8
+  ellipse 45 34 12 8
+  fill #4a3a62
+  nostroke
+  ellipse 40.5 31.5 1.6 2
+  ellipse 49.5 31.5 1.6 2
+  fill #ffffff
+  stroke #4a3a62 1
+  rect 40 38.6 3 3.4 0.8
+  rect 47 38.6 3 3.4 0.8
+  use a3_eyes
+  fill #00000000
+  nostroke
+  poly 43 30 47 30 45 32.6
+
+emoji raccoon U+1F99D | trash panda bandit mask animal
+  fill rad #c8ced6 #868f9c 6 28 14
+  stroke #3a4048 2
+  path M 10 42 Q -2 36 4 20 Q 10 14 14 22 Q 10 30 14 38 Z
+  nofill
+  stroke #3a4048 3
+  line 2.5 30 12 28
+  line 3.6 23 12 22
+  fill #868f9c
+  stroke #3a4048 2
+  rect 8 46 9.5 14 4.7
+  rect 17 48 9.5 12 4.7
+  rect 27 48 9.5 12 4.7
+  rect 36 46 9.5 14 4.7
+  fill rad #c8ced6 #868f9c 20 34 30
+  stroke #3a4048 2.2
+  ellipse 26 41 21 13.5
+  fill rad #c8ced6 #868f9c 40 18 26
+  stroke #3a4048 2.2
+  poly 31 22 31.5 6 43 14
+  poly 59 22 58.5 6 47 14
+  fill #3a4048
+  nostroke
+  poly 34 18 34.4 11 39.6 15
+  poly 56 18 55.6 11 50.4 15
+  fill rad #c8ced6 #868f9c 40 18 26
+  stroke #3a4048 2.2
+  circle 45 26 15.5
+  fill #ffffff
+  nostroke
+  ellipse 45 33 8.5 6.5
+  fill #3a4048
+  nostroke
+  ellipse 38.5 25 5.4 4.4 20
+  ellipse 51.5 25 5.4 4.4 -20
+  use a3_eyes
+  fill #2a1c14
+  nostroke
+  poly 43 30 47 30 45 32.6
+  use a3_mouth
+
+emoji badger U+1F9A1 | honey badger stripe animal
+  fill rad #8a94a0 #4f5762 5 36 8
+  stroke #22262e 2
+  circle 6 38 5.5
+  fill #4f5762
+  stroke #22262e 2
+  rect 8 46 9.5 14 4.7
+  rect 17 48 9.5 12 4.7
+  rect 27 48 9.5 12 4.7
+  rect 36 46 9.5 14 4.7
+  fill rad #8a94a0 #4f5762 20 34 30
+  stroke #22262e 2.2
+  ellipse 26 41 21 13.5
+  fill rad #8a94a0 #4f5762 40 18 26
+  stroke #22262e 2.2
+  circle 33.5 13.5 6
+  circle 56.5 13.5 6
+  fill #ffffff
+  nostroke
+  circle 33.5 14 3
+  circle 56.5 14 3
+  fill rad #8a94a0 #4f5762 40 18 26
+  stroke #22262e 2.2
+  circle 45 26 15.5
+  fill #ffffff
+  nostroke
+  ellipse 45 33 8.5 6.5
+  fill #ffffff
+  nostroke
+  path M 42 11 Q 45 10 48 11 L 49 30 L 41 30 Z
+  fill #22262e
+  ellipse 38.5 25 4.6 6
+  ellipse 51.5 25 4.6 6
+  use a3_eyes
+  fill #16181d
+  nostroke
+  poly 43 30 47 30 45 32.6
+  use a3_mouth
+
+emoji mammoth U+1F9A3 | woolly extinct ice age tusks animal
+  nofill
+  stroke #3f240c 4.6
+  curve 7 38 2 42 3 50
+  stroke #7a4e26 2.4
+  curve 7 38 2 42 3 50
+  fill #3f240c
+  nostroke
+  ellipse 3 52 2.6 4
+  fill #8a5c30
+  stroke #3f240c 2
+  rect 8 46 9.5 14 4.7
+  rect 17 48 9.5 12 4.7
+  rect 27 48 9.5 12 4.7
+  rect 36 46 9.5 14 4.7
+  fill rad #b98a5c #7a4e26 20 34 30
+  stroke #3f240c 2.2
+  ellipse 26 41 21 13.5
+  fill rad #b98a5c #7a4e26 40 18 26
+  stroke #3f240c 2.2
+  fill rad #b98a5c #7a4e26 40 18 26
+  stroke #3f240c 2.2
+  circle 45 26 15.5
+  fill rad #c99a6c #8a5c30 28 22 14
+  stroke #3f240c 2.2
+  ellipse 30 26 7 11 8
+  ellipse 60 26 7 11 -8
+  fill rad #b98a5c #7a4e26 40 18 26
+  circle 45 26 15.5
+  fill #7a4e26
+  nostroke
+  path M 33 15 Q 45 4 57 15 Q 51 12 45 16 Q 39 12 33 15 Z
+  fill rad #b98a5c #7a4e26 45 40 10
+  stroke #3f240c 2.2
+  path M 41 30 Q 40 46 46 50 Q 52 50 51 44 Q 48 44 48 40 L 49 30 Z
+  fill #fff6e0
+  stroke #b8a37a 1.4
+  path M 38 33 Q 28 44 36 50 Q 34 42 40 35 Z
+  path M 52 33 Q 62 44 54 50 Q 56 42 50 35 Z
+  use a3_eyes
+  fill #00000000
+  nostroke
+  poly 43 30 47 30 45 32.6
+
+emoji otter U+1F9A6 | river sea playful animal
+  nofill
+  stroke #3f240c 5
+  curve 8 40 2 34 4 24
+  stroke #7a4e26 2.6
+  curve 8 40 2 34 4 24
+  fill #7a4e26
+  stroke #3f240c 2
+  rect 8 46 9.5 14 4.7
+  rect 17 48 9.5 12 4.7
+  rect 27 48 9.5 12 4.7
+  rect 36 46 9.5 14 4.7
+  fill rad #b98a5c #7a4e26 20 34 30
+  stroke #3f240c 2.2
+  ellipse 26 41 21 13.5
+  fill #f5dcb8
+  nostroke
+  ellipse 28 46 10 6
+  fill rad #b98a5c #7a4e26 40 18 26
+  stroke #3f240c 2.2
+  circle 33.5 13.5 6
+  circle 56.5 13.5 6
+  fill #7a4e26
+  nostroke
+  circle 33.5 14 3
+  circle 56.5 14 3
+  fill rad #b98a5c #7a4e26 40 18 26
+  stroke #3f240c 2.2
+  circle 45 26 15.5
+  fill #f5dcb8
+  nostroke
+  ellipse 45 33 8.5 6.5
+  nofill
+  stroke #3f240c 1.1
+  line 37 33 30 31.5
+  line 37 35 30 36.5
+  line 53 33 60 31.5
+  line 53 35 60 36.5
+  use a3_eyes
+  fill #ff8a8a66
+  nostroke
+  ellipse 34.5 31 3 2
+  ellipse 55.5 31 3 2
+  fill #2a1c14
+  nostroke
+  poly 43 30 47 30 45 32.6
+  use a3_mouth
+
+emoji skunk U+1F9A8 | smell stink stripe animal
+  fill rad #5a6270 #22262e 6 26 14
+  stroke #0e1014 2
+  path M 12 44 Q -4 38 2 18 Q 8 8 16 14 Q 22 22 14 28 Q 12 34 16 40 Z
+  fill #ffffff
+  nostroke
+  path M 10 40 Q 0 34 5 20 Q 9 13 13 17 Q 8 24 10 32 Z
+  fill #22262e
+  stroke #0e1014 2
+  rect 8 46 9.5 14 4.7
+  rect 17 48 9.5 12 4.7
+  rect 27 48 9.5 12 4.7
+  rect 36 46 9.5 14 4.7
+  fill rad #5a6270 #22262e 20 34 30
+  stroke #0e1014 2.2
+  ellipse 26 41 21 13.5
+  fill #ffffff
+  nostroke
+  path M 8 34 Q 22 26 40 31 L 40 35 Q 22 31 9 38 Z
+  fill rad #5a6270 #22262e 40 18 26
+  stroke #0e1014 2.2
+  circle 33.5 13.5 6
+  circle 56.5 13.5 6
+  fill #22262e
+  nostroke
+  circle 33.5 14 3
+  circle 56.5 14 3
+  fill rad #5a6270 #22262e 40 18 26
+  stroke #0e1014 2.2
+  circle 45 26 15.5
+  fill #3a3f4c
+  nostroke
+  ellipse 45 33 8.5 6.5
+  fill #ffffff
+  nostroke
+  path M 43 11 Q 45 10 47 11 L 47.6 22 L 42.4 22 Z
+  use a3_eyes
+  fill #f07a9c
+  nostroke
+  poly 43 30 47 30 45 32.6
+  use a3_mouth
+
+emoji beaver U+1F9AB | dam builder teeth river animal
+  fill rad #6a4a2c #3f2a14 4 44 10
+  stroke #2a1808 2
+  ellipse 5 46 6 11 -15
+  nofill
+  stroke #2a1808 1
+  line 1 42 9 42
+  line 0.6 47 9.6 47
+  line 1.6 52 9 52
+  fill #7a4a1c
+  stroke #3f240c 2
+  rect 8 46 9.5 14 4.7
+  rect 17 48 9.5 12 4.7
+  rect 27 48 9.5 12 4.7
+  rect 36 46 9.5 14 4.7
+  fill rad #b9824c #7a4a1c 20 34 30
+  stroke #3f240c 2.2
+  ellipse 26 41 21 13.5
+  fill rad #b9824c #7a4a1c 40 18 26
+  stroke #3f240c 2.2
+  circle 33.5 13.5 6
+  circle 56.5 13.5 6
+  fill #7a4a1c
+  nostroke
+  circle 33.5 14 3
+  circle 56.5 14 3
+  fill rad #b9824c #7a4a1c 40 18 26
+  stroke #3f240c 2.2
+  circle 45 26 15.5
+  fill #f0d2a8
+  nostroke
+  ellipse 45 33 8.5 6.5
+  fill #ffffff
+  stroke #3f240c 1
+  rect 42.4 34 2.6 4.4 0.6
+  rect 45 34 2.6 4.4 0.6
+  use a3_eyes
+  fill #2a1c14
+  nostroke
+  poly 43 30 47 30 45 32.6
+
+emoji bison U+1F9AC | buffalo plains herd animal
+  nofill
+  stroke #24140a 4.6
+  curve 7 38 2 42 3 50
+  stroke #4f3018 2.4
+  curve 7 38 2 42 3 50
+  fill #24140a
+  nostroke
+  ellipse 3 52 2.6 4
+  fill #4f3018
+  stroke #24140a 2
+  rect 8 46 9.5 14 4.7
+  rect 17 48 9.5 12 4.7
+  rect 27 48 9.5 12 4.7
+  rect 36 46 9.5 14 4.7
+  fill rad #8a5c36 #4f3018 20 34 30
+  stroke #24140a 2.2
+  ellipse 26 41 21 13.5
+  fill rad #6a4424 #3a220e 16 30 16
+  stroke #24140a 2
+  path M 8 34 Q 12 20 26 22 Q 38 24 40 36 Q 30 30 22 34 Q 14 30 8 34 Z
+  fill rad #8a5c36 #4f3018 40 18 26
+  stroke #24140a 2.2
+  ellipse 29 20 6 4 -25
+  ellipse 61 20 6 4 25
+  fill rad #8a5c36 #4f3018 40 18 26
+  stroke #24140a 2.2
+  circle 45 26 15.5
+  fill #3a220e
+  nostroke
+  path M 32 16 Q 45 4 58 16 Q 52 14 49 20 L 41 20 Q 38 14 32 16 Z
+  fill #fff3d6
+  stroke #a8905a 1.6
+  path M 33 17 Q 26 12 28 4 Q 32 10 37 13 Z
+  path M 57 17 Q 64 12 62 4 Q 58 10 53 13 Z
+  fill #6a4424
+  stroke #24140a 1.6
+  ellipse 45 33.5 8 5.5
+  fill #24140a
+  nostroke
+  ellipse 42 33.5 1.5 2
+  ellipse 48 33.5 1.5 2
+  fill #3a220e
+  nostroke
+  path M 39 40 Q 45 50 51 40 Q 45 43 39 40 Z
+  use a3_eyes
+  fill #00000000
+  nostroke
+  poly 43 30 47 30 45 32.6
+
+emoji guide_dog U+1F9AE | service dog assistance blind animal
+  nofill
+  stroke #6e4208 5
+  curve 8 40 2 34 4 24
+  stroke #cd8f3c 2.6
+  curve 8 40 2 34 4 24
+  fill #cd8f3c
+  stroke #6e4208 2
+  rect 8 46 9.5 14 4.7
+  rect 17 48 9.5 12 4.7
+  rect 27 48 9.5 12 4.7
+  rect 36 46 9.5 14 4.7
+  fill rad #f5cb82 #cd8f3c 20 34 30
+  stroke #6e4208 2.2
+  ellipse 26 41 21 13.5
+  fill #ffd23a
+  stroke #a8801c 1.6
+  path M 22 28.2 L 30 28.6 L 30 53 L 22 53.6 Z
+  nofill
+  stroke #5d6a7c 3
+  line 26 28 20 14 30 12
+  fill rad #f5cb82 #cd8f3c 40 18 26
+  stroke #6e4208 2.2
+  ellipse 30.5 24 5 10 12
+  ellipse 59.5 24 5 10 -12
+  fill rad #f5cb82 #cd8f3c 40 18 26
+  stroke #6e4208 2.2
+  circle 45 26 15.5
+  fill #fff3d6
+  nostroke
+  ellipse 45 33 8.5 6.5
+  fill #ff7184
+  stroke #d94a60 1
+  path M 43.4 36 Q 45 41 46.6 36 Z
+  use a3_eyes
+  fill #2a1c14
+  nostroke
+  poly 43 30 47 30 45 32.6
+  use a3_mouth
+
+emoji hedgehog U+1F994 | spiky spines garden animal
+  fill #d9b07c
+  stroke #7a5a34 2
+  rect 8 46 9.5 14 4.7
+  rect 17 48 9.5 12 4.7
+  rect 27 48 9.5 12 4.7
+  rect 36 46 9.5 14 4.7
+  fill rad #f5dcb8 #d9b07c 20 34 30
+  stroke #7a5a34 2.2
+  ellipse 26 41 21 13.5
+  fill rad #9a7850 #5a3e20 20 30 26
+  stroke #3a2610 2
+  poly 2 44 6 34 3 30 10 28 9 21 16 22 18 15 24 19 29 14 32 21 38 20 37 28 42 32 38 40 40 50 30 54 12 54 4 50
+  nofill
+  stroke #3a2610 1.4
+  line 12 34 15 40
+  line 20 28 22 35
+  line 28 26 28 33
+  line 14 44 18 48
+  line 24 40 27 46
+  line 33 34 33 41
+  fill rad #f5dcb8 #d9b07c 40 18 26
+  stroke #7a5a34 2.2
+  circle 33.5 13.5 6
+  circle 56.5 13.5 6
+  fill #f0b0a0
+  nostroke
+  circle 33.5 14 3
+  circle 56.5 14 3
+  fill rad #f5dcb8 #d9b07c 40 18 26
+  stroke #7a5a34 2.2
+  circle 45 26 15.5
+  fill #fff3e0
+  nostroke
+  ellipse 45 33 8.5 6.5
+  use a3_eyes
+  fill #ff8a8a66
+  nostroke
+  ellipse 34.5 31 3 2
+  ellipse 55.5 31 3 2
+  fill #2a1c14
+  nostroke
+  poly 43 30 47 30 45 32.6
+  use a3_mouth
+
+part a4_eye
+  fill $natk
+  ellipse 32 32 2.5 3.3
+  fill $white
+  circle 32.9 30.8 1
+
+part a4_eyes
+  fill $natk
+  mirror ellipse 24 30 2.6 3.5
+  fill $white
+  mirror circle 24.9 28.7 1
+
+emoji scorpion U+1F982 | sting desert arachnid scorpio
+  nofill
+  stroke #7a3a0c 3
+  line 22 40 12 34
+  line 22 44 10 46
+  line 24 48 14 56
+  line 40 40 50 36
+  line 40 44 52 46
+  line 38 48 46 56
+  fill rad #e8904a #b8501c 26 40 20
+  stroke #7a3a0c 2.2
+  ellipse 31 44 12 9
+  circle 31 30 6
+  circle 36 22 5
+  circle 42 16 4.6
+  circle 49 13 4.2
+  path M 51 10 Q 60 8 58 18 Q 56 14 52 15 Z
+  path M 22 36 Q 10 34 8 24 Q 4 20 8 16 Q 12 22 14 20 Q 12 14 18 14 Q 20 24 26 32 Z
+  path M 40 36 Q 46 30 44 26 Q 48 26 50 30 Q 50 36 44 40 Z
+  use a4_eye -5 11 0.8
+  use a4_eye 2 11 0.8
+
+emoji turkey U+1F983 | thanksgiving bird gobble poultry
+  fill rad #e8804a #b8401c 32 26 30
+  stroke #7a2408 1.8
+  ellipse 12 28 6 14 -40
+  ellipse 20 18 6 15 -20
+  ellipse 32 14 6 15
+  ellipse 44 18 6 15 20
+  ellipse 52 28 6 14 40
+  fill #ffd23a
+  nostroke
+  circle 9 20 2.6
+  circle 18 9 2.6
+  circle 32 4 2.6
+  circle 46 9 2.6
+  circle 55 20 2.6
+  nofill
+  stroke #e0860a 3
+  line 27 54 27 60
+  line 37 54 37 60
+  fill rad #a8683a #6e3a14 28 38 20
+  stroke #45200a 2.2
+  ellipse 32 42 15 14
+  fill rad #b8784a #7a4420 30 24 10
+  circle 32 26 9
+  fill #ffb21c
+  stroke #a8680a 1.2
+  poly 29.6 27 34.4 27 32 31.5
+  fill #e2322c
+  stroke #8a140c 1
+  path M 33 30 Q 36 36 33 39 Q 30.6 36 32 31 Z
+  use a4_eye -3.6 -8 0.8
+  use a4_eye 3.6 -8 0.8
+
+emoji eagle U+1F985 | bird prey bald freedom america
+  fill rad #7a5232 #45280f 28 40 26
+  stroke #2a1808 2.2
+  path M 6 30 Q 14 28 20 32 L 24 24 Q 36 26 44 34 Q 56 36 60 48 Q 46 46 40 52 Q 28 58 16 52 Q 6 44 6 30 Z
+  nofill
+  stroke #2a1808 1.4
+  curve 14 38 22 42 30 40
+  curve 16 45 26 49 36 46
+  fill rad #ffffff #d6dde6 40 20 16
+  stroke #8793a3 2.2
+  path M 24 26 Q 26 8 42 8 Q 54 10 54 22 Q 50 30 40 32 Q 30 32 24 26 Z
+  fill #ffb21c
+  stroke #a8680a 1.6
+  path M 52 16 Q 62 16 62 24 Q 58 22 56 26 Q 52 26 50 22 Z
+  use a4_eye 11 -14 1
+  nofill
+  stroke #45280f 2.2
+  line 38 13 48 15.5
+
+emoji bat U+1F987 | vampire night halloween fly
+  fill rad #7a6a9a #3f3460 32 26 34
+  stroke #1e1838 2.2
+  path M 32 28 Q 22 10 4 14 Q 8 22 4 30 Q 10 28 14 34 Q 18 30 24 38 Q 28 34 32 40 Q 36 34 40 38 Q 46 30 50 34 Q 54 28 60 30 Q 56 22 60 14 Q 42 10 32 28 Z
+  fill rad #8a7aaa #4f4470 30 28 14
+  ellipse 32 36 9 12
+  poly 25 26 24 14 31 22
+  poly 39 26 40 14 33 22
+  circle 32 28 8.5
+  fill #ffe27a
+  nostroke
+  ellipse 28.6 27 2.2 2.6
+  ellipse 35.4 27 2.2 2.6
+  fill $natk
+  circle 28.9 27.4 1.1
+  circle 35.7 27.4 1.1
+  fill #ffffff
+  poly 29.6 32 31 35 32 32
+  poly 34.4 32 33 35 32 32
+
+emoji gorilla U+1F98D | ape primate kong strong
+  fill rad #6a707c #2f343e 24 20 46
+  stroke #16181d 2.2
+  circle 10 26 7
+  circle 54 26 7
+  path M 10 34 Q 8 8 32 8 Q 56 8 54 34 Q 54 58 32 58 Q 10 58 10 34 Z
+  fill rad #9aa3b0 #6a707c 32 40 18
+  stroke #16181d 1.6
+  path M 16 30 Q 24 20 32 26 Q 40 20 48 30 Q 52 54 32 54 Q 12 54 16 30 Z
+  fill #16181d
+  nostroke
+  ellipse 29 39 1.8 2.4
+  ellipse 35 39 1.8 2.4
+  use a4_eyes 0 1
+  nofill
+  stroke #16181d 2.2
+  arc 32 46 8 4 25 155
+  stroke #16181d 2.8
+  mirror line 18 24 28 25.5
+
+emoji lizard U+1F98E | reptile gecko green crawl
+  nofill
+  stroke #1f6a14 5.4
+  line 22 26 12 18
+  line 24 40 12 46
+  line 40 28 50 20
+  line 40 42 50 50
+  stroke #6fbf4a 3
+  line 22 26 12 18
+  line 24 40 12 46
+  line 40 28 50 20
+  line 40 42 50 50
+  fill rad #9be06a #3f9a2a 28 28 30
+  stroke #1f6a14 2.2
+  path M 18 14 Q 26 6 34 14 Q 38 22 40 32 Q 44 46 54 50 Q 60 54 56 60 Q 44 60 36 50 Q 28 54 24 44 Q 18 34 18 14 Z
+  fill #c8f09a
+  nostroke
+  ellipse 30 34 4 10 -10
+  use a4_eye -8 -15 0.8
+  use a4_eye -1 -15 0.8
+
+emoji shrimp U+1F990 | prawn seafood shellfish sea
+  nofill
+  stroke #c8501c 2
+  curve 48 18 58 10 62 2
+  curve 50 22 60 20 63 14
+  line 34 46 30 56
+  line 40 44 40 56
+  line 46 40 50 52
+  fill rad #ffb08a #f0704a 32 26 30
+  stroke #b8401c 2.2
+  path M 52 20 Q 58 30 50 42 Q 40 54 24 50 Q 10 46 10 34 L 2 30 L 4 24 L 12 28 Q 14 22 20 20 Q 20 30 26 34 Q 36 36 40 28 Q 42 18 52 20 Z
+  nofill
+  stroke #b8401c 1.6
+  curve 20 22 22 34 18 46
+  curve 28 34 30 42 26 50
+  curve 38 32 40 40 38 50
+  use a4_eye 15 -8 0.8
+
+emoji squid U+1F991 | sea tentacles calamari ocean
+  nofill
+  stroke #a83a6a 5
+  curve 22 40 16 48 20 58
+  curve 28 42 26 52 30 60
+  curve 36 42 38 52 34 60
+  curve 42 40 48 48 44 58
+  stroke #f08ab0 2.8
+  curve 22 40 16 48 20 58
+  curve 28 42 26 52 30 60
+  curve 36 42 38 52 34 60
+  curve 42 40 48 48 44 58
+  fill rad #ffb6d4 #e85a9a 28 20 30
+  stroke #a83a6a 2.2
+  path M 32 2 Q 46 12 46 30 L 48 44 L 16 44 L 18 30 Q 18 12 32 2 Z
+  poly 18 16 6 22 18 28
+  poly 46 16 58 22 46 28
+  use a4_eyes 0 4
+
+emoji giraffe U+1F992 | tall neck spots safari face
+  fill rad #f2c86a #c8962a 22 10 10
+  stroke #7a5a0c 1.8
+  rect 20 4 4 12 2
+  rect 40 4 4 12 2
+  fill #7a4a1c
+  circle 22 4.5 3.4
+  circle 42 4.5 3.4
+  fill rad #ffe09a #e8b03a 24 20 44
+  stroke #7a5a0c 2.2
+  ellipse 9 24 7 4 -20
+  ellipse 55 24 7 4 20
+  path M 16 26 Q 16 12 32 12 Q 48 12 48 26 L 46 44 Q 44 60 32 60 Q 20 60 18 44 Z
+  fill #b8721c
+  nostroke
+  blob 20 18 26 16 27 22 22 24
+  blob 38 16 44 18 43 24 37 22
+  blob 29 14 35 14 34 19 30 19
+  blob 19 36 23 34 24 40 20 42
+  blob 41 34 45 36 44 42 40 40
+  fill rad #fff0cc #f2d08a 32 50 12
+  stroke #7a5a0c 1.6
+  ellipse 32 50 10.5 8.5
+  fill #7a5a0c
+  nostroke
+  ellipse 28 50 1.6 2.2
+  ellipse 36 50 1.6 2.2
+  use a4_eyes 0 1
+
+emoji zebra U+1F993 | stripes horse safari face
+  fill rad #ffffff #d6dde6 24 14 20
+  stroke #22262e 2.2
+  poly 17 22 16 4 28 14
+  poly 47 22 48 4 36 14
+  path M 16 26 Q 16 12 32 12 Q 48 12 48 26 L 46 44 Q 44 60 32 60 Q 20 60 18 44 Z
+  fill #22262e
+  nostroke
+  path M 26 12.6 Q 32 6 38 12.6 Q 36 22 33.6 28 L 30.4 28 Q 28 22 26 12.6 Z
+  path M 16.4 24 L 26 27 L 26 30 L 16.6 28 Z
+  path M 47.6 24 L 38 27 L 38 30 L 47.4 28 Z
+  path M 17 34 L 25 36 L 25 39 L 17.6 38 Z
+  path M 47 34 L 39 36 L 39 39 L 46.4 38 Z
+  path M 18.4 44 L 24 44.6 L 24 47.4 L 19 47.4 Z
+  path M 45.6 44 L 40 44.6 L 40 47.4 L 45 47.4 Z
+  fill rad #5a6270 #22262e 32 50 12
+  stroke #0e1014 1.6
+  ellipse 32 50 10.5 8.5
+  fill #9aa6b6
+  nostroke
+  ellipse 28 50 1.6 2.2
+  ellipse 36 50 1.6 2.2
+  use a4_eyes 0 1
+
+emoji sauropod U+1F995 | dinosaur brontosaurus long neck dino
+  fill #3f9a5a
+  stroke #145a2c 2
+  rect 16 44 9 14 4
+  rect 27 46 9 12 4
+  fill rad #8fe0a0 #3fa85a 24 30 34
+  stroke #145a2c 2.2
+  path M 2 50 Q 8 44 14 44 Q 12 30 28 30 Q 38 30 40 38 L 42 16 Q 42 4 52 4 Q 62 6 60 14 Q 58 20 50 18 L 50 42 Q 50 54 38 54 L 14 54 Q 6 54 2 50 Z
+  fill #c8f0c8
+  nostroke
+  path M 16 50 Q 30 54 46 48 Q 44 54 38 54 L 18 54 Z
+  use a4_eye 20 -22 0.9
+  nofill
+  stroke #145a2c 1.5
+  arc 56 13 3 2 25 155
+
+emoji cricket_insect U+1F997 | grasshopper insect chirp bug
+  nofill
+  stroke #2f6a14 2.6
+  line 26 40 20 54
+  line 34 40 34 54
+  curve 50 22 56 10 62 8
+  curve 48 22 50 8 56 4
+  stroke #2f6a14 4
+  line 14 34 22 16 30 44
+  stroke #8fd45a 2
+  line 14 34 22 16 30 44
+  fill rad #a6e86a #4fa82a 28 30 30
+  stroke #2f6a14 2.2
+  path M 4 42 Q 10 30 30 30 Q 44 30 48 36 Q 46 44 30 44 Q 14 46 4 42 Z
+  circle 49 30 8.5
+  nofill
+  stroke #2f6a14 1.4
+  line 16 34 18 42
+  line 24 32 25 42
+  use a4_eye 19 -3 0.9
+
+emoji kangaroo U+1F998 | australia joey hop marsupial
+  fill rad #d9a05a #a8681c 12 48 14
+  stroke #5f3a0c 2
+  path M 22 48 Q 4 52 2 60 L 10 60 Q 18 56 26 54 Z
+  fill #a8681c
+  stroke #5f3a0c 2
+  path M 22 50 L 40 56 L 46 56 Q 50 60 44 60 L 24 60 Z
+  fill rad #e8b878 #b8782c 28 34 30
+  stroke #5f3a0c 2.2
+  path M 20 52 Q 14 36 26 28 Q 30 22 34 22 Q 44 26 44 40 Q 44 52 34 56 Z
+  poly 34 12 32 0 40 8
+  poly 46 12 50 0 42 8
+  circle 40 18 10.5
+  fill #fff3d6
+  nostroke
+  ellipse 34 44 6 8
+  fill rad #e8b878 #b8782c 46 36 6
+  stroke #5f3a0c 1.8
+  path M 40 32 L 50 36 Q 52 40 48 40 L 40 38 Z
+  use a4_eye 4 -15 0.8
+  use a4_eye 11 -15 0.8
+  fill #3a2a22
+  nostroke
+  poly 38.4 21 41.6 21 40 23.4
+
+emoji peacock U+1F99A | bird feathers proud display
+  fill rad #3fbfa8 #1f7a6c 32 30 34
+  stroke #0f4a40 2
+  path M 32 44 Q 2 44 4 16 Q 10 6 18 10 Q 24 2 32 6 Q 40 2 46 10 Q 54 6 60 16 Q 62 44 32 44 Z
+  fill #ffd23a
+  stroke #2f6ad8 2
+  circle 12 20 3.6
+  circle 22 13 3.6
+  circle 32 10 3.6
+  circle 42 13 3.6
+  circle 52 20 3.6
+  fill rad #5a8af0 #2f4fc8 30 36 16
+  stroke #1a2f8a 2.2
+  path M 24 58 Q 22 40 28 34 Q 28 24 32 22 Q 36 24 36 34 Q 42 40 40 58 Z
+  nofill
+  stroke #1a2f8a 1.6
+  line 32 22 32 16
+  line 32 22 28.6 16.6
+  line 32 22 35.4 16.6
+  fill #ffb21c
+  stroke #a8680a 1.2
+  poly 30.4 30 33.6 30 32 33.4
+  use a4_eye -2.6 -5 0.7
+  use a4_eye 2.6 -5 0.7
+
+emoji parrot U+1F99C | bird talk tropical macaw
+  fill rad #5a8af0 #2f4fc8 20 44 14
+  stroke #1a2f8a 1.8
+  path M 22 44 L 8 60 L 16 60 L 28 50 Z
+  fill rad #ff7a5a #d8281c 28 32 28
+  stroke #8a140c 2.2
+  path M 20 50 Q 12 34 22 20 Q 26 8 38 8 Q 50 10 50 22 Q 50 34 44 44 Q 36 54 20 50 Z
+  fill rad #ffd23a #f2a01c 26 40 12
+  stroke #a8680a 1.6
+  path M 20 46 Q 18 36 26 32 Q 34 36 32 46 Q 26 52 20 46 Z
+  fill #ffffff
+  stroke #8793a3 1.4
+  ellipse 40 19 7 6.5
+  fill #3a3f4c
+  stroke #16181d 1.6
+  path M 46 18 Q 58 18 56 30 Q 54 34 50 32 Q 52 26 46 24 Z
+  use a4_eye 8 -13 0.9
+  nofill
+  stroke #6e7684 2.4
+  line 28 52 28 58
+  line 36 50 36 58
+
+emoji lobster U+1F99E | seafood claws shellfish red
+  nofill
+  stroke #8a140c 2.2
+  curve 26 14 20 6 12 2
+  curve 38 14 44 6 52 2
+  line 22 34 12 38
+  line 22 40 12 46
+  line 42 34 52 38
+  line 42 40 52 46
+  fill rad #ff7a5a #d8281c 28 30 30
+  stroke #8a140c 2.2
+  path M 10 30 Q 2 24 6 14 Q 10 8 14 14 L 12 18 Q 16 18 18 14 Q 22 20 18 28 L 26 30 Z
+  path M 54 30 Q 62 24 58 14 Q 54 8 50 14 L 52 18 Q 48 18 46 14 Q 42 20 46 28 L 38 30 Z
+  ellipse 32 30 10 14
+  path M 24 42 L 40 42 L 38 52 L 26 52 Z
+  poly 22 60 32 50 42 60 36 56 32 60 28 56
+  nofill
+  stroke #8a140c 1.4
+  line 24.6 46 39.4 46
+  use a4_eyes 0 -8
+
+emoji mosquito U+1F99F | insect bite pest bug
+  fill #dff4ffaa
+  stroke #7fa8d8 1.6
+  ellipse 22 18 14 6 25
+  ellipse 42 18 14 6 -25
+  nofill
+  stroke #2a1c14 2.2
+  line 26 34 12 42 8 56
+  line 30 38 24 50 26 60
+  line 38 34 52 42 56 56
+  line 34 38 40 50 38 60
+  line 32 46 32 60
+  fill rad #7a6a5a #3a2a1c 30 28 14
+  stroke #1e140a 2
+  ellipse 32 34 5.4 12
+  circle 32 20 7
+  fill #ffffff
+  nostroke
+  ellipse 29 19 2 2.4
+  ellipse 35 19 2 2.4
+  fill $natk
+  circle 29.3 19.4 1
+  circle 35.3 19.4 1
+  nofill
+  stroke #1e140a 1.6
+  line 32 26 32 34
+
+emoji swan U+1F9A2 | bird elegant white lake
+  fill lin #6fd0ff #1f74d8 0 50 0 60
+  stroke #134c9c 1.8
+  ellipse 30 55 28 5
+  fill rad #ffffff #d6dde6 26 34 30
+  stroke #8793a3 2.2
+  path M 6 44 Q 4 30 20 30 Q 30 30 36 38 Q 40 28 36 18 Q 34 6 46 6 Q 56 8 54 18 L 50 18 Q 46 18 46 24 Q 50 36 46 46 Q 40 56 22 54 Q 8 54 6 44 Z
+  nofill
+  stroke #8793a3 1.6
+  curve 12 38 20 36 26 42
+  curve 12 45 22 44 30 48
+  fill #ff9a1c
+  stroke #a8560a 1.4
+  path M 53 12 L 62 16 L 53 19 Z
+  fill #16181d
+  nostroke
+  path M 50 11 L 54 12 L 54 16 Z
+  use a4_eye 15 -20.5 0.7
+
+emoji dodo U+1F9A4 | extinct bird mauritius
+  nofill
+  stroke #b8801c 3.4
+  line 26 52 26 60 20 60
+  line 36 52 36 60 42 60
+  fill rad #b8c4d0 #7a8696 26 36 28
+  stroke #3f4854 2.2
+  path M 8 36 Q 10 28 18 30 Q 14 26 16 20 Q 22 22 24 28 Q 32 24 40 30 Q 48 38 44 48 Q 38 56 26 54 Q 12 52 8 36 Z
+  fill rad #c8d2dc #8a96a6 42 18 14
+  circle 42 20 11
+  fill rad #f2d08a #c89a3a 54 26 10
+  stroke #7a5a0c 1.8
+  path M 48 16 Q 60 14 62 24 Q 62 32 54 30 Q 56 24 50 24 Z
+  use a4_eye 9 -13 0.9
+  fill #ffffff
+  stroke #3f4854 1.4
+  path M 12 38 Q 20 34 26 42 Q 20 48 12 38 Z
+
+emoji sloth U+1F9A5 | slow lazy hang tree animal
+  fill #6e4526
+  stroke #3f240c 2
+  rect 2 6 60 7 3
+  nofill
+  stroke #3f2a14 7
+  line 20 24 16 10
+  line 44 24 48 10
+  stroke #a88a68 4
+  line 20 24 16 10
+  line 44 24 48 10
+  fill rad #b89a78 #7a5e3e 28 36 28
+  stroke #3f2a14 2.2
+  ellipse 32 40 19 18
+  fill rad #f5e6d0 #e0c8a8 30 32 14
+  stroke #3f2a14 1.6
+  ellipse 32 34 12 10
+  fill #5a3e20
+  nostroke
+  ellipse 25.6 33.4 4.6 3 -25
+  ellipse 38.4 33.4 4.6 3 25
+  fill $natk
+  circle 26.4 33.6 1.6
+  circle 37.6 33.6 1.6
+  fill #3a2a22
+  ellipse 32 36.4 2 1.5
+  nofill
+  stroke #3a2a22 1.5
+  arc 32 38.6 4 2.4 25 155
+
+emoji orangutan U+1F9A7 | ape primate orange borneo
+  fill rad #e8803a #a8480c 24 20 46
+  stroke #5f2a08 2.2
+  path M 4 34 Q 2 18 16 14 L 18 50 Q 6 48 4 34 Z
+  path M 60 34 Q 62 18 48 14 L 46 50 Q 58 48 60 34 Z
+  path M 14 34 Q 12 8 32 8 Q 52 8 50 34 Q 50 58 32 58 Q 14 58 14 34 Z
+  fill rad #f2c89a #d8a070 32 40 18
+  stroke #5f2a08 1.6
+  path M 19 30 Q 25 20 32 26 Q 39 20 45 30 Q 48 54 32 54 Q 16 54 19 30 Z
+  fill #5f2a08
+  nostroke
+  ellipse 29.6 40 1.5 2
+  ellipse 34.4 40 1.5 2
+  use a4_eyes 0 2
+  nofill
+  stroke #5f2a08 2
+  arc 32 46 7 3.6 25 155
+
+emoji flamingo U+1F9A9 | pink bird tropical leg
+  nofill
+  stroke #e0708a 3
+  line 30 44 30 60 24 60
+  line 36 44 38 52 34 60
+  fill rad #ffb6d0 #f06a9c 26 34 22
+  stroke #b83a6a 2.2
+  path M 10 38 Q 14 28 28 28 Q 42 28 42 38 Q 40 48 28 48 Q 14 48 10 38 Z
+  path M 6 34 L 14 34 L 14 42 Z
+  nofill
+  stroke #b83a6a 7
+  curve 38 32 46 26 40 18 44 10
+  stroke #ff9ac4 4
+  curve 38 32 46 26 40 18 44 10
+  fill rad #ffb6d0 #f06a9c 46 8 8
+  stroke #b83a6a 2
+  circle 46 9 6.5
+  fill #fff3d6
+  stroke #b83a6a 1.4
+  path M 50 6 L 58 10 Q 60 14 56 16 L 51 12 Z
+  fill #16181d
+  nostroke
+  path M 56 11 Q 60 13 56 16 Z
+  use a4_eye 14 -23.6 0.7
+
+emoji oyster U+1F9AA | shell pearl seafood clam
+  fill rad #c4ccd6 #7d8795 26 40 30
+  stroke #4a525c 2.2
+  path M 4 40 Q 10 54 32 56 Q 54 54 60 40 Q 50 48 32 48 Q 14 48 4 40 Z
+  fill rad #fff0f4 #f0c8d4 30 30 26
+  stroke #b8869a 2.2
+  path M 4 40 Q 2 16 32 10 Q 62 16 60 40 Q 50 48 32 48 Q 14 48 4 40 Z
+  fill rad #ffffff #d6dde6 30 30 9
+  stroke #8793a3 1.8
+  circle 32 33 7.5
+  fill #ffffff
+  nostroke
+  circle 29.6 30.6 2
+
+emoji seal U+1F9AD | sea lion pup ocean animal
+  fill rad #c4ccd6 #868f9c 26 34 32
+  stroke #434a54 2.2
+  path M 2 52 L 8 44 Q 14 46 20 44 Q 20 30 32 24 Q 34 10 46 10 Q 58 12 58 24 Q 58 34 50 38 Q 52 52 40 56 L 12 56 L 6 60 Z
+  path M 40 50 Q 52 50 58 58 L 44 58 Z
+  fill #e6ebf2
+  nostroke
+  ellipse 46 28 8 5.5
+  use a4_eye 9 -13 0.9
+  use a4_eye 19 -13 0.9
+  fill #2a1c14
+  poly 44 25.4 48 25.4 46 28
+  nofill
+  stroke $natk 1.6
+  curve 42.5 29.5 44.4 31.4 46 29 47.6 31.4 49.5 29.5
+  stroke #434a54 1.1
+  line 39 27.5 33 26
+  line 39 29.5 33 30.5
+  line 53 27.5 59 26
+  line 53 29.5 59 30.5
+
+emoji wilted_flower U+1F940 | sad dead droop rose
+  nofill
+  stroke #6a8a3a 3.6
+  curve 24 60 26 42 34 28 44 22
+  fill rad #a8c87a #6a8a3a 22 46 12
+  stroke #4a6a1c 1.8
+  path M 26 46 Q 14 40 8 46 Q 14 56 26 46 Z
+  fill rad #e89a8a #b8504a 46 26 16
+  stroke #7a2a24 2.2
+  path M 40 18 Q 50 10 58 18 Q 62 30 54 38 Q 46 40 42 32 Q 38 26 40 18 Z
+  nofill
+  stroke #7a2a24 1.6
+  curve 44 20 48 28 54 36
+  curve 50 16 54 24 58 28
+  fill #e89a8a
+  stroke #7a2a24 1.4
+  path M 30 52 Q 34 48 37 52 Q 35 57 30 52 Z
