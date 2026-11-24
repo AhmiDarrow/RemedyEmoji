@@ -1,0 +1,453 @@
+// More fruit, dishes and drinks. Original Remedy Emoji art.
+category food
+
+part f2_bowl
+  fill lin #ffffff #d6dde6 0 34 0 58
+  stroke #8793a3 2.2
+  path M 5 33 L 59 33 Q 57 57 32 57 Q 7 57 5 33 Z
+
+part f2_plate
+  fill lin #ffffff #dfe5ec 0 40 0 58
+  stroke #8793a3 2.2
+  ellipse 32 47 27 10
+
+part f2_steam
+  nofill
+  stroke $fdsteam 2.4
+  curve 24 16 21 11 25 7 22 2
+  curve 40 16 37 11 41 7 38 2
+
+emoji tomato U+1F345 | red vegetable salad fruit
+  fill rad #ff8a6a #e0321e 22 24 44
+  stroke #9a1a10 2.4
+  path M 32 13 C 50 9 60 22 59 36 C 58 51 46 59 32 59 C 18 59 6 51 5 36 C 4 22 14 9 32 13 Z
+  fill $fdleaf
+  stroke $fdleafd 1.6
+  poly 32 16 24 6 30 11 32 3 34 11 40 6 32 16
+  poly 32 14 19 12 27 17 20 22 32 17 44 22 37 17 45 12
+  fill #ffffff66
+  nostroke
+  ellipse 17 28 3.6 7 25
+
+emoji eggplant U+1F346 | aubergine vegetable purple
+  fill rad #a86be0 #5b2a9c 26 36 36
+  stroke #34135f 2.4
+  path M 43 16 C 56 26 54 46 40 55 C 26 63 9 57 8 46 C 7 37 20 34 30 22 Q 36 14 43 16 Z
+  fill $fdleaf
+  stroke $fdleafd 1.8
+  path M 36 12 Q 46 8 54 4 Q 58 8 54 12 Q 52 20 46 22 Q 44 18 38 19 Q 34 18 30 22 Q 30 14 36 12 Z
+  fill #ffffff55
+  nostroke
+  ellipse 20 44 3 7 50
+
+emoji melon U+1F348 | fruit cantaloupe green honeydew
+  fill rad #d9f29a #8fc23a 24 26 42
+  stroke #4f7d14 2.4
+  circle 32 35 24.5
+  nofill
+  stroke #6f9a26 1.4
+  curve 14 20 22 30 20 44 26 56
+  curve 26 12 34 26 32 42 40 58
+  curve 40 13 48 24 44 40 52 48
+  curve 9 34 22 40 40 34 55 40
+  curve 11 46 26 50 42 46 53 52
+  stroke #6e3f14 3.4
+  line 32 11 34 4
+
+emoji tangerine U+1F34A | orange fruit citrus mandarin
+  fill rad #ffc46a #f5861c 24 26 42
+  stroke #b8560a 2.4
+  circle 32 35 24.5
+  fill $fdleaf
+  stroke $fdleafd 1.6
+  path M 32 12 Q 40 2 52 6 Q 46 16 32 12 Z
+  fill #8a5a1c
+  nostroke
+  circle 32 12.5 2.2
+  fill #ffffff66
+  ellipse 19 27 3.6 7 25
+
+emoji pineapple U+1F34D | fruit tropical sweet
+  fill rad #8fe06a #2f9a3c 30 14 20
+  stroke #145a24 1.8
+  poly 32 2 36 14 44 6 42 18 52 14 44 26 20 26 12 14 22 18 20 6 28 14
+  fill rad #ffe07a #e8a01c 26 34 30
+  stroke #a8680a 2.4
+  ellipse 32 41 17.5 19.5
+  nofill
+  stroke #a8680a 1.4
+  line 19 32 41 58
+  line 26 24 48 50
+  line 16 44 30 60
+  line 45 32 23 58
+  line 38 24 16 50
+  line 48 44 34 60
+
+emoji green_apple U+1F34F | fruit sour healthy granny
+  fill $fdleaf
+  stroke $fdleafd 1.6
+  path M 34 13 Q 38 3 50 4 Q 48 14 34 13 Z
+  nofill
+  stroke #6e3f14 3
+  curve 32 19 31.5 13 29 7
+  fill rad #d2f07a #86c22a 22 26 44
+  stroke #4f8a14 2.4
+  path M 32 20 C 24 12 5 14 5 33 C 5 48 17 60.5 26 59.5 Q 32 57.5 38 59.5 C 47 60.5 59 48 59 33 C 59 14 40 12 32 20 Z
+  nostroke
+  fill #ffffff66
+  ellipse 16 28 3.6 7 20
+
+emoji pear U+1F350 | fruit green sweet
+  nofill
+  stroke #6e3f14 3
+  curve 32 12 33 7 37 3
+  fill rad #e6f08a #a8c832 24 34 40
+  stroke #6a8a14 2.4
+  path M 32 10 C 40 10 41 20 43 28 C 52 34 54 48 46 55 C 38 61 26 61 18 55 C 10 48 12 34 21 28 C 23 20 24 10 32 10 Z
+  fill #ffffff66
+  nostroke
+  ellipse 22 40 3.6 7 20
+
+emoji peach U+1F351 | fruit pink butt juicy
+  fill $fdleaf
+  stroke $fdleafd 1.6
+  path M 31 14 Q 22 2 10 6 Q 14 18 31 14 Z
+  fill rad #ffc6a0 #f5704a 22 26 44
+  stroke #b8401c 2.4
+  path M 32 15 C 48 8 60 22 58 38 C 56 52 44 60 32 58 C 20 60 8 52 6 38 C 4 22 16 8 32 15 Z
+  nofill
+  stroke #b8401c 2
+  curve 32 15 38 28 36 44 32 58
+  fill #ffffff66
+  nostroke
+  ellipse 17 28 3.6 7 25
+
+emoji meat_on_bone U+1F356 | meat ham bbq roast
+  fill #fff6e0
+  stroke #b8a37a 2
+  circle 8 26 5
+  circle 8 38 5
+  circle 56 26 5
+  circle 56 38 5
+  rect 6 27 52 10 4
+  fill rad #d98a4a #9a4a1c 26 24 30
+  stroke #5f2a0c 2.4
+  ellipse 32 32 19 20
+  fill #ffffff44
+  nostroke
+  ellipse 23 22 5 9 30
+
+emoji poultry_leg U+1F357 | chicken drumstick turkey meat
+  fill #fff6e0
+  stroke #b8a37a 2
+  circle 50 51 5
+  circle 56 44 5
+  path M 36 36 L 42 30 L 55 43 L 49 49 Z
+  fill rad #f2b05a #c8701c 22 20 30
+  stroke #7a3f0c 2.4
+  path M 44 28 C 50 40 38 50 22 46 C 8 42 2 28 9 16 C 16 5 34 6 44 28 Z
+  fill #ffffff55
+  nostroke
+  ellipse 16 20 4 8 35
+
+emoji rice_cracker U+1F358 | senbei snack japanese
+  fill rad #f5c078 #cf8a3a 24 24 40
+  stroke #8a5214 2.4
+  circle 32 32 26
+  fill #2f3a2c
+  stroke #1a2218 1.6
+  rect 20 30 24 28 2
+
+emoji rice_ball U+1F359 | onigiri japanese snack
+  fill lin #ffffff #e0e6ee 0 6 0 58
+  stroke #8793a3 2.4
+  path M 32 5 Q 40 5 46 18 L 57 44 Q 60 57 46 57 L 18 57 Q 4 57 7 44 L 18 18 Q 24 5 32 5 Z
+  fill #2f3a2c
+  stroke #1a2218 1.6
+  path M 20 36 L 44 36 L 46 57 L 18 57 Z
+
+emoji cooked_rice U+1F35A | bowl rice white steamed
+  fill lin #ffffff #e6ebf2 0 12 0 36
+  stroke #8793a3 2
+  path M 7 34 Q 8 14 22 16 Q 30 8 40 15 Q 55 14 57 34 Z
+  use f2_bowl
+  fill #e2584a
+  nostroke
+  rect 5.5 36 53 3.5
+
+emoji curry_rice U+1F35B | curry dinner spicy indian
+  use f2_plate
+  fill lin #ffffff #e6ebf2 0 22 0 46
+  stroke #8793a3 1.8
+  path M 9 46 Q 8 28 20 28 Q 27 22 33 30 L 33 49 Q 18 52 9 46 Z
+  fill rad #e8a03a #a85a14 42 36 18
+  stroke #6e3a0c 1.8
+  path M 31 49 Q 30 30 42 30 Q 56 31 56 44 Q 46 51 31 49 Z
+  fill #f08a2a
+  nostroke
+  circle 40 37 2.6
+  circle 48 41 2.4
+  fill #7fc24a
+  circle 45 35 2
+
+emoji spaghetti U+1F35D | pasta noodles italian dinner
+  use f2_plate
+  fill rad #ffe9a0 #f2c04a 30 32 22
+  stroke #b8861c 1.8
+  ellipse 32 37 20 13
+  nofill
+  stroke #b8861c 1.4
+  curve 16 38 24 30 34 36 46 30
+  curve 18 42 28 38 38 44 48 38
+  curve 22 32 30 28 40 30 44 34
+  fill rad #f25a3a #b8281c 32 28 10
+  stroke #7a140c 1.6
+  ellipse 32 30 9 6
+  fill $fdleaf
+  nostroke
+  ellipse 33 27 3.4 1.8 -20
+
+emoji sweet_potato U+1F360 | roasted yam vegetable
+  fill rad #b06ab8 #6e2f7a 22 26 40
+  stroke #45164f 2.4
+  path M 5 40 C 6 26 20 18 34 20 C 46 22 58 22 59 30 C 60 40 48 48 34 50 C 20 52 4 52 5 40 Z
+  fill rad #ffe07a #f2b02a 40 34 14
+  stroke #b8801c 1.8
+  path M 34 20 C 46 22 58 22 59 30 C 60 40 48 48 34 50 C 28 40 28 30 34 20 Z
+
+emoji dango U+1F361 | sweet skewer japanese mochi
+  nofill
+  stroke #b9783a 3.4
+  line 10 58 54 8
+  stroke #7a4a1c 2.2
+  fill rad #ffb6cc #f07a9c 14 14 14
+  circle 46 17 10
+  fill rad #ffffff #dfe5ec 0 0 60
+  stroke #8793a3 2.2
+  circle 32 33 10
+  fill rad #b6e88a #6fb83a 14 44 14
+  stroke #3f7a1c 2.2
+  circle 18 49 10
+
+emoji oden U+1F362 | skewer japanese stew fishcake
+  nofill
+  stroke #b9783a 3.4
+  line 32 62 32 4
+  fill rad #fff0c8 #e0b06a 28 12 14
+  stroke #8a5a1c 2.2
+  poly 32 6 46 24 18 24
+  fill rad #ffffff #dfe5ec 28 32 14
+  stroke #8793a3 2.2
+  circle 32 35 9.5
+  fill rad #d99a5a #9a5a1c 28 48 14
+  stroke #5f340c 2.2
+  rect 20 46 24 11 3
+
+emoji fried_shrimp U+1F364 | tempura prawn ebi seafood
+  fill rad #ff8a6a #e0401c 52 14 12
+  stroke #9a2408 2
+  poly 44 20 58 4 60 14 52 24
+  poly 44 20 50 2 42 8 40 18
+  fill rad #ffd98a #e8a03a 22 30 34
+  stroke #a8680a 2.4
+  path M 46 14 C 56 22 50 40 36 50 C 24 58 8 60 6 52 C 4 44 18 40 26 32 C 32 24 36 8 46 14 Z
+  nofill
+  stroke #c8862a 1.6
+  curve 38 20 44 28 38 40
+  curve 28 34 34 40 28 50
+  curve 16 46 22 50 18 56
+
+emoji fish_cake U+1F365 | naruto swirl ramen topping
+  fill lin #ffffff #e6ebf2 0 6 0 58
+  stroke #8793a3 2.4
+  poly 32 4 39 9 48 8 51 16 59 21 56 30 60 38 53 43 52 52 43 53 37 60 29 56 20 59 16 51 7 48 9 39 4 31 10 24 9 15 18 13 23 5
+  nofill
+  stroke #f0608a 3.6
+  curve 32 33 37 31 36 25 29 24 23 30 26 39 35 42 43 36 42 24 32 18
+
+emoji shaved_ice U+1F367 | dessert snow cone summer
+  fill rad #ffffff #cfe6ff 26 16 26
+  stroke #7fa8d8 2.2
+  path M 9 34 Q 8 8 32 8 Q 56 8 55 34 Z
+  fill #ff6a8a
+  nostroke
+  path M 20 12 Q 32 4 44 12 Q 46 24 38 20 Q 34 28 30 20 Q 22 26 20 12 Z
+  fill lin #bfe6ff #6fb8f0 0 34 0 58
+  stroke #2f7ac8 2.2
+  path M 6 32 L 58 32 L 44 56 Q 32 60 20 56 Z
+
+emoji ice_cream_bowl U+1F368 | dessert sundae scoop sweet
+  fill rad #fff6e0 #f2d6a0 18 18 16
+  stroke #b8904a 2
+  circle 21 26 12
+  fill rad #ffc6d8 #f07aa0 42 18 16
+  stroke #b83a6a 2
+  circle 43 26 12
+  fill rad #a87a52 #6e4526 30 12 16
+  stroke #45280f 2
+  circle 32 16 12
+  fill lin #bfe6ff #6fb8f0 0 34 0 50
+  stroke #2f7ac8 2.2
+  path M 6 32 L 58 32 Q 56 48 32 48 Q 8 48 6 32 Z
+  rect 27 47 10 7
+  rect 18 53 28 5 2
+
+emoji custard U+1F36E | pudding flan dessert caramel
+  use f2_plate 0 2
+  fill rad #fff0a0 #f2c84a 26 32 26
+  stroke #b8861c 2.2
+  path M 14 48 L 19 22 Q 32 16 45 22 L 50 48 Q 32 55 14 48 Z
+  fill rad #b8702a #7a3f0c 30 20 16
+  stroke #552808 2
+  path M 17 30 L 19 22 Q 32 16 45 22 L 47 30 Q 40 26 36 32 Q 32 26 27 31 Q 22 26 17 30 Z
+
+emoji honey_pot U+1F36F | honey sweet jar bee
+  fill rad #f2b84a #c87a1c 24 30 34
+  stroke #7a4208 2.4
+  path M 12 22 L 52 22 Q 60 40 52 56 Q 32 62 12 56 Q 4 40 12 22 Z
+  fill #ffd24a
+  stroke #b8801c 2
+  path M 10 16 L 54 16 L 54 24 Q 48 24 46 30 Q 44 36 40 30 Q 38 24 34 24 Q 30 24 28 32 Q 26 40 22 32 Q 20 24 10 24 Z
+  fill #b9783a
+  stroke #5f3414 2
+  rect 9 10 46 7 3
+  fill #ffffff55
+  nostroke
+  ellipse 18 42 3 8 10
+
+emoji shortcake U+1F370 | cake slice dessert strawberry
+  fill lin #fff3d6 #f2d08a 0 26 0 56
+  stroke #b8904a 2.2
+  path M 6 30 L 52 22 L 58 30 L 58 54 L 6 54 Z
+  fill #ffffff
+  stroke #c9b08a 1.6
+  path M 6 30 L 52 22 L 58 30 L 58 36 Q 50 40 44 35 Q 36 40 30 35 Q 22 41 16 35 Q 10 40 6 36 Z
+  fill #f06a7a
+  nostroke
+  rect 6.5 43 51 3.4
+  fill rad #ff8a80 #e0282c 30 12 12
+  stroke #9a1a1c 1.8
+  path M 32 8 Q 41 9 40 18 Q 36 27 32 27 Q 28 27 24 18 Q 23 9 32 8 Z
+  fill $fdleaf
+  nostroke
+  poly 32 10 27 6 32 8 37 6
+
+emoji bento U+1F371 | lunch box japanese meal
+  fill lin #3a3f4c #1e2129 0 10 0 56
+  stroke #0e1014 2.4
+  rect 4 11 56 44 6
+  fill lin #ffffff #e6ebf2 0 16 0 50
+  stroke #8793a3 1.4
+  rect 8 15 26 36 3
+  fill #e2584a
+  nostroke
+  circle 21 33 4
+  fill rad #ffb04a #e87a1c 44 22 10
+  stroke #a8520a 1.4
+  rect 37 15 19 15 3
+  fill rad #8fe06a #3fa03c 44 42 10
+  stroke #1f6a24 1.4
+  rect 37 34 19 17 3
+  fill #f2d24a
+  nostroke
+  circle 43 42.5 3
+  circle 50 42.5 3
+
+emoji pot_of_food U+1F372 | stew soup hotpot dinner
+  use f2_steam
+  fill rad #c98a4a #8a4a1c 30 30 22
+  stroke #5f2a0c 2
+  ellipse 32 30 24 7
+  fill #f08a2a
+  nostroke
+  circle 24 29 2.6
+  circle 38 31 2.4
+  fill #7fc24a
+  circle 31 28 2.2
+  fill lin #5a6270 #2f343e 0 30 0 56
+  stroke #16181d 2.4
+  path M 7 30 Q 8 37 32 37 Q 56 37 57 30 L 54 50 Q 52 57 32 57 Q 12 57 10 50 Z
+  rect 2 34 7 5 2
+  rect 55 34 7 5 2
+
+emoji fork_knife U+1F374 | cutlery eat restaurant dinner
+  fill lin #e3e9f0 #9aa6b6 0 4 0 60
+  stroke #5d6a7c 2
+  path M 14 4 L 14 20 Q 14 27 19 28 L 18 58 Q 21 61 24 58 L 23 28 Q 28 27 28 20 L 28 4 L 25 4 L 25 18 L 22.5 18 L 22.5 4 L 19.5 4 L 19.5 18 L 17 18 L 17 4 Z
+  path M 42 4 Q 52 10 50 32 L 46 34 L 47 58 Q 44 61 41 58 L 42 4 Z
+
+emoji sake U+1F376 | rice wine japanese drink bottle
+  fill lin #ffffff #dfe5ec 0 6 0 58
+  stroke #8793a3 2.2
+  path M 22 6 L 34 6 L 34 18 Q 44 26 44 38 L 44 54 Q 44 58 40 58 L 16 58 Q 12 58 12 54 L 12 38 Q 12 26 22 18 Z
+  fill #3a78d8
+  nostroke
+  rect 12.8 34 30.4 12
+  fill lin #ffffff #dfe5ec 0 40 0 58
+  stroke #8793a3 2.2
+  path M 44 42 L 60 42 L 57 56 Q 52 59 47 56 Z
+
+emoji tropical_drink U+1F379 | cocktail vacation beach mai tai
+  nofill
+  stroke #e8d06a 3
+  line 40 30 50 4
+  fill lin #ffd86a #ff7a4a 0 22 0 46
+  stroke #b8501c 2.2
+  path M 12 22 L 52 22 Q 52 44 36 46 L 36 54 L 28 54 L 28 46 Q 12 44 12 22 Z
+  fill #b8501c
+  nostroke
+  rect 18 54 28 4.5 2
+  fill rad #ffb04a #f07a1c 14 16 10
+  stroke #b8560a 1.8
+  circle 13 19 8
+  fill $fdleaf
+  stroke $fdleafd 1.4
+  path M 26 22 Q 26 10 38 8 Q 36 18 26 22 Z
+
+emoji baby_bottle U+1F37C | milk infant feeding
+  xf 0 0 1 35
+  fill rad #ffd9a0 #e8a05a 30 8 8
+  stroke #a8680a 2
+  path M 28 12 Q 28 3 32 3 Q 36 3 36 12 Z
+  fill #6fb8f0
+  stroke #2f7ac8 2
+  rect 21 11 22 8 3
+  fill lin #ffffff #e6ebf2 20 0 44 0
+  stroke #8793a3 2.2
+  rect 20 19 24 40 7
+  nofill
+  stroke #9fb4c8 1.6
+  line 20.5 30 28 30
+  line 20.5 38 26 38
+  line 20.5 46 28 46
+  xf
+
+emoji plate_cutlery U+1F37D | dinner restaurant meal table setting
+  fill lin #ffffff #dfe5ec 0 10 0 54
+  stroke #8793a3 2.2
+  circle 32 32 17
+  nofill
+  stroke #b9c4cf 1.6
+  circle 32 32 11
+  fill lin #e3e9f0 #9aa6b6 0 8 0 56
+  stroke #5d6a7c 1.6
+  path M 4 8 L 4 20 Q 4 24 7 25 L 6.5 54 Q 8.5 56 10.5 54 L 10 25 Q 13 24 13 20 L 13 8 L 11 8 L 11 18 L 9.4 18 L 9.4 8 L 7.6 8 L 7.6 18 L 6 18 L 6 8 Z
+  path M 55 8 Q 61 12 60 30 L 57.5 31 L 58 54 Q 56 56 54 54 L 55 8 Z
+
+emoji champagne U+1F37E | bottle celebrate pop cork party
+  fill #e8c06a
+  stroke #a8801c 1.6
+  poly 48 3 56 6 53 14 45 11
+  fill #ffffffcc
+  nostroke
+  circle 42 12 2
+  circle 47 18 1.6
+  circle 39 6 1.4
+  fill lin #3fa05a #1f6a34 14 30 40 56
+  stroke #0f4a1c 2.4
+  path M 36 16 L 43 23 L 37 32 Q 44 42 36 50 L 28 58 Q 22 62 16 56 L 8 48 Q 2 42 6 36 L 14 28 Q 22 20 32 27 Z
+  fill #f2d24a
+  stroke #a8801c 1.6
+  path M 14 34 L 30 50 L 24 56 L 8 40 Z
+  fill #e8c06a
+  path M 36 16 L 43 23 L 39 28 L 32 21 Z

@@ -1,0 +1,598 @@
+// Sky, weather, the moon's phases and the little landscapes. Original Remedy Emoji art.
+category nature
+
+color skdk #1b2440
+color skwin #ffe27a
+
+part sk_night
+  fill lin #27346b #101633 0 9 0 55
+  stroke #0a0e22 2.2
+  rect 5 9 54 46 8
+
+part sk_dusk
+  fill lin #5a4aa8 #ff9a5c 0 9 0 55
+  stroke #3a2a78 2.2
+  rect 5 9 54 46 8
+
+part sk_dawn
+  fill lin #ffd27a #ff8a5c 0 9 0 55
+  stroke #c2562c 2.2
+  rect 5 9 54 46 8
+
+part sk_stars
+  fill #fff6c8
+  circle 14 18 1.3
+  circle 25 14.5 1
+  circle 38 19 1.3
+  circle 50 15 1
+  circle 45 26 0.9
+  circle 19 27 0.9
+
+part sk_moon_dark
+  fill rad #7b8498 #3d4456 22 20 46
+  stroke #262b38 2.2
+  circle 32 32 27.6
+  fill #2f3545
+  nostroke
+  circle 23 22 4
+  circle 40 40 5.5
+  circle 21 42 2.6
+
+part sk_moon_full
+  fill rad #fff6b0 #ffc93a 22 20 46
+  stroke #d99a0c 2.2
+  circle 32 32 27.6
+  fill #f0b52e
+  nostroke
+  circle 23 22 4
+  circle 40 40 5.5
+  circle 21 42 2.6
+
+part sk_lit_cres
+  fill rad #fff6b0 #ffc93a 44 22 40
+  path M 32 4.4 C 47.2 4.4 59.6 16.8 59.6 32 C 59.6 47.2 47.2 59.6 32 59.6 C 46 50 46 14 32 4.4 Z
+
+part sk_lit_half
+  fill rad #fff6b0 #ffc93a 44 22 40
+  path M 32 4.4 C 47.2 4.4 59.6 16.8 59.6 32 C 59.6 47.2 47.2 59.6 32 59.6 Z
+  fill #f0b52e
+  circle 44 40 5
+
+part sk_lit_gib
+  fill rad #fff6b0 #ffc93a 40 22 44
+  path M 32 4.4 C 47.2 4.4 59.6 16.8 59.6 32 C 59.6 47.2 47.2 59.6 32 59.6 C 14 50 14 14 32 4.4 Z
+  fill #f0b52e
+  circle 40 40 5.5
+
+part sk_rim
+  nofill
+  stroke #262b38 2.2
+  circle 32 32 27.6
+
+part sk_moon_face
+  fill rad #fff3a0 #ffc93a 18 22 40
+  stroke #d99a0c 2.2
+  path M 40 4 C 16 2 3 20 5 37 C 8 55 28 63 48 56 C 31 53 22 41 23 28 C 24 17 30 9 40 4 Z
+  fill $ink
+  nostroke
+  ellipse 16 27 2 2.8
+  nofill
+  stroke $ink 2
+  arc 14 37 4.5 3.5 20 130
+
+part sk_sun
+  use nat_ray
+  use nat_ray 0 0 1 45
+  use nat_ray 0 0 1 90
+  use nat_ray 0 0 1 135
+  use nat_ray 0 0 1 180
+  use nat_ray 0 0 1 225
+  use nat_ray 0 0 1 270
+  use nat_ray 0 0 1 315
+  fill rad #fff08a #ffb21c 26 26 26
+  stroke #e0860a 2.2
+  circle 32 32 17.5
+
+part sk_drops
+  fill $tear
+  stroke $teard 1
+  path M 20 47 Q 16.5 53 20 55.5 Q 23.5 53 20 47 Z
+  path M 32 49 Q 28.5 55 32 57.5 Q 35.5 55 32 49 Z
+  path M 44 47 Q 40.5 53 44 55.5 Q 47.5 53 44 47 Z
+
+emoji foggy U+1F301 | fog mist haze weather city
+  fill lin #c9d3df #8f9db0 0 9 0 55
+  stroke #5d6a7c 2.2
+  rect 5 9 54 46 8
+  fill #6f7d92
+  nostroke
+  rect 12 26 7 28
+  rect 23 19 9 35
+  rect 36 28 7 26
+  rect 46 22 7 32
+  fill #ffffffcc
+  rect 5 30 40 5 2.5
+  rect 20 40 39 5 2.5
+  rect 9 48 34 4 2
+
+emoji closed_umbrella U+1F302 | rain weather furled brolly
+  nofill
+  stroke #6e3f14 3.4
+  curve 47 13 52 8 56 12 53 17
+  fill lin #b98cf5 #7a48d6 20 20 40 44
+  stroke #4a2596 2.2
+  path M 46 14 Q 52 20 47 27 L 16 57 Q 10 59 8 55 Q 7 51 11 47 L 40 16 Q 43 12 46 14 Z
+  nofill
+  stroke #4a2596 1.6
+  line 43 19 14 51
+  stroke #d8c2ff 2.4
+  line 30 32 36 38
+
+emoji night_stars U+1F303 | city evening skyline dark
+  use sk_night
+  use sk_stars
+  fill $skdk
+  nostroke
+  path M 5 55 L 5 40 L 15 40 L 15 30 L 26 30 L 26 44 L 35 44 L 35 26 L 46 26 L 46 38 L 59 38 L 59 47 Q 59 55 51 55 L 13 55 Q 5 55 5 47 Z
+  fill $skwin
+  rect 18 34 2.6 2.6
+  rect 21.5 39 2.6 2.6
+  rect 38 30 2.6 2.6
+  rect 41.5 35 2.6 2.6
+  rect 38 41 2.6 2.6
+  rect 50 43 2.6 2.6
+  rect 8.5 45 2.6 2.6
+
+emoji sunrise_mountains U+1F304 | dawn morning hills view
+  use sk_dawn
+  fill rad #fff6a0 #ffc21c 32 36 14
+  stroke #e0860a 1.6
+  circle 32 37 11
+  fill lin #7c8fc4 #4b5c96 0 28 0 55
+  stroke #33406e 2
+  path M 6 54 L 6 46 L 22 25 L 34 44 L 44 31 L 58 48 L 58 54 Q 58 55 51 55 L 13 55 Q 6 55 6 54 Z
+  fill #ffffffcc
+  nostroke
+  poly 22 25 26.5 32 22.5 30.5 18 32
+
+emoji sunrise U+1F305 | dawn morning sea horizon
+  use sk_dawn
+  fill rad #fff6a0 #ffc21c 32 38 16
+  stroke #e0860a 1.6
+  circle 32 38 12.5
+  fill lin #4aa3f0 #2a62c8 0 38 0 55
+  stroke #1a4fa8 2
+  path M 6 38 L 58 38 L 58 48 Q 58 55 51 55 L 13 55 Q 6 55 6 48 Z
+  nofill
+  stroke #bfe2ff 1.6
+  line 22 44 42 44
+  line 27 49 37 49
+
+emoji cityscape_dusk U+1F306 | city evening skyline buildings
+  use sk_dusk
+  fill #ffd27a
+  nostroke
+  circle 44 44 7
+  fill #2c2452
+  path M 5 55 L 5 37 L 16 37 L 16 26 L 28 26 L 28 41 L 38 41 L 38 32 L 49 32 L 49 43 L 59 43 L 59 47 Q 59 55 51 55 L 13 55 Q 5 55 5 47 Z
+  fill $skwin
+  rect 19 30 2.6 2.6
+  rect 23 36 2.6 2.6
+  rect 19 42 2.6 2.6
+  rect 41 36 2.6 2.6
+  rect 44.5 42 2.6 2.6
+  rect 9 42 2.6 2.6
+
+emoji sunset_buildings U+1F307 | city sunset evening skyline
+  use sk_dawn
+  fill rad #fff0a0 #ff7a2c 32 44 18
+  stroke #c2462c 1.6
+  circle 32 44 13
+  fill #5a2a4c
+  nostroke
+  path M 5 55 L 5 34 L 17 34 L 17 55 Z
+  path M 47 55 L 47 28 L 59 28 L 59 47 Q 59 55 51 55 Z
+  rect 20 47 9 8
+  rect 36 49 8 6
+  fill #ffe27a
+  rect 8.5 38 2.6 2.6
+  rect 8.5 45 2.6 2.6
+  rect 51 33 2.6 2.6
+  rect 51 41 2.6 2.6
+
+emoji bridge_night U+1F309 | bridge city river dark
+  use sk_night
+  use sk_stars
+  fill lin #2a62c8 #173a86 0 44 0 55
+  nostroke
+  path M 6 46 L 58 46 L 58 48 Q 58 55 51 55 L 13 55 Q 6 55 6 48 Z
+  fill #c9553a
+  rect 5.5 40 53 3.4
+  rect 17 22 3.4 22
+  rect 43.6 22 3.4 22
+  nofill
+  stroke #e8795c 1.8
+  curve 6 26 18.7 22.5 32 37 45.3 22.5 58 26
+  stroke #e8795c 1
+  line 25 31 25 40
+  line 32 37 32 40
+  line 39 31 39 40
+
+emoji water_wave U+1F30A | ocean sea surf water tsunami
+  fill lin #6fd0ff #1f74d8 0 8 0 58
+  stroke #134c9c 2.2
+  path M 4 58 L 4 38 C 6 18 24 6 42 9 C 54 11 60 22 56 30 C 52 22 44 22 40 28 C 36 36 44 44 60 42 L 60 58 Z
+  fill #ffffff
+  stroke #9fd4ff 1.2
+  circle 43 11.5 3.4
+  circle 50 14.5 3.2
+  circle 55 20 3
+  circle 56.5 26.5 2.4
+  circle 36 10.5 2.6
+  nofill
+  stroke #bfe6ff 2
+  curve 10 42 13 28 24 18
+  curve 18 50 20 38 28 28
+
+emoji earth_americas U+1F30E | world globe planet america
+  fill rad #86d0ff #2a72d8 24 20 46
+  stroke #1a4fa8 2.2
+  circle 32 32 27.6
+  fill #62cc5c
+  stroke #2f8a34 1.4
+  blob 14 12 26 9 36 12 33 20 27 25 22 22 16 21
+  blob 30 30 39 31 43 38 38 50 33 56 31 46 28 37
+  blob 44 10 50 13 48 17 43 15
+  fill #ffffff55
+  nostroke
+  ellipse 18 16 7 3.4 -35
+
+emoji earth_asia U+1F30F | world globe planet asia australia
+  fill rad #86d0ff #2a72d8 24 20 46
+  stroke #1a4fa8 2.2
+  circle 32 32 27.6
+  fill #62cc5c
+  stroke #2f8a34 1.4
+  blob 10 22 18 10 32 7 46 11 50 22 42 28 36 36 28 30 20 32
+  blob 40 42 50 40 54 47 48 53 41 50
+  blob 26 40 31 42 28 46
+  fill #ffffff55
+  nostroke
+  ellipse 18 16 7 3.4 -35
+
+emoji globe_meridians U+1F310 | internet web world network www
+  fill rad #a6dcff #3a86e0 24 20 46
+  stroke #1a4fa8 2.2
+  circle 32 32 27.6
+  nofill
+  stroke #eaf6ff 2
+  ellipse 32 32 12 27.6
+  line 32 4.4 32 59.6
+  line 4.4 32 59.6 32
+  curve 9 19 32 24 55 19
+  curve 9 45 32 40 55 45
+
+emoji new_moon U+1F311 | dark night phase
+  use sk_moon_dark
+
+emoji waxing_crescent_moon U+1F312 | night phase sliver
+  use sk_moon_dark
+  use sk_lit_cres
+  use sk_rim
+
+emoji first_quarter_moon U+1F313 | night phase half
+  use sk_moon_dark
+  use sk_lit_half
+  use sk_rim
+
+emoji waxing_gibbous_moon U+1F314 | night phase nearly full
+  use sk_moon_dark
+  use sk_lit_gib
+  use sk_rim
+
+emoji waning_gibbous_moon U+1F316 | night phase nearly full
+  use sk_moon_dark
+  use sk_lit_gib 0 0 1 0 flip
+  use sk_rim
+
+emoji last_quarter_moon U+1F317 | night phase half
+  use sk_moon_dark
+  use sk_lit_half 0 0 1 0 flip
+  use sk_rim
+
+emoji waning_crescent_moon U+1F318 | night phase sliver
+  use sk_moon_dark
+  use sk_lit_cres 0 0 1 0 flip
+  use sk_rim
+
+emoji new_moon_face U+1F31A | dark creepy night smirk
+  use sk_moon_dark
+  fill #e8ecf5
+  nostroke
+  mirror ellipse 23 28 3.6 4.2
+  fill #1b1f2a
+  mirror circle 24 29 1.8
+  nofill
+  stroke #e8ecf5 2.4
+  arc 32 39 9 6 25 155
+
+emoji first_quarter_moon_face U+1F31B | night sleep crescent smile
+  use sk_moon_face 0 0 1 0 flip
+
+emoji last_quarter_moon_face U+1F31C | night sleep crescent smile
+  use sk_moon_face
+
+emoji full_moon_face U+1F31D | night bright smile
+  use sk_moon_full
+  fill $ink
+  nostroke
+  mirror ellipse 23 27 2.8 3.8
+  nofill
+  stroke $ink 2.6
+  arc 32 37 10 7.5 25 155
+
+emoji sun_face U+1F31E | sunny bright summer smile
+  use sk_sun
+  fill $ink
+  nostroke
+  mirror ellipse 26.5 29.5 1.9 2.7
+  nofill
+  stroke $ink 2
+  arc 32 34.5 6.5 5 25 155
+
+emoji shooting_star U+1F320 | wish falling meteor night
+  nofill
+  stroke #ffd86a 3.2
+  line 6 54 30 32
+  stroke #ffe9a0 2.2
+  line 6 42 24 27
+  line 18 58 36 40
+  use star 11 -10 0.56
+
+emoji sun_small_cloud U+1F324 | mostly sunny fair weather
+  use sk_sun -5 -5 0.82
+  use nat_cloud 12 15 0.5
+
+emoji sun_behind_cloud U+1F325 | partly cloudy weather overcast
+  use sk_sun 11 -11 0.6
+  use nat_cloud -1 6 0.86
+
+emoji sun_rain_cloud U+1F326 | showers weather sun rain
+  use sk_sun 11 -13 0.56
+  use nat_cloud -1 0 0.8
+  use sk_drops 0 2
+
+emoji snow_cloud U+1F328 | snowing winter weather cold
+  use nat_cloud 0 -8 0.86
+  fill #ffffff
+  stroke #7fb8ea 1.4
+  circle 18 51 3
+  circle 32 55 3
+  circle 46 51 3
+  circle 25 44.5 2.2
+  circle 39 44.5 2.2
+
+emoji lightning_cloud U+1F329 | thunder storm weather bolt
+  use nat_cloud 0 -8 0.86
+  fill lin #fff08a #ffb21c 0 36 0 62
+  stroke #e0860a 1.6
+  poly 34 36 22 50 30 50 26 62 42 46 33 46 38 36
+
+emoji tornado U+1F32A | twister cyclone storm wind
+  fill lin #c4ccd6 #7d8795 0 6 0 60
+  stroke #515a68 2
+  ellipse 32 11 25 6.5
+  ellipse 30 22 19 5.5
+  ellipse 33 32 14 4.8
+  ellipse 30 41 9.5 4
+  ellipse 34 49 6 3.2
+  ellipse 31 56 3.4 2.4
+
+emoji fog U+1F32B | mist haze weather grey
+  fill lin #e3e9f0 #aab6c4 0 10 0 54
+  stroke #7388a6 2
+  rect 5 12 40 8 4
+  rect 17 23.5 42 8 4
+  rect 7 35 44 8 4
+  rect 19 46.5 36 8 4
+
+emoji wind_face U+1F32C | blow breeze gust cold
+  use face_blue -9 0 0.74
+  fill $ink
+  ellipse 16 28 2.4 3.2
+  ellipse 30 28 2.4 3.2
+  fill $mouth
+  ellipse 31 40 3 3.6
+  nofill
+  stroke #9fd4ff 3
+  curve 38 36 46 34 52 30 58 31
+  curve 38 42 48 42 56 40 61 42
+  curve 37 48 44 50 50 54 56 53
+
+category nature
+
+emoji chestnut U+1F330 | nut autumn brown conker
+  fill rad #c9793a #7a3d14 24 26 40
+  stroke #4a2208 2.2
+  path M 32 8 Q 35 15 44 18 Q 58 24 58 40 Q 58 57 32 57 Q 6 57 6 40 Q 6 24 20 18 Q 29 15 32 8 Z
+  fill #e9c08a
+  stroke #a8763a 1.6
+  path M 10 45 Q 32 38 54 45 Q 52 57 32 57 Q 12 57 10 45 Z
+  fill #ffffff55
+  nostroke
+  ellipse 20 28 3 6 30
+
+emoji seedling U+1F331 | sprout plant grow new green
+  nofill
+  stroke $natg 3.6
+  curve 32 60 32 44 33 30
+  fill rad #a6ec7a #4fb53a 20 16 26
+  stroke $natg 2
+  path M 33 30 Q 14 30 8 10 Q 30 8 33 30 Z
+  path M 33 34 Q 40 14 58 16 Q 56 36 33 34 Z
+  fill #8a5a2c
+  stroke #5a3414 2
+  ellipse 32 59 16 3.5
+
+emoji deciduous_tree U+1F333 | tree forest oak nature leafy
+  fill lin #b9783a #8a5226 27 0 37 0
+  stroke #5f3414 2
+  path M 27.5 61 L 28.5 42 L 35.5 42 L 36.5 61 Z
+  fill rad #8fe06a #2f9a3c 24 18 40
+  stroke #145a24 2.2
+  blob 32 3 46 7 57 19 56 33 45 44 32 46 19 44 8 33 7 19 18 7
+  fill #ffffff44
+  nostroke
+  ellipse 21 17 6 3.4 -30
+
+emoji tulip U+1F337 | flower spring pink bloom
+  nofill
+  stroke $natg 3.6
+  curve 32 30 32 46 32 61
+  fill rad #8fe06a #4fb53a 30 46 20
+  stroke $natg 1.8
+  path M 32 56 Q 44 40 54 40 Q 50 56 32 56 Z
+  path M 32 56 Q 20 40 10 40 Q 14 56 32 56 Z
+  fill rad #ff9ac4 #e23c86 26 14 26
+  stroke #a31a5a 2.2
+  path M 14 8 Q 22 12 24 8 Q 28 4 32 4 Q 36 4 40 8 Q 42 12 50 8 Q 54 26 44 32 Q 32 38 20 32 Q 10 26 14 8 Z
+  nofill
+  stroke #a31a5a 1.6
+  curve 24 9 22 20 27 32
+  curve 40 9 42 20 37 32
+
+emoji hibiscus U+1F33A | flower tropical pink hawaii
+  fill rad #ff9ab0 #e2325a 32 32 30
+  stroke #9a1438 2
+  ellipse 32 15 10 12
+  ellipse 48 27 10 12 72
+  ellipse 42 46 10 12 144
+  ellipse 22 46 10 12 216
+  ellipse 16 27 10 12 288
+  fill #c2183c
+  nostroke
+  circle 32 32 6
+  nofill
+  stroke #ffd23a 2.6
+  line 32 32 44 20
+  fill #ffd23a
+  nostroke
+  circle 44.5 19.5 2.6
+
+emoji sunflower U+1F33B | flower yellow summer bloom
+  nofill
+  stroke $natg 3.6
+  line 32 40 32 61
+  fill rad #8fe06a #4fb53a 30 50 16
+  stroke $natg 1.8
+  path M 32 55 Q 42 44 51 47 Q 46 58 32 55 Z
+  fill #ffcf2a
+  stroke #d8900a 1.6
+  ellipse 32 8 5 8
+  ellipse 32 8 5 8 45
+  ellipse 32 8 5 8 90
+  ellipse 32 8 5 8 135
+  xf 0 -8
+  ellipse 32 16 5 8
+  ellipse 46.5 22 5 8 60
+  ellipse 46.5 38 5 8 120
+  ellipse 32 44 5 8
+  ellipse 17.5 38 5 8 60
+  ellipse 17.5 22 5 8 120
+  ellipse 42 17.5 5 8 35
+  ellipse 49 30 5 8 90
+  ellipse 42 42.5 5 8 145
+  ellipse 22 42.5 5 8 35
+  ellipse 15 30 5 8 90
+  ellipse 22 17.5 5 8 145
+  fill rad #a8642a #6a3610 28 26 14
+  stroke #4a2408 2
+  circle 32 30 10.5
+  xf
+
+emoji blossom U+1F33C | flower daisy yellow spring
+  fill rad #fff6a0 #ffc82a 32 32 30
+  stroke #d8900a 2
+  ellipse 32 14 9 12
+  ellipse 49 26.5 9 12 72
+  ellipse 42.5 47 9 12 144
+  ellipse 21.5 47 9 12 216
+  ellipse 15 26.5 9 12 288
+  fill rad #ffb04a #f07a1c 30 30 9
+  stroke #b8560a 1.8
+  circle 32 32 7.5
+
+emoji corn U+1F33D | maize cob vegetable yellow
+  fill rad #fff08a #f5b21c 28 22 30
+  stroke #c8820a 2
+  path M 32 4 Q 46 10 45 34 Q 44 50 32 56 Q 20 50 19 34 Q 18 10 32 4 Z
+  nofill
+  stroke #c8820a 1.2
+  line 25 12 25 46
+  line 32 6 32 52
+  line 39 12 39 46
+  line 20 22 44 22
+  line 19.5 32 44.5 32
+  line 21 42 43 42
+  fill rad #a6ec7a #4fb53a 20 44 26
+  stroke $natg 2
+  path M 32 60 Q 8 56 10 26 Q 24 36 32 60 Z
+  path M 32 60 Q 56 56 54 26 Q 40 36 32 60 Z
+
+emoji rice_plant U+1F33E | grain wheat harvest crop ear
+  nofill
+  stroke #7fa83a 3
+  curve 18 61 22 40 34 20
+  curve 30 61 36 42 48 26
+  curve 42 61 44 48 40 34
+  fill #f2d06a
+  stroke #b8902a 1.4
+  ellipse 36 16 3 5.5 35
+  ellipse 42 12 3 5.5 50
+  ellipse 30 22 3 5.5 20
+  ellipse 50 22 3 5.5 50
+  ellipse 55 17 3 5.5 60
+  ellipse 45 30 3 5.5 30
+  ellipse 39 30 3 5.5 -10
+  ellipse 38 22 3 5.5 -20
+
+emoji herb U+1F33F | leaf plant green garnish
+  nofill
+  stroke $natg 3.2
+  curve 30 61 31 40 34 8
+  fill rad #a6ec7a #4fb53a 26 26 30
+  stroke $natg 1.8
+  path M 33 16 Q 44 6 54 10 Q 50 22 33 16 Z
+  path M 32 28 Q 46 18 57 24 Q 51 36 32 28 Z
+  path M 31 42 Q 44 34 54 40 Q 47 50 31 42 Z
+  path M 33 20 Q 22 10 11 14 Q 15 26 33 20 Z
+  path M 32 33 Q 19 24 8 30 Q 14 41 32 33 Z
+  path M 31 47 Q 20 40 11 46 Q 17 54 31 47 Z
+
+emoji maple_leaf U+1F341 | autumn fall canada red
+  nofill
+  stroke #8a3a14 3
+  line 32 44 32 61
+  fill rad #ff8a4a #e0401c 28 22 34
+  stroke #9a2408 2.2
+  poly 32 3 37 14 44 10 43 22 55 19 51 29 60 33 49 39 52 47 39 44 32 50 25 44 12 47 15 39 4 33 13 29 9 19 21 22 20 10 27 14
+  nofill
+  stroke #9a2408 1.4
+  line 32 46 32 14
+  line 32 36 46 26
+  line 32 36 18 26
+
+emoji fallen_leaf U+1F342 | autumn fall brown leaves
+  fill rad #f2b24a #c8701c 24 22 34
+  stroke #8a4a0c 2
+  path M 8 10 Q 34 4 44 22 Q 50 36 38 44 Q 20 46 10 34 Q 4 22 8 10 Z
+  nofill
+  stroke #8a4a0c 1.6
+  curve 10 12 24 26 40 42 50 56
+  line 22 23 30 18
+  line 29 31 40 28
+  line 19 21 16 30
+  line 27 30 24 40
+  fill rad #e89a3a #b85a14 46 40 16
+  stroke #8a4a0c 1.6
+  path M 40 34 Q 54 30 60 42 Q 56 54 44 52 Q 36 46 40 34 Z
