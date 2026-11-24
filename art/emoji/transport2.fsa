@@ -568,6 +568,14 @@ emoji rowboat U+1F6A3 | boat row paddle lake
   stroke #5f2a0c 2.2
   path M 2 40 L 62 40 Q 58 56 44 56 L 20 56 Q 6 56 2 40 Z
   use t2_sea 0 2
+  // face
+  fill $ink
+  nostroke
+  ellipse 27.5 18.6 0.9 1.3
+  ellipse 32.5 18.6 0.9 1.3
+  nofill
+  stroke $ink 1.1
+  arc 30.0 20.4 2.4 1.7 25 155
 
 emoji speedboat U+1F6A4 | boat fast motor water
   fill lin #ffffff #dfe5ec 0 30 0 52

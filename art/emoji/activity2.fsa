@@ -362,21 +362,32 @@ emoji ferris_wheel U+1F3A1 | fair amusement park ride
 
 emoji roller_coaster U+1F3A2 | ride amusement park thrill
   nofill
-  stroke #8793a3 2
-  line 12 60 12 44
-  line 24 60 24 22
-  line 36 60 36 22
-  line 48 60 48 44
-  line 58 60 58 34
-  stroke #e2584a 3.4
-  curve 4 54 14 42 24 12 34 12 44 44 52 46 60 30
-  fill #6fb8f0
-  stroke #2f6ad8 1.8
-  rect 20 5 14 9 3
+  stroke #8793a3 2.4
+  line 10 60 10 46
+  line 22 60 22 26
+  line 34 60 34 22
+  line 46 60 46 44
+  line 57 60 57 34
+  line 10 52 22 44
+  line 22 44 34 52
+  line 34 40 46 52
+  stroke #8a140c 6.4
+  curve 2 56 12 44 22 18 32 14 42 40 50 46 60 28
+  stroke #e8483a 3.6
+  curve 2 56 12 44 22 18 32 14 42 40 50 46 60 28
+  fill lin #5aa8f0 #2f6ad8 0 4 0 16
+  stroke #1a3f9a 1.8
+  path M 17 14 L 37 6 L 40 13 L 20 21 Z
   fill $skin
-  stroke $skinl 1.2
-  circle 24 4 2.6
-  circle 30 4 2.6
+  stroke $skinl 1.3
+  circle 24 9 3.6
+  circle 32 6 3.6
+  nofill
+  stroke $skinl 4
+  line 22 7 19 1
+  line 34 4 37 -1
+  stroke $skin 2.4
+  line 22 7 19 1
 
 emoji fishing_pole U+1F3A3 | fish rod angling catch
   nofill
@@ -582,6 +593,14 @@ emoji snowboarder U+1F3C2 | snowboard winter sport snow
   fill #e2584a
   nostroke
   path M 23.5 11 Q 24 4 31 4 Q 38 4 38.5 11 Z
+  // face
+  fill $ink
+  nostroke
+  ellipse 28.3 12.6 1.0 1.3
+  ellipse 33.7 12.6 1.0 1.3
+  nofill
+  stroke $ink 1.2
+  arc 31.0 14.6 2.6 1.8 25 155
 
 emoji runner U+1F3C3 | run jog race sprint exercise
   nofill
@@ -605,6 +624,14 @@ emoji runner U+1F3C3 | run jog race sprint exercise
   fill #6b4226
   nostroke
   path M 28.5 10 Q 29 3 36 3 Q 43 3 43.5 9 Q 36 6 28.5 10 Z
+  // face
+  fill $ink
+  nostroke
+  ellipse 33.3 11.6 1.0 1.3
+  ellipse 38.7 11.6 1.0 1.3
+  nofill
+  stroke $ink 1.2
+  arc 36.0 13.6 2.6 1.8 25 155
 
 emoji surfer U+1F3C4 | surf wave beach ocean sport
   fill lin #ffe27a #f2a01c 0 0 60 60
@@ -619,7 +646,6 @@ emoji surfer U+1F3C4 | surf wave beach ocean sport
   line 36 36 42 46
   line 26 22 14 26
   line 38 22 52 16
-  nofill
   stroke $skin 4.4
   line 26 36 22 48
   line 36 36 42 46
@@ -628,13 +654,21 @@ emoji surfer U+1F3C4 | surf wave beach ocean sport
   fill $skin
   stroke $skinl 1.6
   path M 25 19 L 39 19 L 38 30 L 26 30 Z
-  circle 32 10 7.5
   fill #2f8ad8
   stroke #1a4f9a 1.8
   path M 25 29 L 39 29 L 38 39 L 26 39 Z
+  fill $skin
+  stroke $skinl 1.6
+  circle 32 10 7.5
   fill #6b4226
   nostroke
   path M 24.5 9 Q 25 2 32 2 Q 39 2 39.5 9 Q 32 5 24.5 9 Z
+  fill $ink
+  ellipse 29.3 10.6 1 1.4
+  ellipse 34.7 10.6 1 1.4
+  nofill
+  stroke $ink 1.2
+  arc 32 12.6 2.6 1.8 25 155
 
 emoji horse_racing U+1F3C7 | jockey race derby gallop
   fill rad #c98a4a #8a4a1c 26 36 30
@@ -653,6 +687,14 @@ emoji horse_racing U+1F3C7 | jockey race derby gallop
   fill #3a78d8
   nostroke
   path M 25.5 9 Q 26 4 31 4 Q 37 4 38 9 Z
+  // face
+  fill $ink
+  nostroke
+  ellipse 29.0 10.4 0.7 1.0
+  ellipse 33.0 10.4 0.7 1.0
+  nofill
+  stroke $ink 1.1
+  arc 31.0 11.9 1.9 1.3 25 155
 
 category activities
 
@@ -702,6 +744,14 @@ emoji swimmer U+1F3CA | swim pool water sport
   stroke #bfe6ff 1.6
   curve 10 50 18 46 26 50
   curve 36 52 44 48 52 52
+  // face
+  fill $ink
+  nostroke
+  ellipse 41.3 28.6 1.0 1.3
+  ellipse 46.7 28.6 1.0 1.3
+  nofill
+  stroke $ink 1.2
+  arc 44.0 30.6 2.6 1.8 25 155
 
 emoji weight_lifter U+1F3CB | gym lift barbell strong workout
   nofill
@@ -729,6 +779,14 @@ emoji weight_lifter U+1F3CB | gym lift barbell strong workout
   fill $skin
   stroke $skinl 1.6
   circle 32 19 7
+  // face
+  fill $ink
+  nostroke
+  ellipse 29.5 19.6 0.9 1.3
+  ellipse 34.5 19.6 0.9 1.3
+  nofill
+  stroke $ink 1.1
+  arc 32.0 21.4 2.4 1.7 25 155
 
 emoji golfer U+1F3CC | golf club swing sport
   fill #5fbf3c
@@ -763,6 +821,14 @@ emoji golfer U+1F3CC | golf club swing sport
   fill #ffffff
   stroke #8793a3 1.2
   circle 46 56 2.4
+  // face
+  fill $ink
+  nostroke
+  ellipse 28.5 12.6 0.9 1.3
+  ellipse 33.5 12.6 0.9 1.3
+  nofill
+  stroke $ink 1.1
+  arc 31.0 14.4 2.4 1.7 25 155
 
 category travel
 

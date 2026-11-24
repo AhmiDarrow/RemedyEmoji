@@ -244,6 +244,14 @@ emoji pregnant_man U+1FAC3 | pregnancy expecting belly man
   line 36 30 46 42
   stroke $skin 3.4
   line 36 30 46 42
+  // face
+  fill $ink
+  nostroke
+  ellipse 28.9 14.7 1.1 1.5
+  ellipse 35.1 14.7 1.1 1.5
+  nofill
+  stroke $ink 1.4
+  arc 32.0 16.9 2.9 2.0 25 155
 
 emoji pregnant_person U+1FAC4 | pregnancy expecting belly person
   fill lin #7fd47a #2f9a3c 0 22 0 60
@@ -260,6 +268,14 @@ emoji pregnant_person U+1FAC4 | pregnancy expecting belly person
   line 36 30 46 42
   stroke $skin 3.4
   line 36 30 46 42
+  // face
+  fill $ink
+  nostroke
+  ellipse 28.9 14.7 1.1 1.5
+  ellipse 35.1 14.7 1.1 1.5
+  nofill
+  stroke $ink 1.4
+  arc 32.0 16.9 2.9 2.0 25 155
 
 emoji person_with_crown U+1FAC5 | royal monarch crown ruler
   use p3_face 0 3

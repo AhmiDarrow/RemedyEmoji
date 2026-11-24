@@ -235,6 +235,14 @@ emoji bicyclist U+1F6B4 | cycling bike ride cyclist
   fill #ffd23a
   nostroke
   path M 33.5 8 Q 34 2.5 40 2.5 Q 46 2.5 46.5 8 Z
+  // face
+  fill $ink
+  nostroke
+  ellipse 37.8 9.5 0.8 1.1
+  ellipse 42.2 9.5 0.8 1.1
+  nofill
+  stroke $ink 1.1
+  arc 40.0 11.0 2.0 1.4 25 155
 
 emoji mountain_bicyclist U+1F6B5 | mtb bike trail cyclist
   fill lin #9a8a6a #6a5a3a 0 40 0 62
@@ -260,6 +268,14 @@ emoji mountain_bicyclist U+1F6B5 | mtb bike trail cyclist
   fill $skin
   stroke $skinl 1.6
   circle 40 5.5 5
+  // face
+  fill $ink
+  nostroke
+  ellipse 38.2 5.9 0.7 0.9
+  ellipse 41.8 5.9 0.7 0.9
+  nofill
+  stroke $ink 1.1
+  arc 40.0 7.2 1.7 1.2 25 155
 
 emoji pedestrian U+1F6B6 | walk walking stroll person
   nofill
@@ -282,6 +298,14 @@ emoji pedestrian U+1F6B6 | walk walking stroll person
   fill #6b4226
   nostroke
   path M 25.5 9 Q 26 2 33 2 Q 40 2 40.5 9 Q 33 5 25.5 9 Z
+  // face
+  fill $ink
+  nostroke
+  ellipse 30.5 10.6 0.9 1.3
+  ellipse 35.5 10.6 0.9 1.3
+  nofill
+  stroke $ink 1.1
+  arc 33.0 12.4 2.4 1.7 25 155
 
 category symbols
 
@@ -392,6 +416,14 @@ emoji bath U+1F6C0 | bathtub wash relax soak
   nostroke
   rect 12 54 5 6 2
   rect 47 54 5 6 2
+  // face
+  fill $ink
+  nostroke
+  ellipse 19.1 20.6 1.0 1.4
+  ellipse 24.9 20.6 1.0 1.4
+  nofill
+  stroke $ink 1.3
+  arc 22.0 22.7 2.7 1.9 25 155
 
 category objects
 
@@ -494,6 +526,14 @@ emoji sleeping_bed U+1F6CC | sleep bed rest hotel accommodation
   fill #9a6a3a
   stroke #5f3414 2
   rect 6 46 52 6 2
+  // face
+  fill $ink
+  nostroke
+  ellipse 16.7 24.5 0.8 1.2
+  ellipse 21.3 24.5 0.8 1.2
+  nofill
+  stroke $ink 1.1
+  arc 19.0 26.2 2.2 1.6 25 155
 
 category objects
 
