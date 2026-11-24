@@ -1,0 +1,946 @@
+// Computers, tools and programmer culture. Original FreeSpeak art.
+category tech
+
+color tkslate #3a4452
+color tkslated #232a35
+color tkslatel #8b96a5
+color tkblue #4db4ff
+color tkblued #1f6fc0
+color tkgreen #46d16a
+color tkgreend #1f8a3c
+color tkgold #ffc93c
+color tkgoldd #b9770a
+color tkpaper #f7f9fc
+color tkpaperd #a9b4c2
+
+part tk_laptop
+  fill lin #e6ebf1 #a3afbd 0 8 0 44
+  stroke $steeld 2.2
+  rect 9 8 46 35 4
+  fill lin #6fd0ff #2f7fe0 14 12 50 40
+  stroke #1f5fb0 1.4
+  rect 13.5 12.5 37 26 2
+  nostroke
+  fill #ffffff44
+  poly 15.5 14.5 31 14.5 20 36.5 15.5 36.5
+  fill lin #e6ebf1 #98a4b3 0 44 0 57
+  stroke $steeld 2.2
+  path M 9 44 L 55 44 L 61 53 Q 61.5 57 58 57 L 6 57 Q 2.5 57 3 53 Z
+  nostroke
+  fill $steeld
+  rect 24 49.5 16 3 1.5
+
+part tk_monitor
+  fill lin #c3ccd6 #8994a2 0 44 0 58
+  stroke $steeld 2
+  path M 26 44 L 38 44 L 40 54 L 24 54 Z
+  rect 15 53 34 6 3
+  fill lin #e6ebf1 #a3afbd 0 5 0 46
+  stroke $steeld 2.2
+  rect 3 5 58 41 5
+
+part tk_battery
+  fill lin #f2f5f9 #b4bfcb 0 14 0 50
+  stroke $steeld 2.2
+  rect 54 25 7 14 2.5
+  rect 3 14 52 36 7
+  fill #262d38
+  nostroke
+  rect 8 19 42 26 3.5
+
+part tk_wrench
+  fill lin #eef2f6 #8f9baa 20 0 46 0
+  stroke $steeld 2.2
+  path M 17 4 L 17 15 Q 17 25 26 28 L 26 54 Q 26 60 32 60 Q 38 60 38 54 L 38 28 Q 47 25 47 15 L 47 4 L 39 7 L 39 15 Q 39 19 32 19 Q 25 19 25 15 L 25 7 Z
+  nostroke
+  fill #ffffff77
+  rect 28.5 30 2.6 24 1.3
+
+part tk_hammer
+  fill lin #d99a55 #9a5c2a 26 0 38 0
+  stroke #6f3f14 2.2
+  rect 27 18 10 43 4
+  fill lin #eef2f6 #7f8b9a 0 4 0 24
+  stroke $steeld 2.2
+  path M 17 5 L 43 5 Q 46 5 47 7 L 53 4.5 L 53 23.5 L 47 21 Q 46 23 43 23 L 17 23 Q 14 23 14 20 L 14 8 Q 14 5 17 5 Z
+  nostroke
+  fill #ffffff77
+  rect 18 8 22 2.6 1.3
+
+part tk_cloud
+  fill lin #ffffff #cfe2f7 0 12 0 48
+  stroke #7fa3d1 2.2
+  path M 16 46 Q 3 46 3 35 Q 3 25 13 24 Q 14 9 29 9 Q 40 9 44 18 Q 60 17 61 32 Q 61 46 47 46 Z
+
+part tk_key
+  fill lin #9aa5b3 #5d6876 0 30 0 60
+  stroke #464f5b 2.2
+  rect 4 10 56 50 9
+  fill lin #ffffff #d5dce5 0 6 0 48
+  stroke #7c8795 2
+  rect 8 5 48 44 8
+
+part tk_pencil
+  fill lin #ffd84d #f0a81a 24 0 40 0
+  stroke #b9770a 2
+  rect 24 14 16 34 0
+  fill #f3d3a4
+  poly 24 48 40 48 32 62
+  fill #2a2f38
+  nostroke
+  poly 29 56.5 35 56.5 32 62
+  fill lin #ff9aa8 #ea5a70 24 0 40 0
+  stroke #b53a50 2
+  path M 24 12 L 24 7 Q 24 3 28 3 L 36 3 Q 40 3 40 7 L 40 12 Z
+  fill lin #eef2f6 #9aa3ad 24 0 40 0
+  stroke $steeld 2
+  rect 24 11 16 6 0
+
+emoji computer U+1F4BB | laptop pc notebook code
+  use tk_laptop
+
+emoji desktop U+1F5A5-FE0F | monitor screen pc display
+  use tk_monitor
+  fill lin #6fd0ff #2f7fe0 10 8 54 42
+  stroke #1f5fb0 1.4
+  rect 8 10 48 31 2.5
+  nostroke
+  fill #ffffff44
+  poly 10 12 30 12 17 39 10 39
+
+emoji keyboard U+2328-FE0F | typing keys input type
+  fill lin #e6ebf1 #98a4b3 0 14 0 50
+  stroke $steeld 2.2
+  rect 3 14 58 36 6
+  fill #3a4452
+  nostroke
+  rect 8 19.5 6 6 1.5
+  rect 16.4 19.5 6 6 1.5
+  rect 24.8 19.5 6 6 1.5
+  rect 33.2 19.5 6 6 1.5
+  rect 41.6 19.5 6 6 1.5
+  rect 50 19.5 6 6 1.5
+  rect 8 28 6 6 1.5
+  rect 16.4 28 6 6 1.5
+  rect 24.8 28 6 6 1.5
+  rect 33.2 28 6 6 1.5
+  rect 41.6 28 6 6 1.5
+  rect 50 28 6 6 1.5
+  rect 8 36.5 6 6 1.5
+  rect 16.4 36.5 31.2 6 1.5
+  rect 50 36.5 6 6 1.5
+
+emoji computer_mouse U+1F5B1-FE0F | click pointer scroll device
+  fill lin #f7f9fc #b4bfcb 16 6 48 58
+  stroke $steeld 2.2
+  rect 14 4 36 56 18
+  stroke $steeld 1.8
+  line 14.5 27 49.5 27
+  line 32 4.5 32 27
+  fill lin #6fd0ff #2f7fe0 0 10 0 22
+  stroke #1f5fb0 1.6
+  rect 28.5 10 7 12 3.5
+
+emoji floppy U+1F4BE | save disk diskette retro
+  fill lin #5b86f5 #2f52c9 6 6 58 58
+  stroke #1f3791 2.2
+  path M 9 5 L 47 5 L 59 17 L 59 56 Q 59 59 56 59 L 8 59 Q 5 59 5 56 L 5 8 Q 5 5 9 5 Z
+  fill lin #eef2f6 #a3afbd 0 5 0 22
+  stroke $steeld 1.6
+  rect 17 5 26 16 1.5
+  fill #2a3340
+  nostroke
+  rect 33 8 6 10 1
+  fill $tkpaper
+  stroke #1f3791 1.6
+  rect 12 31 40 28 2
+  stroke $tkpaperd 1.6
+  line 18 39 46 39
+  line 18 46 46 46
+  line 18 53 38 53
+
+emoji cd U+1F4BF | disc dvd music optical
+  fill lin #f4f7fb #b7c2d2 10 8 54 56
+  stroke #7c8795 2.2
+  circle 32 32 28
+  nostroke
+  fill #ff6fd066
+  poly 32 32 44 6.5 55 15
+  fill #6fe0ff88
+  poly 32 32 55 15 59.5 27
+  fill #7dff9a77
+  poly 32 32 20 57.5 9 49
+  fill #ffe45c88
+  poly 32 32 9 49 4.5 37
+  fill #e3e9f1
+  stroke #7c8795 1.6
+  circle 32 32 10.5
+  fill #5d6670
+  stroke #3f4752 1.6
+  circle 32 32 4.6
+
+emoji battery U+1F50B | power charge full energy
+  use tk_battery
+  fill lin #7dee8e #2fb552 0 19 0 45
+  rect 10 21 38 22 2.5
+  fill #ffffff55
+  rect 12 22.5 34 4 2
+
+emoji low_battery U+1FAAB | empty dying charge power
+  use tk_battery
+  fill lin #ff8a80 #e03a34 0 19 0 45
+  rect 10 21 9 22 2.5
+
+emoji plug U+1F50C | power electric socket cable
+  xf 0 0 1.08 45
+  stroke #8b96a5 7.5
+  line 32 44 32 62
+  stroke #3a4452 4.2
+  line 32 44 32 62
+  fill lin #f2f5f9 #9aa3ad 0 2 0 18
+  stroke $steeld 1.8
+  rect 20.5 3 6 16 2
+  rect 37.5 3 6 16 2
+  fill lin #6b7888 #3a4452 14 16 50 46
+  stroke #8b96a5 2.2
+  path M 15 17 Q 12 17 12 20 L 12 28 Q 12 46 32 46 Q 52 46 52 28 L 52 20 Q 52 17 49 17 Z
+  nostroke
+  fill #ffffff44
+  rect 17 21 22 3.4 1.7
+  xf
+
+emoji bulb U+1F4A1 | idea light lamp bright
+  fill rad #fffbd0 #ffcf2e 25 17 34
+  stroke #d6860c 2.2
+  path M 32 3 C 18 3 10 13 10 24 C 10 33 18 37 21 45 L 43 45 C 46 37 54 33 54 24 C 54 13 46 3 32 3 Z
+  nofill
+  stroke #e0860a 2
+  curve 27 44 24 30 29 27 32 32 35 27 40 30 37 44
+  fill lin #eef2f6 #8f9baa 0 44 0 58
+  stroke $steeld 2
+  rect 21.5 44 21 11.5 3
+  line 22 49.8 42 49.8
+  fill #4a5360
+  rect 26.5 55.5 11 5 2.5
+  nostroke
+  fill #ffffffaa
+  ellipse 22 15 3.6 6 30
+
+emoji gear U+2699-FE0F | settings cog config options
+  fill rad #f2f5f9 #8793a2 24 22 44
+  stroke $steeld 2.2
+  poly 27.4 12.0 27.9 4.3 36.1 4.3 36.6 12.0 42.9 14.6 48.7 9.5 54.5 15.3 49.4 21.1 52.0 27.4 59.7 27.9 59.7 36.1 52.0 36.6 49.4 42.9 54.5 48.7 48.7 54.5 42.9 49.4 36.6 52.0 36.1 59.7 27.9 59.7 27.4 52.0 21.1 49.4 15.3 54.5 9.5 48.7 14.6 42.9 12.0 36.6 4.3 36.1 4.3 27.9 12.0 27.4 14.6 21.1 9.5 15.3 15.3 9.5 21.1 14.6
+  fill #4a5360
+  stroke #333b46 2
+  circle 32 32 9
+
+emoji wrench U+1F527 | tool fix spanner repair
+  use tk_wrench 0 0 1.12 45
+
+emoji hammer U+1F528 | tool build nail hit
+  use tk_hammer 1 1 1.08 -45
+
+emoji tools U+1F6E0-FE0F | hammer wrench fix build repair
+  use tk_wrench 0 0 1 45
+  use tk_hammer 1 1 1 -45
+
+emoji mag U+1F50D | search find zoom magnifying glass
+  stroke #6f3f14 10
+  line 42 42 56 56
+  stroke #c98a45 5.5
+  line 43 43 56 56
+  fill rad #e9f7ff #8fcdf7 20 18 30
+  stroke $steeld 6
+  circle 26 26 20
+  nofill
+  stroke #dfe5ec 2.4
+  circle 26 26 20
+  stroke #ffffffcc 3
+  arc 26 26 12.5 12.5 190 260
+
+emoji lock U+1F512 | locked secure private closed
+  nofill
+  stroke $steeld 9
+  path M 19 32 L 19 19 Q 19 7.5 32 7.5 Q 45 7.5 45 19 L 45 32
+  stroke #e6ebf1 4.6
+  path M 19 32 L 19 19 Q 19 7.5 32 7.5 Q 45 7.5 45 19 L 45 32
+  fill rad #ffe680 #f5ab14 22 32 44
+  stroke $tkgoldd 2.2
+  rect 9 28 46 32 7
+  fill #6a4208
+  nostroke
+  circle 32 40.5 4.8
+  poly 30 41 34 41 35.8 52 28.2 52
+
+emoji unlock U+1F513 | unlocked open access
+  nofill
+  stroke $steeld 9
+  path M 19 34 L 19 16 Q 19 4.5 32 4.5 Q 45 4.5 45 16 L 45 19
+  stroke #e6ebf1 4.6
+  path M 19 34 L 19 16 Q 19 4.5 32 4.5 Q 45 4.5 45 16 L 45 19
+  fill rad #ffe680 #f5ab14 22 34 44
+  stroke $tkgoldd 2.2
+  rect 9 30 46 30 7
+  fill #6a4208
+  nostroke
+  circle 32 41.5 4.8
+  poly 30 42 34 42 35.8 53 28.2 53
+
+emoji key U+1F511 | password unlock access secret
+  xf 0 0 1.1 -45
+  fill lin #ffe680 #f5ab14 0 26 0 40
+  stroke $tkgoldd 2.2
+  rect 26 28.5 34 7 2
+  rect 45 34 5.5 9 1.2
+  rect 53 34 5.5 7 1.2
+  fill rad #ffe680 #f5ab14 12 26 22
+  circle 17 32 13.5
+  fill #6a4208
+  nostroke
+  circle 12.5 32 4.2
+  xf
+
+emoji shield U+1F6E1-FE0F | protect security defense safe
+  fill lin #f2f5f9 #9aa3ad 0 4 0 60
+  stroke $steeld 2.2
+  path M 32 3 L 56 11 L 56 30 C 56 46 44 56 32 61 C 20 56 8 46 8 30 L 8 11 Z
+  fill lin #6fb8ff #2a63d4 0 8 0 56
+  stroke #1f4aa3 1.6
+  path M 32 9.5 L 50 15.5 L 50 30 C 50 42 41 50 32 54.5 C 23 50 14 42 14 30 L 14 15.5 Z
+  nostroke
+  fill #ffffff33
+  path M 32 9.5 L 14 15.5 L 14 30 C 14 42 23 50 32 54.5 Z
+
+emoji satellite_dish U+1F4E1 | antenna signal broadcast radar
+  fill lin #c3ccd6 #7f8b9a 0 40 0 60
+  stroke $steeld 2
+  poly 22 36 34 40 40 58 14 58
+  rect 9 55 36 5 2.5
+  fill lin #b4bfcb #7f8b9a 0 10 0 50
+  stroke $steeld 2.2
+  ellipse 27 29 25 14 45
+  fill rad #ffffff #cdd6e0 20 18 30
+  stroke $steeld 1.8
+  ellipse 29.5 26.5 23 11.5 45
+  stroke $steeld 2.4
+  line 29 27 44 12
+  fill rad #ff8a80 $red 43 10 5
+  stroke $redd 1.4
+  circle 44.5 11.5 4
+  nofill
+  stroke $tkblue 3
+  arc 45 11 9 9 280 370
+  arc 45 11 15 15 280 370
+
+emoji phone U+1F4F1 | mobile smartphone cell device
+  fill lin #5d6876 #2a313c 14 3 50 61
+  stroke $tkslatel 2.2
+  rect 14 3 36 58 8
+  fill lin #6fd0ff #2f7fe0 18 9 46 52
+  stroke #1f5fb0 1.2
+  rect 18 10 28 40 2.5
+  nostroke
+  fill #ffffff44
+  poly 20 12 34 12 23 48 20 48
+  fill $tkslatel
+  circle 32 55.2 2.6
+  rect 27.5 5.6 9 2 1
+
+emoji camera U+1F4F7 | photo picture snapshot lens
+  fill lin #6b7888 #3a4452 0 8 0 20
+  stroke #232a35 2.2
+  path M 21 17 L 25 8 L 39 8 L 43 17 Z
+  fill lin #7c8998 #3f4957 0 15 0 56
+  rect 3 15 58 41 7
+  fill #ffe45c
+  stroke #b9770a 1.4
+  rect 46 20 9 6 2
+  fill $red
+  stroke $redd 1.2
+  circle 11 22 2.6
+  fill lin #f2f5f9 #9aa3ad 0 22 0 52
+  stroke #232a35 2
+  circle 32 37 15
+  fill rad #6fd0ff #1b3f8f 27 32 14
+  stroke #232a35 1.6
+  circle 32 37 10
+  nostroke
+  fill #ffffffaa
+  circle 28 33 2.8
+
+emoji printer U+1F5A8-FE0F | print paper office document
+  fill $tkpaper
+  stroke $tkpaperd 2
+  rect 16 4 32 20 2
+  fill lin #dfe5ec #8f9baa 0 20 0 48
+  stroke $steeld 2.2
+  rect 4 20 56 28 6
+  fill #2a313c
+  nostroke
+  rect 12 37 40 5 2
+  fill $tkpaper
+  stroke $tkpaperd 2
+  rect 15 39.5 34 20.5 2
+  stroke $tkpaperd 1.6
+  line 21 46 43 46
+  line 21 52 37 52
+  fill $tkgreen
+  stroke $tkgreend 1.2
+  circle 50.5 27.5 2.6
+
+emoji folder U+1F4C1 | directory files documents
+  fill lin #f5b92e #d48f0c 0 8 0 30
+  stroke #a86b06 2.2
+  path M 4 13 Q 4 9 8 9 L 24 9 L 30 15 L 55 15 Q 59 15 59 19 L 59 50 L 4 50 Z
+  fill lin #ffe27a #ffc12e 0 22 0 56
+  rect 4 22 56 34 5
+  nostroke
+  fill #ffffff66
+  rect 9 26 30 3 1.5
+
+emoji package U+1F4E6 | box parcel delivery shipping
+  fill lin #e0b07a #c08a4e 0 6 0 22
+  stroke #7a5226 2.2
+  poly 6 21 14 6 50 6 58 21
+  fill lin #d9a468 #b07a3e 0 21 0 59
+  rect 6 21 52 38 3
+  fill #f3d9a8
+  stroke #7a5226 1.4
+  poly 28 21 29.5 6 34.5 6 36 21
+  rect 28 21 8 13 0
+  fill $tkpaper
+  stroke #7a5226 1.2
+  rect 36 43 16 10 1.5
+
+emoji hourglass U+231B | time wait timer sand
+  fill #d9f1ff
+  stroke #6f9cc4 2
+  path M 15 9 L 49 9 Q 49 24 37 32 Q 49 40 49 55 L 15 55 Q 15 40 27 32 Q 15 24 15 9 Z
+  fill $tkgold
+  nostroke
+  path M 20.5 19 L 43.5 19 Q 40 26 32 31 Q 24 26 20.5 19 Z
+  path M 17.5 54 Q 20 44 32 40 Q 44 44 46.5 54 Z
+  stroke $tkgold 2
+  line 32 31 32 42
+  fill lin #c98a45 #96592a 0 3 0 11
+  stroke #6f3f14 2.2
+  rect 10 3 44 7 3
+  fill lin #c98a45 #96592a 0 53 0 61
+  rect 10 54 44 7 3
+
+emoji alarm_clock U+23F0 | time wake morning timer
+  stroke $steeld 4
+  mirror line 18 52 12 60
+  fill rad #ff8a80 $red 12 9 12
+  stroke $redd 2
+  mirror ellipse 14 12.5 10 7 -38
+  fill rad #ff8a80 $red 22 22 44
+  stroke $redd 2.2
+  circle 32 35 24
+  fill rad #ffffff #e6ebf1 28 30 22
+  stroke $redd 1.6
+  circle 32 35 18
+  stroke $ink 3
+  line 32 35 32 23
+  line 32 35 40.5 39.5
+  fill $ink
+  nostroke
+  circle 32 35 2.4
+
+emoji calendar U+1F4C5 | date day schedule month
+  fill $tkpaper
+  stroke $tkpaperd 2.2
+  rect 5 8 54 51 7
+  fill lin #ff7a70 $red 0 8 0 24
+  stroke $redd 2.2
+  path M 5 24 L 5 15 Q 5 8 12 8 L 52 8 Q 59 8 59 15 L 59 24 Z
+  fill #f2f5f9
+  stroke $steeld 1.8
+  mirror rect 16.5 3 5 11 2.5
+  fill #2a313c
+  text 32 53 22 12 3.4
+
+emoji email U+2709-FE0F | envelope mail letter message
+  fill lin #ffffff #dbe3ee 0 12 0 52
+  stroke #8b96a5 2.2
+  rect 3 12 58 40 5
+  nofill
+  stroke #b4bfcb 1.8
+  line 5 50 24 33
+  line 59 50 40 33
+  stroke #8b96a5 2.4
+  path M 4.5 15 L 32 37 L 59.5 15
+
+emoji link U+1F517 | chain url hyperlink connect
+  xf 0 0 1 -45
+  nofill
+  stroke $steeld 9.5
+  rect 3 23 31 18 9
+  stroke #c3ccd6 5
+  rect 3 23 31 18 9
+  stroke $steeld 9.5
+  rect 30 23 31 18 9
+  stroke #e6ebf1 5
+  rect 30 23 31 18 9
+  xf
+
+emoji paperclip U+1F4CE | attach attachment clip file
+  xf 0 0 1.1 45
+  nofill
+  stroke $steeld 6.4
+  path M 21 22 L 21 46 Q 21 58 32 58 Q 43 58 43 46 L 43 15 Q 43 6 35.5 6 Q 28 6 28 15 L 28 43 Q 28 47.5 32 47.5 Q 36 47.5 36 43 L 36 22
+  stroke #dfe5ec 3
+  path M 21 22 L 21 46 Q 21 58 32 58 Q 43 58 43 46 L 43 15 Q 43 6 35.5 6 Q 28 6 28 15 L 28 43 Q 28 47.5 32 47.5 Q 36 47.5 36 43 L 36 22
+  xf
+
+emoji pushpin U+1F4CC | pin tack location pinned
+  xf 0 0 1.05 40
+  stroke $steeld 3.4
+  line 32 38 32 61
+  fill rad #ff8a80 $red 26 12 30
+  stroke $redd 2.2
+  path M 24 9 L 40 9 L 39 25 Q 50 29 51 39 L 13 39 Q 14 29 25 25 Z
+  ellipse 32 8.5 13 5
+  nostroke
+  fill #ffffff66
+  rect 27 13 3 10 1.5
+  xf
+
+emoji trash U+1F5D1-FE0F | delete bin garbage wastebasket remove
+  nofill
+  stroke $steeld 3
+  rect 24 4 16 9 3
+  fill lin #dfe5ec #8f9baa 0 20 0 60
+  stroke $steeld 2.2
+  path M 11 19 L 53 19 L 49 56 Q 48.6 60 44.5 60 L 19.5 60 Q 15.4 60 15 56 Z
+  fill lin #f2f5f9 #a3afbd 0 10 0 20
+  rect 6 11 52 8.5 3.5
+  stroke $steeld 2.4
+  line 23 27 24.5 52
+  line 32 27 32 52
+  line 41 27 39.5 52
+
+emoji books U+1F4DA | library study read stack
+  fill lin #6fb8ff #2a63d4 0 42 0 59
+  stroke #1f4aa3 2.2
+  rect 7 43 50 16 3
+  fill $tkpaper
+  stroke #1f4aa3 1.4
+  rect 44 46 13 10 0
+  fill lin #ff8a80 #d9342f 0 24 0 43
+  stroke $redd 2.2
+  rect 3 25 50 16 3
+  fill $tkpaper
+  stroke $redd 1.4
+  rect 3 28 13 10 0
+  fill lin #7dee8e #2fb552 0 5 0 24
+  stroke $tkgreend 2.2
+  rect 11 7 48 16 3
+  fill $tkpaper
+  stroke $tkgreend 1.4
+  rect 46 10 13 10 0
+  nostroke
+  fill #ffffff66
+  rect 15 9.5 26 2.4 1.2
+  rect 20 27.5 26 2.4 1.2
+  rect 11 45.5 28 2.4 1.2
+
+emoji book U+1F4D6 | open read pages reading
+  fill lin #6fb8ff #2a63d4 0 10 0 58
+  stroke #1f4aa3 2.2
+  path M 3 14 L 32 18 L 61 14 L 61 54 L 32 58 L 3 54 Z
+  fill lin #ffffff #e1e8f0 0 8 0 54
+  stroke $tkpaperd 1.8
+  mirror path M 32 15 Q 20 7 7 10 L 7 49 Q 20 46 32 54 Z
+  stroke $tkpaperd 1.6
+  mirror curve 12 19 20 18.5 27 22
+  mirror curve 12 27 20 26.5 27 30
+  mirror curve 12 35 20 34.5 27 38
+
+emoji pencil U+270F-FE0F | write draw edit sketch
+  use tk_pencil 0 0 1.15 45
+
+emoji memo U+1F4DD | note write document todo
+  fill $tkpaper
+  stroke $tkpaperd 2.2
+  rect 6 4 40 56 4
+  stroke $tkpaperd 2
+  line 13 15 39 15
+  line 13 24 39 24
+  line 13 33 31 33
+  line 13 42 25 42
+  use tk_pencil 12 6 0.72 35
+
+emoji signal U+1F4F6 | bars reception network cellular
+  fill lin #7dee8e #2fb552 0 8 0 60
+  stroke $tkgreend 2.2
+  rect 4 46 11 14 2.5
+  rect 19 34 11 26 2.5
+  rect 34 20 11 40 2.5
+  rect 49 5 11 55 2.5
+
+emoji terminal | console shell command prompt cli
+  fill lin #2f3846 #171c24 0 6 0 58
+  stroke #7c8795 2.2
+  rect 3 7 58 50 6
+  fill #4a5563
+  nostroke
+  path M 4.5 19 L 4.5 13 Q 4.5 8.5 9 8.5 L 55 8.5 Q 59.5 8.5 59.5 13 L 59.5 19 Z
+  fill #ff6b60
+  circle 11 13.8 2.3
+  fill #ffd24d
+  circle 18 13.8 2.3
+  fill #54d17a
+  circle 25 13.8 2.3
+  nofill
+  stroke #54e37a 4.2
+  line 12 28 23 37 12 46
+  line 28 47 44 47
+
+emoji code | programming developer html source dev
+  fill lin #9b7bff #5a35c9 0 5 0 59
+  stroke #3c2196 2.2
+  rect 4 8 56 48 10
+  nofill
+  stroke #2a1670 7
+  line 23 22 12 32 23 42
+  line 41 22 52 32 41 42
+  line 36 18 28 46
+  stroke $white 3.6
+  line 23 22 12 32 23 42
+  line 41 22 52 32 41 42
+  line 36 18 28 46
+
+emoji cpu | processor chip core silicon
+  stroke $tkgold 3.4
+  line 19 4 19 60
+  line 27.7 4 27.7 60
+  line 36.3 4 36.3 60
+  line 45 4 45 60
+  line 4 19 60 19
+  line 4 27.7 60 27.7
+  line 4 36.3 60 36.3
+  line 4 45 60 45
+  fill lin #4f5c6c #2a313c 10 10 54 54
+  stroke #8b96a5 2.2
+  rect 10 10 44 44 5
+  fill lin #f2f5f9 #9aa3ad 20 20 44 44
+  stroke $steeld 1.8
+  rect 20 20 24 24 3
+  fill $steeld
+  nostroke
+  circle 24.5 24.5 1.8
+
+emoji gpu | graphics card video rendering gaming
+  fill lin #eef2f6 #9aa3ad 0 8 0 56
+  stroke $steeld 2
+  rect 2 8 5.5 48 1.5
+  fill $tkgold
+  stroke $tkgoldd 1.6
+  rect 14 46 26 7 1
+  fill lin #55616f #2a313c 0 14 0 48
+  stroke #8b96a5 2.2
+  rect 7 14 54 33 5
+  fill #46d1c4
+  nostroke
+  rect 31.5 17 4 27 2
+  fill #1b2028
+  stroke #8b96a5 1.8
+  circle 20.5 30.5 11.5
+  circle 46.5 30.5 11.5
+  stroke #c3ccd6 2.6
+  line 20.5 21.5 20.5 39.5
+  line 11.5 30.5 29.5 30.5
+  line 46.5 21.5 46.5 39.5
+  line 37.5 30.5 55.5 30.5
+  fill #c3ccd6
+  nostroke
+  circle 20.5 30.5 3.4
+  circle 46.5 30.5 3.4
+
+emoji ram | memory stick dimm module
+  fill $tkgold
+  stroke $tkgoldd 1.8
+  rect 5 40 24 9 1
+  rect 33 40 26 9 1
+  fill lin #5fd67a #23964a 0 14 0 42
+  stroke #156b30 2.2
+  rect 2 15 60 27 3
+  fill lin #4a5563 #20262f 0 20 0 36
+  stroke #8b96a5 1.4
+  rect 7 21 10 14 1.5
+  rect 20 21 10 14 1.5
+  rect 34 21 10 14 1.5
+  rect 47 21 10 14 1.5
+  stroke $tkgoldd 1.4
+  line 11 42.5 11 48
+  line 17 42.5 17 48
+  line 23 42.5 23 48
+  line 39 42.5 39 48
+  line 46 42.5 46 48
+  line 53 42.5 53 48
+
+emoji server | rack host datacenter backend
+  fill lin #55616f #2a313c 0 3 0 61
+  stroke #8b96a5 2.2
+  rect 7 3 50 58 5
+  fill lin #dfe5ec #a3afbd 0 8 0 56
+  stroke $steeld 1.6
+  rect 12 8 40 13 2.5
+  rect 12 25.5 40 13 2.5
+  rect 12 43 40 13 2.5
+  fill $tkgreen
+  stroke $tkgreend 1
+  circle 18.5 14.5 2.8
+  circle 18.5 32 2.8
+  fill $tkgold
+  stroke $tkgoldd 1
+  circle 18.5 49.5 2.8
+  stroke $steeld 2.2
+  line 28 14.5 46 14.5
+  line 28 32 46 32
+  line 28 49.5 46 49.5
+
+emoji database | db sql storage data
+  fill lin #6fb8ff #2a63d4 8 0 56 0
+  stroke #1f4aa3 2.2
+  path M 8 38 L 8 51 C 8 62 56 62 56 51 L 56 38 C 56 49 8 49 8 38 Z
+  path M 8 25 L 8 38 C 8 49 56 49 56 38 L 56 25 C 56 36 8 36 8 25 Z
+  path M 8 12 L 8 25 C 8 36 56 36 56 25 L 56 12 C 56 23 8 23 8 12 Z
+  fill lin #b5dcff #6fb8ff 8 4 56 20
+  ellipse 32 12 24 8.3
+
+emoji hard_drive | hdd disk storage drive
+  fill lin #dfe5ec #8f9baa 0 3 0 61
+  stroke $steeld 2.2
+  rect 7 3 50 58 6
+  fill rad #ffffff #a9b4c2 22 18 30
+  stroke $steeld 1.8
+  circle 30 26 18.5
+  fill #6b7888
+  stroke $steeld 1.4
+  circle 30 26 4.5
+  stroke #3a4452 4.4
+  line 47 51 34 31
+  fill #3a4452
+  stroke #232a35 1.4
+  circle 47 51 4.6
+  fill $tkgreen
+  nostroke
+  circle 14 54 2.2
+
+emoji usb | flash drive thumb stick storage
+  xf 0 0 1.08 45
+  fill lin #f2f5f9 #9aa3ad 20 0 44 0
+  stroke $steeld 2.2
+  rect 21 3 22 18 2
+  fill #3a4452
+  nostroke
+  rect 25.5 8 5 6 1
+  rect 33.5 8 5 6 1
+  fill lin #5b86f5 #2f52c9 15 20 49 60
+  stroke #1f3791 2.2
+  rect 15 20 34 41 7
+  nostroke
+  fill #ffffff55
+  rect 20 25 4 22 2
+  xf
+
+emoji wifi | wireless internet network connection
+  nofill
+  stroke $tkblued 8.4
+  arc 32 51 36 36 226 314
+  arc 32 51 24 24 226 314
+  arc 32 51 12 12 226 314
+  stroke $tkblue 4.6
+  arc 32 51 36 36 226 314
+  arc 32 51 24 24 226 314
+  arc 32 51 12 12 226 314
+  fill $tkblue
+  stroke $tkblued 2
+  circle 32 52 5
+
+emoji rubber_duck | debug debugging duck quack explain
+  fill rad #fff08a #ffc21c 26 16 52
+  stroke #c9820a 4.4
+  blob 4 27 12 36 26 35 42 35 55 39 58 48 49 57 24 59 9 52 4 40
+  circle 39 20 15
+  nostroke
+  blob 4 27 12 36 26 35 42 35 55 39 58 48 49 57 24 59 9 52 4 40
+  circle 39 20 15
+  fill lin #ff9b3d #f06a1c 0 18 0 28
+  stroke #b84a0c 1.8
+  path M 51 18 Q 60 18 62 22.5 Q 60 27.5 51 26.5 Z
+  fill $ink
+  nostroke
+  circle 43 16.5 2.8
+  fill $white
+  circle 42 15.5 1
+  nofill
+  stroke #c9820a 2.2
+  curve 20 43 28 50 38 44
+
+emoji bug_fix | debug fixed patch bugfix squash
+  stroke #2f5f1c 2.6
+  mirror line 20 28 10 22
+  mirror line 19 37 8 37
+  mirror line 20 46 10 53
+  mirror line 28 12 23 5
+  fill #33402a
+  stroke #1c2616 1.8
+  circle 32 16 8
+  fill rad #b5f08a #5fbf3a 26 28 26
+  stroke #2f7a1c 2.2
+  ellipse 32 37 14 18
+  stroke #2f7a1c 1.8
+  line 32 20 32 54
+  nofill
+  stroke #b92a2c 7.6
+  circle 32 32 26
+  line 13.6 13.6 50.4 50.4
+  stroke #ff5a52 4.4
+  circle 32 32 26
+  line 13.6 13.6 50.4 50.4
+
+emoji git_branch | branch fork version control vcs
+  nofill
+  stroke #5a35c9 7.4
+  line 17 12 17 52
+  path M 17 46 C 17 28 47 38 47 20
+  stroke #a98bff 3.8
+  line 17 12 17 52
+  path M 17 46 C 17 28 47 38 47 20
+  fill rad #ffffff #d9ccff 15 10 10
+  stroke #5a35c9 2.4
+  circle 17 11 7.6
+  circle 17 53 7.6
+  circle 47 17 7.6
+
+emoji merge | pull request join combine git
+  nofill
+  stroke $tkgreend 7.4
+  mirror path M 13 52 C 13 34 32 40 32 22
+  line 32 22 32 12
+  stroke #7dee8e 3.8
+  mirror path M 13 52 C 13 34 32 40 32 22
+  line 32 22 32 12
+  fill rad #ffffff #cdf7d6 30 9 10
+  stroke $tkgreend 2.4
+  circle 32 11 7.6
+  mirror circle 13 53 7.6
+
+emoji error_404 | not found missing page broken
+  fill lin #ff8a5c #e03a34 0 10 0 54
+  stroke #a8231c 2.2
+  rect 3 12 58 40 9
+  fill #7a1512
+  text 32 41 19 404 4.6
+  fill $white
+  text 32 41 19 404 2.2
+
+emoji binary | bits zeros ones data digital
+  fill lin #2f3846 #171c24 0 4 0 60
+  stroke #7c8795 2.2
+  rect 4 4 56 56 8
+  fill #54e37a
+  text 32 29 17 01 2.4
+  text 32 53 17 10 2.4
+
+emoji cloud_upload | upload send sync backup
+  use tk_cloud
+  fill lin #6fd0ff #2a7fe0 0 22 0 60
+  stroke $tkblued 2.2
+  poly 32 20 46 35 37.5 35 37.5 59 26.5 59 26.5 35 18 35
+
+emoji cloud_download | download save fetch pull
+  use tk_cloud
+  fill lin #7dee8e #2fb552 0 22 0 60
+  stroke $tkgreend 2.2
+  poly 32 61 46 46 37.5 46 37.5 24 26.5 24 26.5 46 18 46
+
+emoji power | on off shutdown button restart
+  fill rad #5d6b7c #252c37 24 20 44
+  stroke #8b96a5 2.2
+  circle 32 32 28
+  nofill
+  stroke #15704a 8.4
+  arc 32 34 14.5 14.5 310 590
+  line 32 14 32 32
+  stroke #5cf0a8 4.6
+  arc 32 34 14.5 14.5 310 590
+  line 32 14 32 32
+
+emoji loading | spinner wait busy progress
+  nofill
+  stroke #6b7888 9
+  circle 32 32 23
+  stroke #c3ccd6 5.4
+  circle 32 32 23
+  stroke $tkblued 9
+  arc 32 32 23 23 270 380
+  stroke $tkblue 5.4
+  arc 32 32 23 23 270 380
+
+emoji blue_screen | crash bsod error sad computer
+  use tk_monitor
+  fill lin #4f8cff #1f4fd0 0 10 0 41
+  stroke #173a9e 1.4
+  rect 8 10 48 31 2.5
+  fill $white
+  nostroke
+  circle 22 19 2.8
+  circle 22 31 2.8
+  nofill
+  stroke $white 3.4
+  arc 45 25 9 11 115 245
+
+emoji works_on_my_machine | wfm excuse deploy shrug works
+  use tk_laptop -5 -6 0.86
+  fill rad #7dee8e #2fb552 42 40 18
+  stroke $tkgreend 2.2
+  circle 46 45 14.5
+  nofill
+  stroke $white 4.4
+  line 39 45.5 44.5 51 54 39.5
+
+emoji coffee_code | coffee mug caffeine programmer fuel
+  nofill
+  stroke #b9c4cf 2.4
+  curve 20 11 17 7 21 3
+  curve 33 11 30 7 34 3
+  stroke #1f3791 8
+  path M 46 24 Q 59 24 59 35 Q 59 46 45 46
+  stroke #5b86f5 3.8
+  path M 46 24 Q 59 24 59 35 Q 59 46 45 46
+  fill lin #5b86f5 #2f52c9 6 14 48 58
+  stroke #1f3791 2.2
+  path M 5 15 L 49 15 L 46.5 53 Q 46 60 39 60 L 15 60 Q 8 60 7.5 53 Z
+  fill #5a3418
+  stroke #1f3791 1.6
+  ellipse 27 15.5 21 3.6
+  nofill
+  stroke $white 3
+  xf -5 6 0.62
+  line 23 22 12 32 23 42
+  line 41 22 52 32 41 42
+  line 36 18 28 46
+  xf
+
+emoji keycap_esc | escape key exit quit
+  use tk_key
+  fill #2a313c
+  text 32 33 13 ESC 2.4
+
+emoji keycap_ctrl | control key shortcut modifier
+  use tk_key
+  fill #2a313c
+  text 32 32 10 CTRL 2.1
+
+emoji keycap_enter | return key submit newline
+  use tk_key
+  nofill
+  stroke #2a313c 4
+  line 43 14 43 30 21 30
+  fill #2a313c
+  stroke #2a313c 2
+  poly 23 22.5 14 30 23 37.5

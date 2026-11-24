@@ -1,0 +1,852 @@
+// Gamer chat emotes: word badges and reaction faces. Original FreeSpeak art.
+category gamer
+
+color gc_gold #ffcc33
+color gc_goldd #c98a0a
+color gc_goldk #7a4a00
+
+part gc_spark
+  fill rad #ffffff #ffe680 32 32 30
+  stroke #e0a020 5
+  poly 32 3 38 26 61 32 38 38 32 61 26 38 3 32 26 26
+
+part gc_dagger
+  fill lin #f4f7fa #9aa7b6 26 0 38 0
+  stroke $steeld 2
+  poly 32 3 38 14 37 39 27 39 26 14
+  stroke $steeld 1.2
+  line 32 9 32 37
+  fill lin #ffe680 #e0a020 0 38 0 46
+  stroke $gc_goldd 1.8
+  rect 20 38 24 6 3
+  fill lin #b9743a #7d4b26 28 0 36 0
+  stroke #4f2c12 1.8
+  rect 28.5 44 7 12 2
+  fill $gc_gold
+  stroke $gc_goldd 1.6
+  circle 32 58 3.4
+
+part gc_face_red
+  fill rad #ff9a7a #e5402f 24 20 48
+  stroke #a8231c 2.2
+  circle 32 32 27.6
+
+part gc_headset
+  stroke #2c3140 6.4
+  arc 32 33 27 28 192 348
+  stroke #6a7690 2.4
+  arc 32 33 27 28 196 344
+  stroke #2c3140 2.6
+  curve 7 46 10 55 22 56
+  fill #2c3140
+  stroke #6a7690 1.4
+  circle 23.5 56 3.4
+  fill lin #ff7a8c #d6304e 0 24 0 48
+  stroke #8a1830 2
+  mirror rect 0.5 25 12 22 5.5
+  fill #ffffff66
+  nostroke
+  mirror rect 3 28 3 9 1.5
+
+emoji gg | good game well played thanks
+  fill rad #9af09a #2fae4a 20 16 52
+  stroke #1b7a31 2.4
+  rect 4 12 56 40 11
+  fill #ffffff55
+  nostroke
+  rect 11 15.5 42 4.5 2.2
+  fill #0f4a1e
+  text 32 45 24 GG 6.6
+  fill $white
+  text 32 45 24 GG 3.6
+
+emoji ggwp | good game well played respect
+  fill rad #5fd08a #14804a 20 14 56
+  stroke #f2c53a 2.6
+  rect 5 4 54 56 11
+  fill #083a20
+  text 32 28.5 19 GG 5.6
+  text 32 54 19 WP 5.6
+  fill $white
+  text 32 28.5 19 GG 3
+  fill #ffe680
+  text 32 54 19 WP 3
+
+emoji glhf | good luck have fun start
+  fill rad #a8ecff #1f96c9 22 14 56
+  stroke #0f5f8a 2.4
+  path M 32 3 L 58 8 L 58 32 Q 58 51 32 61 Q 6 51 6 32 L 6 8 Z
+  fill #ffffff44
+  nostroke
+  path M 32 6.5 L 54.5 11 L 54.5 17 L 32 12.5 L 9.5 17 L 9.5 11 Z
+  fill #083f5e
+  text 32 33 17 GL 5.4
+  text 32 53 15 HF 5
+  fill $white
+  text 32 33 17 GL 2.8
+  fill #fff3a0
+  text 32 53 15 HF 2.6
+
+emoji ez | easy cheeky simple too easy
+  xf 0 -2 1 -9
+  fill $tongue
+  stroke $tongued 1.6
+  path M 36 46 Q 35 60 42 60 Q 49 60 48 46 Z
+  line 42 50 42 56
+  fill rad #fff29a #ffc21c 20 16 52
+  stroke #c98a0a 2.4
+  rect 5 12 54 38 12
+  fill #ffffff77
+  nostroke
+  rect 12 15.5 34 4.5 2.2
+  fill #6e3f00
+  text 32 43.5 24 EZ 6.6
+  fill $white
+  text 32 43.5 24 EZ 3.6
+  xf
+
+emoji afk | away from keyboard gone idle
+  fill rad #c9d0da #7c8694 20 22 52
+  stroke #4f5863 2.4
+  rect 3 18 58 40 11
+  fill #2f363f
+  text 30 50 18 AFK 5.6
+  fill $white
+  text 30 50 18 AFK 3
+  fill rad #fff6b0 #ffcc33 46 8 14
+  stroke #c98a0a 2
+  path M 49 2 C 34 2 34 25 49 25 C 41 20 41 7 49 2 Z
+
+emoji brb | be right back soon wait
+  fill rad #8fb4ff #2f62d9 20 22 52
+  stroke #1a3f9a 2.4
+  rect 3 18 58 40 11
+  fill #0f2866
+  text 30 50 18 BRB 5.6
+  fill $white
+  text 30 50 18 BRB 3
+  fill rad #ffffff #dfe6f0 46 10 14
+  stroke #1a3f9a 2.2
+  circle 49 14 11
+  stroke #1a3f9a 2.2
+  line 49 7.5 49 14 54 17
+
+emoji omw | on my way coming moving
+  fill rad #b3b4ff #4a48d6 20 14 56
+  stroke #2a2890 2.4
+  rect 4 6 56 52 11
+  fill #17155e
+  text 32 28 16 OMW 5
+  fill $white
+  text 32 28 16 OMW 2.7
+  fill lin #fff6b0 #ffcc33 0 34 0 54
+  stroke #17155e 2
+  poly 13 39 36 39 36 33 52 43.5 36 54 36 48 13 48
+
+emoji nerf | weaker down balance patch
+  fill rad #ffc27a #f06a1a 20 14 56
+  stroke #a8400a 2.4
+  rect 4 5 56 54 11
+  fill #5e2000
+  text 32 25 13.5 NERF 4.6
+  fill $white
+  text 32 25 13.5 NERF 2.5
+  fill lin #ffffff #ffe1c4 0 30 0 55
+  stroke #5e2000 2
+  poly 25 30 39 30 39 41 47 41 32 55 17 41 25 41
+
+emoji buff | stronger up balance patch
+  fill rad #d2f77c #6cc21e 20 14 56
+  stroke #3f7f0a 2.4
+  rect 4 5 56 54 11
+  fill lin #ffffff #e6ffc4 0 9 0 34
+  stroke #244f00 2
+  poly 32 9 47 23 39 23 39 34 25 34 25 23 17 23
+  fill #244f00
+  text 32 54 13.5 BUFF 4.6
+  fill $white
+  text 32 54 13.5 BUFF 2.5
+
+emoji op | overpowered strong broken power
+  fill #b98aff88
+  poly 43.7 4.4 47.7 16.6 59.8 20.8 54.0 32.2 59.6 43.7 47.4 47.7 43.2 59.8 31.8 54.0 20.3 59.6 16.3 47.4 4.2 43.2 10.0 31.8 4.4 20.3 16.6 16.3 20.8 4.2 32.2 10.0
+  fill rad #d9a8ff #7a2fe0 22 20 44
+  stroke #e9c8ff 2.4
+  rect 8 15 48 34 10
+  fill #2e0a6e
+  text 32 43 22 OP 6.2
+  fill #fff6b0
+  text 32 43 22 OP 3.4
+  use gc_spark 22 -23 0.16
+  use gc_spark -24 22 0.12
+
+emoji lag | slow connection stutter delay
+  fill rad #ff9a8a #e0322c 20 14 56
+  stroke #8f1616 2.4
+  rect 4 5 56 54 11
+  stroke $white 3.4
+  arc 32 32 21 19 222 318
+  arc 32 32 13 12 222 318
+  fill $white
+  nostroke
+  circle 32 30 3.4
+  stroke #8f1616 6
+  line 20 31 44 9
+  stroke #ffd24d 2.8
+  line 20 31 44 9
+  fill #5e0a0a
+  text 32 54 15 LAG 4.8
+  fill $white
+  text 32 54 15 LAG 2.6
+
+emoji fps | frames counter framerate smooth
+  fill lin #2a3a4e #141c28 0 5 0 59
+  stroke #6a86a8 2.4
+  rect 4 5 56 54 8
+  fill #9fd0f7
+  text 32 21 10.5 FPS 2.2
+  fill #0a3a16
+  text 32 51 24 60 6.4
+  fill #5cff7a
+  text 32 51 24 60 3.4
+
+emoji ping | latency signal connection ms
+  fill lin #9af09a #2fae4a 0 4 0 38
+  stroke #1b7a31 2
+  rect 6 29 10 10 2.5
+  rect 20 21 10 18 2.5
+  rect 34 12 10 27 2.5
+  rect 48 3 10 36 2.5
+  fill #0f4a1e
+  text 32 60.5 17 24 6
+  fill #b8ffb0
+  text 32 60.5 17 24 3
+
+emoji crit | critical hit damage big
+  fill rad #ffd24d #f0421a 30 28 30
+  stroke #9a1c0a 2.2
+  poly 32.0 2.0 37.4 11.7 47.0 6.0 46.8 17.2 58.0 17.0 52.3 26.6 62.0 32.0 52.3 37.4 58.0 47.0 46.8 46.8 47.0 58.0 37.4 52.3 32.0 62.0 26.6 52.3 17.0 58.0 17.2 46.8 6.0 47.0 11.7 37.4 2.0 32.0 11.7 26.6 6.0 17.0 17.2 17.2 17.0 6.0 26.6 11.7
+  xf 0 0 1 -10
+  fill #5e0a00
+  text 32 37.5 13 CRIT 4.8
+  fill $white
+  text 32 37.5 13 CRIT 2.6
+  xf
+
+emoji miss | missed whiff dodge fail
+  stroke #9aa3ad 2.6
+  line 3 14 15 12
+  line 2 22 10 21
+  line 50 49 61 47
+  xf 0 0 1 -12
+  fill lin #d5dae2 #8c95a2 0 18 0 46
+  stroke #5d6670 2.4
+  poly 9 18 62 18 55 46 2 46
+  fill #2f363f
+  text 32 37.5 13.5 MISS 4.8
+  fill $white
+  text 32 37.5 13.5 MISS 2.6
+  xf
+
+emoji ko | knockout down finished punch
+  fill rad #fff6a0 #ffc21c 30 28 30
+  stroke #d6301a 2.4
+  poly 37.2 2.5 41.5 15.5 51.9 15.3 49.9 25.5 61.0 32.0 49.9 38.5 52.7 49.4 41.5 48.5 37.2 61.5 28.7 50.7 19.5 53.7 17.4 44.2 4.7 41.9 13.0 32.0 6.6 22.8 17.4 19.8 17.0 6.0 28.7 13.3
+  xf 0 0 1 -8
+  fill #6e0a0a
+  text 32.5 41 20 KO 6.6
+  fill #ff4a3a
+  text 32.5 41 20 KO 3.6
+  xf
+
+emoji win | victory won first winner
+  fill lin #e0a020 #b3740a 0 26 0 52
+  stroke #7a4a00 2
+  mirror poly 2 27 14 27 14 51 2 51 7.5 39
+  fill rad #fff29a #ffc21c 22 22 44
+  stroke #a86a00 2.4
+  rect 8 19 48 27 5
+  fill #5e3600
+  text 32 39.5 16 WIN 5.4
+  fill $white
+  text 32 39.5 16 WIN 2.9
+  use star 0 -22 0.26
+  use gc_spark -22 -20 0.1
+  use gc_spark 22 -20 0.1
+
+emoji lose | defeat lost sad second
+  xf 0 -3 1 7
+  fill lin #6f8196 #4a5a6e 0 26 0 52
+  stroke #2f3c4c 2
+  mirror poly 2 27 14 27 14 51 2 51 7.5 39
+  fill rad #c4d2e2 #7c92ad 22 22 44
+  stroke #3f5068 2.4
+  rect 8 19 48 27 5
+  fill #1f2c3c
+  text 32 39 12.5 LOSE 4.4
+  fill $white
+  text 32 39 12.5 LOSE 2.4
+  xf
+  use drop 14 23 0.2
+
+emoji mvp | most valuable player best star
+  use star
+  fill lin #ff6a5a #c9242c 0 28 0 46
+  stroke #7a0f16 2
+  rect 6 28 52 19 5
+  fill #4a0508
+  text 32 43 13 MVP 4.4
+  fill $white
+  text 32 43 13 MVP 2.5
+
+emoji ace | card perfect flawless team wipe
+  xf 0 0 1 8
+  fill lin #ffffff #e6eaf0 0 3 0 61
+  stroke #8a94a3 2.4
+  rect 11 3 42 58 7
+  fill $red
+  stroke $redd 1.2
+  poly 20 8 25 15 20 22 15 15
+  poly 44 42 49 49 44 56 39 49
+  fill #5e0a0a
+  text 32 38.5 13.5 ACE 4.2
+  fill #ff4a3a
+  text 32 38.5 13.5 ACE 2.4
+  xf
+
+emoji clutch | fist win close save
+  fill lin $skin $skind 0 44 0 62
+  stroke $skinl 2.2
+  rect 14 46 22 16 4
+  fill rad $skin $skind 20 22 40
+  stroke $skinl 2.2
+  rect 5 12 10.5 20 5
+  rect 14.5 9 10.5 20 5
+  rect 24 9 10.5 20 5
+  rect 33.5 12 10.5 20 5
+  rect 5 20 39.5 31 10
+  rect 3 31 30 12.5 6.2
+  stroke $skinl 1.6
+  line 15 14 15 21
+  line 24.5 12 24.5 21
+  line 34 14 34 21
+  fill #7a0f0f
+  text 54 34 28 ! 7
+  fill #ff4a3a
+  text 54 34 28 ! 3.8
+
+emoji noob | newbie beginner sprout new
+  stroke #2f8f2a 4
+  line 32 36 32 20
+  fill rad #b8f07a #4fc23a 24 8 26
+  stroke #2f8f2a 2.2
+  path M 32 23 Q 12 25 7 6 Q 29 3 32 23 Z
+  path M 32 20 Q 51 23 58 8 Q 38 0 32 20 Z
+  stroke #2f8f2a 1.4
+  line 14 11 27 19
+  line 51 11 37 17
+  fill lin #e08a55 #b3562a 0 40 0 60
+  stroke #7a3414 2.2
+  poly 17 40 47 40 43 60 21 60
+  fill lin #f2a06a #cc6a38 0 33 0 42
+  rect 13 33 38 9 3
+
+emoji pro | professional skilled expert laurel
+  fill lin #ffe680 #e0a020 0 10 0 58
+  stroke #a86a00 1.6
+  mirror ellipse 21.9 55.8 6.6 3.4 55
+  mirror ellipse 13.6 49.4 6.6 3.4 80
+  mirror ellipse 8.8 40.2 6.6 3.4 105
+  mirror ellipse 8.4 29.8 6.6 3.4 130
+  mirror ellipse 12.3 20.2 6.6 3.4 155
+  mirror ellipse 20.0 13.2 6.6 3.4 180
+  fill #5e3600
+  text 32 41 15 PRO 5.2
+  fill #ffe14d
+  text 32 41 15 PRO 2.8
+  use star 0 -22 0.2
+
+emoji gank | ambush daggers surprise attack
+  use gc_dagger -5 5 1 -40
+  use gc_dagger 5 5 1 40
+  fill #7a0f0f
+  text 32 21 20 ! 6
+  fill #ff4a3a
+  text 32 21 20 ! 3.2
+
+emoji camp | camping tent waiting hiding
+  fill lin #9ad85a #4f9a2a 0 50 0 60
+  stroke #2f6b1c 2
+  ellipse 32 54 29 6
+  stroke #8a5a2a 2.4
+  line 32 9 32 3
+  fill $red
+  stroke $redd 1.2
+  poly 32 2 42 5 32 8
+  fill lin #ffb24d #e8641a 10 10 50 54
+  stroke #9a3c0a 2.4
+  poly 32 8 58 54 6 54
+  fill #4a1c06
+  nostroke
+  poly 32 24 43 54 21 54
+  fill #ffd9a0
+  stroke #9a3c0a 1.4
+  poly 32 24 24 54 21 54
+
+emoji rush | fast go push speed
+  fill lin #ffe680 #ffb21c 0 9 0 55
+  stroke #c98a0a 2.2
+  poly 3 10 14 10 27 32 14 54 3 54 15 32
+  fill lin #ffb86a #ff7a1c 0 9 0 55
+  stroke #b8500a 2.2
+  poly 20 10 31 10 44 32 31 54 20 54 32 32
+  fill lin #ff8a6a #f0321c 0 9 0 55
+  stroke #9a1c0a 2.2
+  poly 37 10 48 10 61 32 48 54 37 54 49 32
+
+emoji heal | health support medic restore
+  fill rad #b0ffa0 #2fc24a 22 20 44
+  stroke #147a2a 2.4
+  poly 23 8 41 8 41 23 56 23 56 41 41 41 41 56 23 56 23 41 8 41 8 23 23 23
+  fill #ffffff66
+  nostroke
+  rect 26 11.5 5 9 2.5
+  use gc_spark 22 -22 0.17
+  use gc_spark -22 23 0.14
+  use gc_spark 23 21 0.1
+
+emoji tank | shield defense frontline protect
+  fill rad #a8c8f5 #3f6fc9 22 14 56
+  stroke #1f3f8a 2.4
+  path M 32 3 L 58 9 L 58 31 Q 58 51 32 61 Q 6 51 6 31 L 6 9 Z
+  nofill
+  stroke #dbe8ff 2
+  path M 32 9 L 52.5 13.5 L 52.5 31 Q 52.5 46.5 32 55 Q 11.5 46.5 11.5 31 L 11.5 13.5 Z
+  use heart 0 -1 0.42
+
+emoji dps | damage sword attack carry
+  stroke #ffb21c 3.4
+  line 3 24 22 24
+  line 2 38 12 38
+  line 8 52 24 52
+  stroke #ff7a1c 3.4
+  line 7 31 18 31
+  line 4 45 16 45
+  use gc_dagger 5 -3 1.2 45
+
+emoji loot | coins gold treasure drop
+  fill lin #ffe680 #ffb21c 0 20 0 60
+  stroke #a86a00 1.8
+  ellipse 32 51 13.5 6
+  ellipse 32 46 13.5 6
+  ellipse 32 41 13.5 6
+  ellipse 32 36 13.5 6
+  ellipse 32 31 13.5 6
+  ellipse 32 26 13.5 6
+  ellipse 15.5 54 13 6
+  ellipse 15.5 49 13 6
+  ellipse 15.5 44 13 6
+  ellipse 48.5 54 13 6
+  ellipse 48.5 49 13 6
+  ellipse 48.5 44 13 6
+  ellipse 48.5 39 13 6
+  fill #fff6b0
+  nostroke
+  ellipse 30 25 7 2.4
+  ellipse 14 43 6 2.2
+  ellipse 46.5 38 6 2.2
+  use gc_spark 16 -22 0.2
+  use gc_spark -16 -12 0.12
+
+emoji nice | good well done great
+  xf 0 0 1 -6
+  fill rad #8ff0dc #14a892 20 18 52
+  stroke #0a6a5c 2.4
+  rect 3 16 58 32 16
+  fill #ffffff55
+  nostroke
+  rect 14 19.5 30 4 2
+  fill #06443a
+  text 32 39.5 14 NICE 4.8
+  fill $white
+  text 32 39.5 14 NICE 2.6
+  xf
+  use gc_spark 22 -22 0.15
+
+emoji oof | ouch hurt bad yikes
+  fill rad #f0c88a #b9772e 20 16 52
+  stroke #6e3f10 2.4
+  rect 4 12 56 40 11
+  fill #4a2806
+  text 32 43.5 18 OOF 5.6
+  fill $white
+  text 32 43.5 18 OOF 3
+  stroke #4a2806 2.4
+  line 40 12 36 22 43 28 37 37 42 44 39 52
+  line 43 28 50 26
+  line 37 37 30 38
+
+emoji rekt | wrecked destroyed owned stamp
+  xf 0 0 1 -14
+  fill #ea464026
+  stroke $red 3.2
+  rect 3 17 58 30 6
+  nofill
+  stroke $red 1.3
+  rect 7 21 50 22 3.5
+  fill $red
+  text 32 38.5 13 REKT 3.4
+  xf
+
+emoji f_respects | respect rip press f tribute
+  fill lin #aab4c2 #6f7a8a 0 8 0 58
+  stroke #4a5361 2.4
+  rect 3 9 46 50 9
+  fill lin #ffffff #dfe5ec 0 10 0 48
+  stroke #8a94a3 1.6
+  rect 8 11 36 37 7
+  fill #2f363f
+  text 26 40 24 F 4.4
+  stroke #2f8f2a 2.6
+  curve 55 36 54 48 57 60
+  fill #ff8ab0
+  stroke #c9406e 1.3
+  circle 55 22 4.6
+  circle 61 27 4.6
+  circle 58.5 34 4.6
+  circle 51.5 34 4.6
+  circle 49 27 4.6
+  fill #ffd24d
+  stroke #c98a0a 1.3
+  circle 55 29 3.8
+
+emoji one_more | another round again plus one
+  fill rad #ff9acb #d0307a 20 14 56
+  stroke #8a1450 2.4
+  rect 4 5 56 54 11
+  fill #5a0630
+  text 32 33 22 +1 6
+  text 32 53 11.5 GAME 4.2
+  fill #fff3a0
+  text 32 33 22 +1 3.4
+  fill $white
+  text 32 53 11.5 GAME 2.3
+
+emoji carry | strong arm lift team star
+  fill rad $skin $skind 26 30 40
+  stroke $skinl 2.4
+  blob 10 17 18 11 27 14 28 24 25 31 31 32 40 26 52 31 59 44 58 57 36 60 12 58 6 42 7 26
+  stroke $skinl 1.8
+  curve 25 31 26 39 35 42
+  curve 12 22 19 25 27 22
+  use star 12 -20 0.3
+
+emoji tilt | tilted angry frustrated mad
+  xf 0 0 1 30
+  use face
+  use brows_angry 0 3
+  use eyes 0 3
+  fill $white
+  stroke $ink 2.2
+  rect 18 39 28 11 4
+  stroke $ink 1.4
+  line 19 44.5 45 44.5
+  line 25 40 25 49
+  line 32 40 32 49
+  line 39 40 39 49
+  xf
+
+emoji salt | salty bitter mad shaker
+  xf -5 -7 0.7 135
+  fill lin #f4fbff #c9dcea 14 0 50 0
+  stroke #7c8ea0 2.6
+  path M 20 20 L 44 20 L 48 54 Q 48 60 42 60 L 22 60 Q 16 60 16 54 Z
+  fill $white
+  nostroke
+  path M 19 40 L 45 40 L 46.5 54 Q 46.5 58 42 58 L 22 58 Q 17.5 58 17.5 54 Z
+  fill lin #d5dae2 #8c95a2 0 4 0 20
+  stroke #5d6670 2.6
+  path M 19 21 L 19 13 Q 19 4 32 4 Q 45 4 45 13 L 45 21 Z
+  fill #3a424c
+  nostroke
+  circle 26 11 1.8
+  circle 32 9 1.8
+  circle 38 11 1.8
+  xf
+  fill $white
+  stroke #7c8ea0 1.4
+  rect 43 43 4.4 4.4 1
+  rect 50 47 4.4 4.4 1
+  rect 44 52 4.4 4.4 1
+  rect 54 55 4.4 4.4 1
+  rect 49 57.5 4 4 1
+
+emoji toxic | poison rude nasty slime
+  fill rad #d4ff6a #5cc21a 22 18 46
+  stroke #2f7a0a 2.4
+  path M 32 3 C 50 3 59 15 59 28 C 59 37 55 42 53 44 Q 54 55 49.5 55 Q 46 55 46 47 Q 41 51 37 51 Q 38 61 33 61 Q 28.5 61 29 51 Q 23 51 18 47 Q 18 53 14.5 53 Q 10.5 53 11 44 C 8 41 5 36 5 28 C 5 15 14 3 32 3 Z
+  fill #1f5a06
+  nostroke
+  path M 32 23 Q 25 14 32 7 Q 39 14 32 23 Z
+  path M 27 31 Q 15 31 12.5 40.5 Q 22 43 27 31 Z
+  path M 37 31 Q 49 31 51.5 40.5 Q 42 43 37 31 Z
+  circle 32 27.5 4
+  fill #d4ff6a
+  circle 32 27.5 1.8
+
+emoji bot | robot ai npc fake player
+  stroke $steeld 2.6
+  line 32 25 32 19
+  fill #17325e
+  text 32 17 15 ? 5.4
+  fill #ffd24d
+  text 32 17 15 ? 2.8
+  fill lin #7fe0d0 #2f9c9a 0 30 0 48
+  stroke #17635e 2
+  mirror rect 2 33 8 13 3
+  fill lin #c8f5ee #5fc4be 0 22 0 60
+  stroke #17635e 2.4
+  rect 8 23 48 37 11
+  fill #12303a
+  nostroke
+  rect 13 30 38 14 7
+  fill #6affd0
+  mirror rect 19 33.5 7 7 2
+  stroke #17635e 2.4
+  line 24 52 40 52
+
+emoji hype | excited pog lets go wow
+  use face 0 1 0.9
+  xf 0 1 0.9
+  fill $ink
+  mirror circle 21 25 8
+  fill $white
+  mirror poly 21 18 22.4 23.6 28 25 22.4 26.4 21 32 19.6 26.4 14 25 19.6 23.6
+  use grin 0 1
+  xf
+  fill rad $skin $skind 6 44 12
+  stroke $skinl 2
+  mirror circle 8.5 48 7.6
+  stroke $skinl 1.4
+  mirror line 5.5 44 5.5 48
+  mirror line 8.5 43.4 8.5 47.6
+  mirror line 11.5 44 11.5 48
+  stroke #ffcc33 2.2
+  mirror line 3 36 1.5 32
+  mirror line 8 35 8 30.5
+
+emoji rage_quit | angry quit throw controller mad
+  use gc_face_red -6 7 0.8
+  xf -6 7 0.8
+  use brows_angry 0 3
+  use eyes 0 3
+  fill $mouth
+  path M 19 43 Q 32 35 45 43 Q 46 56 32 56 Q 18 56 19 43 Z
+  fill $white
+  path M 22 42.5 Q 32 37.5 42 42.5 L 41 46 Q 32 42 23 46 Z
+  xf
+  stroke #ffffffaa 2.2
+  line 31 13 36 9
+  line 36 20 41 17
+  xf 15 -16 0.56 24
+  fill lin #c4ccea #7a84b0 0 18 0 50
+  stroke #2f3550 3.6
+  blob 6 24 18 18 32 20 46 18 58 24 62 44 54 50 44 40 20 40 10 50 2 44
+  fill #2f3550
+  nostroke
+  rect 11 26 14 4.6 1
+  rect 15.7 21.3 4.6 14 1
+  fill $red
+  circle 44 25 3.4
+  fill #ffd24d
+  circle 51 30.5 3.4
+  xf
+
+emoji sweaty | tryhard sweat headset effort
+  use face 0 3 0.86
+  xf 0 3 0.86
+  use brows_angry 0 3
+  use eyes 0 3
+  stroke $ink 3
+  curve 23 46 27.5 44 32 46 36.5 44 41 46
+  xf
+  use gc_headset 0 2
+  use drop 13 -15 0.2
+  use drop -13 -17 0.16
+  use drop 20 -2 0.15
+
+emoji gamer_focus | concentrate locked in headset tongue
+  use face 0 3 0.86
+  xf 0 3 0.86
+  stroke $ink 2.8
+  mirror line 14.5 19.5 27 23
+  fill $ink
+  nostroke
+  mirror path M 16 26 L 28 26 Q 27.5 31.5 22 31.5 Q 16.5 31.5 16 26 Z
+  stroke $ink 3
+  line 24 45 38 45
+  fill $tongue
+  stroke $tongued 1.4
+  path M 35 42.5 Q 47 39.5 47.5 45.5 Q 47.5 51.5 36 47.5 Z
+  xf
+  use gc_headset 0 2
+
+emoji sleepy_gamer | tired late night headset exhausted
+  use face 0 3 0.86
+  xf 0 3 0.86
+  stroke #9a5a8a99 3
+  mirror arc 22 31 7 5.5 15 165
+  fill $ink
+  nostroke
+  mirror path M 16.5 26.5 L 27.5 26.5 Q 27 31 22 31 Q 17 31 16.5 26.5 Z
+  stroke $ink 2.8
+  mirror line 15.5 26 28.5 26
+  fill $mouth
+  nostroke
+  ellipse 32 46 4.4 5
+  xf
+  use gc_headset 3 1 1 13
+  fill $white
+  text 54 13 10 Z 4.4
+  fill #2f8de0
+  text 54 13 10 Z 2
+
+emoji winner | champion crown victory first confetti
+  fill #ff5fa2
+  nostroke
+  rect 2 30 4.5 4.5 1
+  circle 60 50 2.4
+  fill #3fb5ff
+  circle 4 46 2.4
+  rect 57.5 28 4.5 4.5 1
+  fill #54d17a
+  rect 1.5 14 4 4 1
+  circle 6 58 2
+  fill #ffe14d
+  circle 60 13 2.4
+  rect 56 57 4 4 1
+  use face 0 6 0.84
+  xf 0 6 0.84
+  use eyes_happy 0 3
+  use grin 0 2
+  xf
+  fill lin #fff29a #ffb21c 0 2 0 26
+  stroke #b3740a 2.2
+  path M 13.5 24 L 10 6 L 22 14 L 32 3 L 42 14 L 54 6 L 50.5 24 Q 32 29 13.5 24 Z
+  fill $red
+  stroke $redd 1.2
+  circle 32 18 3.2
+  fill #3fb5ff
+  stroke #1a6fc0 1.2
+  circle 21 20 2.3
+  circle 43 20 2.3
+
+emoji big_brain | smart genius galaxy brain idea
+  stroke #ffd24d 2.6
+  line 3 20 7 21
+  line 61 20 57 21
+  line 6 6 10 10
+  line 58 6 54 10
+  use face 0 12 0.62
+  xf 0 12 0.62
+  use eyes 0 3
+  use smile 0 2
+  xf
+  fill rad #ffd6e2 #f07a9e 24 12 34
+  stroke #b8446a 2.2
+  blob 9 22 12 10 22 4.5 32 3 42 4.5 52 10 55 22 49 32 32 34.5 15 32
+  nofill
+  stroke #b8446a 1.8
+  curve 32 4 30 13 33 22 31 33.5
+  mirror curve 13 19 19 14.5 24 20
+  mirror curve 17 28.5 23 24 27 29
+  mirror curve 20 8.5 25 11 23 15.5
+  fill #ffffff66
+  nostroke
+  ellipse 20 9.5 4 1.8 -25
+
+emoji smooth_brain | dumb empty no thoughts derp
+  use face 0 4 0.9
+  fill rad #ffd6e2 #f58aa8 28 5 12
+  stroke #b8446a 2
+  path M 21 14.5 Q 21 2.5 32 2.5 Q 43 2.5 43 14.5 Q 32 17.5 21 14.5 Z
+  fill #ffffff88
+  nostroke
+  ellipse 27.5 7 3.4 1.6 -25
+  xf 0 4 0.9
+  fill $white
+  stroke $ink 1.6
+  mirror ellipse 21.5 27 6.4 7.4
+  fill $ink
+  nostroke
+  circle 18.5 24 2.9
+  circle 45.5 30 2.9
+  fill $mouth
+  path M 22 41 Q 32 44.5 42 41 Q 41 52 32 52 Q 23 52 22 41 Z
+  fill lin #c9ebff $tear 0 46 0 57
+  stroke $teard 1.1
+  path M 39.5 46.5 Q 37.5 55 40.5 56 Q 43.5 55 41.5 46.5 Z
+  xf
+
+emoji cope | coping denial breathe mask fine
+  use face -4 -1 0.88
+  xf -4 -1 0.88
+  use brows_sad
+  use eyes_closed 0 3
+  xf
+  stroke #1f7a1a 2.2
+  line 14 37 5 32
+  line 42 37 51 33
+  stroke #14600f 5.4
+  curve 30 52 36 61 48 54
+  stroke #7fe060 2.4
+  curve 30 52 36 61 48 54
+  fill lin #c4f7a8 #4fc23a 0 33 0 55
+  stroke #1f7a1a 2.2
+  path M 15 36.5 Q 28 31 41 36.5 L 39 50 Q 28 56.5 17 50 Z
+  stroke #1f7a1a 1.5
+  line 23 42 33 42
+  line 24 46.5 32 46.5
+  fill lin #d5dae2 #8c95a2 0 22 0 30
+  stroke #5d6670 1.6
+  rect 50 23 7 7 1.5
+  fill lin #a8f08a #2f9a2a 46 0 62 0
+  stroke #14600f 2.2
+  rect 45.5 28 16 32 7
+  fill #ffffff66
+  nostroke
+  rect 49 33 3 14 1.5
+
+emoji not_like_this | despair no disaster hands on head
+  stroke $skinl 9.4
+  mirror curve 5 56 2.5 36 11 20
+  stroke $skin 5.6
+  mirror curve 5 56 2.5 36 11 20
+  use face 0 7 0.82
+  xf 0 7 0.82
+  use eyes_wide 0 2
+  use brows_sad 0 -1
+  fill $mouth
+  ellipse 32 47.5 5.5 4.5
+  xf
+  fill rad $skin $skind 14 10 18
+  stroke $skinl 2
+  mirror ellipse 17 15 12.5 8 -24
+  stroke $skinl 1.5
+  mirror line 18 9.5 27 5.5
+  mirror line 20 14 29 10
+  mirror line 21.5 18.5 29.5 15
+
+emoji pain | fine hurting inside thumbs up cope
+  use face
+  use brows_sad
+  use eyes
+  use smile -1 0
+  use drop -11 9 0.19
+  fill rad $skin $skind 44 34 26
+  stroke $skinl 2
+  rect 43 29 9 20 4.5
+  rect 40 43 20 17 6.5
+  stroke $skinl 1.4
+  line 50 49 59 49
+  line 50 54 59 54

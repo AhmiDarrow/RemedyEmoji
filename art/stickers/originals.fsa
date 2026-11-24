@@ -1,0 +1,328 @@
+// The built-in sticker pack. Original FreeSpeak art: each sticker is one of
+// our own emoji over a caption. The white die-cut border is added when a
+// sticker is drawn, so it is not part of the art here.
+category originals
+
+sticker good_game | gg win match
+  use trophy 0 -9.5 0.741
+  fill #12351f
+  text 32 60 14.0 GG 5.6
+  fill lin #c9ff9c #3fd46b 0 46.0 0 60
+  text 32 60 14.0 GG 2.8
+
+sticker well_played | wp respect match
+  use handshake 0 -9.5 0.741
+  fill #0f2647
+  text 32 60 14.0 WP 5.6
+  fill lin #cfe9ff #4aa3f5 0 46.0 0 60
+  text 32 60 14.0 WP 2.8
+
+sticker good_luck | glhf luck fun
+  use four_leaf_clover 0 -8.6 0.772
+  fill #12351f
+  text 32 60 12.2 GL_HF 4.88
+  fill lin #c9ff9c #3fd46b 0 47.8 0 60
+  text 32 60 12.2 GL_HF 2.44
+
+sticker too_easy | ez easy smug
+  use sunglasses 0 -9.5 0.741
+  fill #3d2a05
+  text 32 60 14.0 EZ 5.6
+  fill lin #fff3a6 #ffb81f 0 46.0 0 60
+  text 32 60 14.0 EZ 2.8
+
+sticker clutch_play | clutch crown king
+  use winner 0 -7.6 0.809
+  fill #3d2a05
+  text 32 60 10.1 CLUTCH 4.42
+  fill lin #fff3a6 #ffb81f 0 49.9 0 60
+  text 32 60 10.1 CLUTCH 2.02
+
+sticker hype_time | hype fire lets go
+  use hype 0 -8.6 0.772
+  fill #42200a
+  text 32 60 12.2 HYPE! 4.88
+  fill lin #ffe0b0 #ff8a2e 0 47.8 0 60
+  text 32 60 12.2 HYPE! 2.44
+
+sticker rage_mode | rage angry tilt
+  use rage_quit 0 -9.5 0.741
+  fill #3d0f0f
+  text 32 60 14.0 RAGE 5.6
+  fill lin #ffc0a8 #f0503a 0 46.0 0 60
+  text 32 60 14.0 RAGE 2.8
+
+sticker big_oof | oof rip dead
+  use headstone 0 -9.5 0.741
+  fill #22262c
+  text 32 60 14.0 OOF 5.6
+  fill lin #f4f6f8 #aab4bf 0 46.0 0 60
+  text 32 60 14.0 OOF 2.8
+
+sticker level_up_now | level up ding
+  use level_up 0 -7.6 0.809
+  fill #3d2a05
+  text 32 60 10.1 LVL_UP 4.42
+  fill lin #fff3a6 #ffb81f 0 49.9 0 60
+  text 32 60 10.1 LVL_UP 2.02
+
+sticker loot_time | loot chest treasure
+  use loot_chest 0 -8.6 0.772
+  fill #3d2a05
+  text 32 60 12.2 LOOT! 4.88
+  fill lin #fff3a6 #ffb81f 0 47.8 0 60
+  text 32 60 12.2 LOOT! 2.44
+
+sticker heal_me | heal potion help
+  use health_potion 0 -6.8 0.834
+  fill #3d0f0f
+  text 32 60 8.6 HEAL_ME 4.12
+  fill lin #ffc0a8 #f0503a 0 51.4 0 60
+  text 32 60 8.6 HEAL_ME 1.72
+
+sticker one_more_game | one more game again
+  use video_game 0 -7.6 0.809
+  fill #28134d
+  text 32 60 10.1 1_MORE 4.42
+  fill lin #ead4ff #a56bf0 0 49.9 0 60
+  text 32 60 10.1 1_MORE 2.02
+
+sticker lag_spike | lag ping slow
+  use wifi 0 -9.5 0.741
+  fill #3d0f0f
+  text 32 60 14.0 LAG 5.6
+  fill lin #ffc0a8 #f0503a 0 46.0 0 60
+  text 32 60 14.0 LAG 2.8
+
+sticker afk_now | afk away sleep
+  use sleeping 0 -9.5 0.741
+  fill #0f2647
+  text 32 60 14.0 AFK 5.6
+  fill lin #cfe9ff #4aa3f5 0 46.0 0 60
+  text 32 60 14.0 AFK 2.8
+
+sticker be_right_back | brb back soon coffee
+  use coffee 0 -9.5 0.741
+  fill #42200a
+  text 32 60 14.0 BRB 5.6
+  fill lin #ffe0b0 #ff8a2e 0 46.0 0 60
+  text 32 60 14.0 BRB 2.8
+
+sticker on_my_way | omw coming rocket
+  use rocket 0 -9.5 0.741
+  fill #0f2647
+  text 32 60 14.0 OMW 5.6
+  fill lin #cfe9ff #4aa3f5 0 46.0 0 60
+  text 32 60 14.0 OMW 2.8
+
+sticker hello_there | hello hi wave hey
+  use wave 0 -7.6 0.809
+  fill #0c3336
+  text 32 60 10.1 HELLO! 4.42
+  fill lin #c4fbf3 #2fc9b4 0 49.9 0 60
+  text 32 60 10.1 HELLO! 2.02
+
+sticker thank_you | thanks ty grateful
+  use smiling_hearts 0 -7.6 0.809
+  fill #4a1030
+  text 32 60 10.1 THANKS 4.42
+  fill lin #ffd6ea #ff6fae 0 49.9 0 60
+  text 32 60 10.1 THANKS 2.02
+
+sticker nice_one | nice good thumbs
+  use thumbsup 0 -8.6 0.772
+  fill #12351f
+  text 32 60 12.2 NICE! 4.88
+  fill lin #c9ff9c #3fd46b 0 47.8 0 60
+  text 32 60 12.2 NICE! 2.44
+
+sticker good_job | gj well done clap
+  use clap 0 -9.5 0.741
+  fill #3d2a05
+  text 32 60 14.0 GJ! 5.6
+  fill lin #fff3a6 #ffb81f 0 46.0 0 60
+  text 32 60 14.0 GJ! 2.8
+
+sticker oh_yes | yes wow excited
+  use star_struck 0 -9.5 0.741
+  fill #3d2a05
+  text 32 60 14.0 YES! 5.6
+  fill lin #fff3a6 #ffb81f 0 46.0 0 60
+  text 32 60 14.0 YES! 2.8
+
+sticker nope | no nope refuse
+  use unamused 0 -9.5 0.741
+  fill #3d0f0f
+  text 32 60 14.0 NOPE 5.6
+  fill lin #ffc0a8 #f0503a 0 46.0 0 60
+  text 32 60 14.0 NOPE 2.8
+
+sticker so_sorry | sorry apologize please
+  use pleading 0 -8.6 0.772
+  fill #0f2647
+  text 32 60 12.2 SORRY 4.88
+  fill lin #cfe9ff #4aa3f5 0 47.8 0 60
+  text 32 60 12.2 SORRY 2.44
+
+sticker too_funny | lol laugh haha
+  use rofl 0 -9.5 0.741
+  fill #3d2a05
+  text 32 60 14.0 LOL 5.6
+  fill lin #fff3a6 #ffb81f 0 46.0 0 60
+  text 32 60 14.0 LOL 2.8
+
+sticker love_it | love adore heart
+  use heart_eyes 0 -6.8 0.834
+  fill #4a1030
+  text 32 60 8.6 LOVE_IT 4.12
+  fill lin #ffd6ea #ff6fae 0 51.4 0 60
+  text 32 60 8.6 LOVE_IT 1.72
+
+sticker mind_blown | whoa wow mind blown
+  use exploding_head 0 -9.5 0.741
+  fill #42200a
+  text 32 60 14.0 WHOA 5.6
+  fill lin #ffe0b0 #ff8a2e 0 46.0 0 60
+  text 32 60 14.0 WHOA 2.8
+
+sticker respect | o7 salute respect
+  use salute 0 -9.5 0.741
+  fill #3d2a05
+  text 32 60 14.0 O7 5.6
+  fill lin #fff3a6 #ffb81f 0 46.0 0 60
+  text 32 60 14.0 O7 2.8
+
+sticker its_fine | fine fire calm ok
+  use fire -16.2 -1.1 0.426
+  use fire 16.2 -1.1 0.426
+  use slight_smile 0.0 -4.5 0.682
+  fill #42200a
+  text 32 60 7.5 ITS_FINE 3.9
+  fill lin #ffe0b0 #ff8a2e 0 52.5 0 60
+  text 32 60 7.5 ITS_FINE 1.5
+
+sticker good_morning | gm morning sun
+  use sun 0 -9.5 0.741
+  fill #3d2a05
+  text 32 60 14.0 GM 5.6
+  fill lin #fff3a6 #ffb81f 0 46.0 0 60
+  text 32 60 14.0 GM 2.8
+
+sticker good_night | gn night sleep moon
+  use moon 0 -9.5 0.741
+  fill #28134d
+  text 32 60 14.0 GN 5.6
+  fill lin #ead4ff #a56bf0 0 46.0 0 60
+  text 32 60 14.0 GN 2.8
+
+sticker happy_birthday | birthday hbd cake
+  use cake 0 -9.5 0.741
+  fill #4a1030
+  text 32 60 14.0 HBD! 5.6
+  fill lin #ffd6ea #ff6fae 0 46.0 0 60
+  text 32 60 14.0 HBD! 2.8
+
+sticker party_time | party celebrate woo
+  use partying 0 -8.6 0.772
+  fill #28134d
+  text 32 60 12.2 PARTY 4.88
+  fill lin #ead4ff #a56bf0 0 47.8 0 60
+  text 32 60 12.2 PARTY 2.44
+
+sticker ship_it | ship release deploy launch
+  use rocket 0 -6.8 0.834
+  fill #0f2647
+  text 32 60 8.6 SHIP_IT 4.12
+  fill lin #cfe9ff #4aa3f5 0 51.4 0 60
+  text 32 60 8.6 SHIP_IT 1.72
+
+sticker it_works | works success build
+  use works_on_my_machine 0 -6.2 0.853
+  fill #12351f
+  text 32 60 7.5 IT_WORKS 3.9
+  fill lin #c9ff9c #3fd46b 0 52.5 0 60
+  text 32 60 7.5 IT_WORKS 1.5
+
+sticker bug_hunt | bug debug issue
+  use ladybug 0 -9.5 0.741
+  fill #3d0f0f
+  text 32 60 14.0 BUG? 5.6
+  fill lin #ffc0a8 #f0503a 0 46.0 0 60
+  text 32 60 14.0 BUG? 2.8
+
+sticker quack | duck debug rubber
+  use rubber_duck 0 -8.6 0.772
+  fill #3d2a05
+  text 32 60 12.2 QUACK 4.88
+  fill lin #fff3a6 #ffb81f 0 47.8 0 60
+  text 32 60 12.2 QUACK 2.44
+
+sticker big_brain_time | smart brain genius
+  use big_brain 0 -5.8 0.86
+  fill #4a1030
+  text 32 60 6.6 BIG_BRAIN 3.72
+  fill lin #ffd6ea #ff6fae 0 53.4 0 60
+  text 32 60 6.6 BIG_BRAIN 1.32
+
+sticker need_coffee | coffee tired code
+  use coffee_code 0 -7.6 0.809
+  fill #42200a
+  text 32 60 10.1 COFFEE 4.42
+  fill lin #ffe0b0 #ff8a2e 0 49.9 0 60
+  text 32 60 10.1 COFFEE 2.02
+
+sticker for_science | science experiment lab
+  use flask 0 -6.2 0.853
+  fill #12351f
+  text 32 60 7.5 SCIENCE! 3.9
+  fill lin #c9ff9c #3fd46b 0 52.5 0 60
+  text 32 60 7.5 SCIENCE! 1.5
+
+sticker eureka_moment | idea eureka got it
+  use eureka 0 -7.6 0.809
+  fill #3d2a05
+  text 32 60 10.1 EUREKA 4.42
+  fill lin #fff3a6 #ffb81f 0 49.9 0 60
+  text 32 60 10.1 EUREKA 2.02
+
+sticker going_live | live stream start
+  use movie_camera 0 -8.6 0.772
+  fill #3d0f0f
+  text 32 60 12.2 LIVE! 4.88
+  fill lin #ffc0a8 #f0503a 0 47.8 0 60
+  text 32 60 12.2 LIVE! 2.44
+
+sticker lurking | lurk watching quiet
+  use lurk 0 -9.5 0.741
+  fill #28134d
+  text 32 60 14.0 LURK 5.6
+  fill lin #ead4ff #a56bf0 0 46.0 0 60
+  text 32 60 14.0 LURK 2.8
+
+sticker good_vibes | vibes music chill
+  use headphones 0 -8.6 0.772
+  fill #0c3336
+  text 32 60 12.2 VIBES 4.88
+  fill lin #c4fbf3 #2fc9b4 0 47.8 0 60
+  text 32 60 12.2 VIBES 2.44
+
+sticker banger_alert | banger music song
+  use notes 0 -7.6 0.809
+  fill #42200a
+  text 32 60 10.1 BANGER 4.42
+  fill lin #ffe0b0 #ff8a2e 0 49.9 0 60
+  text 32 60 10.1 BANGER 2.02
+
+sticker looks_good | lgtm approve ok review
+  use check 0 -9.5 0.741
+  fill #12351f
+  text 32 60 14.0 LGTM 5.6
+  fill lin #c9ff9c #3fd46b 0 46.0 0 60
+  text 32 60 14.0 LGTM 2.8
+
+sticker pay_day | money paid payday
+  use money_mouth 0 -9.5 0.741
+  fill #12351f
+  text 32 60 14.0 PAID 5.6
+  fill lin #c9ff9c #3fd46b 0 46.0 0 60
+  text 32 60 14.0 PAID 2.8

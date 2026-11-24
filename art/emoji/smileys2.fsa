@@ -1,0 +1,434 @@
+// More faces and the creature faces. Original FreeSpeak art.
+category smileys
+
+part face_red
+  fill rad #ff9a7a #e5402f 24 20 48
+  stroke #a8231c 2.2
+  circle 32 32 27.6
+
+part face_green
+  fill rad #d4ee7c #86c232 24 20 48
+  stroke #4f8a14 2.2
+  circle 32 32 27.6
+
+part face_blue
+  fill rad #c9eaff #62aef2 24 20 48
+  stroke #2f6fc0 2.2
+  circle 32 32 27.6
+
+part face_purple
+  fill rad #cfa8ff #8d52e3 24 20 48
+  stroke #5a2aa8 2.2
+  circle 32 32 27.6
+
+emoji confused U+1F615 | unsure puzzled huh
+  use face
+  use eyes
+  stroke $ink 3
+  line 23 46.5 41 42
+
+emoji slight_frown U+1F641 | sad down
+  use face
+  use eyes
+  stroke $ink 3
+  arc 32 48 8 5 205 335
+
+emoji frowning U+2639 | sad unhappy
+  use face
+  use eyes
+  use frown
+
+emoji worried U+1F61F | anxious concerned nervous
+  use face
+  use eyes
+  use brows_sad
+  use frown
+
+emoji open_mouth U+1F62E | oh surprised wow
+  use face
+  use eyes
+  use mouth_o
+
+emoji astonished U+1F632 | shocked wow gasp surprised
+  use face
+  use eyes_wide
+  stroke $ink 2.6
+  mirror line 14.5 14 26 12.5
+  fill $mouth
+  nostroke
+  ellipse 32 46 7 8
+
+emoji flushed U+1F633 | embarrassed shy blushing oops
+  use face
+  use eyes_wide
+  use blush 0 3
+  stroke $ink 3
+  line 27 46 37 46
+
+emoji pleading U+1F97A | puppy eyes please beg
+  use face
+  use brows_sad 0 -5
+  fill $ink
+  mirror circle 21 27.5 7.6
+  fill $white
+  circle 18.5 25 2.7
+  circle 39.5 25 2.7
+  circle 24.5 30.5 1.4
+  circle 45.5 30.5 1.4
+  stroke $ink 2.6
+  arc 32 48.5 5 3.5 205 335
+
+emoji smiling_tear U+1F972 | touched grateful bittersweet
+  use face
+  use eyes_happy
+  use smile 0 2
+  use drop 12 9 0.17
+
+emoji cry U+1F622 | sad tear upset
+  use face
+  use eyes
+  use brows_sad
+  use frown
+  use drop 11 9 0.2
+
+emoji sob U+1F62D | crying bawling tears wail
+  use face
+  use brows_sad -0 -2
+  fill lin #c9ebff $tear 0 28 0 56
+  stroke $teard 1.2
+  mirror rect 17.5 28 9 28.5 4.5
+  stroke $ink 3
+  mirror arc 22 26.5 4.8 4.4 205 335
+  fill $mouth
+  nostroke
+  ellipse 32 46.5 6.5 8
+  fill $tongue
+  ellipse 32 50.5 4 3
+
+emoji sweat U+1F613 | tired stressed phew
+  use face
+  use eyes_closed 0 3
+  stroke $ink 3
+  arc 32 48 7 4 205 335
+  use drop -18 -17 0.3
+
+emoji scream U+1F631 | scared horror fear omg
+  use face
+  fill lin #4a9ff5cc #4a9ff500 0 5 0 31
+  circle 32 32 26.4
+  use eyes_wide
+  stroke $ink 2.6
+  mirror line 15 14 26 12
+  fill $mouth
+  nostroke
+  ellipse 32 47 6 9.5
+
+emoji angry U+1F620 | mad grumpy annoyed
+  use face
+  use brows_angry 0 3
+  use eyes 0 3
+  use frown
+
+emoji rage U+1F621 | furious mad pouting red
+  use face_red
+  use brows_angry 0 3
+  use eyes 0 3
+  use frown
+
+emoji cursing U+1F92C | swearing mad symbols censored
+  use face_red
+  use brows_angry 0 2
+  use eyes 0 2
+  fill $dark
+  rect 13 37.5 38 12.5 3
+  fill $white
+  text 32 47 6.6 #$!* 1.3
+
+emoji triumph U+1F624 | huff steam proud determined
+  use face
+  use brows_angry 0 3
+  use eyes_closed 0 4
+  use frown
+  fill #ffffffee
+  stroke #c9d2dc 1.2
+  mirror blob 21 43 13 42 6 46 5 53 11 56 17 52 15 48
+
+emoji smiling_imp U+1F608 | devil evil mischief horns
+  fill rad #cfa8ff #8d52e3 24 20 48
+  stroke #5a2aa8 2.2
+  mirror path M 9.5 20 Q 3 9 7 1.5 Q 15 5 22.5 10 Z
+  use face_purple
+  use brows_angry 0 3
+  use eyes 0 3
+  use grin
+
+emoji mask U+1F637 | sick ill medical
+  use face
+  use eyes
+  stroke #e8edf1 2
+  mirror line 14 37 5.5 30.5
+  mirror line 15 49.5 7.5 45
+  fill $white
+  stroke #b9c4cf 1.6
+  path M 14 36 Q 32 30 50 36 L 49 50 Q 32 58.5 15 50 Z
+  curve 18 42 32 39 46 42
+  curve 18.5 47.5 32 45 45.5 47.5
+
+emoji nauseated U+1F922 | sick gross green queasy
+  use face_green
+  use brows_sad
+  fill #3c5a12
+  mirror ellipse 22 26 3.3 4.5
+  stroke #3c5a12 3
+  curve 20 45.5 24 42.5 28 45.5 32 42.5 36 45.5 40 42.5 44 45.5
+
+emoji hot U+1F975 | heat sweating overheated spicy
+  use face_red
+  use brows_sad
+  use eyes
+  stroke $ink 3
+  line 23 42 41 42
+  use tongue_out
+  use drop -21 -12 0.22
+  use drop 22 -2 0.2
+
+emoji cold U+1F976 | freezing frozen brr ice
+  use face_blue
+  use brows_sad
+  fill #1f3f73
+  mirror ellipse 22 26 3.3 4.5
+  fill $white
+  stroke #1f3f73 2.2
+  rect 17 37.5 30 11 4
+  stroke #1f3f73 1.4
+  line 18 43 46 43
+  line 24.5 38.5 24.5 47.5
+  line 32 38.5 32 47.5
+  line 39.5 38.5 39.5 47.5
+  fill #f4fbff
+  stroke #9fd0f7 1.1
+  poly 6 20 12 19 10 31
+  poly 52 19 58 20 54 31
+  poly 20 56 27 58 24.5 63.5
+  poly 37 58 44 56 40 63.5
+
+emoji dizzy_face U+1F635 | dazed knocked out stunned
+  use face
+  stroke $ink 3
+  mirror line 17.5 21.5 26.5 30.5
+  mirror line 26.5 21.5 17.5 30.5
+  use mouth_o
+
+emoji woozy U+1F974 | tipsy drunk dazed
+  use face
+  use blush 0 2
+  fill $ink
+  ellipse 22 25.5 3.3 4.5
+  ellipse 42 28 3.3 3
+  stroke $ink 2.6
+  line 15 18 26 19.5
+  line 37 21.5 48 17
+  curve 21 44 26 46.5 31 43 36 46 42 42.5
+
+emoji exploding_head U+1F92F | mind blown shocked whoa
+  use face 0 4 0.9
+  xf 0 7 0.86
+  use eyes_wide
+  use mouth_o 0 3
+  xf
+  fill rad #fff6c9 #ff9b2e 32 8 26
+  stroke #d9620f 1.8
+  blob 14 19 7 12 12 3 23 5 32 1.5 41 5 52 3 57 12 50 19 43 16 39 23 32 20 25 23 21 16
+  fill #ffffffaa
+  nostroke
+  circle 24 10 3
+  circle 39 9 2.2
+
+emoji cowboy U+1F920 | yeehaw hat western howdy
+  use face 0 6 0.84
+  xf 0 7 0.84
+  use eyes
+  use grin
+  xf
+  fill lin #c98a45 #96592a 0 2 0 22
+  stroke #6f3f14 2
+  ellipse 32 18 29.5 6.5
+  path M 17 17 Q 15 2 26 4.5 Q 32 8.5 38 4.5 Q 49 2 47 17 Q 32 21 17 17 Z
+  stroke #6f3f14 2.4
+  curve 17.5 13.5 32 16.5 46.5 13.5
+
+emoji partying U+1F973 | party celebrate birthday woo
+  use face 0 3 0.92
+  xf 0 3 0.92
+  use eyes_happy
+  use smile
+  xf
+  fill lin #ff5fa2 #7a5cff 34 22 54 2
+  stroke #5a35c9 1.6
+  poly 33 11.5 56 2.5 51 25
+  fill #ffe14d
+  stroke #d6860c 1.2
+  circle 56.5 3.5 3.4
+  nostroke
+  fill #3fb5ff
+  circle 8 12 2.2
+  rect 13 3 4 4 1
+  fill #ff5fa2
+  circle 5 26 1.8
+  rect 20 6.5 3.4 3.4 0.8
+  fill #54d17a
+  circle 14 17 1.9
+  circle 59 34 2
+
+emoji monocle U+1F9D0 | inspect curious hmm fancy
+  use face
+  use eyes
+  stroke $ink 2.6
+  line 15 20 26 19
+  curve 36.5 14.5 42 12 48.5 14.5
+  arc 32 48 6 3 205 335
+  fill #ffffff55
+  stroke #2a2a32 2.4
+  circle 42 26.5 8.6
+  nofill
+  stroke #2a2a32 1.3
+  curve 49.5 31.5 53 42 50 55
+
+emoji sleeping U+1F634 | zzz tired asleep snore
+  use face
+  use eyes_closed 0 2
+  fill $mouth
+  ellipse 32 45 4.2 5.2
+  fill $white
+  text 47 19 10 Z 4.4
+  text 57.5 8.5 5.5 Z 3.2
+  fill #2f8de0
+  text 47 19 10 Z 2
+  text 57.5 8.5 5.5 Z 1.4
+
+emoji money_mouth U+1F911 | rich cash dollar greedy
+  use face
+  fill #2b9a45
+  text 22 31.5 10.5 $ 2
+  text 42 31.5 10.5 $ 2
+  stroke $ink 3
+  line 23 42 41 42
+  fill #46c05f
+  stroke #1f7a30 1.3
+  path M 25.5 43 Q 25 57 32 57 Q 39 57 38.5 43 Z
+  nostroke
+  fill $white
+  text 32 54 6.4 $ 1.2
+
+emoji salute U+1FAE1 | respect o7 yes sir aye
+  use face
+  use eyes 0 3
+  stroke $ink 3
+  line 25 45 39 45
+  fill rad #ffec7d #ffbd1c 46 14 20
+  stroke $rim 2
+  poly 31 19 57 7.5 60.5 14 36 25.5
+
+emoji skull U+1F480 | dead death rip bones
+  fill rad #ffffff #d5dae2 26 18 46
+  stroke #858e9c 2.2
+  path M 32 5 C 12 5 6.5 20 8.5 31 C 9.5 39 14 42.5 18 44.5 L 18 52 Q 18 57 23 57 L 41 57 Q 46 57 46 52 L 46 44.5 C 50 42.5 54.5 39 55.5 31 C 57.5 20 52 5 32 5 Z
+  fill #23252b
+  nostroke
+  mirror ellipse 21.5 29.5 6.6 7.6
+  poly 32 37.5 28.2 44.5 35.8 44.5
+  stroke #858e9c 1.8
+  line 26 50 26 56.5
+  line 32 50 32 56.5
+  line 38 50 38 56.5
+
+emoji skull_crossbones U+2620 | danger pirate poison death
+  stroke #858e9c 9.4
+  line 9 42 55 58
+  line 55 42 9 58
+  stroke #eef1f5 6.4
+  line 9 42 55 58
+  line 55 42 9 58
+  use skull 0 -7 0.8
+
+emoji ghost U+1F47B | boo spooky halloween
+  fill rad #ffffff #dfe4ee 26 18 46
+  stroke #9aa3b5 2.2
+  path M 32 5 C 16 5 11 18 11 30 L 9 56 Q 14 60.5 18.5 54.5 Q 23 60.5 27.5 54.5 Q 32 60.5 36.5 54.5 Q 41 60.5 45.5 54.5 Q 50 60.5 55 56 L 53 30 C 53 18 48 5 32 5 Z
+  fill #23252b
+  nostroke
+  mirror ellipse 24 25 4 5.6
+  ellipse 32 39 5.2 6.6
+  fill $tongue
+  ellipse 32 42 3.3 3.3
+
+emoji poop U+1F4A9 | poo crap pile
+  fill rad #b98455 #7d4b26 26 24 44
+  stroke #4f2c12 2.2
+  ellipse 32 49 24.5 10.5
+  ellipse 32 36.5 18.5 9.5
+  blob 21.5 26 21 18.5 29.5 13.5 32.5 5.5 41 12 43 22 38.5 28.5 27 29
+  fill $white
+  stroke #4f2c12 1.4
+  mirror ellipse 24.5 35.5 5 6
+  nostroke
+  fill #2a1a0c
+  mirror circle 25 36.5 2.4
+  fill $white
+  path M 21.5 46.5 Q 32 57 42.5 46.5 Q 32 50.5 21.5 46.5 Z
+
+emoji clown U+1F921 | circus joker silly
+  fill rad #ff8a5c #f04a26 12 20 16
+  stroke #b3300f 1.8
+  mirror circle 8.5 21 7.5
+  mirror circle 6.5 34 6
+  fill rad #ffffff #f0e8d6 24 20 48
+  stroke #bdb19a 2.2
+  circle 32 32 25.5
+  fill #3f9cf0
+  nostroke
+  mirror poly 22 15.5 26.5 26 22 36.5 17.5 26
+  use eyes
+  fill $red
+  path M 14.5 39 Q 32 61 49.5 39 Q 32 47.5 14.5 39 Z
+  fill rad #ff7a70 $red 30 32 8
+  stroke $redd 1.6
+  circle 32 35 5.6
+
+emoji alien U+1F47D | ufo extraterrestrial space
+  fill rad #dcf7c8 #8fd66a 26 18 46
+  stroke #4f9a33 2.2
+  path M 32 5 C 12 5 6 20 9 33 C 12 47 24 59 32 59 C 40 59 52 47 55 33 C 58 20 52 5 32 5 Z
+  fill #16181d
+  nostroke
+  mirror ellipse 21.5 31 6.6 10 -28
+  fill #ffffffcc
+  mirror circle 19.5 26.5 1.8
+  stroke #2f6b1c 2
+  arc 32 48 5 2.5 25 155
+
+emoji robot U+1F916 | bot machine android beep
+  stroke $steeld 2.6
+  line 32 12 32 6
+  fill rad #ff8a80 $red 31 4 5
+  stroke $redd 1.4
+  circle 32 5.5 3.6
+  fill $steel
+  stroke $steeld 2
+  rect 4 26 7 13 2.5
+  rect 53 26 7 13 2.5
+  fill lin #e4eaf1 #9aa7b6 0 12 0 54
+  stroke $steeld 2.4
+  rect 10 12 44 43 9
+  fill #1d2530
+  nostroke
+  mirror circle 22 28 7.2
+  rect 18.5 41 27 9 2.5
+  fill #45d6ff
+  mirror circle 22 28 4.2
+  rect 21 43.2 4.2 4.6 1
+  rect 27 43.2 4.2 4.6 1
+  rect 33 43.2 4.2 4.6 1
+  rect 39 43.2 4.2 4.6 1
+  fill $white
+  mirror circle 20.6 26.6 1.4

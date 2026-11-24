@@ -1,0 +1,383 @@
+// Hands, body parts and people gestures. Original FreeSpeak art.
+category people
+
+color pp_blue #4a9ff5
+color pp_blued #2a6fc4
+color pp_spark #ffb21c
+
+// Open hand, palm forward, fingers up.
+part pp_hand
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  rect 16 11 9.5 32 4.7
+  rect 25.5 5 9.5 36 4.7
+  rect 35 8 9.5 34 4.7
+  rect 44.5 16 8.5 28 4.2
+  path M 16 35 L 53 35 L 53 45 Q 52 59 36 59 Q 24 59 18 52 Q 9 46 5.5 35 Q 4 29 8 28 Q 12 27.5 13.5 32 Q 14.5 36 16 38 Z
+  nostroke
+  rect 17.1 31 34.8 7
+  nofill
+  stroke $skind 1.5
+  curve 20 41 25 46 24 53
+
+// Flat hand, fingers together.
+part pp_mitt
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  path M 22 40 Q 12 32 9 22 Q 8 17 12 16.5 Q 16 16 17 21 Q 18 26 22 28 Z
+  rect 20 5 25 53 11
+  nostroke
+  rect 21.1 27 5 14
+  nofill
+  stroke $skinl 1.5
+  line 26.5 7.5 26.5 26
+  line 32.5 6 32.5 27
+  line 38.5 7.5 38.5 26
+
+// Fist with the index finger pointing up.
+part pp_point
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  rect 15 4 10.5 38 5.2
+  path M 15 32 L 42 32 Q 52 32 52 42 L 52 49 Q 52 59 42 59 L 25 59 Q 15 59 15 49 Z
+  nostroke
+  rect 16.1 30 8.3 4
+  stroke $skinl 2.2
+  rect 25.5 26 9 15 4.5
+  rect 34.5 27 9 15 4.5
+  rect 43.5 29 8.5 14 4.2
+  path M 13 47 Q 13 41 20 41 L 32 42.5 Q 37 43.5 36.5 47.5 Q 36 51.5 31 51.5 L 20 52.5 Q 13 53 13 47 Z
+
+part pp_foot
+  fill lin #c79a6b #a3723f 0 8 0 58
+  stroke #6f4a26 1.8
+  blob 25 22 33 19 40 26 39 40 37 52 32 58 27 54 27 42 23 32
+  circle 22.5 13 4.2
+  circle 30.5 9.5 3.5
+  circle 37 11.5 3.1
+  circle 42 16 2.7
+
+emoji thumbsup U+1F44D | like yes good approve +1
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  path M 9 38 Q 9 30 17 28 Q 22 20 22 10 Q 23 4 28.5 4.5 Q 34 5 33.5 12 L 32 27 L 46 27 L 46 58 L 17 58 Q 9 58 9 50 Z
+  rect 30 26 25.5 9 4.5
+  rect 31 34.5 25.5 8.5 4.2
+  rect 30 42.5 24.5 8.5 4.2
+  rect 29 50.5 22.5 8 4
+
+emoji thumbsdown U+1F44E | dislike no bad disapprove -1
+  use thumbsup 0 0 1 180 flip
+
+emoji wave U+1F44B | hello hi bye greeting
+  use pp_hand 3 3 0.86 18
+  nofill
+  stroke $pp_blue 2.6
+  curve 4 26 6 16 13 9
+  curve 51 55 58 48 60 38
+
+emoji clap U+1F44F | applause bravo congrats praise
+  use pp_mitt -8 5 0.82 -22
+  use pp_mitt 9 5 0.82 20 flip
+  stroke $pp_spark 2.8
+  line 31 3 31 10
+  line 19 4 22 10
+  line 43 4 40 10
+
+emoji ok_hand U+1F44C | okay perfect fine good
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  rect 29 5 9.5 36 4.7
+  path M 39.5 38 L 43 11 Q 44 6 48.5 7 Q 53 8 52.5 13 L 49 40 Z
+  path M 48 42 L 53.5 22 Q 55 17.5 58.5 18.5 Q 62 20 61 24.5 L 56 46 Z
+  blob 29 38 50 36 56 46 48 58 34 59 27 50
+  nofill
+  stroke $skinl 10
+  circle 20 40 10.5
+  stroke $skin 5.6
+  circle 20 40 10.5
+
+emoji v U+270C | peace victory two
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  path M 21 36 L 12.5 11 Q 11.5 5 16.5 4 Q 21.5 3.5 23 8.5 L 31 34 Z
+  path M 30 34 L 37 8.5 Q 38.5 3.5 43.5 4.5 Q 48 6 47 11 L 40 36 Z
+  rect 18 31 34 28 10
+  rect 37 35 14 9 4.5
+  rect 37 43.5 13 9 4.5
+  path M 19 46 Q 26 39 38 42.5 Q 42 44 40.5 47.5 Q 39 51 34 49.5 Q 27 48 22 53 Z
+
+emoji fist U+270A | power solidarity raised strong
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  rect 18 44 28 17 4
+  rect 9 10 12 26 6
+  rect 20.5 7 12 28 6
+  rect 32 7.5 12 28 6
+  rect 43.5 11 11.5 25 5.7
+  rect 9 24 46 27 10
+  nostroke
+  rect 12 22 40 8
+  stroke $skinl 2.2
+  path M 7 38 Q 7 31.5 15 31.5 L 35 33 Q 41 34 40.5 39 Q 40 44 34 43.5 L 18 44.5 Q 7 46 7 38 Z
+  nofill
+  stroke $skind 1.5
+  line 21 13 21 26
+  line 32.5 11 32.5 26
+  line 44 13 44 26
+
+emoji punch U+1F44A | fist bump hit bro
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  rect 6 16 52 40 13
+  rect 7 14 13 22 6
+  rect 19.5 12.5 13 23 6
+  rect 32 12.5 13 23 6
+  rect 44.5 14 13 22 6
+  path M 12 46 Q 12 40 19 40 L 38 41 Q 44 42 43.5 46.5 Q 43 51 37 51 L 19 52 Q 12 52 12 46 Z
+  nofill
+  stroke $pp_spark 2.8
+  line 5 9 9 13
+  line 59 9 55 13
+  line 32 3 32 8
+
+emoji raised_hand U+270B | stop high five palm halt
+  use pp_hand 3 0
+
+emoji pray U+1F64F | please thanks hope namaste
+  fill lin $pp_blue $pp_blued 0 46 0 63
+  stroke $pp_blued 2
+  mirror poly 12 46 31 56 31 62 5 62 5 54
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  mirror path M 32 4 Q 25 5 23.5 18 L 21 37 Q 15 43 14 49 L 29 58 L 32 54 Z
+  nofill
+  stroke $skinl 1.6
+  mirror curve 23 31 27 34 29 42
+
+emoji muscle U+1F4AA | strong flex biceps gym power
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  blob 11 14 17 6 27 7 31 15 27 24 31 30 41 24 53 28 59 40 56 52 44 58 26 58 12 52 8 40 10 26
+  nofill
+  stroke $skinl 1.8
+  curve 28 29 31 34 31 40
+  curve 11 19 20 22 29 19
+  stroke $skind 1.6
+  curve 38 34 45 30 52 35
+
+emoji point_up U+261D | one above this up
+  use pp_point
+
+emoji point_right U+1F449 | this that next direction
+  use pp_point 0 0 1 90
+
+emoji point_left U+1F448 | this that back direction
+  use pp_point 0 0 1 -90
+
+emoji point_down U+1F447 | this below down direction
+  use pp_point 0 0 1 180
+
+emoji handshake U+1F91D | deal agree partner welcome
+  fill lin $pp_blue $pp_blued 0 16 0 48
+  stroke $pp_blued 2
+  rect 2 16 14 32 3
+  fill lin #5fd39a #2f9e68 0 16 0 48
+  stroke #23805a 2
+  rect 48 16 14 32 3
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  path M 49 18 L 30 18 Q 19 20 18 32 Q 18 46 30 48 L 49 47 Z
+  path M 15 19 L 32 21 Q 43 23 44 33 Q 44 44 34 46 L 15 47 Z
+  rect 21 39 8 12 4
+  rect 29 40.5 8 12 4
+  rect 37 40 8 11.5 4
+  ellipse 33 21 9 5 8
+
+emoji raised_hands U+1F64C | hooray praise celebrate yay
+  use pp_hand -13 9 0.6 -10
+  use pp_hand 13 9 0.6 10 flip
+  nofill
+  stroke $pp_blue 2.8
+  line 32 3 32 10
+  line 20 4 22.5 10.5
+  line 44 4 41.5 10.5
+
+emoji crossed_fingers U+1F91E | luck hope wish
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  path M 21 36 L 29 9 Q 31 4 35.5 5 Q 40 6.5 39 11.5 L 32 36 Z
+  path M 30 36 L 21.5 12 Q 20 6 25 4.5 Q 30 3.5 31.5 9 L 40 34 Z
+  rect 18 31 34 28 10
+  rect 37 35 14 9 4.5
+  rect 37 43.5 13 9 4.5
+  path M 19 46 Q 26 39 38 42.5 Q 42 44 40.5 47.5 Q 39 51 34 49.5 Q 27 48 22 53 Z
+
+emoji metal U+1F918 | rock horns concert
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  rect 13 5 10.5 36 5.2
+  rect 42.5 9 9.5 32 4.7
+  rect 13 31 39 28 10
+  rect 23.5 26 9.5 15 4.7
+  rect 33 26 9.5 15 4.7
+  path M 11 48 Q 11 42 18 42 L 34 43.5 Q 39 44.5 38.5 48.5 Q 38 52.5 33 52.5 L 18 53.5 Q 11 54 11 48 Z
+
+emoji call_me U+1F919 | phone shaka hang loose
+  xf 0 0 1 -30
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  path M 14 38 Q 14 30 21 28 Q 25 20 25 10 Q 26 4 31 4.5 Q 36 5 35.5 12 L 34 25 L 46 25 L 46 49 L 22 49 Q 14 49 14 43 Z
+  rect 37 42 10.5 21 5.2
+  rect 32 24 20 9 4.5
+  rect 33 32.5 20 8.5 4.2
+  rect 32 40.5 19 8.5 4.2
+
+emoji writing_hand U+270D | write sign note pen
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  blob 28 40 38 28 51 27 60 38 59 53 47 60 34 56
+  fill lin #6fb8ff $pp_blued 10 50 44 10
+  stroke #1f55a0 1.8
+  poly 12 48 39 6 47 11 20 53
+  fill #f3e2c2
+  poly 12 48 20 53 8 59
+  fill #2a2a32
+  nostroke
+  poly 10.5 54 13.5 56 8 59
+  fill rad $skin $skind 22 16 80
+  stroke $skinl 2.2
+  ellipse 31 31 9.5 5 -32
+  ellipse 34 40.5 9 4.8 -22
+  ellipse 38 49 8.5 4.6 -12
+  nofill
+  stroke #7d8794 2.2
+  curve 3 60 8 62 14 60 20 62
+
+emoji eyes U+1F440 | look see watching stare
+  fill rad #ffffff #dfe6ee 14 24 24
+  stroke #8a94a3 2.2
+  ellipse 18 32 12.5 18
+  fill rad #ffffff #dfe6ee 42 24 24
+  ellipse 46 32 12.5 18
+  nostroke
+  fill #2a2018
+  ellipse 13.5 35 6.5 9
+  ellipse 41.5 35 6.5 9
+  fill $white
+  circle 11.5 31 2.3
+  circle 39.5 31 2.3
+
+emoji eye U+1F441 | look see watch vision
+  fill rad #ffffff #dfe4ea 28 26 30
+  stroke #6a5646 2.2
+  path M 4 32 Q 18 12 32 12 Q 46 12 60 32 Q 46 50 32 50 Q 18 50 4 32 Z
+  fill rad #7ac4ff #2f7fd6 29 28 14
+  stroke #1f5aa6 1.6
+  circle 32 31 12.5
+  nostroke
+  fill #16181d
+  circle 32 31 5.6
+  fill $white
+  circle 27.5 26.5 3
+  nofill
+  stroke #4a3a2e 3.6
+  path M 4 32 Q 18 12 32 12 Q 46 12 60 32
+
+emoji brain U+1F9E0 | smart think mind idea
+  fill rad #ffc9d8 #f285a6 24 20 46
+  stroke #c4517a 2.2
+  blob 8 34 9 22 18 12 30 8 42 9 52 15 57 26 56 38 50 46 40 49 35 57 28 50 16 48
+  nofill
+  stroke #c4517a 1.8
+  curve 18 14 22 22 16 28 20 36
+  curve 31 9 28 18 36 22 32 30
+  curve 44 11 42 20 50 24
+  curve 10 36 20 38 26 31 34 37 30 45
+  curve 39 30 46 35 55 32
+  curve 37 41 44 40 48 45
+
+emoji ear U+1F442 | listen hear sound
+  fill rad $skin $skind 26 16 70
+  stroke $skinl 2.2
+  blob 18 22 24 8 38 4 51 13 52 30 44 42 40 54 30 60 22 54 26 44 21 34
+  nofill
+  curve 27 23 33 13 43 15 45 27 38 37 36 47 31 51
+  stroke $skinl 1.8
+  curve 30 31 36 27 37.5 34
+
+emoji nose U+1F443 | smell sniff
+  fill rad $skin $skind 26 16 70
+  stroke $skinl 2.2
+  path M 26 5 Q 26 28 14 38 Q 6 46 14 52 Q 21 55 26 51 Q 32 57 38 51 Q 43 55 50 52 Q 58 46 50 38 Q 38 28 38 5 Z
+  nostroke
+  fill $skinl
+  ellipse 21 47 4 2.6 -15
+  ellipse 43 47 4 2.6 15
+
+emoji lips U+1F444 | mouth kiss speak
+  fill rad #ff7a8a #e0314a 24 24 40
+  stroke #a81c36 2.2
+  path M 4 32 Q 16 15 26 17 Q 32 21 38 17 Q 48 15 60 32 Q 46 52 32 52 Q 18 52 4 32 Z
+  nofill
+  stroke #8a1228 2.2
+  curve 5 32 20 30 32 33.5 44 30 59 32
+  stroke #ffffff66 2.4
+  curve 22 43 32 46 42 43
+
+emoji tongue U+1F445 | taste lick bleh
+  fill $mouth
+  stroke $red 4
+  ellipse 32 19 25 12.5
+  fill rad #ff9aa8 $tongue 26 30 30
+  stroke $tongued 2.2
+  path M 17 21 Q 14 59 32 59 Q 50 59 47 21 Q 32 15 17 21 Z
+  nofill
+  stroke $tongued 1.8
+  line 32 28 32 47
+
+emoji footprints U+1F463 | feet steps walk tracks
+  use pp_foot -11 5 0.86 -8
+  use pp_foot 11 -5 0.86 8 flip
+
+emoji bust U+1F464 | person user profile silhouette
+  fill lin #a9bdd4 #6f88a6 0 6 0 60
+  stroke #4f6682 2.2
+  path M 6 60 Q 6 38 32 38 Q 58 38 58 60 Z
+  circle 32 21 14.5
+
+emoji facepalm | ugh disappointed sigh doh
+  use face
+  stroke $ink 3
+  arc 30 53 8 4.5 205 335
+  fill rad #fff0a0 #ffc533 26 20 40
+  stroke $rim 2.2
+  ellipse 34 38 5 8 -30
+  blob 8 22 14 12 26 9 40 14 50 24 60 44 62 60 46 62 40 44 30 38 14 34
+  nofill
+  stroke $rim 1.5
+  line 10 22 24 27
+  line 14 14 27 21
+  line 24 10 33 17
+
+emoji shrug | dunno whatever idk maybe
+  use face 0 -4 0.68
+  xf 0 -4 0.68
+  use eyes
+  use brows 0 -3
+  stroke $ink 3
+  line 24 44 40 44
+  xf
+  fill rad #fff0a0 #ffc533 26 30 40
+  stroke $rim 2
+  mirror blob 2 38 6 32 13 35 15 43 10 49 4 46
+  mirror ellipse 14 36 2.6 4.2 30
+
+emoji high_five | hi5 celebrate teamwork yes
+  use pp_hand -12 8 0.66 22
+  use pp_hand 12 8 0.66 -22 flip
+  nofill
+  stroke $pp_spark 2.8
+  line 32 3 32 10
+  line 22 5 25 11
+  line 42 5 39 11

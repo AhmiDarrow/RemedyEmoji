@@ -1,0 +1,949 @@
+// Science, space and lab emoji. Original FreeSpeak art.
+category science
+
+color sci_glass #dff3fbaa
+color sci_glassd #6fa6c4
+color sci_line #3f5173
+color sci_green #5fd34a
+color sci_greend #2f8f2a
+color sci_blue #3f9cf0
+color sci_blued #2060b8
+
+part sci_blade
+  fill #26221a
+  nostroke
+  path M 36.5 39.8 L 43.5 51.9 Q 32 58.6 20.5 51.9 L 27.5 39.8 Q 32 42.4 36.5 39.8 Z
+
+part sci_badge_purple
+  fill rad #c9a4ff #7d48dc 24 20 48
+  stroke #5229a3 2.2
+  circle 32 32 27.6
+
+part sci_badge_teal
+  fill rad #8ff0dc #1fa894 24 20 48
+  stroke #11705f 2.2
+  circle 32 32 27.6
+
+part sci_badge_orange
+  fill rad #ffd08a #f5871f 24 20 48
+  stroke #b3560a 2.2
+  circle 32 32 27.6
+
+emoji rocket U+1F680 | space launch ship fast liftoff
+  xf 0 0 0.93 45
+  fill rad #fff3a0 #ff8a1c 32 50 12
+  stroke #d9620f 1.8
+  path M 25 46 Q 26 56 32 63 Q 38 56 39 46 Z
+  fill lin #ff7a70 $red 0 34 0 54
+  stroke $redd 2
+  mirror path M 23.5 32 Q 11 40 12 55 L 24.5 46 Z
+  fill lin #ffffff #c9d2de 22 0 42 0
+  stroke #7f8a9c 2.2
+  path M 32 2 C 45 13 45 34 40 47 L 24 47 C 19 34 19 13 32 2 Z
+  fill lin #ff7a70 $red 0 2 0 14
+  stroke $redd 2
+  path M 32 2 C 36.5 5.5 39.5 9.5 41 14 L 23 14 C 24.5 9.5 27.5 5.5 32 2 Z
+  fill rad #bfeaff #3f9cf0 30 23 8
+  stroke #55617a 2.2
+  circle 32 25.5 6
+  xf
+
+emoji ufo U+1F6F8 | alien saucer space flying abduct
+  fill lin #ffe14dee #ffe14d33 0 36 0 62
+  nostroke
+  poly 20 36 44 36 56 62 8 62
+  fill rad #e4fbff #6fd0f0 26 14 22
+  stroke #2f8fb5 2.2
+  path M 16 27 C 16 5 48 5 48 27 Z
+  fill rad #c8f29a #6fc84a 30 18 8
+  stroke #3f8a2a 1.4
+  ellipse 32 20.5 5.5 6.5
+  fill lin #e4eaf1 #8794a6 0 22 0 42
+  stroke $steeld 2.2
+  ellipse 32 31 29 10
+  fill #ffe14d
+  stroke #c98a0c 1.2
+  circle 12 32 2.8
+  circle 22 36 2.8
+  circle 32 37.5 2.8
+  circle 42 36 2.8
+  circle 52 32 2.8
+
+emoji satellite U+1F6F0-FE0F | orbit space signal gps broadcast
+  xf 0 2 1 -35
+  stroke $steeld 3
+  line 10 32 54 32
+  fill lin #6fb8ff #2a62c8 0 22 0 42
+  stroke #1d3f8f 2
+  mirror rect 2 22 18 20 2
+  stroke #bfe0ff 1.2
+  mirror line 8 23 8 41
+  mirror line 14 23 14 41
+  mirror line 3 32 19 32
+  fill lin #ffe9a8 #e0a52a 24 0 40 0
+  stroke #9a6a10 2.2
+  rect 23 20 18 26 3
+  stroke $steeld 2
+  line 32 20 32 10
+  fill #f4f7fa
+  stroke $steeld 1.8
+  path M 23 9 Q 32 20 41 9 Z
+  fill $red
+  nostroke
+  circle 32 6 2.4
+  xf
+
+emoji telescope U+1F52D | stars astronomy space observe look
+  stroke #6f4a2a 4
+  line 31 34 15 60
+  line 31 34 47 60
+  line 31 34 31 61
+  xf 0 -7 1 -30
+  fill lin #d6dde6 #7f8a9c 0 27 0 40
+  stroke $steeld 2
+  rect 1 28 9 9 2
+  fill lin #6fb8ff #2a62c8 0 23 0 41
+  stroke #1d3f8f 2.2
+  rect 8 25 38 14 3
+  fill lin #9fd2ff #3f7fe0 0 20 0 44
+  rect 42 21 19 22 3
+  fill #ffe14d
+  nostroke
+  rect 40.5 22 3.4 20 1
+  fill #ffffff66
+  rect 12 27.5 26 2.6 1.3
+  xf
+
+emoji microscope U+1F52C | lab science zoom biology cells
+  fill lin #7f93b5 #4a5d82 0 52 0 60
+  stroke $sci_line 2
+  rect 10 52 44 8 3
+  stroke $sci_line 9.5
+  curve 44 53 51 39 47 24 38 16
+  stroke #6f93d6 5.5
+  curve 44 53 51 39 47 24 38 16
+  stroke $sci_line 7
+  line 25.5 35 23.5 40
+  stroke #aab7c8 3.6
+  line 25.5 35 23.5 40
+  stroke $sci_line 13
+  line 39.5 10 28 32
+  stroke #eef3f8 8.6
+  line 39.5 10 28 32
+  stroke $sci_line 8.5
+  line 42.5 3.5 41 6.5
+  stroke #aab7c8 5
+  line 42.5 3.5 41 6.5
+  fill #aab7c8
+  stroke $sci_line 1.8
+  rect 9 43 28 5 1.5
+
+emoji test_tube U+1F9EA | lab chemistry experiment sample
+  xf 0 0 1 28
+  fill $sci_glass
+  stroke $sci_glassd 2.2
+  path M 22 6 L 22 48 Q 22 59 32 59 Q 42 59 42 48 L 42 6 Z
+  fill lin #9ff07a #3fb82f 0 26 0 58
+  stroke $sci_greend 1.4
+  path M 24 28 L 24 48 Q 24 57 32 57 Q 40 57 40 48 L 40 28 Z
+  fill #e9f6fc
+  stroke $sci_glassd 2
+  rect 19 3 26 5.5 2.7
+  fill #ffffff88
+  nostroke
+  circle 29 38 2.2
+  circle 35 47 2.8
+  circle 33 31.5 1.5
+  rect 25.5 11 2.6 14 1.3
+  xf
+
+emoji petri_dish U+1F9EB | lab bacteria culture biology
+  fill rad #f4fbff #b9d9ea 24 20 46
+  stroke $sci_glassd 2.2
+  circle 32 32 28
+  fill rad #fff3b8 #ecd06a 26 24 30
+  stroke #c9a53a 1.4
+  circle 32 32 22.5
+  fill $sci_green
+  stroke $sci_greend 1.2
+  blob 20 22 28 20 31 27 26 33 19 30
+  circle 44 40 5
+  circle 23 44 3
+  fill #ff7aa8
+  stroke #c9406f 1.2
+  circle 41 22 4.5
+  circle 33 45 3.4
+  circle 46 30 2
+  fill #ffffff77
+  nostroke
+  ellipse 16 17 6 2.4 -45
+
+emoji dna U+1F9EC | gene helix biology genetics
+  xf 0 0 0.9 30
+  stroke #ffd24d 2.6
+  line 23 7 41 7
+  line 24 15 40 15
+  stroke #5fd34a 2.6
+  line 24 21 40 21
+  line 23 29 41 29
+  stroke #ff7aa8 2.6
+  line 23 35 41 35
+  line 24 43 40 43
+  stroke #7fd4ff 2.6
+  line 24 49 40 49
+  line 23 57 41 57
+  stroke #e0453f 4.6
+  curve 44 3 20 18 44 32 20 46 44 61
+  stroke #3f8ff0 4.6
+  curve 20 3 44 18 20 32 44 46 20 61
+  xf
+
+emoji atom U+269B-FE0F | physics science nucleus electron
+  nofill
+  stroke #3f9cf0 2.6
+  ellipse 32 32 28 10.5 0
+  ellipse 32 32 28 10.5 60
+  ellipse 32 32 28 10.5 -60
+  fill rad #ff9a8a $red 30 30 7
+  stroke $redd 1.6
+  circle 32 32 6
+  fill rad #bfeaff #3f9cf0 0 0 80
+  fill #8fd4ff
+  stroke $sci_blued 1.2
+  circle 4.5 32 3
+  circle 46 56.2 3
+  circle 46 7.8 3
+
+emoji magnet U+1F9F2 | attract pull magnetic horseshoe
+  xf 0 1 0.95 40
+  fill lin #ff7a70 $red 8 0 56 0
+  stroke $redd 2.2
+  path M 7 6 L 7 34 C 7 66 57 66 57 34 L 57 6 L 41 6 L 41 34 C 41 45 23 45 23 34 L 23 6 Z
+  fill lin #f4f7fa #aab3bf 0 6 0 18
+  stroke $steeld 2.2
+  rect 7 6 16 12 1.5
+  rect 41 6 16 12 1.5
+  nofill
+  stroke #ffffff66 2.4
+  curve 12 36 15 50 28 56
+  xf
+
+emoji alembic U+2697-FE0F | chemistry distill alchemy potion
+  stroke $sci_glassd 7.5
+  line 30 9 58 29
+  stroke #e9f6fc 3.6
+  line 30 9 58 29
+  fill $sci_glass
+  stroke $sci_glassd 2.2
+  path M 19 5 L 31 5 L 31 20 C 44 24 47 36 45 44 C 42 56 30 60 25 60 C 20 60 8 56 5 44 C 3 36 6 24 19 20 Z
+  fill lin #d59cff #8a4fe0 0 38 0 60
+  stroke #5a2aa8 1.4
+  path M 7 40 Q 25 35 43 40 C 44 52 32 58 25 58 C 18 58 6 52 7 40 Z
+  fill #ffffff88
+  nostroke
+  circle 19 47 2.4
+  circle 29 51 1.8
+  ellipse 13 30 2 5 25
+  fill #e9f6fc
+  stroke $sci_glassd 2
+  rect 16.5 3 17 5 2.5
+
+emoji thermometer U+1F321-FE0F | temperature hot fever weather
+  xf 0 0 1 30
+  fill #f4f7fa
+  stroke #8f9aa8 2.2
+  path M 25 10 Q 25 3 32 3 Q 39 3 39 10 L 39 38 C 47 42 48 54 41 59 C 35 63 24 61 21 54 C 18 47 21 41 25 38 Z
+  fill rad #ff8a80 $red 29 46 10
+  stroke $redd 1.4
+  circle 32 49 7.6
+  fill $red
+  nostroke
+  rect 29.4 17 5.2 30 2.6
+  stroke #8f9aa8 1.6
+  line 36 12 39 12
+  line 36 19 39 19
+  line 36 26 39 26
+  line 36 33 39 33
+  xf
+
+emoji stethoscope U+1FA7A | doctor medical heart health
+  nofill
+  stroke #2a4f9a 6
+  curve 14 7 12 22 25 35 38 22 36 7
+  curve 25 35 24 50 35 58 46 53 48 42
+  stroke #4f8ff0 3.2
+  curve 14 7 12 22 25 35 38 22 36 7
+  curve 25 35 24 50 35 58 46 53 48 42
+  fill #dfe6ee
+  stroke $steeld 1.6
+  circle 14 6.5 3.4
+  circle 36 6.5 3.4
+  fill lin #f4f7fa #9aa7b6 0 28 0 46
+  stroke $steeld 2.2
+  circle 48 36 10
+  fill #6f7c8c
+  nostroke
+  circle 48 36 4.6
+  fill #ffffff88
+  circle 44.5 32 2
+
+emoji pill U+1F48A | medicine capsule drug vitamin
+  xf 0 0 1 -40
+  fill lin #ffffff #d5dbe4 0 20 0 44
+  stroke #8f9aa8 2.2
+  rect 4 20 56 24 12
+  fill lin #ff8a80 #e0352f 0 20 0 44
+  stroke $redd 2.2
+  path M 32 20 L 16 20 Q 4 20 4 32 Q 4 44 16 44 L 32 44 Z
+  fill #ffffff77
+  nostroke
+  rect 11 23.5 17 3.4 1.7
+  rect 36 23.5 15 3.4 1.7
+  xf
+
+emoji syringe U+1F489 | needle shot vaccine injection medical
+  xf 0 0 1 135
+  stroke #8f9aa8 2
+  line 50 32 62 32
+  fill #c9d2de
+  stroke $steeld 1.8
+  rect 5 30 14 4 1
+  rect 1.5 22 5 20 2
+  fill $sci_glass
+  stroke $sci_glassd 2.2
+  rect 17 23 30 18 2.5
+  fill #6fd8f0
+  nostroke
+  rect 28 24.6 17.6 14.8 1
+  fill #55617a
+  rect 24 24.2 4.5 15.6 1
+  fill #c9d2de
+  stroke $steeld 1.8
+  rect 14.5 19 4.5 26 2
+  poly 47 28 52 30.5 52 33.5 47 36
+  stroke $sci_glassd 1.4
+  line 33 24 33 29
+  line 38 24 38 29
+  line 43 24 43 29
+  xf
+
+emoji microbe U+1F9A0 | germ bacteria virus bug cell
+  stroke $sci_greend 2.6
+  line 32 10 32 3
+  line 48 16 54 9
+  line 54 32 61 31
+  line 49 48 55 54
+  line 32 54 31 61
+  line 15 48 9 55
+  line 10 31 3 31
+  line 16 16 10 9
+  fill rad #c4f58a #5fc83a 25 23 34
+  stroke $sci_greend 2.2
+  blob 32 8 45 12 54 23 55 36 47 50 33 55 19 51 9 39 10 24 19 12
+  fill #3f9f2a
+  nostroke
+  circle 24 24 4.5
+  circle 42 27 3
+  circle 37 43 5
+  circle 21 40 2.6
+  fill #e9ffc4
+  circle 34 31 2.4
+  circle 45 39 1.8
+
+emoji ringed_planet U+1FA90 | saturn space planet rings
+  xf 0 0 1 -20
+  nofill
+  stroke #b98a4a 5.5
+  ellipse 32 32 28.5 8
+  stroke #f2d9a0 2.6
+  ellipse 32 32 28.5 8
+  xf
+  fill rad #ffe0a0 #e89a3a 25 24 26
+  stroke #b3660f 2.2
+  circle 32 32 17
+  nofill
+  stroke #d0802a 1.6
+  curve 17 27 32 30 47 25
+  curve 18 39 32 41 46 36
+  xf 0 0 1 -20
+  stroke #b98a4a 5.5
+  arc 32 32 28.5 8 2 178
+  stroke #f2d9a0 2.6
+  arc 32 32 28.5 8 2 178
+  xf
+
+emoji comet U+2604-FE0F | space meteor shooting tail
+  fill lin #3f9cf0ee #3f9cf022 20 44 60 6
+  nostroke
+  path M 9 40 Q 28 14 62 3 Q 50 34 24 56 Z
+  fill lin #bfe6ffee #bfe6ff00 20 44 54 12
+  path M 13 41 Q 30 22 56 9 Q 44 32 23 52 Z
+  fill rad #ffffff #5ab8ff 15 43 12
+  stroke #2f7fd0 2.2
+  circle 18 46 11
+  fill #fff08a
+  nostroke
+  poly 50 44 51.5 48.5 56 50 51.5 51.5 50 56 48.5 51.5 44 50 48.5 48.5
+  poly 12 12 13 15 16 16 13 17 12 20 11 17 8 16 11 15
+
+emoji abacus U+1F9EE | count math calculate beads
+  fill lin #d99a55 #9a5c2a 0 6 0 58
+  stroke #6f3f14 2.2
+  rect 4 7 56 50 5
+  fill #fff3d6
+  stroke #6f3f14 1.6
+  rect 10 13 44 38 2
+  stroke #8f6a45 1.6
+  line 10 20.5 54 20.5
+  line 10 32 54 32
+  line 10 43.5 54 43.5
+  fill rad #ff8a80 $red 0 18 60
+  stroke $redd 1.2
+  circle 15.5 20.5 4.6
+  circle 24.5 20.5 4.6
+  circle 48.5 20.5 4.6
+  fill $sci_blue
+  stroke $sci_blued 1.2
+  circle 15.5 32 4.6
+  circle 39.5 32 4.6
+  circle 48.5 32 4.6
+  fill $sci_green
+  stroke $sci_greend 1.2
+  circle 30.5 43.5 4.6
+  circle 39.5 43.5 4.6
+  circle 48.5 43.5 4.6
+
+emoji compass U+1F9ED | navigate direction north map
+  fill lin #ffe9a8 #d6982a 0 4 0 60
+  stroke #9a6a10 2.2
+  circle 32 32 28
+  fill rad #ffffff #dfe8f2 26 24 30
+  stroke #9a6a10 1.6
+  circle 32 32 21.5
+  stroke #7f8a9c 1.8
+  line 32 12.5 32 16.5
+  line 32 47.5 32 51.5
+  line 12.5 32 16.5 32
+  line 47.5 32 51.5 32
+  xf 0 0 1 35
+  fill $red
+  stroke $redd 1.4
+  poly 32 13 37.5 32 26.5 32
+  fill #5d7fb5
+  stroke #33507f 1.4
+  poly 32 51 37.5 32 26.5 32
+  xf
+  fill #ffe14d
+  stroke #9a6a10 1.2
+  circle 32 32 2.8
+
+emoji triangular_ruler U+1F4D0 | geometry math set square measure
+  fill lin #8fe6ff #3fa0e8 8 8 40 56
+  stroke #1f6fb5 2.2
+  path M 9 5 Q 6 5 6 8 L 6 56 Q 6 59 9 59 L 56 59 Q 60 59 57.5 55.5 Z
+  fill #1f6fb533
+  stroke #1f6fb5 1.8
+  poly 16 31 16 49 34 49
+  stroke #0f4f8f 1.6
+  line 15 59 15 54.5
+  line 23 59 23 55.5
+  line 31 59 31 54.5
+  line 39 59 39 55.5
+  line 47 59 47 54.5
+  line 6 15 10.5 15
+  line 6 23 9.5 23
+  line 6 31 10.5 31
+  line 6 39 9.5 39
+  line 6 47 10.5 47
+
+emoji radioactive U+2622-FE0F | nuclear radiation danger hazard
+  fill rad #fff08a #ffc21c 24 20 48
+  stroke #c98a0c 2.2
+  circle 32 32 27.6
+  use sci_blade
+  use sci_blade 0 0 1 120
+  use sci_blade 0 0 1 240
+  fill #26221a
+  nostroke
+  circle 32 32 5
+
+emoji biohazard U+2623-FE0F | danger toxic hazard virus
+  use sci_badge_orange
+  nofill
+  stroke #26221a 4.4
+  circle 32 21 9.5
+  circle 41.5 37.5 9.5
+  circle 22.5 37.5 9.5
+  stroke #f9a03a 3.4
+  line 32 32 32 8
+  line 32 32 52.8 44
+  line 32 32 11.2 44
+  fill #f9a03a
+  nostroke
+  circle 32 32 5.4
+  nofill
+  stroke #26221a 2.6
+  circle 32 32 8.6
+  fill #26221a
+  nostroke
+  circle 32 32 2.4
+
+emoji lab_goggles U+1F97D | safety glasses protect eyes
+  fill #3a4250
+  stroke #6f7c8c 1.6
+  mirror rect 1 26 6 13 2
+  fill lin #5fe0d0 #1f9f94 0 16 0 48
+  stroke #0f6f66 2.2
+  path M 14 17 L 50 17 Q 59 18 59 32 Q 59 47 49 47 Q 40 47 36 40 Q 32 36 28 40 Q 24 47 15 47 Q 5 47 5 32 Q 5 18 14 17 Z
+  fill lin #e4fbff #8fd4f0 0 22 0 44
+  stroke #0f6f66 1.6
+  mirror path M 15 22 L 27 22 Q 30 22 30 26 L 29 33 Q 26 42 17 42 Q 10 42 10 32 Q 10 22 15 22 Z
+  fill #ffffffaa
+  nostroke
+  mirror ellipse 16 28 3.4 1.6 -35
+
+emoji full_moon U+1F315 | night lunar space sky
+  fill rad #fffbe0 #f0cc5a 24 20 48
+  stroke #c99a2a 2.2
+  circle 32 32 27.6
+  fill #d9ae4288
+  stroke #c99a2a88 1.2
+  circle 22 22 6
+  circle 42 40 8
+  circle 20 42 4
+  circle 43 19 3.4
+  circle 31 51 2.6
+
+emoji milky_way U+1F30C | galaxy night stars space sky
+  fill lin #3a2a9a #0f1640 0 4 0 60
+  stroke #6a5ad0 2.2
+  rect 4 4 56 56 11
+  fill #b89cff55
+  nostroke
+  blob 8 46 18 30 34 20 54 10 56 20 44 32 28 42 12 56
+  fill #ffd0f077
+  blob 14 44 24 32 38 24 52 15 50 21 40 30 28 38 16 48
+  fill $white
+  circle 14 14 1.8
+  circle 26 11 1.2
+  circle 46 44 1.8
+  circle 52 34 1.2
+  circle 36 52 1.4
+  circle 30 31 1.6
+  circle 42 22 1.3
+  fill #fff08a
+  poly 20 22 21.2 25.8 25 27 21.2 28.2 20 32 18.8 28.2 15 27 18.8 25.8
+  fill #1a1438
+  path M 5.5 50 Q 16 42 26 50 Q 36 44 46 51 Q 52 47 58.5 51 Q 58 58.8 49 58.8 L 15 58.8 Q 6 58.8 5.5 50 Z
+
+emoji volcano U+1F30B | eruption lava mountain fire
+  fill rad #fff3a0 #ff8a1c 32 16 16
+  stroke #d9620f 1.8
+  blob 22 22 15 12 23 13 25 3 32 9 39 3 41 13 49 12 42 22
+  fill lin #a8785a #5f3f2c 0 22 0 60
+  stroke #3f2818 2.2
+  path M 3 59 L 21 23 L 43 23 L 61 59 Z
+  fill lin #ffb84a #ea4a1f 0 20 0 44
+  stroke #b3300f 1.6
+  path M 20.5 24 Q 32 18 43.5 24 L 46 31 Q 42 39 39 30 Q 36 46 31.5 31 Q 28 41 24.5 30 Q 21 35 18.5 28.5 Z
+
+emoji astronaut U+1F9D1-200D-1F680 | space cosmonaut helmet suit
+  fill lin #f4f7fa #c3ccd8 0 46 0 62
+  stroke #7f8a9c 2.2
+  path M 5 61 Q 7 49 20 48 L 44 48 Q 57 49 59 61 Z
+  fill $steel
+  stroke $steeld 2
+  mirror rect 3 23 7 15 3
+  fill rad #ffffff #d5dbe4 24 16 46
+  stroke #7f8a9c 2.2
+  circle 32 28 24.5
+  fill lin #3f6fd0 #141c44 14 16 50 44
+  stroke #55617a 2.2
+  rect 13 16 38 25 11.5
+  fill #ffffff66
+  nostroke
+  ellipse 22 23 6 2.6 -30
+  fill $red
+  rect 26 52 12 4 2
+
+emoji flask | erlenmeyer chemistry lab potion bubbling
+  fill $sci_glass
+  stroke $sci_glassd 2.2
+  path M 25 6 L 25 23 L 7.5 52 Q 4 60 12 60 L 52 60 Q 60 60 56.5 52 L 39 23 L 39 6 Z
+  fill lin #b4f57a #3fb82f 0 36 0 60
+  stroke $sci_greend 1.4
+  path M 18.5 38 L 10 52.5 Q 7.5 58 13 58 L 51 58 Q 56.5 58 54 52.5 L 45.5 38 Z
+  fill #e9ffc4cc
+  nostroke
+  circle 24 50 3
+  circle 36 46 2.2
+  circle 42 53 1.8
+  fill #9ff07a
+  stroke $sci_greend 1.2
+  circle 32 29 2.6
+  circle 29 17 3.2
+  circle 34.5 9 2.2
+  fill #e9f6fc
+  stroke $sci_glassd 2
+  rect 21.5 3 21 5 2.5
+
+emoji beaker | lab chemistry glass measure liquid
+  fill $sci_glass
+  stroke $sci_glassd 2.2
+  path M 12 7 L 12 53 Q 12 60 19 60 L 45 60 Q 52 60 52 53 L 52 7 Z
+  fill lin #8fd4ff #2f7fe0 0 28 0 60
+  stroke $sci_blued 1.4
+  path M 14 29 L 14 53 Q 14 58 19 58 L 45 58 Q 50 58 50 53 L 50 29 Z
+  stroke #ffffffdd 2
+  line 39 14 49 14
+  line 43 22 49 22
+  line 39 30 49 30
+  line 43 38 49 38
+  line 39 46 49 46
+  fill #e9f6fc
+  stroke $sci_glassd 2
+  path M 6 4 L 56 4 Q 57.5 6.5 55 9 L 10 9 Q 7 8.5 6 4 Z
+  fill #ffffff77
+  nostroke
+  rect 17 14 3 30 1.5
+
+emoji pi | math constant circle number greek
+  use sci_badge_purple
+  nofill
+  stroke #3a1a7a 8.4
+  line 15 21 49 21
+  curve 25 21 25 37 19 46
+  curve 40 21 39.5 40 46 46
+  stroke $white 4.6
+  line 15 21 49 21
+  curve 25 21 25 37 19 46
+  curve 40 21 39.5 40 46 46
+
+emoji sigma | math sum total greek statistics
+  use sci_badge_teal
+  nofill
+  stroke #0b4f44 8.4
+  line 45 23 45 17 20 17 33 32 20 47 45 47 45 41
+  stroke $white 4.6
+  line 45 23 45 17 20 17 33 32 20 47 45 47 45 41
+
+emoji delta | math change difference greek triangle
+  use sci_badge_orange
+  nofill
+  stroke #8a3f05 8.4
+  poly 32 14 50 46 14 46
+  stroke $white 4.6
+  poly 32 14 50 46 14 46
+
+emoji black_hole | space void gravity singularity
+  xf 0 0 1 -15
+  nofill
+  stroke #ff7a1c 6
+  ellipse 32 32 28 9
+  stroke #ffe08a 2.4
+  ellipse 32 32 28 9
+  xf
+  fill rad #fff0b0 #ff7a1c 32 32 19
+  stroke #ffb84a 1.6
+  circle 32 31 18.5
+  fill #0b0a12
+  stroke #5a2a10 1.4
+  circle 32 31 14
+  xf 0 0 1 -15
+  nofill
+  stroke #ff7a1c 6
+  arc 32 32 28 9 2 178
+  stroke #ffe08a 2.4
+  arc 32 32 28 9 2 178
+  xf
+
+emoji galaxy | spiral space stars cosmos
+  fill rad #4a35a8 #151238 32 32 30
+  stroke #6a5ad0 2.2
+  circle 32 32 28
+  nofill
+  stroke #a06cff 5.5
+  curve 37 32 36.5 39.8 25.5 43.3 15 32 21.5 15 42 12 54 28
+  curve 27 32 27.5 24.2 38.5 20.7 49 32 42.5 49 22 52 10 36
+  stroke #f0dcff 2.2
+  curve 37 32 36.5 39.8 25.5 43.3 15 32 21.5 15 42 12 54 28
+  curve 27 32 27.5 24.2 38.5 20.7 49 32 42.5 49 22 52 10 36
+  fill rad #ffffff #ffd36b 32 32 7
+  nostroke
+  circle 32 32 6.5
+  fill $white
+  circle 12 20 1.4
+  circle 52 44 1.4
+  circle 46 17 1.1
+  circle 18 46 1.1
+
+emoji solar_system | planets orbit sun space
+  xf 0 0 1 -18
+  nofill
+  stroke #8fa3c8 1.8
+  ellipse 32 32 18 10.5
+  ellipse 32 32 29 18.5
+  fill rad #fff6b0 #ffb21c 30 30 10
+  stroke #e0860a 2
+  circle 32 32 8.5
+  fill rad #9fd8ff #2f7fe0 49 30 6
+  stroke $sci_blued 1.4
+  circle 50 32 4.6
+  fill rad #ffb08a #e0552f 16 46 7
+  stroke #a8331c 1.4
+  circle 17.5 48 5.6
+  fill rad #c4f58a #4fb83a 45 14 5
+  stroke $sci_greend 1.2
+  circle 46.5 16 3.6
+  xf
+
+emoji molecule | chemistry atoms bond compound
+  stroke #7f8a9c 5
+  line 30 34 13 16
+  line 30 34 51 19
+  line 30 34 42 53
+  stroke #d5dbe4 2
+  line 30 34 13 16
+  line 30 34 51 19
+  line 30 34 42 53
+  fill rad #9fd2ff $sci_blue 10 13 10
+  stroke $sci_blued 2
+  circle 13 16 8.5
+  fill rad #ffffff #c3ccd8 49 16 10
+  stroke #7f8a9c 2
+  circle 51 19 8
+  fill rad #c4f58a $sci_green 40 50 10
+  stroke $sci_greend 2
+  circle 42 53 7.5
+  fill rad #ff9a8a $red 26 29 14
+  stroke $redd 2.2
+  circle 30 34 12
+
+emoji bell_curve | statistics normal distribution gauss average
+  fill lin #8fd4ffcc #3f9cf044 0 10 0 54
+  nostroke
+  path M 4 53 C 22 53 21 10 32 10 C 43 10 42 53 60 53 Z
+  nofill
+  stroke #8fa3c8 1.6
+  line 32 12 32 54
+  stroke $sci_blue 3.4
+  path M 4 52 C 22 52 21 10 32 10 C 43 10 42 52 60 52
+  stroke #8f9aa8 3
+  line 4 56 60 56
+
+emoji graph_axes | chart plot growth math trend
+  stroke #8f9aa8 3
+  line 9 5 9 55 59 55
+  line 5 10 9 5 13 10
+  line 54 51 59 55 54 59
+  stroke #5a657599 1.2
+  line 9 42 56 42
+  line 9 29 56 29
+  line 9 16 56 16
+  stroke #2fb85a 3.8
+  curve 11 51 24 46 38 33 53 10
+  fill #9ff0b0
+  stroke #1f8a3f 1.4
+  circle 24 46 3
+  circle 38 33 3
+  circle 53 10 3
+
+emoji eureka | idea lightbulb discovery aha
+  stroke #ffb21c 3
+  line 5 9 10 13
+  line 59 9 54 13
+  line 2 27 8 27
+  line 62 27 56 27
+  fill lin #d6dde6 #7f8a9c 0 44 0 58
+  stroke $steeld 2
+  rect 23.5 43 17 12 3
+  line 24 49 40 49
+  fill $steeld
+  rect 28 55 8 4.5 2
+  fill rad #fffbd0 #ffcf2e 26 16 30
+  stroke #e0860a 2.2
+  path M 32 3 C 17 3 11 16 13 26 C 15 34 22 38 23 44 L 41 44 C 42 38 49 34 51 26 C 53 16 47 3 32 3 Z
+  stroke #7a3f05 4.4
+  line 32 11.5 32 26
+  fill #7a3f05
+  nostroke
+  circle 32 34.5 2.9
+  fill #ffffff88
+  ellipse 20.5 16 2.4 5.5 25
+
+emoji lab_coat | scientist doctor white coat
+  fill lin #6fb8ff #2a62c8 0 6 0 22
+  stroke #1d3f8f 1.6
+  poly 21 5 43 5 32 24
+  fill lin #ffffff #dde3ea 0 6 0 60
+  stroke #8f9aa8 2.2
+  path M 21 5 L 6 13 L 3 50 L 13 51 L 14 60 L 50 60 L 51 51 L 61 50 L 58 13 L 43 5 L 32 30 Z
+  nofill
+  stroke #8f9aa8 1.8
+  line 21 5 23 22 32 30 41 22 43 5
+  line 32 30 32 60
+  line 14 51 15 24
+  line 50 51 49 24
+  stroke $red 2.6
+  line 39.5 40 39.5 33
+  stroke $sci_blue 2.6
+  line 43.5 40 43.5 34
+  fill #f4f7fa
+  stroke #8f9aa8 1.6
+  rect 36 38.5 11 11 1.5
+  fill #8f9aa8
+  nostroke
+  circle 28.5 40 1.5
+  circle 28.5 50 1.5
+
+emoji bunsen_burner | flame lab gas heat chemistry
+  fill lin #6fd0ff #2f5fff 0 4 0 30
+  stroke #2a4fd0 2
+  blob 32 2 39 13 41 22 37 30 27 30 23 22 25 13
+  fill lin #e4fbff #8fe0ff 0 14 0 30
+  nostroke
+  blob 32 13 35.5 21 34.5 28 29.5 28 28.5 21
+  stroke $steeld 4
+  line 39 50 58 50
+  fill lin #e4eaf1 #8794a6 24 0 40 0
+  stroke $steeld 2.2
+  rect 25.5 29 13 26 2
+  fill #6f7c8c
+  stroke $steeld 1.6
+  rect 23 42 18 5.5 2
+  fill lin #7f8a9c #4a5462 0 54 0 61
+  stroke #7f8a9c 2
+  rect 11 54 42 7 3
+
+emoji prism | light rainbow spectrum optics refraction
+  fill #ff4a4a
+  nostroke
+  poly 40 29 62 23 62 28.2
+  fill #ff9a2e
+  poly 40 30 62 28 62 33
+  fill #ffe14d
+  poly 40 31 62 32.8 62 37.8
+  fill #4fd15a
+  poly 40 32 62 37.6 62 42.6
+  fill #3f9cf0
+  poly 40 33 62 42.4 62 47.4
+  fill #9a5cf0
+  poly 40 34 62 47.2 62 52.5
+  stroke #8f9aa8 4.6
+  line 2 41 23 32
+  stroke $white 2.6
+  line 2 41 23 32
+  fill lin #f4fbffee #9fc6e8ee 20 12 44 50
+  stroke #5f8fb8 2.2
+  poly 31 8 53 50 9 50
+  fill #ffffff88
+  nostroke
+  poly 30 16 33 22 19 46 15 46
+
+emoji periodic_tile | element chemistry table freespeak
+  fill lin #5fe0d0 #1f8fb5 0 5 0 59
+  stroke #0f5f80 2.2
+  rect 5 5 54 54 8
+  fill #0b3f5a
+  text 23 50 24 F 6.4
+  text 17 20 8 42 3
+  nofill
+  stroke #0b3f5a 6.6
+  curve 49 37.5 43.5 34.5 38.5 38 43.5 42.5 49 46 44 50.5 37.5 47.5
+  stroke $white 3.4
+  curve 49 37.5 43.5 34.5 38.5 38 43.5 42.5 49 46 44 50.5 37.5 47.5
+  nostroke
+  fill $white
+  text 23 50 24 F 3.4
+  text 17 20 8 42 1.5
+
+emoji e_mc2 | einstein relativity physics chalkboard equation
+  fill lin #3f7a55 #1f4a34 0 8 0 50
+  stroke #9a6a3a 3
+  rect 4 8 56 42 3
+  fill #c98a45
+  stroke #6f3f14 1.6
+  rect 9 51.5 46 5 2
+  fill $white
+  nostroke
+  text 29 36 13 E=MC 2
+  text 54.5 25 7 2 1.5
+  rect 14 51 8 2.6 1
+
+emoji hypothesis | theory idea question think test
+  fill #ffffff
+  stroke #8f9aa8 1.6
+  circle 8 57 3
+  circle 15 49 4.4
+  fill rad #ffffff #dfe6ee 26 18 44
+  stroke #8f9aa8 2.2
+  blob 14 12 24 4 36 6 46 4 56 12 61 24 56 36 46 43 34 41 22 44 10 38 4 26 6 16
+  fill $sci_blue
+  text 20 35 22 ? 3.4
+  nofill
+  stroke #2fb85a 4.4
+  line 35 25 41 32 52 14
+
+emoji robot_arm | factory industrial machine automation
+  fill lin #7f8a9c #4a5462 0 52 0 61
+  stroke #7f8a9c 2
+  rect 4 53 32 8 3
+  stroke #a85a05 12.5
+  line 19 50 25 27
+  line 25 27 47 17
+  stroke #ffa62e 8.5
+  line 19 50 25 27
+  line 25 27 47 17
+  nofill
+  stroke $steeld 4.6
+  line 49 12 59 8
+  line 50 22 60 23
+  line 59 8 61 12
+  line 60 23 60.5 19
+  fill lin #e4eaf1 #8794a6 0 0 0 64
+  stroke $steeld 2
+  circle 19 50 6
+  circle 25 27 6
+  circle 48 17 5.5
+  fill $steeld
+  nostroke
+  circle 19 50 2
+  circle 25 27 2
+  circle 48 17 1.8
+
+emoji mars_rover | space robot explore nasa wheels
+  fill #23262e
+  stroke #6f7c8c 1.6
+  circle 18 49 6
+  circle 36 49 6
+  circle 54 49 6
+  stroke $steeld 2.6
+  line 40 28 40 12
+  line 13 53 22 39 32 53
+  line 32 53 42 39 50 53
+  line 12 26 8 16
+  fill lin #6fb8ff #2a62c8 0 20 0 28
+  stroke #1d3f8f 1.6
+  poly 10 22 46 22 52 28 16 28
+  fill lin #ffffff #c9d2de 0 28 0 42
+  stroke #7f8a9c 2.2
+  rect 12 28 40 13 3
+  fill #f4f7fa
+  stroke $steeld 1.6
+  path M 2 12 Q 8 20 15 12 Z
+  fill lin #e4eaf1 #9aa7b6 0 5 0 15
+  stroke $steeld 2
+  rect 33 5 15 10 2.5
+  fill #3f9cf0
+  nostroke
+  circle 43 10 2.6
+  fill #2a2e38
+  stroke #9aa3ad 2
+  circle 13 53 7
+  circle 32 53 7
+  circle 50 53 7
+  fill #9aa3ad
+  nostroke
+  circle 13 53 2.2
+  circle 32 53 2.2
+  circle 50 53 2.2

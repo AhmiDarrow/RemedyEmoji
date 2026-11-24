@@ -1,0 +1,297 @@
+// Faces. Original FreeSpeak art.
+category smileys
+
+emoji grinning U+1F600 | happy smile grin joy
+  use face
+  use eyes
+  use grin
+
+emoji smile U+1F604 | happy grin joy laugh
+  use face
+  use eyes_happy
+  use grin
+
+emoji grin U+1F601 | beaming teeth happy
+  use face
+  use eyes_happy
+  fill $white
+  stroke $ink 2.2
+  path M 16.5 36 Q 32 41 47.5 36 Q 46.5 51 32 51 Q 17.5 51 16.5 36 Z
+  stroke $ink 1.4
+  line 18 44 46 44
+  line 32 39 32 50.5
+  line 24.5 38.5 24.5 49.5
+  line 39.5 38.5 39.5 49.5
+
+emoji laughing U+1F606 | haha xd lol squint
+  use face
+  stroke $ink 3
+  mirror line 16.5 22 26 26.5 17 30.5
+  use grin
+
+emoji joy U+1F602 | lol laugh tears crying haha lmao
+  use face
+  use eyes_happy
+  use grin
+  use tears
+
+emoji rofl U+1F923 | rolling floor laughing lol lmao
+  use face
+  xf 0 0 1 -28
+  use eyes_happy
+  use grin
+  use tears
+
+emoji sweat_smile U+1F605 | phew nervous relief
+  use face
+  use eyes_happy
+  use grin
+  use drop -18 -17 0.3
+
+emoji slight_smile U+1F642 | smile ok fine
+  use face
+  use eyes
+  use smile
+
+emoji upside_down U+1F643 | silly sarcasm flip
+  use face
+  xf 0 0 1 180
+  use eyes
+  use smile
+
+emoji wink U+1F609 | flirt joke
+  use face
+  fill $ink
+  ellipse 22 26 3.3 4.5
+  stroke $ink 3
+  arc 42 28.5 5 4 200 340
+  use smile
+
+emoji blush U+1F60A | happy shy pleased warm
+  use face
+  use eyes_happy
+  use blush
+  use smile
+
+emoji innocent U+1F607 | angel halo
+  use face 0 3.5 0.9
+  nofill
+  stroke #3f9cf0 3.4
+  ellipse 32 6.5 15 4
+  stroke #9bd4ff 1.2
+  ellipse 32 6.2 15 4
+  xf 0 3.5 0.9
+  use eyes_happy
+  use blush
+  use smile
+
+emoji heart_eyes U+1F60D | love crush adore
+  use face
+  use heart -11 -6.5 0.27
+  use heart 11 -6.5 0.27
+  use smile 0 3
+
+emoji smiling_hearts U+1F970 | love adore affection
+  use face
+  use eyes_happy
+  use blush
+  use smile
+  use heart -22 -18 0.24 -18
+  use heart 23 -12 0.2 14
+  use heart 17 22 0.22 10
+
+emoji star_struck U+1F929 | wow amazing stars excited
+  use face
+  use star -11 -6.5 0.3
+  use star 11 -6.5 0.3
+  use grin 0 2 0.9
+
+emoji kissing_heart U+1F618 | kiss love mwah
+  use face
+  fill $ink
+  ellipse 22 26 3.3 4.5
+  stroke $ink 3
+  arc 42 28.5 5 4 200 340
+  stroke $ink 2.6
+  curve 30 37.5 34.5 39.5 30.5 42 34.5 44.5 30 46.5
+  use heart 15 13 0.22 12
+
+emoji yum U+1F60B | tasty delicious tongue savoring
+  use face
+  use eyes_happy
+  use smile
+  fill $tongue
+  stroke $tongued 1.3
+  path M 37 44.5 Q 43 53 47.5 47 Q 49 42 44 39 Z
+
+emoji stuck_out_tongue U+1F61B | tongue playful bleh
+  use face
+  use eyes
+  stroke $ink 3
+  line 23 42 41 42
+  use tongue_out
+
+emoji stuck_out_tongue_wink U+1F61C | tongue playful joke bleh
+  use face
+  fill $ink
+  ellipse 22 26 3.3 4.5
+  stroke $ink 3
+  arc 42 28.5 5 4 200 340
+  line 23 42 41 42
+  use tongue_out
+
+emoji zany U+1F92A | crazy goofy wild silly
+  use face
+  fill $white
+  stroke $ink 1.6
+  circle 21 25 7.5
+  circle 43 27 5
+  nostroke
+  fill $ink
+  circle 22.5 26.5 3
+  circle 42 27.5 2.2
+  stroke $ink 3
+  xf 0 0 1 -8
+  line 22 42 42 42
+  use tongue_out
+
+emoji thinking U+1F914 | hmm wonder consider
+  use face
+  use eyes
+  stroke $ink 2.6
+  line 15 19 25.5 16.5
+  line 37 14.5 48 15.5
+  line 26 43 40 41
+  fill rad #ffec7d #ffbd1c 20 46 22
+  stroke $rim 2
+  blob 12 56 13 47 20 43 29 44 30 48.5 23 50 27 55 24 60 16 61
+  path M 21 44.5 Q 22 34 26 34 Q 29.5 34.5 28 45 Z
+
+emoji shushing U+1F92B | quiet shh secret silence
+  use face
+  use eyes
+  use brows
+  fill $mouth
+  ellipse 32 44 3.6 3
+  fill rad #ffec7d #ffbd1c 30 40 20
+  stroke $rim 2
+  path M 28.5 58 Q 28 33 32 33 Q 36 33 35.5 58 Z
+  blob 25 52 39 52 41 58 36 62 28 62 23 58
+
+emoji zipper_mouth U+1F910 | secret quiet sealed lips
+  use face
+  use eyes
+  stroke $steeld 4.6
+  line 16 43 46 43
+  stroke #dfe5ea 1.3
+  line 20 41 20 45
+  line 24.5 41 24.5 45
+  line 29 41 29 45
+  line 33.5 41 33.5 45
+  line 38 41 38 45
+  line 42.5 41 42.5 45
+  fill $steel
+  stroke $steeld 1.4
+  rect 45 39.5 6 10 2
+
+emoji raised_eyebrow U+1F928 | skeptical suspicious doubt really
+  use face
+  use eyes
+  stroke $ink 2.8
+  line 15 20.5 26.5 20
+  curve 37 15.5 42 12.5 48.5 15
+  line 24 44 40 44
+
+emoji neutral U+1F610 | meh blank straight
+  use face
+  use eyes
+  stroke $ink 3
+  line 22 43 42 43
+
+emoji expressionless U+1F611 | blank flat deadpan
+  use face
+  stroke $ink 3
+  mirror line 17 26.5 27 26.5
+  line 22 43 42 43
+
+emoji no_mouth U+1F636 | silent speechless
+  use face
+  use eyes
+
+emoji smirk U+1F60F | smug sly
+  use face
+  fill $ink
+  mirror ellipse 24 27 3.2 3.6
+  stroke $ink 2.6
+  mirror line 16 20.5 27 20.5
+  curve 24 44.5 33 45 41.5 39.5
+
+emoji unamused U+1F612 | annoyed meh side eye
+  use face
+  fill $ink
+  mirror ellipse 24 28 3.2 3
+  stroke $ink 2.8
+  mirror line 16 23.5 28 24.5
+  arc 33 48 9 5 215 320
+
+emoji rolling_eyes U+1F644 | eyeroll whatever
+  use face
+  fill $white
+  stroke $ink 1.6
+  mirror ellipse 21.5 25 6.2 7.2
+  nostroke
+  fill $ink
+  mirror circle 22.5 21 2.9
+  stroke $ink 3
+  line 24 44.5 40 44.5
+
+emoji grimacing U+1F62C | awkward yikes eek teeth
+  use face
+  use eyes
+  fill $white
+  stroke $ink 2.2
+  rect 17 37.5 30 11 4
+  stroke $ink 1.4
+  line 18 43 46 43
+  line 24.5 38.5 24.5 47.5
+  line 32 38.5 32 47.5
+  line 39.5 38.5 39.5 47.5
+
+emoji relieved U+1F60C | calm content peaceful
+  use face
+  use eyes_closed
+  use smile_small 0 2
+
+emoji pensive U+1F614 | sad thoughtful down
+  use face
+  use eyes_closed 0 3
+  use brows_sad
+  stroke $ink 3
+  arc 32 48 7 4 205 335
+
+emoji sunglasses U+1F60E | cool shades awesome
+  use face
+  use smile 0 3
+  fill $dark
+  stroke $dark 1.5
+  mirror path M 8.5 21.5 L 30 21.5 Q 30.5 34.5 20.5 34.5 Q 10.5 34.5 8.5 21.5 Z
+  stroke $dark 3
+  line 28 23 36 23
+  stroke #ffffff66 1.8
+  line 13 25 19 25
+  line 37.5 25 43.5 25
+
+emoji nerd U+1F913 | geek glasses smart
+  use face
+  fill #ffffffaa
+  stroke #2a2a32 2.6
+  mirror circle 21 26.5 8.6
+  line 29.5 26 34.5 26
+  nostroke
+  fill $ink
+  mirror circle 21.5 27 3
+  use smile 0 3 0.85
+  fill $white
+  stroke $ink 1.3
+  rect 28 44.8 8 5.8 1.4
+  line 32 45 32 50.5

@@ -1,0 +1,1183 @@
+// Work and business emotes: office objects, money, mail and office-speak badges. Original FreeSpeak art.
+category business
+
+color bzline #8b96a8
+color bzgrey #8d99ab
+color bzgreen #3fbf5f
+color bzgreend #1f7a34
+color bzblue #3f8ef0
+color bzblued #1f4fa0
+color bzgold #ffc93a
+color bzgoldd #c98408
+color bzwood #8a5226
+color bzwoodd #5e3410
+color bznavy #2a3550
+
+part bz_page
+  fill lin #ffffff #dde3ec 0 4 0 60
+  stroke $bzline 2.2
+  path M 12 5 L 40 5 L 52 17 L 52 59 L 12 59 Z
+  fill #c3ccd9
+  stroke $bzline 1.6
+  poly 40 5 40 17 52 17
+
+part bz_cal
+  fill lin #ffffff #dde3ec 0 10 0 60
+  stroke $bzline 2.2
+  rect 6 9 52 50 6
+  fill lin #ff6b5e #e23a36 0 9 0 24
+  stroke $redd 2.2
+  path M 6 24 L 6 15 Q 6 9 12 9 L 52 9 Q 58 9 58 15 L 58 24 Z
+  stroke $steeld 3.4
+  mirror line 19 4.5 19 12
+
+part bz_envb
+  fill lin #ffffff #dde3ec 0 14 0 52
+  stroke $bzline 2.2
+  rect 4 12 56 40 4
+
+part bz_coin
+  fill rad #fff08a #ffb21c 24 22 40
+  stroke $bzgoldd 2.2
+  circle 32 32 26
+  nofill
+  stroke #e09a10 1.6
+  circle 32 32 20
+
+part bz_sil
+  fill lin #a9bbd4 #6f86a8 0 10 0 56
+  stroke #4b6182 2
+  path M 10 56 Q 10 38 32 38 Q 54 38 54 56 Z
+  circle 32 22 12
+
+part bz_panel
+  fill lin #ffffff #dde3ec 0 6 0 58
+  stroke $bzline 2.2
+  rect 5 7 54 50 5
+  stroke #c9d1dc 1.2
+  line 8 20 56 20
+  line 8 32 56 32
+  line 8 44 56 44
+
+part bz_gear
+  fill lin #c3cfdd #7c8ba0 0 4 0 60
+  stroke #4a5563 2.4
+  rect 26 3 12 58 3
+  rect 3 26 58 12 3
+  poly 15.7 7.2 7.2 15.7 48.3 56.8 56.8 48.3
+  poly 48.3 7.2 56.8 15.7 15.7 56.8 7.2 48.3
+  circle 32 32 22
+  fill #4a5563
+  nostroke
+  circle 32 32 8
+
+part bz_gear2
+  fill lin #ffd06a #f08a1c 0 4 0 60
+  stroke #a8560a 2.4
+  rect 26 3 12 58 3
+  rect 3 26 58 12 3
+  poly 15.7 7.2 7.2 15.7 48.3 56.8 56.8 48.3
+  poly 48.3 7.2 56.8 15.7 15.7 56.8 7.2 48.3
+  circle 32 32 22
+  fill #a8560a
+  nostroke
+  circle 32 32 8
+
+part bz_cup
+  fill lin #ffffff #dde3ec 0 16 0 50
+  stroke $bzline 2
+  poly 8 16 30 16 27 50 11 50
+  fill #c98a45
+  stroke $bzwood 1.4
+  poly 9.2 25 28.8 25 27.8 37 10.2 37
+  fill #7a5540
+  stroke #4a2f1e 1.8
+  rect 10 5 18 6 2
+  rect 6 10 26 7 3
+
+emoji briefcase U+1F4BC | work job case business office
+  nofill
+  stroke $bzwoodd 4
+  path M 22 18 L 22 11 Q 22 7 26 7 L 38 7 Q 42 7 42 11 L 42 18
+  fill lin #d19450 #8a5226 0 16 0 56
+  stroke $bzwoodd 2.2
+  rect 4 16 56 40 6
+  nofill
+  stroke $bzwoodd 2
+  path M 4.5 30 Q 32 41 59.5 30
+  fill $bzgold
+  stroke $bzgoldd 1.6
+  rect 26.5 31 11 9 2
+  fill #ffffff44
+  nostroke
+  rect 9 20 30 3.4 1.7
+
+emoji chart_up U+1F4C8 | graph growth rising stonks profit
+  use bz_panel
+  stroke $bzgreend 7
+  line 12 47 23 35 32 41 45 24.5
+  stroke $bzgreen 3.8
+  line 12 47 23 35 32 41 45 24.5
+  fill $bzgreen
+  stroke $bzgreend 1.8
+  poly 54 12 39.5 17.7 52.5 28.3
+
+emoji chart_down U+1F4C9 | graph falling loss decline crash
+  use bz_panel
+  stroke $redd 7
+  line 12 17 23 29 32 23 45 41
+  stroke $red 3.8
+  line 12 17 23 29 32 23 45 41
+  fill $red
+  stroke $redd 1.8
+  poly 54 53 52.6 37.3 39.4 46.7
+
+emoji bar_chart U+1F4CA | graph stats data numbers report
+  use bz_panel
+  fill lin #6fb1ff #2f6fd0 0 30 0 54
+  stroke $bzblued 1.8
+  rect 11 34 11 19 2
+  fill lin #7fe08f #2fae4f 0 20 0 54
+  stroke $bzgreend 1.8
+  rect 26.5 23 11 30 2
+  fill lin #ffb347 #f0731c 0 12 0 54
+  stroke #b84a0a 1.8
+  rect 42 13 11 40 2
+
+emoji dollar U+1F4B5 | money cash banknote bill pay
+  fill lin #9be8a4 #3aa856 0 14 0 50
+  stroke $bzgreend 2.2
+  rect 3 15 58 34 4
+  nofill
+  stroke #1f7a3499 1.4
+  rect 8 20 48 24 2
+  fill #dcf8cf
+  stroke $bzgreend 1.4
+  circle 32 32 10.5
+  fill $bzgreend
+  nostroke
+  text 32 38.5 13 $ 2.6
+  circle 14 32 2.6
+  circle 50 32 2.6
+
+emoji money_wings U+1F4B8 | spend flying cash gone expensive
+  fill lin #ffffff #cfe0f5 0 4 0 30
+  stroke #7f95b5 1.8
+  mirror path M 20 32 Q 0 28 2 5 Q 11 5 16 11 Q 22 8 31 26 Z
+  nofill
+  stroke #7f95b5 1.4
+  mirror curve 7 11 11 18 18 24
+  use dollar 0 8 0.76 -10
+
+emoji credit_card U+1F4B3 | pay card bank debit purchase
+  fill lin #6fb1ff #2f5fd0 4 12 60 52
+  stroke $bzblued 2.2
+  rect 3 12 58 40 6
+  fill #1b2c5c
+  nostroke
+  rect 4.1 20 55.8 8
+  fill lin #ffe27a #f0a92a 0 34 0 44
+  stroke $bzgoldd 1.4
+  rect 9 34 13 10 2.5
+  stroke #ffffffcc 2.6
+  line 28 37 53 37
+  line 28 44 44 44
+
+emoji bank U+1F3E6 | finance building money savings loan
+  fill lin #f4f6fa #c5cedb 0 4 0 58
+  stroke #7c8798 2.2
+  mirror rect 10 25 7 25 1.5
+  rect 28.5 25 7 25 1.5
+  mirror rect 19.5 25 6 25 1.5
+  poly 32 4 60 21 4 21
+  rect 6 20 52 6 1.5
+  rect 4 49 56 9 2
+  fill $bzgold
+  stroke $bzgoldd 1.4
+  circle 32 14.5 3.6
+
+emoji office U+1F3E2 | building work company tower hq
+  fill lin #9fb4d2 #5f779c 10 6 54 58
+  stroke #3f5275 2.2
+  rect 11 5 42 54 3
+  fill #d6efff
+  nostroke
+  rect 16 10 8 8 1.2
+  rect 28 10 8 8 1.2
+  rect 40 10 8 8 1.2
+  rect 16 22 8 8 1.2
+  rect 40 22 8 8 1.2
+  rect 28 34 8 8 1.2
+  rect 40 34 8 8 1.2
+  fill #ffe27a
+  rect 28 22 8 8 1.2
+  rect 16 34 8 8 1.2
+  fill #2a3550
+  rect 26 47 12 11.5 1.5
+  stroke #3f5275 2.4
+  line 5 59 59 59
+
+emoji necktie U+1F454 | tie formal suit dress work
+  fill lin #5f9bff #2a55c0 18 6 48 58
+  stroke #1b3a8a 2.2
+  poly 32 61 17 45 27 15 37 15 47 45
+  stroke #a9ccff 3
+  line 25 28 39 22
+  line 22 38.5 42.5 30
+  line 20 48 44.5 38.5
+  fill lin #6fa6ff #2a55c0 22 3 44 16
+  stroke #1b3a8a 2.2
+  poly 21.5 3 42.5 3 38 16.5 26 16.5
+
+emoji clipboard U+1F4CB | list notes tasks checklist form
+  fill lin #d19450 #8a5226 0 8 0 60
+  stroke $bzwoodd 2.2
+  rect 8 8 48 52 5
+  fill lin #ffffff #e4e9f2 0 14 0 56
+  stroke $bzline 1.6
+  rect 13.5 14 37 41 2
+  fill lin #d5dce6 #8f9aaa 0 3 0 14
+  stroke $steeld 2
+  rect 22 3.5 20 12 3.5
+  stroke $bzgrey 2.8
+  line 19 25 45 25
+  line 19 33 45 33
+  line 19 41 45 41
+  line 19 49 35 49
+
+emoji receipt U+1F9FE | bill purchase total expenses proof
+  fill lin #ffffff #dde3ec 0 4 0 58
+  stroke $bzline 2.2
+  path M 13 4 L 51 4 L 51 59 L 46.2 54 L 41.5 59 L 36.7 54 L 32 59 L 27.2 54 L 22.5 59 L 17.7 54 L 13 59 Z
+  stroke $bzgrey 2.8
+  line 19 13 45 13
+  line 19 21 45 21
+  line 19 29 38 29
+  stroke #c9d1dc 1.6
+  line 18 36 46 36
+  stroke $bzgreend 3.6
+  line 31 44 45 44
+
+emoji telephone U+260E-FE0F | phone call ring desk landline
+  fill lin #ff6b5e #d93532 0 24 0 58
+  stroke $redd 2.2
+  path M 14 58 L 50 58 Q 56 58 55 52 L 50 31 Q 49 26 44 26 L 20 26 Q 15 26 14 31 L 9 52 Q 8 58 14 58 Z
+  fill #ffffff
+  stroke #b9c4cf 1.6
+  circle 32 43 10
+  fill #5d6670
+  nostroke
+  circle 32 43 4
+  fill lin #ff7a6e #d93532 0 6 0 28
+  stroke $redd 2.2
+  path M 4 21 Q 4 6 32 6 Q 60 6 60 21 L 60 25 Q 60 29 56 29 L 49 29 Q 45 29 45 25 L 45 20 Q 32 15 19 20 L 19 25 Q 19 29 15 29 L 8 29 Q 4 29 4 25 Z
+  nofill
+  stroke #ffffff66 2
+  curve 12 13 22 9.5 34 9.5
+
+emoji stopwatch U+23F1-FE0F | timer time race speed clock
+  fill $steel
+  stroke $steeld 2
+  rect 27 2.5 10 10 2.5
+  poly 45.5 12.5 50.5 8 55.5 13.5 50.5 18
+  fill lin #e9eef4 #9aa7b6 0 12 0 60
+  stroke $steeld 2.4
+  circle 32 36 23.5
+  fill #ffffff
+  stroke #b9c4cf 1.4
+  circle 32 36 18
+  stroke $steeld 2.2
+  line 32 20.5 32 23.5
+  line 32 48.5 32 51.5
+  line 16.5 36 19.5 36
+  line 44.5 36 47.5 36
+  stroke $red 3
+  line 32 36 41.5 25.5
+  fill $redd
+  nostroke
+  circle 32 36 2.8
+
+emoji mailbox U+1F4EB | mail post letter delivery flag
+  fill lin #b0763c $bzwood 0 38 0 60
+  stroke $bzwoodd 2
+  rect 27.5 38 9 22 1.5
+  stroke $redd 3
+  line 45 30 45 6
+  fill $red
+  stroke $redd 1.6
+  rect 45 3.5 13 9 1.5
+  fill lin #6fb1ff #2f6fd0 0 14 0 44
+  stroke $bzblued 2.2
+  path M 5 44 L 5 30 Q 5 15 20 15 L 45 15 Q 59 15 59 30 L 59 44 Z
+  fill lin #b5d8ff #7fb6f5 0 14 0 44
+  stroke $bzblued 1.8
+  path M 5 44 L 5 30 Q 5 15 17.5 15 Q 30 15 30 30 L 30 44 Z
+  stroke $bzblued 2.8
+  line 12 31 23 31
+
+emoji inbox U+1F4E5 | receive incoming tray download mail
+  fill lin #7fe08f #2fae4f 0 4 0 36
+  stroke $bzgreend 2.2
+  poly 25 4 39 4 39 19 48 19 32 36 16 19 25 19
+  fill lin #c9d5e3 #8494aa 0 34 0 60
+  stroke #55637a 2.2
+  path M 4 38 L 17 38 Q 19 47 32 47 Q 45 47 47 38 L 60 38 L 60 55 Q 60 59 56 59 L 8 59 Q 4 59 4 55 Z
+
+emoji outbox U+1F4E4 | send outgoing tray upload mail
+  fill lin #6fb1ff #2f6fd0 0 4 0 36
+  stroke $bzblued 2.2
+  poly 32 3 48 20 39 20 39 40 25 40 25 20 16 20
+  fill lin #c9d5e3 #8494aa 0 34 0 60
+  stroke #55637a 2.2
+  path M 4 38 L 17 38 Q 19 47 32 47 Q 45 47 47 38 L 60 38 L 60 55 Q 60 59 56 59 L 8 59 Q 4 59 4 55 Z
+
+emoji file_cabinet U+1F5C4-FE0F | files drawers storage archive records
+  fill lin #c9d5e3 #8494aa 0 4 0 60
+  stroke #55637a 2.2
+  rect 9 4 46 56 4
+  fill lin #e4eaf1 #b1bccb 0 8 0 56
+  stroke #55637a 1.8
+  rect 13.5 8.5 37 22 2
+  rect 13.5 34 37 22 2
+  fill #ffffff
+  stroke #55637a 1.2
+  rect 25 12 14 5.5 1
+  rect 25 37.5 14 5.5 1
+  stroke #55637a 3
+  line 26 23.5 38 23.5
+  line 26 49 38 49
+
+emoji scales U+2696-FE0F | justice law balance legal fair
+  stroke $bzgoldd 1.6
+  mirror line 12 16 4.5 38
+  mirror line 12 16 19.5 38
+  stroke $bzgoldd 5.4
+  line 32 9 32 54
+  line 10 16 54 16
+  stroke $bzgold 2.6
+  line 32 9 32 54
+  line 10 16 54 16
+  fill lin #ffe27a #f0a92a 0 36 0 48
+  stroke $bzgoldd 2
+  mirror path M 2.5 38 L 21.5 38 Q 12 51 2.5 38 Z
+  rect 17 53 30 6.5 3
+  circle 32 9 4
+
+emoji page U+1F4C4 | document file paper text doc
+  use bz_page
+  stroke $bzgrey 2.8
+  line 19 25 45 25
+  line 19 33 45 33
+  line 19 41 45 41
+  line 19 49 35 49
+
+emoji newspaper U+1F4F0 | news press headline article paper
+  fill lin #ffffff #dde3ec 0 6 0 58
+  stroke $bzline 2.2
+  rect 4 7 56 50 3
+  fill #2a3550
+  nostroke
+  rect 9 12 46 10 1.5
+  fill #ffffff
+  text 32 20 6.4 NEWS 1.5
+  fill lin #8fd0ff #4f9bff 0 27 0 50
+  stroke $bzblued 1.4
+  rect 9.5 27 20 23 1.5
+  stroke $bzgrey 2.6
+  line 35 29 54 29
+  line 35 36 54 36
+  line 35 43 54 43
+  line 35 50 47 50
+
+emoji id_badge U+1FAAA | pass name tag lanyard access staff
+  stroke #2f6fd0 5
+  line 27 1.5 32 13 37 1.5
+  fill lin #ffffff #dde3ec 0 12 0 60
+  stroke $bzline 2.2
+  rect 7 12 50 48 5
+  fill $bzblue
+  nostroke
+  path M 8.4 25 L 8.4 17 Q 8.4 13.4 12 13.4 L 52 13.4 Q 55.6 13.4 55.6 17 L 55.6 25 Z
+  fill #173a80
+  rect 25.5 16.5 13 4.5 2.2
+  fill #d6e6fb
+  stroke $bzline 1.4
+  rect 12 30 20 24 2
+  use bz_sil -10 10.5 0.37
+  stroke $bzgrey 2.8
+  line 37 34 51 34
+  line 37 41.5 51 41.5
+  line 37 49 46 49
+
+emoji coin_stack | money gold savings wealth coins treasure
+  fill #dd930e
+  stroke #a86a06 2
+  ellipse 32 52 23 7.5
+  fill rad #fff08a #ffc22e 24 44 26
+  ellipse 32 47 23 7.5
+  fill #dd930e
+  ellipse 32 43 23 7.5
+  fill rad #fff08a #ffc22e 24 35 26
+  ellipse 32 38 23 7.5
+  fill #dd930e
+  ellipse 32 34 23 7.5
+  fill rad #fff08a #ffc22e 24 26 26
+  ellipse 32 29 23 7.5
+  fill #dd930e
+  ellipse 32 25 23 7.5
+  fill rad #fff8b0 #ffc22e 24 17 26
+  ellipse 32 20 23 7.5
+  nofill
+  stroke #d98f0c 1.6
+  ellipse 32 20 15 4.2
+  fill #ffffff
+  nostroke
+  poly 51 3 52.6 8.4 58 10 52.6 11.6 51 17 49.4 11.6 44 10 49.4 8.4
+
+emoji piggy_bank | savings save money coin pig fund
+  fill rad #fff08a #ffb21c 26 10 14
+  stroke $bzgoldd 2
+  circle 28 13 9
+  fill #f08fb0
+  stroke #c2557c 2
+  rect 15 48 9 12 3.5
+  rect 38 48 9 12 3.5
+  nofill
+  stroke #c2557c 2.6
+  curve 8.5 36 3.5 33 5.5 27
+  fill rad #ffd0e0 #f58fb3 22 28 36
+  stroke #c2557c 2.2
+  ellipse 30 38 23.5 17.5
+  fill #f58fb3
+  poly 37 23 47.5 13 49 27
+  fill #ffa9c6
+  ellipse 54 39 5.5 7.5
+  fill #c2557c
+  nostroke
+  circle 54.5 36.5 1.3
+  circle 54.5 41.5 1.3
+  fill $ink
+  circle 42 33 2.6
+  stroke #9c3d62 3.2
+  line 20 23.6 36 22
+
+emoji approved | ok yes accepted stamp pass
+  xf 0 0 1 -12
+  fill #e3f9e7
+  stroke #23a04a 3.6
+  rect 3 15 58 34 7
+  nofill
+  stroke #23a04a 1.4
+  rect 8 19.8 48 24.4 4
+  fill #1c8a3e
+  nostroke
+  text 23 40 15 OK 3.6
+  nofill
+  stroke #1c8a3e 4.2
+  line 40 32 45.5 39 54.5 24.5
+  xf
+
+emoji rejected | no denied declined stamp fail
+  xf 0 0 1 10
+  fill #ffe6e3
+  stroke #d93532 3.6
+  rect 4 15 56 34 7
+  nofill
+  stroke #d93532 1.4
+  rect 9 19.8 46 24.4 4
+  fill #c02a28
+  nostroke
+  text 32 40.5 16 NO 3.8
+  xf
+
+emoji deadline | due urgent date crunch late
+  use bz_cal
+  fill rad #ffd84a #ff7a1c 32 48 18
+  stroke #d9480f 2
+  path M 32 25 C 43 32 46 41 44 47 C 42 53 37 55.5 32 55.5 C 27 55.5 20 53 20 45 C 20 40 23 37 25 33 C 27 37 28 38 30 37 C 32 33 31 29 32 25 Z
+  fill #fff3a0
+  nostroke
+  path M 32 41 C 37 45 37 49 36 51 C 35 54 29 54 28 51 C 27 47 30 45 32 41 Z
+
+emoji meeting | team sync standup discuss huddle
+  use bz_sil 0 -11 0.5
+  use bz_sil -19 0 0.5
+  use bz_sil 19 0 0.5
+  fill lin #dba56b #a8703a 0 34 0 58
+  stroke #6f4418 2.2
+  ellipse 32 47 28 11.5
+  fill #ffffff55
+  nostroke
+  ellipse 24 43 10 2.6
+
+emoji video_call | zoom remote conference screen webcam
+  fill $steel
+  stroke $steeld 2
+  rect 27 46 10 9
+  rect 16 54 32 5.5 2.7
+  fill #23262e
+  stroke #6a7482 2.4
+  rect 3 5 58 43 5
+  nostroke
+  fill #cfe3ff
+  rect 7 9 24 17 2
+  fill #d5f3dc
+  rect 33 9 24 17 2
+  fill #ffe6c4
+  rect 7 28 24 17 2
+  fill #ecd9fa
+  rect 33 28 24 17 2
+  use bz_sil -13 -13.6 0.3
+  use bz_sil 13 -13.6 0.3
+  use bz_sil -13 5.4 0.3
+  use bz_sil 13 5.4 0.3
+
+emoji presentation | slides pitch deck demo easel
+  stroke $bzwood 3.6
+  line 20 43 12 60
+  line 44 43 52 60
+  line 32 43 32 59
+  fill lin #ffffff #dde3ec 0 4 0 46
+  stroke $bzline 2.2
+  rect 4 4 56 40 4
+  stroke $bzgreend 6.4
+  line 12 36 22 28 30 32 42 18
+  stroke $bzgreen 3.6
+  line 12 36 22 28 30 32 42 18
+  fill $bzgreen
+  stroke $bzgreend 1.8
+  poly 51 8 38 12 48.5 21.5
+
+emoji whiteboard | plan diagram brainstorm flowchart draw
+  stroke $steeld 3.2
+  line 14 48 10 60
+  line 50 48 54 60
+  fill lin #ffffff #e4e9f2 0 6 0 48
+  stroke $steeld 2.6
+  rect 3 5 58 44 4
+  fill $bzblue
+  stroke $bzblued 1.6
+  rect 8 11 16 12 2.5
+  fill $bzgreen
+  stroke $bzgreend 1.6
+  rect 40 11 16 12 2.5
+  fill #f59a2e
+  stroke #b8620a 1.6
+  rect 24 31 16 12 2.5
+  nofill
+  stroke #4a5563 2.4
+  line 26 17 38 17
+  line 34.5 13.5 38 17 34.5 20.5
+  line 48 25 41.5 32
+  line 41.5 27 41.5 32 46.5 32
+
+emoji sticky_note | note memo reminder postit jot
+  fill lin #fff58a #ffd43a 0 6 0 58
+  stroke #d6a00c 2.2
+  path M 6 6 L 58 6 L 58 40 L 40 58 L 6 58 Z
+  fill #f2bb24
+  stroke #d6a00c 1.8
+  poly 58 40 40 58 40 40
+  stroke #b8860b 3
+  line 14 19 50 19
+  line 14 29 50 29
+  line 14 39 33 39
+
+emoji todo | tasks checklist list pending plan
+  fill lin #ffffff #dde3ec 0 4 0 60
+  stroke $bzline 2.2
+  rect 7 4 50 56 5
+  fill #ffffff
+  stroke #6f7c8f 2.2
+  rect 12.5 9.5 13 13 3
+  rect 12.5 25.5 13 13 3
+  rect 12.5 41.5 13 13 3
+  stroke $bzgrey 3.2
+  line 32 16 50 16
+  line 32 32 50 32
+  line 32 48 44 48
+  stroke #23a04a 4
+  line 15 15.5 19 20.5 28 8.5
+
+emoji done | complete finished check tick shipped
+  fill rad #8fe89c #2fae4f 22 20 46
+  stroke $bzgreend 2.4
+  circle 32 32 27.6
+  stroke #ffffff 7.5
+  line 18 33 27.5 43 46 22
+
+emoji blocked | stuck waiting stop blocker halt
+  fill rad #ff8a7e #e03a36 22 20 48
+  stroke $redd 2.4
+  poly 20.5 4.5 43.5 4.5 59.5 20.5 59.5 43.5 43.5 59.5 20.5 59.5 4.5 43.5 4.5 20.5
+  fill #ffffff
+  nostroke
+  rect 13 25.5 38 13 3.5
+
+emoji wip | work in progress unfinished draft
+  fill $steel
+  stroke $steeld 2
+  rect 11 44 7 16 1.5
+  rect 46 44 7 16 1.5
+  fill #ffd21f
+  stroke #a87e00 2
+  rect 3 6 58 15 3
+  fill #2a2a32
+  nostroke
+  poly 12 7.2 19.5 7.2 13.5 19.8 6 19.8
+  poly 26 7.2 33.5 7.2 27.5 19.8 20 19.8
+  poly 40 7.2 47.5 7.2 41.5 19.8 34 19.8
+  poly 54 7.2 59.8 7.2 59.8 12 55.5 19.8 48 19.8
+  fill lin #ffe869 #ffc21c 0 24 0 50
+  stroke #a87e00 2.2
+  rect 4 24.5 56 25 4
+  fill #2a2a32
+  nostroke
+  text 32 43 13.5 WIP 3.2
+
+emoji asap | urgent now hurry rush fast
+  stroke #ff8a80 3.2
+  line 2 22 11 22
+  line 5 32 11 32
+  line 2 42 11 42
+  fill lin #ff6b5e #e23a36 0 16 0 48
+  stroke $redd 2.2
+  rect 14 16 47 32 8
+  fill #7a1418
+  nostroke
+  text 37.5 37.5 10.5 ASAP 4
+  fill #ffffff
+  text 37.5 37.5 10.5 ASAP 2
+
+emoji fyi | info heads up notice note
+  fill lin #6fb1ff #2f6fd0 0 10 0 50
+  stroke $bzblued 2.2
+  path M 14 9 L 50 9 Q 60 9 60 19 L 60 37 Q 60 47 50 47 L 27 47 L 14 58 L 17 47 L 14 47 Q 4 47 4 37 L 4 19 Q 4 9 14 9 Z
+  fill #173a80
+  nostroke
+  text 32 35 15 FYI 5
+  fill #ffffff
+  text 32 35 15 FYI 2.6
+
+emoji tldr | summary short long skip brief
+  stroke $bzgrey 2.6
+  line 9 8 55 8
+  line 9 55 55 55
+  line 9 61 38 61
+  fill lin #aab4c2 #6f7c8f 0 14 0 48
+  stroke #4a5563 2.2
+  rect 3 14.5 58 34 8
+  fill #2f3743
+  nostroke
+  text 32 37 10.5 TLDR 4
+  fill #ffffff
+  text 32 37 10.5 TLDR 2
+
+emoji lgtm | approve looks good review ship
+  fill lin #6fdc85 #2fa04f 0 18 0 54
+  stroke $bzgreend 2.2
+  rect 3 20 58 34 8
+  fill #145a26
+  nostroke
+  text 32 42.5 10.5 LGTM 4
+  fill #ffffff
+  text 32 42.5 10.5 LGTM 2
+  fill #ffffff
+  stroke $bzgreend 2
+  circle 51 15 10
+  nofill
+  stroke #23a04a 3.4
+  line 46 15 50 19.5 56.5 10.5
+
+emoji eod | end of day evening deadline sunset
+  fill lin #ffc15a #ff5e62 0 4 0 34
+  stroke #a83a3f 2.2
+  rect 4 4 56 56 8
+  fill rad #fff7a8 #ffd21f 32 30 14
+  stroke #e08a0a 1.6
+  path M 17 33 C 17 12 47 12 47 33 Z
+  fill lin #4a3f8f #2c2560 0 33 0 58
+  nostroke
+  path M 5.2 33 L 58.8 33 L 58.8 52 Q 58.8 58.8 52 58.8 L 12 58.8 Q 5.2 58.8 5.2 52 Z
+  fill #ffffff
+  text 32 52 12.5 EOD 2.6
+
+emoji ooo | out of office away vacation
+  fill lin #45d6c6 #1f9a94 0 34 0 60
+  stroke #147a74 2.2
+  rect 3 34 58 26 7
+  fill #0b4f4b
+  nostroke
+  text 32 53 12.5 OOO 4.6
+  fill #ffffff
+  text 32 53 12.5 OOO 2.4
+  fill #ffd98a
+  stroke #d6a00c 1.6
+  ellipse 31 34 15 3.6
+  stroke $bzwoodd 6
+  curve 30 33 32 23 37 13
+  stroke #b0763c 3.2
+  curve 30 33 32 23 37 13
+  stroke $bzgreend 6.4
+  curve 37 13 27 5.5 15 12
+  curve 37 13 48 5.5 59 13
+  curve 37 13 29 15 22 25
+  curve 37 13 46 15 52 25
+  stroke $bzgreen 3.4
+  curve 37 13 27 5.5 15 12
+  curve 37 13 48 5.5 59 13
+  curve 37 13 29 15 22 25
+  curve 37 13 46 15 52 25
+
+emoji pto | vacation holiday leave beach day off
+  fill #ffd98a
+  stroke #d6a00c 1.6
+  ellipse 32 57 29 4.5
+  stroke $bzline 3
+  line 24 10 30 56
+  fill lin #ff6b5e #e23a36 0 4 0 28
+  stroke $redd 2.2
+  path M 2 29 Q 3 6 26 4 Q 48 6 49 26 Q 37 19 26 24 Q 14 20 2 29 Z
+  fill #ffffff
+  nostroke
+  path M 18 6.5 Q 26 3.6 33 6 Q 30 14 26 23 Q 20 14 18 6.5 Z
+  stroke $bzwoodd 3.4
+  line 36 57 58 30
+  line 41 42 59 57
+  stroke $bzblue 5.4
+  curve 38 52 47 50 56.5 33
+
+emoji overtime | late night extra hours crunch
+  fill lin #6fb1ff #2f6fd0 0 12 0 60
+  stroke $bzblued 2.2
+  circle 27 37 23.5
+  fill #ffffff
+  stroke #b9c4cf 1.2
+  circle 27 37 18.5
+  stroke $bznavy 3.6
+  line 27 37 27 24
+  line 27 37 37 41
+  fill $bznavy
+  nostroke
+  circle 27 37 2.8
+  fill #2c2560
+  stroke #7a6fe0 2
+  circle 48 15 13
+  fill #ffe14d
+  nostroke
+  path M 51 5.5 C 42 6.5 39 15 42.5 20.5 C 46 26 54 26 57.5 21 C 51 22.5 46.5 18.5 47 13 C 47.3 10 49 7 51 5.5 Z
+
+emoji payday | salary wages paycheck money income
+  use bz_cal
+  fill #145a26
+  nostroke
+  text 32 53 23 $ 5.4
+  fill $bzgreen
+  text 32 53 23 $ 2.8
+
+emoji invoice | bill payment due charge billing
+  use bz_page
+  fill $bzblue
+  nostroke
+  rect 18 10.5 15 6.5 1.5
+  stroke $bzgrey 2.8
+  line 19 25 45 25
+  line 19 32 45 32
+  line 19 39 36 39
+  fill #d9f7df
+  stroke #23a04a 2
+  rect 26 45 21 9.5 2
+  stroke #1c8a3e 3
+  line 31 49.8 42 49.8
+
+emoji contract | agreement sign deal legal signature
+  use bz_page
+  stroke $bzgrey 2.8
+  line 19 25 45 25
+  line 19 32 45 32
+  line 19 39 38 39
+  stroke $bzgrey 1.4
+  line 17 55 44 55
+  stroke #2f55c0 2.4
+  curve 18 51 21 44 24 52 27 45 31 52 36 48 41 50
+  fill $bznavy
+  stroke #8fa3c4 1.6
+  poly 62 21.8 56.6 18.6 44.6 39.6 50 42.8
+  fill $bzgold
+  stroke $bzgoldd 1.2
+  poly 44.6 39.6 50 42.8 43.4 49.6
+
+emoji handover | handoff pass transfer delegate give
+  fill $bzblue
+  stroke $bzblued 2
+  rect 1.5 38 7 15 2
+  fill #2fae8f
+  stroke #147a64 2
+  rect 55.5 21 7 15 2
+  fill $skin
+  stroke $skinl 2
+  rect 5 37 16 17 6.5
+  rect 43 20 16 17 6.5
+  fill lin #ffd76a #f0a92a 0 8 0 54
+  stroke #b87a0c 2.2
+  path M 18 14 L 18 10 Q 18 7 21 7 L 31 7 L 34.5 13 Z
+  rect 16 12.5 32 43 3
+  fill #ffffff
+  stroke #b87a0c 1.2
+  rect 22.5 40 19 8 1.5
+  fill $skin
+  stroke $skinl 2
+  ellipse 19.5 41.5 7.5 4 -12
+  ellipse 44.5 24.5 7.5 4 12
+
+emoji promotion | career level up advance ladder
+  stroke $bzwoodd 5.6
+  line 9 60 13 13
+  line 32 60 28 13
+  line 12.8 24 28.2 24
+  line 11.8 36 29.2 36
+  line 10.8 48 30.2 48
+  stroke #d19450 2.6
+  line 9 60 13 13
+  line 32 60 28 13
+  line 12.8 24 28.2 24
+  line 11.8 36 29.2 36
+  line 10.8 48 30.2 48
+  fill lin #7fe08f #2fae4f 0 24 0 60
+  stroke $bzgreend 2
+  poly 48 25 60.5 40 53.5 40 53.5 59.5 42.5 59.5 42.5 40 35.5 40
+  use star 16 -20 0.36
+
+emoji raise | pay rise salary increase bonus
+  use bz_coin -7 7 0.8
+  fill #a86a06
+  nostroke
+  text 25 46.5 20 $ 3.4
+  fill lin #7fe08f #2fae4f 0 3 0 36
+  stroke $bzgreend 2.2
+  poly 48 3 61.5 18.5 54 18.5 54 36 42 36 42 18.5 34.5 18.5
+
+emoji budget | pie chart spending finance share
+  fill lin #6fb1ff #2f6fd0 0 10 0 58
+  stroke $bzblued 2.2
+  path M 29 35 L 53 35 C 53 48.2 42.2 59 29 59 C 15.8 59 5 48.2 5 35 C 5 21.8 15.8 11 29 11 Z
+  fill lin #7fe08f #2fae4f 0 35 0 59
+  stroke $bzgreend 2
+  path M 29 35 L 29 59 C 15.8 59 5 48.2 5 35 Z
+  fill lin #ffc15a #f0731c 0 5 0 30
+  stroke #b84a0a 2.2
+  path M 35 29 L 35 5 C 48.2 5 59 15.8 59 29 Z
+
+emoji kpi | metric gauge performance target dial
+  fill lin #f4f6fa #cfd7e2 0 4 0 60
+  stroke $steeld 2.4
+  circle 32 32 27.6
+  stroke $red 8
+  arc 32 37 18 18 182 238
+  stroke #ffc21c 8
+  arc 32 37 18 18 244 296
+  stroke $bzgreen 8
+  arc 32 37 18 18 302 358
+  stroke $bznavy 3.8
+  line 32 37 45.5 28
+  fill $bznavy
+  nostroke
+  circle 32 37 4.4
+  stroke $steeld 2.8
+  line 24 49 40 49
+
+emoji target_hit | goal bullseye nailed achieved success
+  fill rad #ff8a7e #e03a36 20 26 40
+  stroke $redd 2.2
+  circle 27 37 24.5
+  fill #ffffff
+  nostroke
+  circle 27 37 17
+  fill $red
+  circle 27 37 9.5
+  fill #2f6fd0
+  stroke $bzblued 1.4
+  poly 45 19 46 9 52 3 54 9.5
+  poly 45 19 55 18 61 12 54 9.5
+  stroke $bzwoodd 3.6
+  line 27 37 53 11
+  fill $bzgreen
+  stroke $bzgreend 2
+  circle 51 51 10
+  nofill
+  stroke #ffffff 3.4
+  line 46 51 50 55.5 56.5 46.5
+
+emoji roadmap | plan milestones strategy route timeline
+  fill lin #d9f5c4 #a8dc8a 0 4 0 60
+  stroke #5a9a3a 2.2
+  rect 4 4 56 56 8
+  stroke #4a5563 10
+  curve 12 56 30 51 44 41 28 31 22 21 44 15
+  stroke #f4f6fa 1.6
+  curve 12 56 30 51 44 41 28 31 22 21 44 15
+  stroke $bznavy 2.4
+  line 15 54 15 39
+  line 43 41 43 26
+  line 45 16 45 5
+  fill $red
+  stroke $redd 1.2
+  poly 15 39 25 42.5 15 46
+  fill #ffc21c
+  stroke $bzgoldd 1.2
+  poly 43 26 53 29.5 43 33
+  fill $bzgreen
+  stroke $bzgreend 1.2
+  poly 45 5 55 8.5 45 12
+
+emoji launch | ship release rocket go live deploy
+  fill $bznavy
+  stroke #8fa3c4 2.2
+  rect 4 37 33 20 3
+  fill #6fb1ff
+  nostroke
+  rect 7.5 40.5 26 13 1.5
+  fill $steel
+  stroke $steeld 2
+  path M 1.5 56.5 L 40.5 56.5 L 38 61 L 4 61 Z
+  xf 9 -11 0.8 40
+  fill rad #fff3a0 #ff7a1c 32 50 14
+  stroke #d9480f 2
+  path M 24 46 Q 32 72 40 46 Z
+  fill $red
+  stroke $redd 2.4
+  poly 22 30 9 50 23 46
+  poly 42 30 55 50 41 46
+  fill lin #ffffff #cfd7e2 20 0 46 0
+  stroke #7c8798 3
+  path M 32 1 Q 48 20 42 47 L 22 47 Q 16 20 32 1 Z
+  fill #6fb1ff
+  stroke $bzblued 2.6
+  circle 32 24 6.5
+  xf
+
+emoji pivot | change direction turn strategy shift
+  nofill
+  stroke $bzblued 14
+  path M 15 57 L 15 34 Q 15 17 32 17 L 40 17
+  fill #4f9bff
+  stroke $bzblued 2.2
+  poly 40 2.5 61.5 17 40 31.5
+  nofill
+  stroke #4f9bff 9.6
+  path M 15 57 L 15 34 Q 15 17 32 17 L 43 17
+
+emoji synergy | teamwork gears together collaborate align
+  use bz_gear -10 9 0.68
+  use bz_gear2 13 -13 0.56 22
+  fill #fff08a
+  stroke #e0860a 1.4
+  poly 12 2.5 14.2 8.8 20.5 11 14.2 13.2 12 19.5 9.8 13.2 3.5 11 9.8 8.8
+  poly 53 44 54.6 49.4 60 51 54.6 52.6 53 58 51.4 52.6 46 51 51.4 49.4
+
+emoji buzzword | jargon corporate speak nonsense blah
+  fill lin #ffffff #e4e9f2 0 4 0 46
+  stroke $bzline 2.2
+  path M 14 4 L 50 4 Q 60 4 60 14 L 60 35 Q 60 45 50 45 L 28 45 L 13 59 L 17 45 L 14 45 Q 4 45 4 35 L 4 14 Q 4 4 14 4 Z
+  fill $bzblue
+  nostroke
+  text 17.5 33 17 # 3
+  fill $red
+  text 32 33 17 ! 3.4
+  fill #9a4fd6
+  text 45.5 33 17 ? 3.2
+
+emoji circle_back | follow up later revisit return
+  stroke $bzblued 8.4
+  arc 32 34 23 23 0 290
+  fill #4f9bff
+  stroke $bzblued 2
+  poly 49.5 16 37 20.5 42.8 4.5
+  nofill
+  stroke #4f9bff 4.8
+  arc 32 34 23 23 0 291
+  fill #ffffff
+  stroke $bzline 2
+  poly 24 41 22.5 49 31 42
+  rect 18.5 25 27 17.5 6.5
+  fill #6f7c8f
+  nostroke
+  circle 25.5 33.7 2.1
+  circle 32 33.7 2.1
+  circle 38.5 33.7 2.1
+
+emoji per_my_last_email | passive aggressive as stated reminder
+  use bz_envb
+  nofill
+  stroke $bzline 2
+  line 5.5 14.5 32 28 58.5 14.5
+  fill $bznavy
+  nostroke
+  ellipse 23 38 2.9 3.8
+  ellipse 41 38 2.9 3.8
+  stroke $bznavy 2.8
+  line 17.5 32.5 28 33
+  curve 36 30.5 41.5 27 47.5 29.5
+  line 26 46.5 38 45
+
+emoji reply_all | email everyone thread cc spam
+  fill #4f9bff
+  stroke $bzblued 1.6
+  poly 4 6 17 7.5 9.5 17
+  poly 32 2 39 12 25 12
+  poly 60 6 54.5 17 47 7.5
+  stroke $bzblued 6.4
+  line 30 27 14 13.5
+  line 32 26 32 12
+  line 34 27 50 13.5
+  stroke #4f9bff 3.4
+  line 30 27 13 12.5
+  line 32 26 32 11
+  line 34 27 51 12.5
+  xf 0 12 0.74
+  use bz_envb
+  nofill
+  stroke $bzline 2.4
+  line 5.5 14.5 32 34 58.5 14.5
+  xf
+
+emoji unsubscribe | stop email opt out remove spam
+  use bz_envb
+  nofill
+  stroke $bzline 2
+  line 5.5 14.5 32 34 58.5 14.5
+  stroke $redd 10
+  line 34 34 56 56
+  line 56 34 34 56
+  stroke #ff5a50 6
+  line 34 34 56 56
+  line 56 34 34 56
+
+emoji spreadsheet | excel sheet table cells data
+  fill lin #5fd07a #2fa04f 0 4 0 60
+  stroke $bzgreend 2.2
+  rect 6 4 52 56 5
+  fill #ffffff
+  nostroke
+  rect 11 14 42 41 2
+  fill #c3efcd
+  rect 11 14 42 10 2
+  nofill
+  stroke #2fa04f 2
+  line 11 24.2 53 24.2
+  line 11 34.5 53 34.5
+  line 11 44.8 53 44.8
+  line 25 14 25 55
+  line 39 14 39 55
+
+emoji coffee_run | coffee break drinks order takeaway
+  xf 1 0
+  use bz_cup
+  xf 25 0
+  use bz_cup
+  xf
+  fill lin #dfba8a #b88a55 0 42 0 60
+  stroke #7a5226 2.2
+  path M 2 43 L 62 43 L 57 60 L 7 60 Z
+  nofill
+  stroke #7a5226 1.6
+  line 32 44 32 59
+
+emoji monday | mon week start ugh grumpy
+  use bz_cal
+  fill lin #8fa3c4 #4f6488 0 9 0 24
+  stroke #3a4a68 2.2
+  path M 6 24 L 6 15 Q 6 9 12 9 L 52 9 Q 58 9 58 15 L 58 24 Z
+  stroke $steeld 3.4
+  mirror line 19 4.5 19 12
+  fill #ffffff
+  nostroke
+  text 32 21.5 8 MON 2
+  fill $bznavy
+  ellipse 23 40 2.8 3.4
+  ellipse 41 40 2.8 3.4
+  stroke $bznavy 2.8
+  line 17.5 32.5 27 36
+  line 46.5 32.5 37 36
+  arc 32 54 8 5.5 205 335
+
+emoji friday | fri weekend tgif party happy
+  use bz_cal
+  fill #ffffff
+  nostroke
+  text 32 21.5 8 FRI 2
+  nofill
+  stroke $bznavy 2.8
+  arc 23 41 4.2 4.6 205 335
+  arc 41 41 4.2 4.6 205 335
+  arc 32 43 9.5 8.5 25 155
+  nostroke
+  fill $bzblue
+  rect 3 28 5 5 1
+  circle 58 52 2.6
+  fill #ffc21c
+  circle 5 46 2.6
+  rect 54 29 5 5 1
+  fill #ff5fa2
+  circle 60 41 2.4
+  rect 2 54 4.6 4.6 1
+  fill $bzgreen
+  circle 11 60 2.3
+  rect 49 57 4.6 4.6 1
+
+emoji water_cooler | gossip chat break office rumor
+  fill lin #d6f0ff #62bdff 0 3 0 30
+  stroke $teard 2.2
+  path M 18 30 L 18 12 Q 18 3 27 3 L 37 3 Q 46 3 46 12 L 46 30 Z
+  nofill
+  stroke #ffffffaa 2.6
+  line 23.5 10 23.5 23
+  fill #ffffffcc
+  nostroke
+  circle 37 19 2.4
+  circle 40 12 1.6
+  circle 33 11 1.3
+  fill lin #ffffff #d5dae2 0 27 0 60
+  stroke $bzline 2.2
+  rect 13 28 38 32.5 4
+  fill #9aa7b6
+  nostroke
+  rect 19 34 26 15 2.5
+  fill $bzblue
+  rect 29 34 6 5 1
+  fill #ffffff
+  stroke $bzline 1.2
+  poly 28 41.5 36 41.5 35 48.5 29 48.5
+  fill $bzblue
+  nostroke
+  rect 18 53 28 3 1.5
+
+emoji corner_office | boss executive view window promoted
+  fill lin #7fc4ff #ffe0b0 0 5 0 52
+  stroke $bzwoodd 3
+  rect 5 4 54 49 3
+  fill rad #fffbe0 #ffe14d 17 14 6
+  nostroke
+  circle 17 14 5
+  fill #3a5a9a
+  poly 6.5 52 6.5 34 15 34 15 26 24 26 24 38 30 38 30 15 39 15 39 30 46 30 46 22 53 22 53 38 57.5 38 57.5 52
+  fill #ffe27a
+  rect 32.5 19 4 3.5 0.6
+  rect 32.5 26 4 3.5 0.6
+  rect 17.5 30 4 3.5 0.6
+  rect 47.5 26 4 3.5 0.6
+  rect 47.5 34 4 3.5 0.6
+  rect 32.5 33 4 3.5 0.6
+  stroke $bzwoodd 2.6
+  line 32 4.5 32 52
+  fill lin #d19450 $bzwood 0 52 0 60
+  stroke $bzwoodd 2
+  rect 2 52 60 7.5 2.5
+  fill $bzgreen
+  stroke $bzgreend 1.6
+  ellipse 11.5 36 4 8.5 -28
+  ellipse 22.5 36 4 8.5 28
+  ellipse 17 33 3.8 9.5
+  fill #e8743c
+  stroke #a8431a 1.8
+  poly 9.5 42 24.5 42 22.5 53 11.5 53

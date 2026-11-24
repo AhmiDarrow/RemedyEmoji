@@ -1,0 +1,108 @@
+// Shared colours and pieces for FreeSpeak's own emoji and stickers.
+// Original FreeSpeak art. See docs/emoji.md for the format.
+
+color ink #4a2c10
+color rim #d6860c
+color mouth #6e2714
+color tongue #ff7184
+color tongued #d94a60
+color white #ffffff
+color red #ea4640
+color redd #b92a2c
+color blush #ff7a5a77
+color tear #62bdff
+color teard #2f8de0
+color dark #1e1e22
+color steel #9aa3ad
+color steeld #5d6670
+
+part face
+  fill rad #ffec7d #ffbd1c 24 20 48
+  stroke $rim 2.2
+  circle 32 32 27.6
+
+part eyes
+  fill $ink
+  mirror ellipse 22 26 3.3 4.5
+
+part eyes_happy
+  stroke $ink 3
+  mirror arc 22 29 4.8 5.2 205 335
+
+part eyes_closed
+  stroke $ink 3
+  mirror arc 22 24.5 4.6 4.2 25 155
+
+part eyes_wide
+  fill $white
+  stroke $ink 1.6
+  mirror ellipse 21.5 26 6 7
+  nostroke
+  fill $ink
+  mirror circle 21.5 26.5 2.8
+
+part smile
+  stroke $ink 3
+  arc 32 35 12.5 10.5 25 155
+
+part smile_small
+  stroke $ink 3
+  arc 32 38 8 6 25 155
+
+part frown
+  stroke $ink 3
+  arc 32 49 10.5 8 205 335
+
+part grin
+  fill $mouth
+  path M 16.5 35 Q 32 40 47.5 35 Q 47 53 32 53 Q 17 53 16.5 35 Z
+  fill $tongue
+  path M 22 49 Q 32 42.5 42 49 Q 37 53 32 53 Q 27 53 22 49 Z
+  fill $white
+  path M 18.2 36.2 Q 32 40.6 45.8 36.2 Q 45.6 39.4 44.8 41 Q 32 44 19.2 41 Q 18.4 39.4 18.2 36.2 Z
+
+part mouth_o
+  fill $mouth
+  ellipse 32 44 5.5 7
+
+part brows
+  stroke $ink 2.6
+  mirror line 15.5 17.5 26 16
+
+part brows_angry
+  stroke $ink 3
+  mirror line 14.5 14.5 27 20
+
+part brows_sad
+  stroke $ink 2.6
+  mirror line 14.5 20 26 15.5
+
+part blush
+  fill $blush
+  mirror ellipse 14.5 37 5.2 3.4
+
+part tongue_out
+  fill $tongue
+  stroke $tongued 1.3
+  path M 25.5 43 Q 25 57 32 57 Q 39 57 38.5 43 Z
+  line 32 46 32 52
+
+part tears
+  fill lin #bfe6ff $tear 0 28 0 44
+  stroke $teard 1.2
+  mirror path M 11.5 28.5 Q 3.5 37 7 42 Q 11.5 45.5 14.5 40 Q 15.5 34 11.5 28.5 Z
+
+part drop
+  fill lin #c9ebff $tear 0 14 0 50
+  stroke $teard 2
+  path M 32 8 Q 14 32 18 43 Q 22 54 32 54 Q 42 54 46 43 Q 50 32 32 8 Z
+
+part heart
+  fill rad #ff7a70 $red 24 22 40
+  stroke $redd 2.4
+  path M 32 55 C 6 38 5 22 13 14.5 C 20.5 8 29 11.5 32 19 C 35 11.5 43.5 8 51 14.5 C 59 22 58 38 32 55 Z
+
+part star
+  fill rad #fff08a #ffb21c 28 24 34
+  stroke #e0860a 2.4
+  poly 32 5 38.8 22.8 57.7 23.7 42.9 35.5 47.9 53.8 32 43.4 16.1 53.8 21.1 35.5 6.3 23.7 25.2 22.8

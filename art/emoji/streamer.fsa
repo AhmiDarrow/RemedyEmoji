@@ -1,0 +1,1170 @@
+// Streaming and content-creation emotes. Original FreeSpeak art.
+category streamer
+
+color st_btnd #1c4fb0
+color st_scr #26304a
+color st_scrl #5a6788
+color st_bez #3a4152
+color st_bezl #7d879c
+color st_purp #9a5cf5
+color st_purpd #5a2aa8
+color st_grn #3ecf6e
+color st_grnd #1c8a40
+color st_gold #ffc93c
+color st_goldd #c98a0a
+
+// ---- shared pieces ----
+
+part st_btn
+  fill lin #7dbdff #2f76e8 0 6 0 58
+  stroke $st_btnd 2.2
+  rect 6 6 52 52 12
+  fill #ffffff33
+  nostroke
+  path M 12 20 Q 12 11 21 11 L 43 11 Q 52 11 52 20 Q 32 14 12 20 Z
+
+part st_mic
+  nofill
+  stroke $steeld 3
+  arc 32 27 16.5 17 0 180
+  line 32 44 32 55
+  stroke $steeld 4.4
+  line 20 57 44 57
+  fill lin #f4f7fa #9aa7b6 20 0 46 0
+  stroke $steeld 2.2
+  rect 21.5 4 21 34 10.5
+  stroke $steeld 1.5
+  line 22.5 15 41.5 15
+  line 22.5 21 41.5 21
+  line 22.5 27 41.5 27
+  fill #ffffff88
+  nostroke
+  ellipse 27 10.5 2 3.6
+
+part st_spk
+  fill lin #eef2f6 #8f9cab 0 12 0 52
+  stroke $steeld 2.2
+  path M 5 24 L 15 24 L 30 10 Q 33 9 33 13 L 33 51 Q 33 55 30 54 L 15 40 L 5 40 Q 3 40 3 38 L 3 26 Q 3 24 5 24 Z
+  stroke $steeld 1.5
+  line 15 24.5 15 39.5
+
+part st_mega
+  fill lin #9aa7b6 #5d6670 0 40 0 56
+  stroke #454d57 2
+  rect 17 38 9 17 3.5
+  fill lin #ff8a7a #e23a34 0 8 0 56
+  stroke $redd 2.2
+  path M 11 24 L 25 24 L 50 8 L 50 56 L 25 40 L 11 40 Z
+  fill lin #eef2f6 #9aa7b6 0 24 0 40
+  stroke $steeld 2
+  rect 4 24 9 16 3
+  fill lin #ffffff #d5dae2 0 8 0 56
+  stroke #8b94a2 2
+  ellipse 50.5 32 5 25
+  fill #ffffff55
+  nostroke
+  poly 15 26.5 25 26.5 44 14.5 44 19 25 30 15 30
+
+part st_mon
+  fill lin #aab3c2 #6d7789 0 46 0 58
+  stroke #4b5364 1.8
+  poly 26 45 38 45 40 54 24 54
+  rect 17 53 30 5.5 2.7
+  fill lin #565f75 #333a4b 0 6 0 46
+  stroke $st_bezl 2.2
+  rect 3.5 6 57 41 5
+  fill lin #33426a #1d2438 0 10 0 43
+  nostroke
+  rect 7.5 10 49 33 2
+
+part st_bell
+  fill $st_goldd
+  nostroke
+  circle 32 54 5.5
+  fill rad #fff08a #ffb21c 24 18 40
+  stroke #c98a0a 2.2
+  path M 32 8 C 17 8 15 22 15 32 C 15 41 11 44 8 47 Q 6 51 10 51 L 54 51 Q 58 51 56 47 C 53 44 49 41 49 32 C 49 22 47 8 32 8 Z
+  fill #ffd23d
+  stroke #c98a0a 2
+  circle 32 7.5 3.4
+  fill #ffffff77
+  nostroke
+  ellipse 23.5 22 2.6 7 14
+
+part st_tick
+  stroke #ffffff 6
+  line 19 33 28 42 45 22
+
+part st_film
+  fill lin #4a5266 #2b3140 0 4 0 60
+  stroke #7d879c 2
+  rect 12 3 40 58 3
+  fill #dfe6f0
+  nostroke
+  mirror rect 15 7 4.6 5 1.2
+  mirror rect 15 17.5 4.6 5 1.2
+  mirror rect 15 28 4.6 5 1.2
+  mirror rect 15 38.5 4.6 5 1.2
+  mirror rect 15 49 4.6 5 1.2
+  fill lin #bfe6ff #62aef2 0 6 0 58
+  rect 22.5 7 19 22 2
+  rect 22.5 33 19 24 2
+
+part st_cam
+  fill lin #7d8aa3 #4a546b 0 20 0 52
+  stroke #2f3748 2.2
+  poly 40 30 58 20 58 50 40 40
+  rect 5 17 38 34 6
+  fill rad #bfe6ff #3d8bff 20 30 12
+  stroke #2f3748 2
+  circle 23 34 9.5
+  fill #ffffffaa
+  nostroke
+  circle 20 31 2.6
+
+// ---- classic media emoji ----
+
+emoji microphone U+1F3A4 | mic sing karaoke voice audio
+  fill lin #7d8aa3 #3f4759 14 40 30 56
+  stroke #2f3748 2.2
+  poly 27 29 36 38 13 60 5 52
+  fill #ffd23d
+  stroke #c98a0a 1.6
+  poly 25.5 30.5 34 39 30 43 21.5 34.5
+  fill rad #f4f7fa #8f9cab 36 14 26
+  stroke $steeld 2.2
+  circle 42 22 16
+  stroke $steeld 1.4
+  nofill
+  curve 30 14 40 20 54 31
+  curve 33 9 44 14 58 24
+  curve 28 22 36 28 47 36
+  fill #ffffff88
+  nostroke
+  ellipse 36 13 3 5 40
+
+emoji studio_microphone U+1F399-FE0F | mic podcast record voice audio
+  use st_mic
+
+emoji headphones U+1F3A7 | headset music audio listen
+  nofill
+  stroke #2f3748 8
+  arc 32 34 22 26 180 360
+  stroke #6f7c96 4
+  arc 32 34 22 26 180 360
+  fill lin #ff8a7a #e23a34 0 30 0 60
+  stroke $redd 2.2
+  mirror rect 4 31 15 28 6
+  fill #ffffff66
+  nostroke
+  mirror rect 7 35 3.4 10 1.7
+
+emoji movie_camera U+1F3A5 | film video record cinema camera
+  fill rad #7d8aa3 #3f4759 16 12 16
+  stroke #2f3748 2.2
+  circle 16 17 10.5
+  circle 38 15 12.5
+  fill #c9d2dc
+  nostroke
+  circle 16 17 3.4
+  circle 38 15 4
+  fill lin #8b98b3 #4a546b 0 26 0 56
+  stroke #2f3748 2.2
+  poly 41 36 59 28 59 54 41 46
+  rect 4 27 39 29 5
+  fill #ffffff44
+  nostroke
+  rect 8 31 22 4 2
+  fill $red
+  circle 35 49 2.6
+
+emoji clapper U+1F3AC | action film movie scene take
+  fill lin #5a6379 #2b3140 0 24 0 58
+  stroke #8590a8 2.2
+  rect 5 25 54 33 4
+  fill #e9eef5
+  nostroke
+  rect 10 33 44 3 1.5
+  rect 10 41 30 3 1.5
+  rect 10 49 36 3 1.5
+  fill #3a4152
+  stroke #8590a8 2.2
+  poly 5 13.5 56 4.5 58 14 7 23
+  fill #f4f7fa
+  nostroke
+  poly 13 12.6 20 11.4 17.5 20.6 10.5 21.8
+  poly 27 10.2 34 9 31.5 18.2 24.5 19.4
+  poly 41 7.8 48 6.6 45.5 15.8 38.5 17
+
+emoji tv U+1F4FA | television show watch screen
+  stroke $steeld 2.6
+  line 32 14 20 3
+  line 32 14 45 3
+  fill #5d6670
+  stroke #454d57 1.6
+  mirror rect 13 52 8 7 2
+  fill lin #c98a45 #8a4f22 0 12 0 56
+  stroke #5f3410 2.2
+  rect 4 13 56 42 8
+  fill lin #bfe6ff #4a9ff5 10 18 40 50
+  stroke #5f3410 1.8
+  rect 9 18.5 36 31 6
+  fill #ffffff66
+  nostroke
+  poly 14 23 23 23 15 34 14 34
+  fill #ffd23d
+  stroke #5f3410 1.4
+  circle 52.5 25 3.2
+  circle 52.5 35 3.2
+
+emoji mute U+1F507 | silent muted no sound speaker off
+  use st_spk
+  stroke $redd 7.5
+  line 41 23 58 41
+  line 58 23 41 41
+  stroke #ff6a5e 4.2
+  line 41 23 58 41
+  line 58 23 41 41
+
+emoji loud_sound U+1F50A | volume speaker audio loud up
+  use st_spk
+  nofill
+  stroke #2f76e8 3.6
+  arc 34 32 7 9 -55 55
+  arc 34 32 15 17 -55 55
+  arc 34 32 23 25 -55 55
+
+emoji mega U+1F4E3 | megaphone announce shout cheer loud
+  use st_mega -3 0 0.94 -12
+  stroke #ffb21c 3
+  line 55 12 60 7
+  line 57 24 62.5 23
+
+emoji scissors U+2702-FE0F | cut snip trim edit
+  nofill
+  stroke $redd 6.4
+  mirror circle 18 49 7.5
+  mirror line 24 43 31 36
+  stroke #ff6a5e 3.4
+  mirror circle 18 49 7.5
+  mirror line 24 43 31 36
+  fill lin #f4f7fa #9aa7b6 16 0 48 0
+  stroke $steeld 1.8
+  mirror poly 18 3 38.5 33.5 31 39.5
+  fill $steeld
+  nostroke
+  circle 32 33 2.2
+
+emoji play U+25B6-FE0F | start resume go button
+  use st_btn
+  fill $white
+  stroke $white 4
+  poly 25 20 25 44 45 32
+
+emoji pause U+23F8-FE0F | hold wait break button
+  use st_btn
+  fill $white
+  nostroke
+  rect 19 18 9.5 28 3
+  rect 35.5 18 9.5 28 3
+
+emoji stop U+23F9-FE0F | end halt square button
+  use st_btn
+  fill $white
+  nostroke
+  rect 19 19 26 26 4
+
+emoji record U+23FA-FE0F | rec capture circle button
+  use st_btn
+  fill rad #ff8a7a $red 28 27 16
+  stroke $white 3.4
+  circle 32 32 13
+
+emoji fast_forward U+23E9 | skip ahead speed next button
+  use st_btn
+  fill $white
+  stroke $white 3.4
+  poly 15 21.5 15 42.5 30 32
+  poly 34 21.5 34 42.5 49 32
+
+emoji rewind U+23EA | back replay previous button
+  use st_btn
+  fill $white
+  stroke $white 3.4
+  poly 49 21.5 49 42.5 34 32
+  poly 30 21.5 30 42.5 15 32
+
+emoji film U+1F39E-FE0F | frames movie reel strip cinema
+  use st_film 0 0 1 12
+
+emoji popcorn_time | popcorn movie watch drama snacks
+  fill rad #fff8c9 #ffd95a 28 12 26
+  stroke #d99a1a 1.8
+  circle 19 22 7.5
+  circle 45 22 7.5
+  circle 26 13 8
+  circle 39 13 8
+  circle 32 22 8.5
+  fill #fbfcfe
+  stroke $redd 2.2
+  poly 11 27 53 27 47.5 60 16.5 60
+  fill $red
+  nostroke
+  poly 18.5 28 25 28 26.5 59 21.5 59
+  poly 29 28 35 28 34.5 59 29.5 59
+  poly 39 28 45.5 28 42.5 59 37.5 59
+  fill #f4f7fa
+  stroke #6f7c96 2
+  path M 6 32 L 58 32 L 58 44 Q 58 47 55 47 L 39 47 Q 35 47 34 43 L 32 39.5 L 30 43 Q 29 47 25 47 L 9 47 Q 6 47 6 44 Z
+  nostroke
+  fill #ea4640
+  rect 10 35 17.5 9 2
+  fill #2fb8e8
+  rect 36.5 35 17.5 9 2
+
+// ---- status badges ----
+
+emoji live | streaming on air broadcast now
+  fill lin #ff6a5e #d92a2c 0 16 0 48
+  stroke #8f1a1e 2.2
+  rect 2 15 60 34 10
+  fill #8f1a1e
+  text 40.5 38.5 12.5 LIVE 4.4
+  fill $white
+  text 40.5 38.5 12.5 LIVE 2.3
+  circle 11.5 32 4.2
+
+emoji offline | off ended away not live
+  fill lin #9aa3ad #5d6670 0 16 0 48
+  stroke #3f464f 2.2
+  rect 5 16 54 32 10
+  fill #3f464f
+  text 32 39.5 14 OFF 4.6
+  fill #eef1f5
+  text 32 39.5 14 OFF 2.4
+
+emoji rec | recording record red dot capture
+  fill lin #4a5266 #23283a 0 16 0 48
+  stroke #7d879c 2.2
+  rect 3 16 58 32 10
+  fill rad #ff8a7a $red 11 30 6
+  stroke $redd 1.4
+  circle 12.5 32 5
+  nostroke
+  fill #12151e
+  text 39.5 39.5 14 REC 4.6
+  fill $white
+  text 39.5 39.5 14 REC 2.4
+
+emoji on_air | broadcast live studio sign radio
+  fill rad #ff6a5e99 #ff6a5e00 32 33 34
+  circle 32 33 32
+  stroke $steeld 2.6
+  mirror line 20 12 20 5
+  fill lin #ff7a6a #d92a2c 0 12 0 56
+  stroke #8f1a1e 2.2
+  rect 5 11 54 45 7
+  nofill
+  stroke #ffd9d4 1.4
+  rect 8.5 14.5 47 38 4.5
+  fill #8f1a1e
+  text 32 32 14 ON 4.4
+  text 32 50 14 AIR 4.4
+  fill #fff6e0
+  text 32 32 14 ON 2.4
+  text 32 50 14 AIR 2.4
+
+// ---- gear ----
+
+part st_spark
+  fill #fff6a8
+  stroke #e0a010 4
+  path M 32 4 Q 35 29 60 32 Q 35 35 32 60 Q 29 35 4 32 Q 29 29 32 4 Z
+
+part st_hand
+  stroke $skinl 10.4
+  line 24 30 18 11
+  line 30 27 28 6
+  line 37 27 39 7
+  line 43 31 49 14
+  line 22 40 9 31
+  line 32 44 32 58
+  fill $skinl
+  nostroke
+  ellipse 32 37 14 13.5
+  stroke $skin 6.8
+  line 24 30 18 11
+  line 30 27 28 6
+  line 37 27 39 7
+  line 43 31 49 14
+  line 22 40 9 31
+  stroke $skin 7.6
+  line 32 44 32 59
+  fill rad $skin $skind 28 32 22
+  nostroke
+  ellipse 32 37 12.2 11.7
+
+emoji webcam | camera cam video facecam
+  fill lin #8b98b3 #4a546b 0 44 0 60
+  stroke #2f3748 2
+  rect 27 40 10 9 2
+  path M 12 48 L 52 48 Q 56 48 56 52 L 56 57 Q 56 60 53 60 L 46 60 L 43 54 L 21 54 L 18 60 L 11 60 Q 8 60 8 57 L 8 52 Q 8 48 12 48 Z
+  fill lin #6f7c96 #3a4152 0 4 0 42
+  stroke #8590a8 2.2
+  rect 7 4 50 38 17
+  fill #1d2438
+  stroke #aab3c2 2
+  circle 32 23 13
+  fill rad #9fdcff #2f76e8 28 19 12
+  nostroke
+  circle 32 23 8.5
+  fill #ffffffaa
+  circle 28.5 19.5 2.6
+  fill #54e07a
+  circle 48 12 2.2
+
+emoji ring_light | light glow selfie lighting lamp
+  fill rad #ffe98a99 #ffe98a00 32 25 34
+  nostroke
+  circle 32 25 33
+  stroke #5d6670 3.6
+  line 32 47 32 55
+  line 32 54 19 61
+  line 32 54 45 61
+  nofill
+  stroke #c98a0a 13
+  circle 32 25 18
+  stroke #fff3b0 8.6
+  circle 32 25 18
+  stroke #ffffff 2.6
+  arc 32 25 18 18 185 265
+
+emoji green_screen | chroma key backdrop studio background
+  stroke #5d6670 3
+  line 7 6 7 58
+  line 57 6 57 58
+  line 2 59 12 59
+  line 52 59 62 59
+  fill lin #7dee8a #23b34c 0 8 0 52
+  stroke $st_grnd 2.2
+  path M 9 8 L 55 8 L 55 49 Q 43 53 32 49 Q 21 45 9 49 Z
+  stroke #1c8a4066 1.4
+  line 21 10 21 45.5
+  line 43 10 43 49.5
+  stroke #9aa3ad 3.4
+  line 4 7 60 7
+
+emoji macro_pad | keys shortcuts buttons deck control
+  fill lin #565f75 #2b3140 0 10 0 56
+  stroke $st_bezl 2.2
+  rect 3 10 58 44 8
+  stroke #12151e 1.4
+  fill rad #ff9a8a #ea4640 12 20 12
+  rect 8 15 14 15 3.5
+  fill rad #fff08a #ffb21c 28 20 12
+  rect 25 15 14 15 3.5
+  fill rad #9ff5b0 #2fbf5a 44 20 12
+  rect 42 15 14 15 3.5
+  fill rad #9fdcff #2f8de0 12 37 12
+  rect 8 34 14 15 3.5
+  fill rad #d9b8ff #9a5cf5 28 37 12
+  rect 25 34 14 15 3.5
+  fill rad #ffb0d6 #f0509a 44 37 12
+  rect 42 34 14 15 3.5
+
+emoji capture | screenshot screen record grab
+  use st_mon
+  nofill
+  stroke $white 2.8
+  line 12 21 12 14.5 20 14.5
+  line 44 14.5 52 14.5 52 21
+  line 12 32 12 38.5 20 38.5
+  line 44 38.5 52 38.5 52 32
+  fill rad #ff8a7a $red 30 24 8
+  stroke $redd 1.4
+  circle 32 26.5 6.5
+
+emoji clip | cut moment highlight short
+  use st_film -9 0 0.9 -14
+  use scissors 13 13 0.6 30
+
+emoji highlight | best moment star reel feature
+  fill lin #4a5266 #2b3140 0 8 0 56
+  stroke #7d879c 2.2
+  rect 3 7 58 50 5
+  fill #dfe6f0
+  nostroke
+  rect 8 10.5 6 5 1.4
+  rect 19 10.5 6 5 1.4
+  rect 29 10.5 6 5 1.4
+  rect 39 10.5 6 5 1.4
+  rect 50 10.5 6 5 1.4
+  rect 8 48.5 6 5 1.4
+  rect 19 48.5 6 5 1.4
+  rect 29 48.5 6 5 1.4
+  rect 39 48.5 6 5 1.4
+  rect 50 48.5 6 5 1.4
+  fill lin #9fd4ff #4a8fe8 0 18 0 46
+  rect 7 18.5 50 27 2.5
+  use star 0 0 0.5
+
+emoji vod | replay video archive past broadcast
+  fill #fbfcfe
+  stroke #8b94a2 2.2
+  rect 4 9 46 44 7
+  fill $red
+  stroke $redd 2.2
+  path M 11 9 L 43 9 Q 50 9 50 16 L 50 22 L 4 22 L 4 16 Q 4 9 11 9 Z
+  stroke #5d6670 3.4
+  line 16 5 16 13
+  line 38 5 38 13
+  fill #c9d2dc
+  nostroke
+  rect 10 27 7 6 1.5
+  rect 21 27 7 6 1.5
+  rect 32 27 7 6 1.5
+  rect 10 38 7 6 1.5
+  rect 21 38 7 6 1.5
+  fill rad #7dbdff #2f76e8 38 38 20
+  stroke $st_btnd 2.2
+  circle 44 44 16
+  fill $white
+  stroke $white 3
+  poly 39.5 37 39.5 51 51.5 44
+
+emoji follow | heart plus subscribe add fan
+  use heart -3 -3 0.92
+  fill rad #7dee8a #23b34c 44 42 16
+  stroke #fbfcfe 2.6
+  circle 47.5 47 12.5
+  stroke $white 4
+  line 47.5 40.5 47.5 53.5
+  line 41 47 54 47
+
+emoji sub | subscriber star badge member support
+  fill rad #d9b8ff #8d52e3 26 22 36
+  stroke $st_purpd 3.4
+  poly 32 4 39.6 21.6 59 23 44 35.5 49 55 32 44.5 15 55 20 35.5 5 23 24.4 21.6
+  fill #3d1a80
+  text 32 37 11.5 SUB 4.6
+  fill $white
+  text 32 37 11.5 SUB 2.3
+
+emoji gift_sub | gift present subscription donate star
+  fill lin #ffd23d #f0a010 0 2 0 18
+  stroke $st_goldd 2
+  mirror path M 32 17 Q 18 17 15 9 Q 14 3 21 4 Q 29 6 32 17 Z
+  fill lin #b98cff #7a3fe0 0 26 0 60
+  stroke $st_purpd 2.2
+  rect 8 25 48 34 4
+  fill lin #d0b0ff #9a5cf5 0 16 0 28
+  rect 4 16 56 12 3.5
+  fill lin #ffe14d #f0a010 0 16 0 60
+  stroke $st_goldd 1.6
+  rect 27 16 10 43 1
+  use star 0 12 0.42
+
+emoji tip_jar | tips donate coins money support
+  fill #cfeaff55
+  stroke #8fc4ee 2.4
+  path M 16 14 L 48 14 Q 54 20 54 28 L 54 52 Q 54 60 46 60 L 18 60 Q 10 60 10 52 L 10 28 Q 10 20 16 14 Z
+  fill rad #fff08a #ffb21c 28 48 20
+  stroke $st_goldd 1.6
+  ellipse 24 54 9 3.6
+  ellipse 41 54.5 9 3.6
+  ellipse 32 49 9 3.6
+  ellipse 22 45 9 3.6
+  ellipse 42 44 9 3.6
+  use heart 0 -2 0.3
+  fill lin #c9d2dc #8f9cab 0 5 0 15
+  stroke $steeld 2.2
+  rect 13 5 38 10 4
+  fill #ffffff77
+  nostroke
+  rect 14.5 22 3.4 20 1.7
+
+emoji cheer | gem bits sparkle celebrate hype
+  fill lin #c9a8ff #7a3fe0 10 8 50 58
+  stroke $st_purpd 2.2
+  poly 20 13 44 13 55.2 25.5 32 54.5 8.8 25.5
+  fill #e6d4ff
+  nostroke
+  poly 20.5 13 32 13 25.5 25.5 10 25.5
+  fill #b48cff
+  poly 32 13 43.5 13 54 25.5 38.5 25.5
+  fill #ffffff55
+  poly 25.5 25.5 38.5 25.5 32 53
+  nofill
+  stroke $st_purpd 1.4
+  line 9 25.5 55 25.5
+  line 32 13 25.5 25.5 32 54
+  line 32 13 38.5 25.5 32 54
+  use st_spark -22 -22 0.3
+  use st_spark 23 -20 0.24
+  use st_spark 22 20 0.3
+  use st_spark -22 16 0.2
+
+emoji raid | charge flags attack invade rush
+  stroke #ffb21c 3
+  line 2 47 13 47
+  line 4 54 12 54
+  line 26 49 32 49
+  stroke #8a5a2a 3.4
+  line 36 59 42 5
+  fill lin #ffe14d #f0a010 0 5 0 25
+  stroke $st_goldd 2
+  poly 42 5 16 11 39.8 25
+  stroke #8a5a2a 3.4
+  line 20 59 25 22
+  fill lin #ff7a6a #d92a2c 0 22 0 42
+  stroke $redd 2
+  poly 25 22 3 28 22.6 41
+  stroke #8a5a2a 3.4
+  line 53 59 58 22
+  fill lin #b98cff #7a3fe0 0 22 0 42
+  stroke $st_purpd 2
+  poly 58 22 34 28 55.6 41
+
+emoji host_wave | hello hi wave greet welcome
+  use st_mon 0 6 0.9
+  use st_hand 0 -7 0.82 12
+  nofill
+  stroke #ffd23d 2.4
+  arc 32 24 28 22 200 222
+  arc 32 24 28 22 318 340
+
+// ---- community badges ----
+
+emoji mod | moderator shield staff guard tick
+  fill rad #8af0a0 #23b34c 22 16 50
+  stroke $st_grnd 2.4
+  path M 32 4 Q 44 10 56 10 Q 58 40 32 60 Q 6 40 8 10 Q 20 10 32 4 Z
+  use st_tick 0 -1
+
+emoji vip | very important gem badge special
+  fill lin #ffb0d6 #e83e8c 10 8 50 58
+  stroke #a81f60 2.2
+  poly 18 8 46 8 59 25 32 59 5 25
+  fill #ffd4e8
+  nostroke
+  poly 19 9.5 32 9.5 24 24
+  fill #ffffff44
+  poly 6.8 24.5 57.2 24.5 46 9.2 18 9.2
+  fill #8a124a
+  text 32 39 12.5 VIP 4.6
+  fill $white
+  text 32 39 12.5 VIP 2.4
+
+emoji streamer_badge | broadcaster creator host camera
+  fill rad #8ac4ff #2f76e8 22 16 50
+  stroke $st_btnd 2.4
+  path M 32 4 Q 44 10 56 10 Q 58 40 32 60 Q 6 40 8 10 Q 20 10 32 4 Z
+  fill $white
+  nostroke
+  poly 38 28 49 21.5 49 40.5 38 34
+  rect 14 19.5 26 22 5
+  fill #2f76e8
+  circle 27 30.5 6
+  fill #bfe6ff
+  circle 25.5 29 2
+
+emoji verified | check tick official confirmed real
+  fill $st_btnd
+  stroke $st_btnd 4.4
+  circle 32 32 20
+  circle 52 32 7.5
+  circle 48.2 43.8 7.5
+  circle 38.2 51 7.5
+  circle 25.8 51 7.5
+  circle 15.8 43.8 7.5
+  circle 12 32 7.5
+  circle 15.8 20.2 7.5
+  circle 25.8 13 7.5
+  circle 38.2 13 7.5
+  circle 48.2 20.2 7.5
+  fill rad #8ac4ff #2f76e8 24 20 44
+  nostroke
+  circle 52 32 7.5
+  circle 48.2 43.8 7.5
+  circle 38.2 51 7.5
+  circle 25.8 51 7.5
+  circle 15.8 43.8 7.5
+  circle 12 32 7.5
+  circle 15.8 20.2 7.5
+  circle 25.8 13 7.5
+  circle 38.2 13 7.5
+  circle 48.2 20.2 7.5
+  circle 32 32 21
+  use st_tick 0 0.5 0.9
+
+emoji viewers | watching eye audience count
+  fill #fbfcfe
+  stroke #5d6670 2.4
+  path M 3 26 Q 32 -2 61 26 Q 32 54 3 26 Z
+  fill rad #7dd0ff #2f76e8 28 22 14
+  stroke $st_btnd 1.8
+  circle 32 26 12
+  fill #12151e
+  nostroke
+  circle 32 26 5.6
+  fill $white
+  circle 28.5 22.5 2.6
+  fill lin #ff6a5e #d92a2c 0 40 0 62
+  stroke #8f1a1e 2
+  rect 31 40 31 21 8
+  fill #8f1a1e
+  text 46.5 55.5 10.5 1K 4
+  fill $white
+  text 46.5 55.5 10.5 1K 2.1
+
+emoji chat_spam | flood messages talk busy copypasta
+  fill lin #ffe98a #ffb21c 0 0 0 64
+  stroke $st_goldd 3.4
+  xf 12 -15 0.58
+  path M 14 8 L 50 8 Q 59 8 59 17 L 59 37 Q 59 46 50 46 L 28 46 L 14 58 L 16.5 46 L 14 46 Q 5 46 5 37 L 5 17 Q 5 8 14 8 Z
+  fill lin #ff9ac4 #e83e8c 0 0 0 64
+  stroke #a81f60 3.4
+  xf -12 -1 0.58
+  path M 14 8 L 50 8 Q 59 8 59 17 L 59 37 Q 59 46 50 46 L 28 46 L 14 58 L 16.5 46 L 14 46 Q 5 46 5 37 L 5 17 Q 5 8 14 8 Z
+  fill lin #9fd4ff #2f76e8 0 0 0 64
+  stroke $st_btnd 3.4
+  xf 10 13 0.62
+  path M 14 8 L 50 8 Q 59 8 59 17 L 59 37 Q 59 46 50 46 L 28 46 L 14 58 L 16.5 46 L 14 46 Q 5 46 5 37 L 5 17 Q 5 8 14 8 Z
+  xf
+  fill $white
+  nostroke
+  circle 33.5 41.5 2.6
+  circle 42 41.5 2.6
+  circle 50.5 41.5 2.6
+
+emoji emote_only | emoji chat mode smiley restricted
+  fill lin #ffffff #d5e2f5 0 8 0 50
+  stroke #6f8fc0 2.4
+  path M 14 8 L 50 8 Q 59 8 59 17 L 59 37 Q 59 46 50 46 L 28 46 L 14 58 L 16.5 46 L 14 46 Q 5 46 5 37 L 5 17 Q 5 8 14 8 Z
+  use face 0 -5 0.56
+  xf 0 -5 0.56
+  use eyes
+  use smile
+  xf
+
+emoji slow_mode | slow chat snail cooldown wait
+  fill lin #c9eaff #62aef2 0 8 0 50
+  stroke #2f6fc0 2.4
+  path M 14 8 L 50 8 Q 59 8 59 17 L 59 37 Q 59 46 50 46 L 28 46 L 14 58 L 16.5 46 L 14 46 Q 5 46 5 37 L 5 17 Q 5 8 14 8 Z
+  stroke #4f8a14 4.6
+  line 46 37 49 22
+  stroke #b6e06a 2.4
+  line 46 37 49 22
+  fill #b6e06a
+  stroke #4f8a14 1.8
+  path M 14 39 Q 12 33 20 33.5 L 46 33.5 Q 51 34 50 39 Z
+  fill rad #ffc98a #f07a26 26 22 14
+  stroke #a84a0f 2
+  circle 29 27 10.5
+  nofill
+  stroke #a84a0f 1.6
+  arc 29 27 5.5 5.5 20 300
+  fill #23252b
+  nostroke
+  circle 49.5 20.5 2
+
+emoji timeout | muted minutes temporary silence clock
+  fill rad #ffffff #dfe4ee 26 24 34
+  stroke #8b94a2 2.2
+  circle 32 32 25
+  stroke #3a4152 3.6
+  line 32 32 32 16
+  line 32 32 42 38
+  nofill
+  stroke $redd 7.6
+  circle 32 32 25
+  line 14.5 14.5 49.5 49.5
+  stroke #ff5a4e 4.6
+  circle 32 32 25
+  line 14.5 14.5 49.5 49.5
+
+emoji ban_hammer | ban banned moderation justice smash
+  xf -5 3 0.82 28
+  fill lin #c98a45 #8a4f22 26 0 38 0
+  stroke #5f3410 2.2
+  rect 27 30 10 31 3.5
+  fill lin #b4c0cf #6d7789 0 3 0 34
+  stroke #3f4759 2.4
+  rect 5 3 54 31 7
+  fill #ffffff44
+  nostroke
+  rect 9 6.5 46 5 2.5
+  fill $white
+  stroke $redd 3.6
+  circle 32 19.5 10
+  line 25.2 12.7 38.8 26.3
+  xf
+
+emoji lurk | lurking peek watching hiding quiet
+  fill rad #b9a0ff #6f4fd6 24 18 40
+  stroke #4a2fa0 2.2
+  path M 9 42 Q 8 9 32 9 Q 56 9 55 42 Z
+  fill $white
+  stroke #4a2fa0 1.8
+  mirror ellipse 21.5 30 8 10
+  fill #1e1e22
+  nostroke
+  circle 24.5 32 4.4
+  circle 45.5 32 4.4
+  fill $white
+  circle 23 30 1.5
+  circle 44 30 1.5
+  fill lin #b4c0cf #6d7789 0 37 0 60
+  stroke #3f4759 2.2
+  rect 3 37 58 22 5
+  fill #ffffff55
+  nostroke
+  rect 7 40 50 3.4 1.7
+
+emoji first | 1st winner early number one
+  fill rad #ffd98a #ff7a1c 50 16 12
+  stroke #c9460a 1.8
+  path M 50 2 Q 62 11 59 20 Q 56 27 49 26 Q 41 24 42 15 Q 45 17 46.5 12 Q 47 6 50 2 Z
+  fill rad #fff08a #ffb21c 22 22 44
+  stroke $st_goldd 2.4
+  circle 29 35 25
+  nofill
+  stroke #ffffff88 1.6
+  circle 29 35 20.5
+  fill #8a5a00
+  text 29 41 13 1ST 4.6
+  fill $white
+  text 29 41 13 1ST 2.4
+  fill #ffe98a
+  nostroke
+  path M 50.5 12 Q 55 17 53 21 Q 51 24 48.5 22 Q 46.5 19 50.5 12 Z
+
+emoji hype_train | hype train choo momentum party
+  use st_spark 4 -24 0.2
+  use st_spark 17 -19 0.14
+  use st_spark -8 -21 0.13
+  fill lin #5d6670 #3a4152 0 6 0 24
+  stroke #23283a 2
+  poly 39 9 51 9 49 24 41 24
+  fill lin #ffd23d #f0a010 0 9 0 16
+  stroke $st_goldd 1.8
+  rect 3 9 27 7 2.5
+  fill lin #b98cff #7a3fe0 0 14 0 48
+  stroke $st_purpd 2.2
+  rect 6 15 21 31 3
+  rect 22 23 35 23 8
+  fill #bfe6ff
+  stroke $st_purpd 1.6
+  rect 10.5 20 12 10 2
+  fill #ffd23d
+  stroke $st_goldd 1.6
+  poly 55 40 62 50 55 50
+  rect 31 23 4.4 23 1
+  fill rad #ff8a7a $red 14 46 10
+  stroke $redd 2.2
+  circle 15 50 9
+  circle 35 52 7
+  circle 50 52 7
+  fill #ffd9d4
+  nostroke
+  circle 15 50 2.8
+  circle 35 52 2.2
+  circle 50 52 2.2
+
+emoji poll | vote survey bars results choose
+  fill lin #ffffff #dfe6f0 0 5 0 59
+  stroke #8b94a2 2.2
+  rect 3 5 58 54 8
+  fill $st_grn
+  stroke $st_grnd 1.4
+  circle 13 18 5
+  fill #c9d2dc
+  stroke #9aa3ad 1.4
+  circle 13 32 5
+  circle 13 46 5
+  nofill
+  stroke $white 2
+  line 10.3 18 12.3 20.2 15.8 15.8
+  fill lin #7dbdff #2f76e8 22 0 56 0
+  stroke $st_btnd 1.6
+  rect 22 13 33 10 4
+  fill lin #ffb0d6 #e83e8c 22 0 56 0
+  stroke #a81f60 1.6
+  rect 22 27 19 10 4
+  fill lin #ffe98a #ffb21c 22 0 56 0
+  stroke $st_goldd 1.6
+  rect 22 41 26 10 4
+
+emoji prediction | crystal ball future guess bet
+  fill lin #ffd23d #c98a0a 0 46 0 60
+  stroke #8a5a00 2.2
+  path M 17 48 L 47 48 L 53 57 Q 54 60 51 60 L 13 60 Q 10 60 11 57 Z
+  fill rad #e6d4ff #6a3fe0 23 16 38
+  stroke $st_purpd 2.4
+  circle 32 27 23.5
+  fill #ffffff44
+  nostroke
+  ellipse 32 36 15 8
+  fill #ffffff88
+  ellipse 21.5 16 4 7.5 35
+  use st_spark 5 -2 0.22
+  use st_spark -8 8 0.13
+
+emoji giveaway | raffle ticket prize win contest
+  xf 0 0 0.98 -14
+  fill lin #ff8fb4 #e83e6c 0 14 0 50
+  stroke #a81f48 2.2
+  path M 8 15 L 56 15 Q 61 15 61 20 L 61 25.5 Q 55 26 55 32 Q 55 38 61 38.5 L 61 44 Q 61 49 56 49 L 8 49 Q 3 49 3 44 L 3 38.5 Q 9 38 9 32 Q 9 26 3 25.5 L 3 20 Q 3 15 8 15 Z
+  stroke #ffd4e0 1.8
+  line 17 19 17 22
+  line 17 26 17 29
+  line 17 33 17 36
+  line 17 40 17 45
+  use star 3.5 0 0.44
+  xf
+
+emoji brb_screen | brb be right back away break
+  use st_mon
+  fill lin #b98cff #6a3fe0 0 10 0 43
+  nostroke
+  rect 7.5 10 49 33 2
+  fill #2f1670
+  text 32 32.5 13 BRB 4.4
+  fill $white
+  text 32 32.5 13 BRB 2.4
+
+emoji starting_soon | countdown soon wait intro timer
+  use st_mon
+  fill lin #3fd0c0 #1c8a9a 0 10 0 43
+  nostroke
+  rect 7.5 10 49 33 2
+  nofill
+  stroke #0f5562 5.6
+  circle 32 26.5 11.5
+  stroke #ffffff55 3.4
+  circle 32 26.5 11.5
+  stroke $white 3.4
+  arc 32 26.5 11.5 11.5 270 500
+  fill $white
+  nostroke
+  text 32 30.5 8.5 3 2
+
+emoji technical_difficulties | error broken test bars fix
+  use st_mon
+  nostroke
+  fill #f4f4f4
+  rect 7.5 10 7 33 2
+  fill #f2e03a
+  rect 14.5 10 7 33
+  fill #3ad6e0
+  rect 21.5 10 7 33
+  fill #3ecf5a
+  rect 28.5 10 7 33
+  fill #e04ad0
+  rect 35.5 10 7 33
+  fill #ea4640
+  rect 42.5 10 7 33
+  fill #3d6bff
+  rect 49.5 10 7 33 2
+  nofill
+  stroke #3a4152 10
+  line 31 31 53 53
+  arc 26 26 7 7 270 540
+  stroke #dfe6f0 5.6
+  line 31 31 53 53
+  arc 26 26 7 7 270 540
+
+emoji scuffed | broken janky taped low budget
+  xf 0 1 0.94 -7
+  use st_mon
+  nofill
+  stroke #bcd0f5 1.8
+  line 34 10.5 29 19 36 24 30 33 35 43
+  xf
+  fill #f3e2b4
+  stroke #b3924e 1.8
+  poly 38 2 61 21 55 28 32 9
+  poly 3 30 23 43 19 50 3 40
+  poly 44 36 60 44 57 51 41 43
+  stroke #b3924e66 1.2
+  line 41 7 56 20
+  line 6 34.5 19 43.5
+
+emoji bitrate | quality drop connection lag graph
+  fill lin #3d4660 #1d2438 0 5 0 59
+  stroke $st_scrl 2.2
+  rect 3 5 58 54 8
+  stroke #ffffff22 1.2
+  line 6 19 58 19
+  line 6 32 58 32
+  line 6 45 58 45
+  nofill
+  stroke #ff5a4e 4.4
+  line 9 17 17 21 23 14 30 30 36 25 43 43 51 47
+  fill #ff5a4e
+  stroke #ff5a4e 2.4
+  poly 56 52 45.5 51.5 53.5 42
+
+emoji dropped_frames | lag stutter frames lost skip
+  fill lin #4a5266 #2b3140 0 4 0 30
+  stroke #7d879c 2
+  rect 3 4 58 26 3
+  fill #dfe6f0
+  nostroke
+  rect 7 7 5 3.4 1
+  rect 17 7 5 3.4 1
+  rect 27 7 5 3.4 1
+  rect 37 7 5 3.4 1
+  rect 47 7 5 3.4 1
+  rect 7 23.6 5 3.4 1
+  rect 17 23.6 5 3.4 1
+  rect 27 23.6 5 3.4 1
+  rect 37 23.6 5 3.4 1
+  rect 47 23.6 5 3.4 1
+  fill lin #bfe6ff #62aef2 0 12 0 22
+  rect 6 12.5 15 9 1.5
+  rect 43 12.5 15 9 1.5
+  fill #12151e
+  rect 24.5 12.5 15 9 1.5
+  stroke #ffb21c 2.4
+  line 24 33 23 37
+  line 33 33 33 36
+  line 42 33 43 37
+  fill lin #bfe6ff #62aef2 0 40 0 60
+  stroke #7d879c 5.4
+  poly 21 41.5 47 45 43 58.5 17 55
+  stroke #3a4152 2.6
+  poly 21 41.5 47 45 43 58.5 17 55
+
+emoji donation_alert | donate tip alert money bell
+  use st_bell -7 -3 0.84
+  fill rad #fff08a #ffb21c 44 40 14
+  stroke $st_goldd 2.2
+  circle 54 20 7.5
+  circle 47 46 12
+  fill #8a5a00
+  nostroke
+  text 47 51.5 13 $ 2.4
+
+emoji shoutout | so promote mention love megaphone
+  use st_mega -5 7 0.84 -14
+  use heart 17 -17 0.36
+
+emoji collab | together duo partner team up
+  fill rad #8ac4ff #2f76e8 16 22 26
+  stroke $st_btnd 2.2
+  circle 21 28 17.5
+  fill #ffffffee
+  nostroke
+  circle 21 22.5 6
+  path M 11 39.5 Q 11 31 21 31 Q 31 31 31 39.5 Q 21 44 11 39.5 Z
+  fill rad #ffb0d6 #e83e8c 38 22 26
+  stroke #a81f60 2.2
+  circle 43 28 17.5
+  fill #ffffffee
+  nostroke
+  circle 43 22.5 6
+  path M 33 39.5 Q 33 31 43 31 Q 53 31 53 39.5 Q 43 44 33 39.5 Z
+  fill rad #7dee8a #23b34c 30 46 12
+  stroke #fbfcfe 2.4
+  circle 32 50 10
+  stroke $white 3.4
+  line 32 44.5 32 55.5
+  line 26.5 50 37.5 50
+
+emoji mic_muted | muted silent mic off quiet
+  use st_mic
+  stroke $redd 8.4
+  line 10 9 54 55
+  stroke #ff5a4e 5
+  line 10 9 54 55
+
+emoji hot_mic | live mic open oops talking
+  fill rad #ff4a3a99 #ff4a3a00 32 26 32
+  nostroke
+  circle 32 26 31
+  use st_mic 0 3 0.9
+  fill #ff4a3a55
+  rect 22.5 3.8 19 30.6 9.5
+  nofill
+  stroke #ff5a4e 3.2
+  mirror arc 42 22 8 10 -50 50
+  mirror arc 42 22 16 18 -50 50
+
+emoji cam_off | camera off no video hidden
+  use st_cam
+  stroke $redd 8.4
+  line 9 9 55 57
+  stroke #ff5a4e 5
+  line 9 9 55 57
+
+emoji overlay | layout scene hud frame design
+  use st_mon
+  fill lin #7dbdff #3d6be0 0 10 0 43
+  nostroke
+  rect 7.5 10 49 33 2
+  fill #ffffffcc
+  rect 11 14 18 3.6 1.8
+  rect 11 20.5 12 3.6 1.8
+  fill #2b3140
+  stroke #ffd23d 2.4
+  rect 33 23 20 16.5 2.5
+  fill #ffd9a0
+  nostroke
+  circle 43 29 3.4
+  path M 37.5 38 Q 37.5 33.5 43 33.5 Q 48.5 33.5 48.5 38 Z
+
+emoji thumbnail | preview clickbait cover image shocked
+  fill lin #ff9a4a #ea4640 0 8 0 56
+  stroke #fbfcfe 3.4
+  rect 4 9 56 46 5
+  nofill
+  stroke #8b94a2 1.4
+  rect 2.2 7.2 59.6 49.6 6.5
+  use face -11 1 0.56
+  xf -11 1 0.56
+  use eyes_wide
+  use mouth_o 0 3
+  xf
+  fill #fff08a
+  stroke #8a5a00 2
+  poly 57 26 48 26 48 19.5 37 32 48 44.5 48 38 57 38
+
+emoji like | thumbs up approve good yes
+  fill rad #8ac4ff #2f76e8 22 18 48
+  stroke $st_btnd 2.4
+  circle 32 32 27.5
+  stroke $skinl 11
+  line 32 31 36 14
+  fill $skin
+  stroke $skinl 2.2
+  rect 24 27 24 22 6
+  stroke $skin 6.8
+  line 31.5 33 36 14
+  stroke $skinl 1.5
+  line 37 33.5 46.5 33.5
+  line 37 38.5 46.5 38.5
+  line 37 43.5 46.5 43.5
+  fill $white
+  stroke #c9d2dc 1.6
+  rect 13.5 28 8.5 21 2.5
+
+emoji share | send forward export repost
+  fill lin #7dbdff #2f76e8 0 22 0 60
+  stroke $st_btnd 2.4
+  rect 4 23 41 36 8
+  nofill
+  stroke $st_btnd 11
+  curve 21 46 26 30 45 20
+  fill $white
+  stroke $st_btnd 2.4
+  poly 41 5 61 15 46 32
+  nofill
+  stroke $white 6
+  curve 21 46 26 30 46 19.5
+
+emoji notification | alert bell ping unread notify
+  use st_bell
+  fill rad #ff8a7a $red 44 12 12
+  stroke #fbfcfe 2.4
+  circle 47.5 15 9.5

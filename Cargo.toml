@@ -1,0 +1,16 @@
+[package]
+name = "remedy-emoji"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.91"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/AhmiDarrow/RemedyEmoji"
+authors = ["Ahmi Darrow"]
+description = "Remedy's own emoji and stickers: original vector art, its text format (.fsa), parser and rasterizer. No dependencies."
+readme = "README.md"
+keywords = ["emoji", "stickers", "vector", "rasterizer"]
+categories = ["graphics", "rendering"]
+include = ["src/**", "art/**", "examples/**", "docs/**", "README.md", "LICENSE-*"]
+publish = false
+
+[dependencies]

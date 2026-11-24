@@ -1,0 +1,1278 @@
+// Music emotes: notes, instruments, studio gear and music moods. Original FreeSpeak art.
+category music
+
+color mund #3f27a8
+color mun #6a48f0
+color munl #a893ff
+color mugold #f2b21c
+color mugoldl #ffe27a
+color mugoldd #a8690a
+color mupanel #3d4455
+color mupaneld #262a36
+color mupanell #8a93a6
+color muwood #c8813a
+color muwoodl #eab06a
+color muwoodd #7a4416
+color mucream #fff4d6
+color mucreamd #b9a37a
+color mublue #3f9cf0
+color mublued #1f62b8
+color mugreen #46c05f
+color mugreend #1f7a30
+color mupink #ff5fa2
+color mupinkd #c22a6c
+
+part mu_note
+  fill $mund
+  stroke $mund 4.6
+  path M 31 7 L 36.5 7 Q 38 17 49 23 Q 56 30 50 40 Q 49 30 36.5 25 L 36.5 46 L 31 46 Z
+  ellipse 24.5 47.5 12 8.8 -20
+  fill lin $munl $mun 0 6 0 58
+  nostroke
+  path M 31 7 L 36.5 7 Q 38 17 49 23 Q 56 30 50 40 Q 49 30 36.5 25 L 36.5 46 L 31 46 Z
+  ellipse 24.5 47.5 12 8.8 -20
+  fill #ffffff66
+  ellipse 20.5 44.5 4 2.2 -20
+
+part mu_clef
+  nofill
+  stroke $mund 7.6
+  curve 31.5 42 26 38 32 32 41 37 40 47 28 51 16 43 20 31 33 22 40 12 35 5 28 10 29 22 33 40 36 54 30 59 23 55
+  stroke $mun 3.8
+  curve 31.5 42 26 38 32 32 41 37 40 47 28 51 16 43 20 31 33 22 40 12 35 5 28 10 29 22 33 40 36 54 30 59 23 55
+  fill $mun
+  stroke $mund 1.8
+  circle 23 54.5 3.4
+
+part mu_btn
+  fill lin #6cb8ff #2f7fe0 0 4 0 60
+  stroke $mublued 2.2
+  rect 4 4 56 56 12
+
+part mu_bud
+  fill lin #eef2f8 #9fb0c8 30 30 56 52
+  stroke #6f7f9a 2.4
+  ellipse 47 44 9 12.5 -42
+  fill rad #ffffff #c4d6f0 22 20 34
+  stroke #5f7fb8 2.8
+  circle 29 29 19
+  fill #5f7fb8
+  nostroke
+  rect 19 17 12 4.4 2.2
+  fill #1fc8a8
+  circle 37 19 2.8
+  fill #ffffffaa
+  ellipse 18 30 3 5.5 15
+
+emoji musical_note U+1F3B5 | music song tune sound
+  use mu_note
+
+emoji notes U+1F3B6 | music song melody singing
+  fill $mund
+  stroke $mund 4.6
+  poly 19 11 54 5 54 13 19 19
+  rect 19 12 5 36
+  rect 49 7 5 35
+  ellipse 14.5 49 9.5 7 -20
+  ellipse 44.5 43.5 9.5 7 -20
+  fill lin $munl $mun 0 6 0 58
+  nostroke
+  poly 19 11 54 5 54 13 19 19
+  rect 19 12 5 36
+  rect 49 7 5 35
+  ellipse 14.5 49 9.5 7 -20
+  ellipse 44.5 43.5 9.5 7 -20
+  fill #ffffff66
+  ellipse 11.5 46.8 3.2 1.8 -20
+  ellipse 41.5 41.3 3.2 1.8 -20
+
+emoji musical_score U+1F3BC | sheet music staff notation
+  fill lin #ffffff $mucream 0 6 0 58
+  stroke $mucreamd 2.2
+  rect 5 7 54 50 5
+  stroke #5d5470 1.4
+  line 9 20 55 20
+  line 9 26 55 26
+  line 9 32 55 32
+  line 9 38 55 38
+  line 9 44 55 44
+  use mu_clef -14 0 0.62
+  fill $mund
+  nostroke
+  ellipse 37 38 4.4 3.3 -20
+  ellipse 49 32 4.4 3.3 -20
+  stroke $mund 2
+  line 40.6 37 40.6 21
+  line 52.6 31 52.6 15
+
+emoji guitar U+1F3B8 | electric rock band music
+  xf 2 -2 1.1 45
+  fill lin #ff7a70 $red 0 0 0 9
+  stroke $redd 1.8
+  path M 28.5 9 L 27 2 Q 32 -1 37 2 L 35.5 9 Z
+  fill lin $muwoodl $muwood 29 0 35 0
+  stroke $muwoodd 1.8
+  rect 29.2 8 5.6 28 1
+  fill rad #ff9a80 $red 26 38 30
+  stroke $redd 2.2
+  blob 27 32 21 26 16 30 19 38 15 47 17 56 24 61 32 62 40 61 47 56 49 47 45 38 48 30 43 26 37 32 32 33
+  fill $white
+  stroke #d8c9c9 1
+  blob 34 36 43 40 45 50 40 57 35 52
+  fill $mupaneld
+  nostroke
+  rect 26 38.5 12 3.4 1
+  rect 26 46 12 3.4 1
+  fill $steel
+  rect 27 53.5 10 3 1
+  fill $mupaneld
+  circle 42 52 1.7
+  stroke #f4f4f4cc 0.8
+  line 30.6 3 30.6 55
+  line 33.4 3 33.4 55
+  xf
+
+emoji musical_keyboard U+1F3B9 | piano keys music play
+  fill lin #4a5266 $mupaneld 0 12 0 54
+  stroke $mupanell 2.2
+  rect 3 13 58 40 5
+  fill lin #ffffff #e3e6ee 0 20 0 50
+  stroke #9aa3b5 1
+  rect 6.2 19 6.8 30 1.5
+  rect 13.6 19 6.8 30 1.5
+  rect 21 19 6.8 30 1.5
+  rect 28.4 19 6.8 30 1.5
+  rect 35.8 19 6.8 30 1.5
+  rect 43.2 19 6.8 30 1.5
+  rect 50.6 19 6.8 30 1.5
+  fill #23252b
+  nostroke
+  rect 11 19 4.8 18 1
+  rect 18.4 19 4.8 18 1
+  rect 33.2 19 4.8 18 1
+  rect 40.6 19 4.8 18 1
+  rect 48 19 4.8 18 1
+
+emoji drum U+1F941 | snare drumroll beat percussion
+  stroke $muwoodd 5.4
+  line 8 5 29 23
+  line 56 5 35 23
+  stroke $muwoodl 3
+  line 8 5 29 23
+  line 56 5 35 23
+  fill lin #ff7a70 $redd 6 0 58 0
+  stroke $redd 2.2
+  path M 7 27 L 7 45 Q 32 61 57 45 L 57 27 Z
+  nofill
+  stroke $mugoldl 1.8
+  line 9 32 17 49 25 37 32 53 39 37 47 49 55 32
+  stroke $mugold 3
+  curve 7 45 20 52.5 32 53.5 44 52.5 57 45
+  fill lin #ffffff $mucream 0 18 0 36
+  stroke $mugoldd 2.4
+  ellipse 32 27 25 9.5
+
+emoji saxophone U+1F3B7 | sax jazz brass music
+  stroke #2b2b33 5
+  line 8 10 16 7.5
+  nofill
+  stroke $mugoldd 12.5
+  curve 17 7 24 7 28 14 30 30 32 46 38 55 47 52 50 42
+  stroke $mugold 8.2
+  curve 17 7 24 7 28 14 30 30 32 46 38 55 47 52 50 42
+  stroke $mugoldl 2
+  curve 27 16 28 30 30 44
+  fill lin $mugoldl $mugold 42 30 60 44
+  stroke $mugoldd 2.2
+  ellipse 50.5 37 10.5 5.6 -12
+  fill #6b420a
+  nostroke
+  ellipse 50.5 36.6 7.2 3 -12
+  fill $mugoldl
+  stroke $mugoldd 1.2
+  circle 30 24 2.7
+  circle 31 32.5 2.7
+  circle 32 41 2.7
+
+emoji trumpet U+1F3BA | brass horn fanfare music
+  xf 0 0 1 -18
+  nofill
+  stroke $mugoldd 6.4
+  rect 15 30 27 16 8
+  stroke $mugold 3
+  rect 15 30 27 16 8
+  fill lin $mugoldl $mugold 0 26 0 34
+  stroke $mugoldd 2
+  rect 7 27 36 6.5 2
+  poly 2 25.5 8 28.5 8 32 2 35
+  fill lin $mugoldl $mugold 40 14 58 46
+  path M 40 27 Q 50 26 57 12 Q 62 30 57 50 Q 50 34.5 40 33.5 Z
+  fill lin $mugoldl $mugold 0 16 0 44
+  stroke $mugoldd 1.6
+  rect 19.5 18 5.4 26 2
+  rect 27 18 5.4 26 2
+  rect 34.5 18 5.4 26 2
+  fill $white
+  stroke $mugoldd 1.2
+  ellipse 22.2 16.5 3.6 2
+  ellipse 29.7 16.5 3.6 2
+  ellipse 37.2 16.5 3.6 2
+  xf
+
+emoji violin U+1F3BB | fiddle strings orchestra classical
+  xf 0 0 1 45
+  fill #3a2412
+  stroke #6e4a2a 1.4
+  circle 32 3.5 3.6
+  rect 29.6 5 4.8 24 1
+  fill rad #f0a45a #b8601e 26 38 30
+  stroke #6f3a10 2.2
+  blob 32 25 39 26 45 31 42 38 47 46 45 56 32 62 19 56 17 46 22 38 19 31 25 26
+  fill #3a2412
+  nostroke
+  poly 30 48 34 48 35.5 59 28.5 59
+  rect 28 43 8 2 1
+  stroke #3a2412 1.5
+  mirror curve 24 40 22.5 44 24.5 48
+  stroke #f4f4f4cc 0.8
+  line 30.8 4 30.8 49
+  line 33.2 4 33.2 49
+  xf
+  stroke #6e4a2a 4.2
+  line 6 10 54 58
+  stroke #e9d7b0 2
+  line 6 10 54 58
+
+emoji banjo U+1FA95 | bluegrass folk strings country
+  xf 0 0 1 45
+  fill lin $muwoodl $muwood 0 0 0 9
+  stroke $muwoodd 1.8
+  rect 27.5 -1 9 9 2.5
+  fill lin $muwoodl $muwood 29 0 35 0
+  rect 29.4 7 5.2 26 1
+  fill lin #e4eaf1 #9aa7b6 0 28 0 62
+  stroke $steeld 2.2
+  circle 32 45 17
+  fill rad #ffffff $mucream 27 40 18
+  stroke $mucreamd 1.4
+  circle 32 45 12.5
+  fill $muwoodd
+  nostroke
+  rect 27.5 51 9 2.4 1
+  stroke #8a8a94 0.9
+  line 30.6 1 30.6 52
+  line 33.4 1 33.4 52
+  xf
+
+emoji accordion U+1FA97 | squeezebox polka folk music
+  xf 0 0 1 -12
+  fill lin #ffffff $mucream 0 14 0 50
+  stroke $mucreamd 1.8
+  rect 19 15 26 34 2
+  stroke $mucreamd 1.6
+  line 24 16 24 48
+  line 28 16 28 48
+  line 32 16 32 48
+  line 36 16 36 48
+  line 40 16 40 48
+  fill rad #ff8a70 $red 8 16 30
+  stroke $redd 2.2
+  rect 4 11 16 42 4
+  rect 44 11 16 42 4
+  fill $white
+  stroke #b9c4cf 1
+  rect 47 15.5 9 33 1.5
+  line 47 22 56 22
+  line 47 28.5 56 28.5
+  line 47 35 56 35
+  line 47 41.5 56 41.5
+  fill #23252b
+  nostroke
+  rect 52 20.4 4 3.2 0.6
+  rect 52 26.9 4 3.2 0.6
+  rect 52 39.9 4 3.2 0.6
+  fill $white
+  circle 9 21 1.7
+  circle 9 29 1.7
+  circle 9 37 1.7
+  circle 9 45 1.7
+  circle 15 25 1.7
+  circle 15 33 1.7
+  circle 15 41 1.7
+  xf
+
+emoji maracas U+1FA87 | shaker rattle latin rhythm
+  stroke $muwoodd 6
+  line 24 59 42 35
+  stroke $muwoodl 3.4
+  line 24 59 42 35
+  fill rad #7fe08f $mugreen 44 14 18
+  stroke $mugreend 2.2
+  ellipse 49 20 11.5 15 28
+  stroke #fff08a 2.4
+  line 41 25 54 32
+  stroke $muwoodd 6
+  line 40 59 22 35
+  stroke $muwoodl 3.4
+  line 40 59 22 35
+  fill rad #ff9a80 $red 10 14 18
+  stroke $redd 2.2
+  ellipse 15 20 11.5 15 -28
+  stroke #fff08a 2.4
+  line 10 32 23 25
+
+emoji flute U+1FA88 | woodwind pipe orchestra music
+  xf 0 0 1 -38
+  fill lin #f4f7fb #9aa7b6 0 27 0 37
+  stroke $steeld 2.2
+  rect -6 27.5 76 9 4.5
+  fill $mugoldl
+  stroke $mugoldd 1.2
+  ellipse 6 32 5 3
+  fill #3a4050
+  nostroke
+  ellipse 6 32 2.2 1.3
+  fill $mugoldl
+  stroke $mugoldd 1.2
+  circle 24 32 2.8
+  circle 33 32 2.8
+  circle 42 32 2.8
+  circle 51 32 2.8
+  circle 60 32 2.8
+  xf
+
+emoji long_drum U+1FA98 | conga tribal percussion beat
+  xf 0 0 1 14
+  fill lin $muwoodl #b8601e 12 0 52 0
+  stroke $muwoodd 2.2
+  path M 13 13 L 51 13 L 44 56 Q 32 61 20 56 Z
+  nofill
+  stroke #ffe27a 2.2
+  line 15 24 21 34 27 24 32 34 37 24 43 34 49 24
+  stroke $redd 3
+  curve 18.5 46 32 50 45.5 46
+  fill lin #ffffff $mucream 0 6 0 20
+  stroke $mucreamd 2.2
+  ellipse 32 13 19.5 7
+  xf
+
+emoji radio U+1F4FB | fm broadcast tuner station
+  stroke $steeld 4
+  line 42 22 56 5
+  stroke #e4eaf1 1.8
+  line 42 22 56 5
+  fill $red
+  stroke $redd 1.2
+  circle 56.5 4.8 2.6
+  fill lin #ffa86c #e8592a 0 20 0 58
+  stroke #a8380f 2.2
+  rect 4 21 56 37 7
+  fill $mupaneld
+  stroke #ffd9b8 1.6
+  circle 20.5 39.5 11.5
+  stroke #8a93a6 1.2
+  line 13 35.5 28 35.5
+  line 11.5 39.5 29.5 39.5
+  line 13 43.5 28 43.5
+  fill $mucream
+  stroke #a8380f 1.4
+  rect 36 28 19 9 2
+  stroke $red 1.8
+  line 48 29.5 48 35.5
+  fill $mucream
+  stroke #a8380f 1.4
+  circle 40.5 47.5 4
+  circle 51 47.5 4
+
+emoji shuffle U+1F500 | random mix arrows playlist
+  use mu_btn
+  nofill
+  stroke $white 4.4
+  curve 12 22 21 22 32 32 43 42 47 42
+  curve 12 42 21 42 32 32 43 22 47 22
+  fill $white
+  stroke $white 2
+  poly 46 15.5 54 22 46 28.5
+  poly 46 35.5 54 42 46 48.5
+
+emoji repeat U+1F501 | loop again arrows replay
+  use mu_btn
+  nofill
+  stroke $white 4.4
+  path M 13 31 L 13 27 Q 13 20 20 20 L 43 20
+  path M 51 33 L 51 37 Q 51 44 44 44 L 21 44
+  fill $white
+  stroke $white 2
+  poly 42 13.5 50 20 42 26.5
+  poly 22 37.5 14 44 22 50.5
+
+emoji repeat_one U+1F502 | loop single once replay
+  use repeat
+  fill $mublued
+  text 32 37 10 1 4.4
+  fill $white
+  text 32 37 10 1 2
+
+emoji speaker U+1F508 | sound volume audio quiet
+  fill lin #e4eaf1 #8794a6 0 6 0 58
+  stroke $steeld 2.4
+  rect 9 21 17 22 3
+  path M 25 21.5 L 45 6.5 Q 49 5 49 9.5 L 49 54.5 Q 49 59 45 57.5 L 25 42.5 Z
+  fill #ffffff66
+  nostroke
+  poly 29 22 44 11 44 17 29 27
+
+emoji level_slider U+1F39A-FE0F | fader volume control studio
+  stroke $mupanell 1.6
+  line 10 12 18 12
+  line 10 22 18 22
+  line 10 32 18 32
+  line 10 42 18 42
+  line 10 52 18 52
+  line 46 12 54 12
+  line 46 22 54 22
+  line 46 32 54 32
+  line 46 42 54 42
+  line 46 52 54 52
+  fill $mupaneld
+  stroke $mupanell 2
+  rect 27 4 10 56 5
+  fill $mugreen
+  nostroke
+  rect 29.5 27 5 30.5 2.5
+  fill lin #ffb07a #e8592a 0 18 0 36
+  stroke #a8380f 2.2
+  rect 15 18 34 17 5
+  stroke #fff4d6 2
+  line 21 26.5 43 26.5
+
+emoji control_knobs U+1F39B-FE0F | dials studio mixer settings
+  fill lin #4a5266 $mupaneld 0 8 0 56
+  stroke $mupanell 2.2
+  rect 3 9 58 46 8
+  fill rad #f4f7fb #9aa7b6 16 26 16
+  stroke $steeld 2
+  circle 19 32 11.5
+  circle 45 32 11.5
+  stroke $red 3
+  line 19 32 12.5 25.5
+  line 45 32 51.5 25.5
+  fill $mugold
+  nostroke
+  circle 8 46 1.4
+  circle 30 46 1.4
+  circle 34 46 1.4
+  circle 56 46 1.4
+  circle 19 15 1.4
+  circle 45 15 1.4
+
+emoji treble_clef | clef music notation g
+  use mu_clef 0 0 1.04
+
+emoji bass_clef | clef music notation f low
+  nofill
+  stroke $mund 9.4
+  curve 15 25 19 12 31 8 42 14 44 27 37 41 13 56
+  stroke $mun 5.4
+  curve 15 25 19 12 31 8 42 14 44 27 37 41 13 56
+  fill $mun
+  stroke $mund 2
+  circle 16.5 25 6.2
+  circle 54.5 16 4.2
+  circle 54.5 31 4.2
+
+emoji sharp | accidental note higher music
+  fill rad #8ff0dc #1fa89a 24 20 48
+  stroke #0f6f66 2.2
+  circle 32 32 27.6
+  stroke #0f6f66 7.4
+  line 26 15 26 51
+  line 38 13 38 49
+  line 17 29 47 22
+  line 17 42 47 35
+  stroke $white 3.6
+  line 26 15 26 51
+  line 38 13 38 49
+  stroke $white 4.4
+  line 17 29 47 22
+  line 17 42 47 35
+
+emoji flat | accidental note lower music
+  fill rad #ffa6d0 #e0478f 24 20 48
+  stroke $mupinkd 2.2
+  circle 32 32 27.6
+  nofill
+  stroke $mupinkd 8
+  path M 25 11 L 25 50 Q 46 40 41 31 Q 35 25 25 35
+  stroke $white 4.2
+  path M 25 11 L 25 50 Q 46 40 41 31 Q 35 25 25 35
+
+emoji vinyl | record lp album spin
+  fill rad #565868 #1d1e26 24 20 46
+  stroke $mupanell 2.2
+  circle 32 32 27.6
+  nofill
+  stroke #6a6c7e 1
+  circle 32 32 22.5
+  circle 32 32 17.5
+  stroke #ffffff4d 4
+  arc 32 32 20 20 205 250
+  arc 32 32 20 20 25 70
+  fill rad #ffb07a #f0563c 29 29 12
+  stroke #a8380f 1.6
+  circle 32 32 11
+  fill $mupaneld
+  nostroke
+  circle 32 32 2.4
+
+emoji turntable | deck dj record player
+  fill lin #f1f4f9 #b4bdcc 0 8 0 56
+  stroke $steeld 2.2
+  rect 3 8 58 48 7
+  use vinyl -5 0 0.74
+  fill $red
+  stroke $redd 1.2
+  circle 53 49 2.8
+  stroke $steeld 5.4
+  line 52 16 50 36 42 44
+  stroke #e4eaf1 2.6
+  line 52 16 50 36 42 44
+  fill $mupanel
+  stroke $mupanell 1.4
+  circle 52 16 4.6
+  rect 36.5 40.5 8 6 1.5
+
+emoji cassette | tape mixtape retro audio
+  fill lin #565f75 $mupaneld 0 10 0 54
+  stroke $mupanell 2.2
+  rect 3 11 58 42 6
+  fill lin #ffffff $mucream 0 14 0 40
+  stroke $mucreamd 1.4
+  rect 8 15.5 48 24 3
+  fill $mupink
+  nostroke
+  rect 9.5 17 45 4.4 1.5
+  fill #ffb21c
+  rect 9.5 21.4 45 2.4 0
+  fill $mupaneld
+  rect 15 26 34 11.5 5.7
+  fill $white
+  circle 22.5 31.8 4
+  circle 41.5 31.8 4
+  fill $mupaneld
+  circle 22.5 31.8 1.6
+  circle 41.5 31.8 1.6
+  fill #2a2e3a
+  stroke $mupanell 1.4
+  poly 15 53 19 43.5 45 43.5 49 53
+  fill $mupanell
+  nostroke
+  circle 25 48.5 1.5
+  circle 39 48.5 1.5
+
+emoji boombox | stereo portable ghetto blaster speakers
+  nofill
+  stroke $steeld 5.4
+  rect 14 6 36 20 6
+  stroke #e4eaf1 2.4
+  rect 14 6 36 20 6
+  fill lin #5fe0cf #1f9a8e 0 18 0 58
+  stroke #0f6f66 2.2
+  rect 3 19 58 38 7
+  fill lin #e4eaf1 #9aa7b6 0 28 0 54
+  stroke $steeld 1.6
+  circle 16.5 40.5 11
+  circle 47.5 40.5 11
+  fill $mupaneld
+  nostroke
+  circle 16.5 40.5 7
+  circle 47.5 40.5 7
+  fill $mupanell
+  circle 16.5 40.5 2.4
+  circle 47.5 40.5 2.4
+  fill $mucream
+  stroke #0f6f66 1.2
+  rect 27.5 33 9 8 1.5
+  fill $mupaneld
+  nostroke
+  rect 27 24 2.6 4 0.8
+  rect 30.7 24 2.6 4 0.8
+  rect 34.4 24 2.6 4 0.8
+  fill $red
+  circle 32 48.5 2.2
+
+emoji acoustic_guitar | guitar folk strum unplugged
+  xf 1 -1 1.06 45
+  fill lin $muwoodl $muwood 0 0 0 9
+  stroke $muwoodd 1.8
+  rect 28 0 8 9.5 2
+  fill #6b3d18
+  rect 29.4 8 5.2 24 1
+  fill rad #ffe09a #e8982e 26 38 30
+  stroke #9a5a12 2.2
+  blob 32 27 39 28 43 33 41 39 46 46 45 56 32 62 19 56 18 46 23 39 21 33 25 28
+  fill #4a2a10
+  stroke #9a5a12 1.6
+  circle 32 40.5 5.2
+  nostroke
+  rect 26 52 12 3 1
+  stroke #fff8e0cc 0.8
+  line 30.8 2 30.8 53
+  line 33.2 2 33.2 53
+  xf
+
+emoji bass_guitar | bass four strings low groove
+  xf -4 4 1 45
+  fill lin #7ec3ff $mublue 0 -10 0 0
+  stroke $mublued 1.8
+  path M 28.5 -2 L 27 -9 Q 32 -12 36 -9 L 35.5 -2 Z
+  fill #6b3d18
+  stroke $muwoodd 1.6
+  rect 29 -3 6 43 1
+  fill rad #8fd0ff $mublue 26 42 26
+  stroke $mublued 2.2
+  blob 27 38 22 31 17 34 20 42 18 50 22 56 32 60 42 56 46 50 44 42 46 36 42 33 37 38 32 39
+  fill $mupaneld
+  nostroke
+  rect 27 44 10 3.4 1
+  fill $steel
+  rect 27.5 52 9 2.6 1
+  stroke #f4f4f4cc 0.7
+  line 30.2 -8 30.2 54
+  line 31.4 -8 31.4 54
+  line 32.6 -8 32.6 54
+  line 33.8 -8 33.8 54
+  xf
+
+emoji drum_kit | drums kick snare cymbal band
+  stroke $steeld 2.4
+  line 12 14 12 40
+  line 52 12 52 58
+  line 45 58 59 58
+  line 20 55 16 60
+  line 44 55 48 60
+  fill lin $mugoldl $mugold 0 8 0 18
+  stroke $mugoldd 1.8
+  ellipse 12 13 10 3.4 8
+  ellipse 51 11 11.5 3.8 -8
+  fill lin #ff7a70 $redd 3 0 23 0
+  stroke $redd 1.8
+  rect 3.5 30 17 11 2
+  fill $mucream
+  stroke $steeld 1.6
+  ellipse 12 30 8.5 3.2
+  fill rad #ff8a70 $red 26 34 24
+  stroke $redd 2.2
+  circle 32 42 17.5
+  fill rad #ffffff $mucream 28 38 16
+  stroke $steel 2
+  circle 32 42 12.5
+
+emoji drumsticks | sticks drummer percussion beat
+  stroke $muwoodd 8.4
+  line 11 55 50 11
+  stroke $muwoodl 5
+  line 11 55 50 11
+  fill $muwoodl
+  stroke $muwoodd 1.8
+  ellipse 51.5 9.5 5.6 4.2 -48
+  stroke $muwoodd 8.4
+  line 53 55 14 11
+  stroke $muwoodl 5
+  line 53 55 14 11
+  fill $muwoodl
+  stroke $muwoodd 1.8
+  ellipse 12.5 9.5 5.6 4.2 48
+
+emoji synth | synthesizer keys electronic analog
+  fill lin #b58cff #7440d8 0 10 0 54
+  stroke #4a22a0 2.2
+  rect 3 11 58 42 6
+  fill #1d2530
+  stroke #4a22a0 1.2
+  rect 7.5 15.5 17 10 2
+  stroke #45d6ff 1.4
+  curve 10 22 13 17.5 16 22.5 19 18 22 21
+  fill $mucream
+  stroke #4a22a0 1.4
+  circle 32 20.5 4.4
+  circle 43 20.5 4.4
+  circle 54 20.5 3
+  stroke $red 1.6
+  line 32 20.5 29.6 18
+  line 43 20.5 45.4 18
+  fill lin #ffffff #e3e6ee 0 30 0 50
+  stroke #9aa3b5 1
+  rect 6.5 31 51 18.5 2
+  line 13.8 31 13.8 49.5
+  line 21.1 31 21.1 49.5
+  line 28.4 31 28.4 49.5
+  line 35.7 31 35.7 49.5
+  line 43 31 43 49.5
+  line 50.3 31 50.3 49.5
+  fill #23252b
+  nostroke
+  rect 11.6 31 4.4 11 1
+  rect 18.9 31 4.4 11 1
+  rect 33.5 31 4.4 11 1
+  rect 40.8 31 4.4 11 1
+  rect 48.1 31 4.4 11 1
+
+emoji midi_pad | pads launch beat sampler controller
+  fill lin #4a5266 $mupaneld 0 4 0 60
+  stroke $mupanell 2.2
+  rect 3.5 3.5 57 57 8
+  fill #5d667c
+  nostroke
+  rect 7.6 7.6 10.6 10.6 2.2
+  rect 20.2 7.6 10.6 10.6 2.2
+  rect 45.4 7.6 10.6 10.6 2.2
+  rect 7.6 20.2 10.6 10.6 2.2
+  rect 32.8 20.2 10.6 10.6 2.2
+  rect 45.4 20.2 10.6 10.6 2.2
+  rect 20.2 32.8 10.6 10.6 2.2
+  rect 32.8 32.8 10.6 10.6 2.2
+  rect 7.6 45.4 10.6 10.6 2.2
+  rect 20.2 45.4 10.6 10.6 2.2
+  rect 45.4 45.4 10.6 10.6 2.2
+  fill #ff5fa2
+  rect 32.8 7.6 10.6 10.6 2.2
+  fill #ffd23f
+  rect 20.2 20.2 10.6 10.6 2.2
+  fill #45d6ff
+  rect 7.6 32.8 10.6 10.6 2.2
+  fill #54d17a
+  rect 45.4 32.8 10.6 10.6 2.2
+  fill #ff8a3c
+  rect 32.8 45.4 10.6 10.6 2.2
+
+emoji amp | amplifier guitar loud combo
+  nofill
+  stroke $steeld 3
+  arc 32 7 8 4.5 180 360
+  fill lin #54495a #2c2530 0 5 0 59
+  stroke #8d7f96 2.2
+  rect 5 6 54 52 5
+  fill lin $mugoldl $mugold 0 10 0 20
+  stroke $mugoldd 1.4
+  rect 9 10 46 10.5 2
+  fill $mupaneld
+  nostroke
+  circle 16 15.2 2.8
+  circle 25 15.2 2.8
+  circle 34 15.2 2.8
+  circle 43 15.2 2.8
+  fill $red
+  circle 50.5 15.2 1.7
+  fill lin #e6cf9c #b8985a 0 24 0 54
+  stroke #7d6434 1.6
+  rect 9 24.5 46 29.5 3
+  stroke #8f743e99 1.2
+  line 9 31.5 55 31.5
+  line 9 39 55 39
+  line 9 46.5 55 46.5
+  line 18.2 24.5 18.2 54
+  line 27.4 24.5 27.4 54
+  line 36.6 24.5 36.6 54
+  line 45.8 24.5 45.8 54
+  nofill
+  stroke #7d643499 1.6
+  circle 32 39.2 11
+
+emoji pedal | stompbox effect distortion guitar
+  fill $steel
+  stroke $steeld 1.4
+  rect 5 23 8 7 1.5
+  rect 51 23 8 7 1.5
+  fill lin #9be85c #3faa2e 0 4 0 60
+  stroke #1f6f1a 2.2
+  path M 15 8 Q 15 4 19 4 L 45 4 Q 49 4 49 8 L 53 55 Q 53 60 48 60 L 16 60 Q 11 60 11 55 Z
+  fill $mucream
+  stroke #1f6f1a 1.6
+  circle 23.5 14.5 5.4
+  circle 40.5 14.5 5.4
+  stroke $mupaneld 1.8
+  line 23.5 14.5 20.5 11
+  line 40.5 14.5 43.5 11
+  fill rad #ff9a90 $red 31.5 27 3
+  stroke $redd 1.2
+  circle 32 27.5 2.8
+  fill #1f6f1a55
+  nostroke
+  rect 15 35 34 20.5 4
+  fill rad #f4f7fb #9aa7b6 29 42 10
+  stroke $steeld 2
+  circle 32 45 7.6
+
+emoji mixer | mixing desk console faders studio
+  fill lin #4a5266 $mupaneld 0 6 0 58
+  stroke $mupanell 2.2
+  rect 3 6 58 52 6
+  fill $mupink
+  nostroke
+  circle 12.5 14.5 3.2
+  fill #ffd23f
+  circle 25.5 14.5 3.2
+  fill #45d6ff
+  circle 38.5 14.5 3.2
+  fill #54d17a
+  circle 51.5 14.5 3.2
+  stroke #15171d 3
+  line 12.5 24 12.5 52
+  line 25.5 24 25.5 52
+  line 38.5 24 38.5 52
+  line 51.5 24 51.5 52
+  fill lin #ffffff #c9d2dc 0 0 0 64
+  stroke $steeld 1.4
+  rect 8 41 9 7 2
+  rect 21 28 9 7 2
+  rect 34 35 9 7 2
+  rect 47 25 9 7 2
+
+emoji equalizer | levels bars spectrum eq
+  fill lin #ff8fc0 $mupink 0 30 0 58
+  stroke $mupinkd 2
+  rect 4 32 9.6 27 3
+  fill lin #ffc07a #ff8a3c 0 14 0 58
+  stroke #b8520f 2
+  rect 15.6 15 9.6 44 3
+  fill lin #fff08a #ffc61c 0 24 0 58
+  stroke #b8860a 2
+  rect 27.2 25 9.6 34 3
+  fill lin #9af0a8 $mugreen 0 6 0 58
+  stroke $mugreend 2
+  rect 38.8 5 9.6 54 3
+  fill lin #8fd0ff $mublue 0 38 0 58
+  stroke $mublued 2
+  rect 50.4 39 9.6 20 3
+
+emoji waveform | audio sound wave voice
+  stroke #1f4fa8 7
+  line 5 27 5 37
+  line 12 20 12 44
+  line 19 12 19 52
+  line 25.5 23 25.5 41
+  line 32 6 32 58
+  line 38.5 17 38.5 47
+  line 45 11 45 53
+  line 52 22 52 42
+  line 59 28 59 36
+  stroke #45d6ff 4
+  line 5 27 5 37
+  line 12 20 12 44
+  line 19 12 19 52
+  line 52 22 52 42
+  line 59 28 59 36
+  stroke #8fa4ff 4
+  line 25.5 23 25.5 41
+  line 45 11 45 53
+  line 38.5 17 38.5 47
+  stroke #c58cff 4
+  line 32 6 32 58
+
+emoji metronome | tempo beat tick bpm
+  fill lin $muwoodl $muwood 10 0 54 0
+  stroke $muwoodd 2.2
+  path M 23 5 L 41 5 L 54 54 Q 55 59 50 59 L 14 59 Q 9 59 10 54 Z
+  fill lin #ffffff $mucream 0 10 0 46
+  stroke $mucreamd 1.4
+  poly 26 11 38 11 46.5 46 17.5 46
+  stroke $mucreamd 1.2
+  line 27 20 31 20
+  line 25.5 28 30 28
+  line 24 36 29 36
+  stroke $mupaneld 2.6
+  line 30 48 42 9
+  fill lin $mugoldl $mugold 0 16 0 28
+  stroke $mugoldd 1.4
+  poly 34.5 19 43 21.6 41 28 32.5 25.4
+  fill $muwoodd
+  nostroke
+  rect 13 50 38 3 1.5
+
+emoji tuning_fork | pitch tune note a440
+  nofill
+  stroke #45a8f0 2.4
+  mirror curve 14.5 9 11.5 16 14.5 23
+  mirror curve 8 5 3.5 16 8 27
+  stroke $steeld 9
+  path M 23 6 L 23 30 Q 23 40 32 40 Q 41 40 41 30 L 41 6
+  line 32 40 32 55
+  stroke #e4eaf1 5
+  path M 23 6 L 23 30 Q 23 40 32 40 Q 41 40 41 30 L 41 6
+  line 32 40 32 55
+  fill #e4eaf1
+  stroke $steeld 2
+  circle 32 56 4.4
+
+emoji earbuds | wireless earphones buds listen
+  use mu_bud -11 -10 0.8 -15
+  use mu_bud 11 10 0.8 20 flip
+
+emoji studio_monitors | speakers monitors studio stereo
+  fill lin #565f75 $mupaneld 0 6 0 58
+  stroke $mupanell 2.2
+  mirror rect 3 6 26 52 4
+  fill lin #e4eaf1 #9aa7b6 0 28 0 54
+  stroke $steeld 1.4
+  mirror circle 16 40.5 9.6
+  mirror circle 16 17.5 5
+  fill $mupaneld
+  nostroke
+  mirror circle 16 40.5 6.2
+  mirror circle 16 17.5 2.6
+  fill #45d6ff
+  mirror circle 16 40.5 2.2
+
+emoji mic_stand | microphone stage sing karaoke
+  stroke $steeld 5.4
+  line 32 32 32 55
+  stroke #e4eaf1 2.4
+  line 32 32 32 55
+  fill lin #565f75 $mupaneld 0 50 0 60
+  stroke $mupanell 2
+  ellipse 32 56 18 4.4
+  fill lin #565f75 $mupaneld 26 0 38 0
+  stroke $mupanell 1.8
+  poly 26.5 20 37.5 20 35.5 36 28.5 36
+  fill rad #f4f7fb #8f9bab 28 9 14
+  stroke $steeld 2.2
+  circle 32 14 11
+  nofill
+  stroke $steeld 1.1
+  line 21.5 14 42.5 14
+  curve 24 7 32 9.5 40 7
+  curve 24 21 32 18.5 40 21
+  line 32 3 32 25
+  curve 27 4.5 25 14 27 23.5
+  curve 37 4.5 39 14 37 23.5
+
+emoji mic_drop | boom done finished win
+  stroke #ffc61c 3.2
+  line 12 50 4 45
+  line 13 57 3 59
+  line 49 52 58 47
+  line 49 58 60 60
+  line 22 60 20 63
+  nofill
+  stroke #8fa4ff 2.4
+  curve 46 6 50 14 49 22
+  curve 54 12 57 19 56 26
+  xf -2 -3 1 24
+  fill lin #565f75 $mupaneld 26 0 38 0
+  stroke $mupanell 1.8
+  poly 27.5 6 36.5 6 38.5 36 25.5 36
+  fill $red
+  nostroke
+  rect 30 14 4 7 1.5
+  fill rad #f4f7fb #8f9bab 28 42 16
+  stroke $steeld 2.2
+  circle 32 46 13
+  nofill
+  stroke $steeld 1.1
+  line 19.5 46 44.5 46
+  line 32 33.5 32 58.5
+  curve 22 38 32 41 42 38
+  curve 22 54 32 51 42 54
+  curve 26 35 23.5 46 26 57
+  curve 38 35 40.5 46 38 57
+  xf
+
+emoji encore | lighters crowd more concert
+  fill #ffe27a44
+  nostroke
+  mirror circle 17.5 14 12
+  fill lin $skin $skind 0 44 0 64
+  stroke $skinl 2
+  mirror rect 11 44 13 19 3
+  fill lin #e4eaf1 #8f9bab 0 22 0 40
+  stroke $steeld 1.6
+  mirror rect 13 21 9 20 2
+  fill rad #fff6a8 #ff8a1c 17 17 9
+  stroke #d9620f 1.6
+  mirror path M 17.5 3 Q 10.5 13 12.5 18 Q 14.5 22 17.5 22 Q 20.5 22 22.5 18 Q 24.5 13 17.5 3 Z
+  fill rad $skin $skind 14 36 22
+  stroke $skinl 2
+  mirror rect 7 33 21 17 7
+  stroke $skinl 1.4
+  mirror line 10 38.5 25 38.5
+  mirror line 10 44 25 44
+
+emoji headbang | metal rock horns mosh
+  nofill
+  stroke #e0762a 3
+  curve 8 30 12 12 30 4
+  curve 16 22 24 8 42 5
+  curve 27 18 36 9 50 10
+  curve 4 40 3 26 10 14
+  xf -6 7 0.76
+  use face
+  stroke $ink 3.4
+  line 16 22 26 27 16 31
+  line 48 22 38 27 48 31
+  use grin
+  xf
+  fill rad $skin $skind 46 40 20
+  stroke $skinl 1.8
+  rect 43 22 6 22 3
+  rect 55 25 6 20 3
+  rect 42 39 19 18 6
+  stroke $skinl 1.6
+  line 48 46 54 44
+
+emoji air_guitar | rock pretend strum shred
+  xf -3 -11 0.62
+  use face
+  use eyes_happy
+  use grin
+  xf
+  nofill
+  stroke #45a8f0 2.4
+  arc 19 48 12 11 10 50
+  arc 19 48 12 11 75 115
+  arc 19 48 12 11 140 180
+  arc 19 48 12 11 205 245
+  arc 19 48 12 11 270 300
+  line 31 42 35 40
+  line 39 37.6 43 35.4
+  line 47 33 51 30.8
+  line 55 28.6 59 26.4
+  line 33 49 37 46.8
+  line 41 44.6 45 42.4
+  line 49 40 53 37.8
+  line 57 35.4 61 33.2
+  fill rad $skin $skind 20 46 8
+  stroke $skinl 1.8
+  circle 22 48 5.6
+  circle 50 35 5.6
+
+emoji dancing | dance groove party moves
+  stroke #1f62b8 7
+  line 30 26 32 42
+  line 30 30 44 25 50 11
+  line 30 30 17 36 9 27
+  line 32 42 43 49 41 60
+  line 32 42 22 50 11 54
+  stroke #58b0ff 3.8
+  line 30 26 32 42
+  line 30 30 44 25 50 11
+  line 30 30 17 36 9 27
+  line 32 42 43 49 41 60
+  line 32 42 22 50 11 54
+  xf -2 -17 0.44
+  use face
+  use eyes_happy
+  use smile
+  xf
+  use mu_note -22 -20 0.3
+  use mu_note 23 6 0.3
+
+emoji disco_ball | party dance mirror ball club
+  stroke $steeld 2.4
+  line 32 2 32 10
+  fill rad #ffffff #7f93b5 24 24 34
+  stroke #55688a 2.2
+  circle 32 35 24
+  fill #ff8fc0aa
+  nostroke
+  poly 15.5 24 24 24 24 35 11 35
+  fill #7fe0ffaa
+  poly 32 35 40 35 39 46 32 46
+  fill #fff08aaa
+  poly 40 24 48.5 24 53 35 40 35
+  fill #b8a0ffaa
+  poly 24 46 32 46 32 56 26.5 55
+  nofill
+  stroke #55688a 1.1
+  curve 11 24 32 25.5 53 24
+  curve 8 35 32 36.5 56 35
+  curve 11 46 32 47.5 53 46
+  ellipse 32 35 8 24
+  ellipse 32 35 17 24
+  fill $white
+  stroke #ffd23f 1.2
+  poly 8 6 9.6 11.4 15 13 9.6 14.6 8 20 6.4 14.6 1 13 6.4 11.4
+  poly 55 46 56.3 50.7 61 52 56.3 53.3 55 58 53.7 53.3 49 52 53.7 50.7
+  poly 54 6 55 9 58 10 55 11 54 14 53 11 50 10 53 9
+
+emoji concert | gig live show stage crowd
+  fill lin #7a4fe0 #241a55 0 4 0 58
+  stroke #a893ff 2.2
+  rect 3 5 58 54 7
+  fill #ffe27aaa
+  nostroke
+  poly 12 6 22 6 44 46 8 46
+  fill #ff8fd0aa
+  poly 42 6 52 6 56 46 22 46
+  fill #fff6c9
+  circle 17 8.5 3.2
+  fill #ffd0ec
+  circle 47 8.5 3.2
+  fill #140f28
+  path M 4 52 L 60 52 L 60 53 Q 60 58 55 58 L 9 58 Q 4 58 4 53 Z
+  circle 14 49 7
+  circle 32 51 7.4
+  circle 50 49 7
+  stroke #140f28 4
+  line 21 47 23 31
+  line 7.5 48 6.5 35
+  line 39 49 41 33
+  line 25 50 24 37
+  line 56.5 47 57 34
+  line 43.5 48 43 36
+
+emoji ticket | admit concert pass entry
+  xf 0 0 1.04 -16
+  fill lin #ffe27a #ffab2e 0 16 0 48
+  stroke #b8650a 2.2
+  path M 3 17 L 61 17 L 61 27 Q 56 32 61 37 L 61 47 L 3 47 L 3 37 Q 8 32 3 27 Z
+  stroke #b8650a 1.6
+  line 44 20 44 23
+  line 44 26.5 44 29.5
+  line 44 33 44 36
+  line 44 39.5 44 42.5
+  fill #b8650a
+  nostroke
+  rect 48.5 23 7.5 2.6 1
+  rect 48.5 30.7 7.5 2.6 1
+  rect 48.5 38.4 7.5 2.6 1
+  use mu_note -7 0 0.44
+  xf
+
+emoji playlist | queue list songs tracks
+  fill lin #ffffff #e6e0ff 0 4 0 60
+  stroke #8d7fd0 2.2
+  rect 4 5 56 54 7
+  use mu_note -13 0 0.6
+  stroke $mun 4.4
+  line 39 19 52 19
+  line 39 32 52 32
+  line 39 45 52 45
+
+emoji now_playing | player track listening song
+  fill lin #7a5cff #2f2180 0 6 0 58
+  stroke #a893ff 2.2
+  rect 3 7 58 50 8
+  fill $white
+  stroke $white 2.4
+  poly 25 16 25 36 43 26
+  stroke #ffffff55 3.6
+  line 11 47 53 47
+  stroke #ff8fc0 3.6
+  line 11 47 32 47
+  fill $white
+  stroke $mupinkd 1.4
+  circle 32 47 3.8
+
+emoji bass_drop | drop bass heavy boom sub
+  nofill
+  stroke #ff8a3c 3.4
+  mirror arc 32 24 25 25 150 210
+  stroke $red 3.4
+  mirror arc 32 24 31 31 155 205
+  fill lin #e4eaf1 #8f9bab 0 4 0 44
+  stroke $steeld 2.2
+  circle 32 24 19
+  fill rad #565868 #1d1e26 28 20 16
+  stroke #15171d 1.4
+  circle 32 24 13.5
+  fill rad #9aa3b5 #4a5266 30 22 6
+  nostroke
+  circle 32 24 5
+  fill lin #ff7a70 $red 0 42 0 62
+  stroke $redd 2
+  poly 26.5 42 37.5 42 37.5 51 45 51 32 62 19 51 26.5 51
+
+emoji on_repeat | loop again obsessed replay song
+  nofill
+  stroke $mublued 9
+  arc 32 34 23 23 -35 270
+  stroke #58b0ff 5
+  arc 32 34 23 23 -35 270
+  fill #58b0ff
+  stroke $mublued 2
+  poly 31 2.5 45 11 31 19.5
+  use mu_note -1 3 0.5
+
+emoji earworm | stuck song catchy head
+  use mu_note -9 -2 0.84
+  nofill
+  stroke $mupinkd 10
+  curve 34 58 42 60 46 52 42 44 49 38 55 30
+  stroke #ff9fc0 6.4
+  curve 34 58 42 60 46 52 42 44 49 38 55 30
+  fill #ff9fc0
+  stroke $mupinkd 1.8
+  circle 55 27 6.6
+  fill $ink
+  nostroke
+  circle 52.8 25.6 1.3
+  circle 57.4 25.6 1.3
+  nofill
+  stroke $ink 1.3
+  arc 55 28 2.6 2 25 155
+
+emoji autotune | pitch correct robot voice tuned
+  fill lin #4a5266 $mupaneld 0 8 0 56
+  stroke $mupanell 2.2
+  rect 3 8 58 48 8
+  nofill
+  stroke #ff8fc0 4
+  curve 8 33 12 21 17 33 22 45 27 33 29.5 26 32 24
+  stroke #45d6ff 4
+  line 32 24 39 24 39 40 46 40 46 18 53 18 53 33 57 33
+
+emoji choir | sing chorus vocal harmony
+  xf 0 -15 0.46
+  use face
+  use eyes_closed 0 2
+  use mouth_o
+  xf -16.5 13 0.46
+  use face
+  use eyes_closed 0 2
+  use mouth_o
+  xf 16.5 13 0.46
+  use face
+  use eyes_closed 0 2
+  use mouth_o
+  xf
+  use mu_note -24 -21 0.26
+  use mu_note 24 -21 0.26
+
+emoji lullaby | sleep baby night calm song
+  fill rad #fff3a0 #ffc61c 20 22 40
+  stroke $rim 2.2
+  path M 38 5 C 18 5 5 19 5 33 C 5 48 18 59 33 59 C 44 59 52 54 56 46 C 40 50 27 40 28 25 C 28.6 15 33 8 38 5 Z
+  use mu_note 12 6 0.4
+  fill $white
+  text 49 20 9 Z 4.2
+  text 57 9 5.5 Z 3.2
+  fill #2f8de0
+  text 49 20 9 Z 1.9
+  text 57 9 5.5 Z 1.4
+
+emoji banger | fire hit song hot track
+  fill rad #ffd23f #f0421c 32 44 34
+  stroke #b3300f 2.2
+  path M 30 3 C 34 13 46 16 51 28 C 54 22 54 18 53 15 C 60 24 60 36 57 44 C 53 55 44 61 32 61 C 19 61 9 53 7 41 C 5 31 10 22 16 17 C 16 22 17 25 20 27 C 20 17 24 8 30 3 Z
+  fill #ffe98a
+  nostroke
+  path M 32 22 C 40 30 48 36 46 46 C 44 54 38 58 32 58 C 25 58 19 54 18 46 C 17 38 26 32 32 22 Z
+  use mu_note -1 8 0.56
+
+emoji vibing | headphones listening chill mood
+  nofill
+  stroke $mupaneld 6.4
+  arc 32 34 26 27 190 350
+  stroke #6f7890 3.6
+  arc 32 34 26 27 190 350
+  xf 0 4 0.8
+  use face
+  use eyes_happy
+  use smile
+  xf
+  fill lin #ff7a70 $red 0 26 0 50
+  stroke $redd 2
+  mirror rect 2.5 27 11 22 5
+  use mu_note -24 -23 0.24
+  use mu_note 25 -23 0.24
