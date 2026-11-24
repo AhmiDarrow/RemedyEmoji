@@ -67,6 +67,9 @@ def animal(name, code, keywords, light, dark, line, *, muzzle=None, nose="#3a2a2
     if ears == "round":
         add("  circle 33.5 13.5 6"); add("  circle 56.5 13.5 6")
         add(f"  fill {inner}"); add("  nostroke"); add("  circle 33.5 14 3"); add("  circle 56.5 14 3")
+    elif ears == "big":
+        add("  circle 34.5 14 8.5"); add("  circle 55.5 14 8.5")
+        add(f"  fill {inner}"); add("  nostroke"); add("  circle 34.5 14.5 5.4"); add("  circle 55.5 14.5 5.4")
     elif ears == "pointed":
         add("  poly 31 22 31.5 6 43 14"); add("  poly 59 22 58.5 6 47 14")
         add(f"  fill {inner}"); add("  nostroke"); add("  poly 34 18 34.4 11 39.6 15"); add("  poly 56 18 55.6 11 50.4 15")
@@ -95,12 +98,16 @@ def animal(name, code, keywords, light, dark, line, *, muzzle=None, nose="#3a2a2
 HORNS = ["fill #fff3d6", "stroke #a8905a 1.6", "path M 33 15 Q 26 8 30 2 Q 33 8 37 12 Z", "path M 57 15 Q 64 8 60 2 Q 57 8 53 12 Z"]
 SNOUT = lambda fill, line: [f"fill {fill}", f"stroke {line} 1.6", "ellipse 45 33.5 8 5.5", f"fill {line}", "nostroke", "ellipse 42 33.5 1.5 2", "ellipse 48 33.5 1.5 2"]  # noqa: E731
 
-animal("rat", 0x1F400, "rodent pest grey animal", "#c8ced6", "#8a94a0", "#4a525c", tail="none", ears="round", inner="#e8a0a8", muzzle="#e3e7ec", nose="#e8708a",
-       before=["nofill", "stroke #b86a7a 4.4", "curve 8 42 0 44 2 54 10 58", "stroke #f0a8b4 2.4", "curve 8 42 0 44 2 54 10 58"],
-       head=["nofill", "stroke #4a525c 1.1", "line 37 33 30 31.5", "line 37 35 30 36.5", "line 53 33 60 31.5", "line 53 35 60 36.5"])  # fmt: skip
-animal("mouse2", 0x1F401, "rodent white lab animal small", "#ffffff", "#d6dde6", "#8793a3", tail="none", ears="round", inner="#ffb6c0", nose="#f07a9c", blush=True,
-       before=["nofill", "stroke #b86a7a 4.4", "curve 8 42 0 44 2 54 10 58", "stroke #ffb6c0 2.4", "curve 8 42 0 44 2 54 10 58"],
-       head=["nofill", "stroke #8793a3 1.1", "line 37 33 30 31.5", "line 37 35 30 36.5", "line 53 33 60 31.5", "line 53 35 60 36.5"])  # fmt: skip
+animal("rat", 0x1F400, "rodent pest grey animal", "#c8ced6", "#8a94a0", "#4a525c", tail="none", ears="big", inner="#e8a0a8", nose="#00000000", mouth=False,
+       before=["nofill", "stroke #b86a7a 4.4", "curve 8 42 0 44 2 54 12 60", "stroke #f0a8b4 2.4", "curve 8 42 0 44 2 54 12 60"],
+       head=["fill #ffffff", "stroke #4a525c 1", "rect 43.4 33.6 3.2 3.6 0.8", "nofill", "stroke #4a525c 0.8", "line 45 33.8 45 37",
+             "stroke #4a525c 1.1", "line 38 31.5 29 29.5", "line 38 33.5 29 34.5", "line 52 31.5 61 29.5", "line 52 33.5 61 34.5",
+             "fill #e8708a", "stroke #4a525c 1", "ellipse 45 31.6 2.8 2.2"])  # fmt: skip
+animal("mouse2", 0x1F401, "rodent white lab animal small", "#ffffff", "#d6dde6", "#8793a3", tail="none", ears="big", inner="#ffb6c0", nose="#00000000", mouth=False, blush=True,
+       before=["nofill", "stroke #b86a7a 4.4", "curve 8 42 0 44 2 54 12 60", "stroke #ffb6c0 2.4", "curve 8 42 0 44 2 54 12 60"],
+       head=["fill #ffffff", "stroke #8793a3 1", "rect 43.4 33.6 3.2 3.6 0.8", "nofill", "stroke #8793a3 0.8", "line 45 33.8 45 37",
+             "stroke #8793a3 1.1", "line 38 31.5 29 29.5", "line 38 33.5 29 34.5", "line 52 31.5 61 29.5", "line 52 33.5 61 34.5",
+             "fill #f07a9c", "stroke #8793a3 1", "ellipse 45 31.6 2.8 2.2"])  # fmt: skip
 animal("ox", 0x1F402, "bull cattle farm animal", "#d99a5a", "#9a5a22", "#4a2a0c", tail="tuft", ears="side", mouth=False, nose="#00000000",
        head=HORNS + SNOUT("#ffd8c0", "#4a2a0c") + ["nofill", "stroke #c8a02a 2", "ellipse 45 37.5 2.6 2"])  # fmt: skip
 animal("water_buffalo", 0x1F403, "buffalo cattle farm animal", "#7d8795", "#3f4652", "#16181d", tail="tuft", ears="side", mouth=False, nose="#00000000",
@@ -117,15 +124,25 @@ animal("leopard", 0x1F406, "big cat spots jaguar wild animal", "#ffe09a", "#e8aa
 animal("rabbit2", 0x1F407, "bunny hare hop animal easter", "#ffffff", "#d6dde6", "#8793a3", tail="puff", ears="long", inner="#ffb6c0", nose="#f07a9c", blush=True, legs="#e3e7ec")
 animal("cat2", 0x1F408, "kitty feline pet animal", "#ffd88a", "#f5a12e", "#b0661a", tail="thin", ears="pointed", inner="#ffb0b0", muzzle="#fff3d6", nose="#ff8fa3",
        head=["nofill", "stroke #b0661a 1.1", "line 36 33 29 31.5", "line 36 35 29 36.5", "line 54 33 61 31.5", "line 54 35 61 36.5"])  # fmt: skip
-WOOL = lambda c, l: [f"fill rad #ffffff {c} 20 34 30", f"stroke {l} 2.2", "circle 10 38 7", "circle 18 31 8", "circle 28 29 8", "circle 14 47 7", "circle 26 50 7", "circle 34 46 6"]  # noqa: E731
+def WOOL(c, l):
+    """A fleece as one cloud: the outline is drawn first as larger lumps, so no lines cross inside."""
+    lumps = [(9, 39, 7), (15, 31, 8), (25, 28, 8.5), (35, 31, 7), (11, 47, 7), (21, 51, 7.5), (32, 50, 7), (24, 40, 13)]
+    out = [f"fill {l}", "nostroke"] + [f"circle {x} {y} {r + 1.2}" for x, y, r in lumps]
+    out += [f"fill rad #ffffff {c} 18 30 34"] + [f"circle {x} {y} {r}" for x, y, r in lumps]
+    return out + ["nofill", f"stroke {c} 1.8", "arc 16 38 5 4 200 330", "arc 27 36 5 4 200 330", "arc 20 46 5 4 200 330", "arc 31 44 4 3.4 200 330"]
+
+
+def CAP(c, l):
+    """The tuft of wool on the head, drawn the same way."""
+    lumps = [(38.5, 13.5, 5.5), (45, 11, 6.5), (51.5, 13.5, 5.5)]
+    return [f"fill {l}", "nostroke"] + [f"circle {x} {y} {r + 1.2}" for x, y, r in lumps] + [f"fill rad #ffffff {c} 44 9 12"] + [f"circle {x} {y} {r}" for x, y, r in lumps]
 animal("ram_sheep", 0x1F40F, "sheep male horns animal ram", "#ffffff", "#d6dde6", "#8793a3", tail="none", ears="none", legs="#4a3a2c", muzzle="#f2e6d0", nose="#3a2a22",
        body=WOOL("#d6dde6", "#8793a3"),
-       head=["nofill", "stroke #6e4526 6", "curve 36 15 26 12 24 22 30 26", "curve 54 15 64 12 66 22 60 26", "stroke #d9b88a 3", "curve 36 15 26 12 24 22 30 26", "curve 54 15 64 12 66 22 60 26"])  # fmt: skip
+       head=["nofill", "stroke #6e4526 6", "curve 36 15 29 12 27.5 21 32 26", "curve 54 15 61 12 62.5 21 58 26", "stroke #d9b88a 3", "curve 36 15 29 12 27.5 21 32 26", "curve 54 15 61 12 62.5 21 58 26"])  # fmt: skip
 animal("goat", 0x1F410, "farm animal kid billy", "#fbf2e2", "#d0bfa0", "#6a5a44", tail="puff", ears="side", muzzle="#ffffff", nose="#3a2a22", legs="#b8a686",
        head=["fill #d9c8a8", "stroke #6a5a44 1.6", "path M 37 12 Q 34 4 38 0 Q 40 6 42 11 Z", "path M 53 12 Q 56 4 52 0 Q 50 6 48 11 Z", "fill #ffffff", "stroke #6a5a44 1.4", "path M 41 39.5 L 45 48 L 49 39.5 Z"])  # fmt: skip
-animal("sheep", 0x1F411, "ewe lamb wool farm animal", "#4a4038", "#2a221c", "#16100c", tail="none", ears="side", legs="#2a221c", muzzle="#6a5c50", nose="#16100c", blush=True,
-       body=WOOL("#d6dde6", "#8793a3"),
-       head=["fill rad #ffffff #d6dde6 44 12 12", "stroke #8793a3 2", "circle 39 13 5.5", "circle 45 11 6", "circle 51 13 5.5"])  # fmt: skip
+animal("sheep", 0x1F411, "ewe lamb wool farm animal", "#fbead6", "#e6c8a6", "#7a5a3c", tail="none", ears="side", legs="#9a8068", muzzle="#fff6ea", nose="#8a5444", blush=True,
+       body=WOOL("#dfe5ec", "#8793a3"), head=CAP("#dfe5ec", "#8793a3"))  # fmt: skip
 animal("dog2", 0x1F415, "puppy pet canine walk animal", "#f5cb82", "#cd8f3c", "#6e4208", tail="thin", ears="floppy", muzzle="#fff3d6", nose="#2a1c14",
        head=["fill #cd8f3c", "nostroke", "blob 50 15 58 17 58 27 52 26", "fill #ff7184", "stroke #d94a60 1", "path M 43.4 36 Q 45 41 46.6 36 Z"])  # fmt: skip
 animal("pig2", 0x1F416, "hog swine farm animal oink", "#ffd0dc", "#f29ab0", "#b84a6a", tail="curl", ears="pointed", inner="#f07a9c", mouth=False, nose="#00000000", blush=True,

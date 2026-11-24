@@ -18,9 +18,9 @@ part a3_mouth
 emoji rat U+1F400 | rodent pest grey animal
   nofill
   stroke #b86a7a 4.4
-  curve 8 42 0 44 2 54 10 58
+  curve 8 42 0 44 2 54 12 60
   stroke #f0a8b4 2.4
-  curve 8 42 0 44 2 54 10 58
+  curve 8 42 0 44 2 54 12 60
   fill #8a94a0
   stroke #4a525c 2
   rect 8 46 9.5 14 4.7
@@ -32,36 +32,40 @@ emoji rat U+1F400 | rodent pest grey animal
   ellipse 26 41 21 13.5
   fill rad #c8ced6 #8a94a0 40 18 26
   stroke #4a525c 2.2
-  circle 33.5 13.5 6
-  circle 56.5 13.5 6
+  circle 34.5 14 8.5
+  circle 55.5 14 8.5
   fill #e8a0a8
   nostroke
-  circle 33.5 14 3
-  circle 56.5 14 3
+  circle 34.5 14.5 5.4
+  circle 55.5 14.5 5.4
   fill rad #c8ced6 #8a94a0 40 18 26
   stroke #4a525c 2.2
   circle 45 26 15.5
-  fill #e3e7ec
-  nostroke
-  ellipse 45 33 8.5 6.5
+  fill #ffffff
+  stroke #4a525c 1
+  rect 43.4 33.6 3.2 3.6 0.8
   nofill
+  stroke #4a525c 0.8
+  line 45 33.8 45 37
   stroke #4a525c 1.1
-  line 37 33 30 31.5
-  line 37 35 30 36.5
-  line 53 33 60 31.5
-  line 53 35 60 36.5
-  use a3_eyes
+  line 38 31.5 29 29.5
+  line 38 33.5 29 34.5
+  line 52 31.5 61 29.5
+  line 52 33.5 61 34.5
   fill #e8708a
+  stroke #4a525c 1
+  ellipse 45 31.6 2.8 2.2
+  use a3_eyes
+  fill #00000000
   nostroke
   poly 43 30 47 30 45 32.6
-  use a3_mouth
 
 emoji mouse2 U+1F401 | rodent white lab animal small
   nofill
   stroke #b86a7a 4.4
-  curve 8 42 0 44 2 54 10 58
+  curve 8 42 0 44 2 54 12 60
   stroke #ffb6c0 2.4
-  curve 8 42 0 44 2 54 10 58
+  curve 8 42 0 44 2 54 12 60
   fill #d6dde6
   stroke #8793a3 2
   rect 8 46 9.5 14 4.7
@@ -73,30 +77,37 @@ emoji mouse2 U+1F401 | rodent white lab animal small
   ellipse 26 41 21 13.5
   fill rad #ffffff #d6dde6 40 18 26
   stroke #8793a3 2.2
-  circle 33.5 13.5 6
-  circle 56.5 13.5 6
+  circle 34.5 14 8.5
+  circle 55.5 14 8.5
   fill #ffb6c0
   nostroke
-  circle 33.5 14 3
-  circle 56.5 14 3
+  circle 34.5 14.5 5.4
+  circle 55.5 14.5 5.4
   fill rad #ffffff #d6dde6 40 18 26
   stroke #8793a3 2.2
   circle 45 26 15.5
+  fill #ffffff
+  stroke #8793a3 1
+  rect 43.4 33.6 3.2 3.6 0.8
   nofill
+  stroke #8793a3 0.8
+  line 45 33.8 45 37
   stroke #8793a3 1.1
-  line 37 33 30 31.5
-  line 37 35 30 36.5
-  line 53 33 60 31.5
-  line 53 35 60 36.5
+  line 38 31.5 29 29.5
+  line 38 33.5 29 34.5
+  line 52 31.5 61 29.5
+  line 52 33.5 61 34.5
+  fill #f07a9c
+  stroke #8793a3 1
+  ellipse 45 31.6 2.8 2.2
   use a3_eyes
   fill #ff8a8a66
   nostroke
   ellipse 34.5 31 3 2
   ellipse 55.5 31 3 2
-  fill #f07a9c
+  fill #00000000
   nostroke
   poly 43 30 47 30 45 32.6
-  use a3_mouth
 
 emoji ox U+1F402 | bull cattle farm animal
   nofill
@@ -416,14 +427,31 @@ emoji ram_sheep U+1F40F | sheep male horns animal ram
   fill rad #ffffff #d6dde6 20 34 30
   stroke #8793a3 2.2
   ellipse 26 41 21 13.5
-  fill rad #ffffff #d6dde6 20 34 30
-  stroke #8793a3 2.2
-  circle 10 38 7
-  circle 18 31 8
-  circle 28 29 8
-  circle 14 47 7
-  circle 26 50 7
-  circle 34 46 6
+  fill #8793a3
+  nostroke
+  circle 9 39 8.2
+  circle 15 31 9.2
+  circle 25 28 9.7
+  circle 35 31 8.2
+  circle 11 47 8.2
+  circle 21 51 8.7
+  circle 32 50 8.2
+  circle 24 40 14.2
+  fill rad #ffffff #d6dde6 18 30 34
+  circle 9 39 7
+  circle 15 31 8
+  circle 25 28 8.5
+  circle 35 31 7
+  circle 11 47 7
+  circle 21 51 7.5
+  circle 32 50 7
+  circle 24 40 13
+  nofill
+  stroke #d6dde6 1.8
+  arc 16 38 5 4 200 330
+  arc 27 36 5 4 200 330
+  arc 20 46 5 4 200 330
+  arc 31 44 4 3.4 200 330
   fill rad #ffffff #d6dde6 40 18 26
   stroke #8793a3 2.2
   fill rad #ffffff #d6dde6 40 18 26
@@ -434,11 +462,11 @@ emoji ram_sheep U+1F40F | sheep male horns animal ram
   ellipse 45 33 8.5 6.5
   nofill
   stroke #6e4526 6
-  curve 36 15 26 12 24 22 30 26
-  curve 54 15 64 12 66 22 60 26
+  curve 36 15 29 12 27.5 21 32 26
+  curve 54 15 61 12 62.5 21 58 26
   stroke #d9b88a 3
-  curve 36 15 26 12 24 22 30 26
-  curve 54 15 64 12 66 22 60 26
+  curve 36 15 29 12 27.5 21 32 26
+  curve 54 15 61 12 62.5 21 58 26
   use a3_eyes
   fill #3a2a22
   nostroke
@@ -482,44 +510,65 @@ emoji goat U+1F410 | farm animal kid billy
   use a3_mouth
 
 emoji sheep U+1F411 | ewe lamb wool farm animal
-  fill #2a221c
-  stroke #16100c 2
+  fill #9a8068
+  stroke #7a5a3c 2
   rect 8 46 9.5 14 4.7
   rect 17 48 9.5 12 4.7
   rect 27 48 9.5 12 4.7
   rect 36 46 9.5 14 4.7
-  fill rad #4a4038 #2a221c 20 34 30
-  stroke #16100c 2.2
+  fill rad #fbead6 #e6c8a6 20 34 30
+  stroke #7a5a3c 2.2
   ellipse 26 41 21 13.5
-  fill rad #ffffff #d6dde6 20 34 30
-  stroke #8793a3 2.2
-  circle 10 38 7
-  circle 18 31 8
-  circle 28 29 8
-  circle 14 47 7
-  circle 26 50 7
-  circle 34 46 6
-  fill rad #4a4038 #2a221c 40 18 26
-  stroke #16100c 2.2
+  fill #8793a3
+  nostroke
+  circle 9 39 8.2
+  circle 15 31 9.2
+  circle 25 28 9.7
+  circle 35 31 8.2
+  circle 11 47 8.2
+  circle 21 51 8.7
+  circle 32 50 8.2
+  circle 24 40 14.2
+  fill rad #ffffff #dfe5ec 18 30 34
+  circle 9 39 7
+  circle 15 31 8
+  circle 25 28 8.5
+  circle 35 31 7
+  circle 11 47 7
+  circle 21 51 7.5
+  circle 32 50 7
+  circle 24 40 13
+  nofill
+  stroke #dfe5ec 1.8
+  arc 16 38 5 4 200 330
+  arc 27 36 5 4 200 330
+  arc 20 46 5 4 200 330
+  arc 31 44 4 3.4 200 330
+  fill rad #fbead6 #e6c8a6 40 18 26
+  stroke #7a5a3c 2.2
   ellipse 29 20 6 4 -25
   ellipse 61 20 6 4 25
-  fill rad #4a4038 #2a221c 40 18 26
-  stroke #16100c 2.2
+  fill rad #fbead6 #e6c8a6 40 18 26
+  stroke #7a5a3c 2.2
   circle 45 26 15.5
-  fill #6a5c50
+  fill #fff6ea
   nostroke
   ellipse 45 33 8.5 6.5
-  fill rad #ffffff #d6dde6 44 12 12
-  stroke #8793a3 2
-  circle 39 13 5.5
-  circle 45 11 6
-  circle 51 13 5.5
+  fill #8793a3
+  nostroke
+  circle 38.5 13.5 6.7
+  circle 45 11 7.7
+  circle 51.5 13.5 6.7
+  fill rad #ffffff #dfe5ec 44 9 12
+  circle 38.5 13.5 5.5
+  circle 45 11 6.5
+  circle 51.5 13.5 5.5
   use a3_eyes
   fill #ff8a8a66
   nostroke
   ellipse 34.5 31 3 2
   ellipse 55.5 31 3 2
-  fill #16100c
+  fill #8a5444
   nostroke
   poly 43 30 47 30 45 32.6
   use a3_mouth
