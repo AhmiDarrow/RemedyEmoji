@@ -1,0 +1,931 @@
+// The classic symbols: zodiac, card suits, signs of faith, weather and small scenes.
+// Original Remedy Emoji art.
+category symbols
+
+part s3_snowman
+  fill rad #ffffff #d6e6f5 26 30 30
+  stroke #7fa8d8 2.2
+  circle 32 44 16
+  circle 32 20 11.5
+  fill $natk
+  nostroke
+  circle 28 18 1.6
+  circle 36 18 1.6
+  circle 32 38 1.5
+  circle 32 44 1.5
+  circle 32 50 1.5
+  fill #ff9a1c
+  stroke #a8560a 1.2
+  poly 32 21 41 23.5 32 25
+  nofill
+  stroke #6e4526 2.4
+  line 17 40 6 32
+  line 47 40 58 32
+  fill #e2584a
+  stroke #8a140c 1.4
+  path M 22 29 Q 32 34 42 29 L 42 33 Q 32 38 22 33 Z
+
+part s3_brolly
+  nofill
+  stroke #6e7684 3
+  curve 32 20 32 52 38 56 42 50
+  fill lin #b98cf5 #7a48d6 0 6 0 30
+  stroke #4a2596 2.2
+  path M 4 30 Q 6 6 32 6 Q 58 6 60 30 Q 53 24 46 30 Q 39 24 32 30 Q 25 24 18 30 Q 11 24 4 30 Z
+  nofill
+  stroke #4a2596 1.4
+  curve 18 30 20 16 32 7
+  curve 46 30 44 16 32 7
+
+emoji watch U+231A | time wristwatch clock wear
+  fill lin #5a6270 #2f343e 0 2 0 62
+  stroke #16181d 2
+  rect 22 2 20 14 3
+  rect 22 48 20 14 3
+  fill rad #ffffff #dfe5ec 28 28 20
+  stroke #5d6a7c 3
+  circle 32 32 18
+  nofill
+  stroke #2a2f3b 3
+  line 32 32 32 21
+  line 32 32 40 36
+
+emoji timer_clock U+23F2 | timer countdown kitchen stopwatch
+  fill #9aa6b6
+  stroke #5d6a7c 1.8
+  rect 27 3 10 7 2
+  fill rad #ffffff #dfe5ec 26 30 30
+  stroke #5d6a7c 3
+  circle 32 35 23
+  fill #ff7a5a88
+  nostroke
+  path M 32 35 L 32 17 Q 50 17 50 35 Z
+  nofill
+  stroke #2a2f3b 3
+  line 32 35 44 24
+  fill #2a2f3b
+  nostroke
+  circle 32 35 2.6
+  rect 18 56 6 5 2
+  rect 40 56 6 5 2
+
+emoji hourglass_flowing U+23F3 | time sand timer waiting
+  fill #b9783a
+  stroke #5f3414 2
+  rect 12 4 40 6 2
+  rect 12 54 40 6 2
+  fill #dff0ffaa
+  stroke #7fa8d8 2
+  path M 16 10 L 48 10 Q 48 24 36 32 Q 48 40 48 54 L 16 54 Q 16 40 28 32 Q 16 24 16 10 Z
+  fill #f2c86a
+  nostroke
+  path M 21 16 L 43 16 Q 42 23 34 29 L 30 29 Q 22 23 21 16 Z
+  path M 22 54 Q 24 44 32 42 Q 40 44 42 54 Z
+  rect 31 29 2 14
+
+category objects
+
+emoji umbrella U+2602 | rain weather open brolly
+  use s3_brolly
+
+emoji snowman U+2603 | snow winter cold christmas frosty
+  fill #ffffff
+  circle 8 8 1.6
+  circle 54 12 1.6
+  circle 12 26 1.3
+  circle 56 44 1.3
+  circle 6 50 1.3
+  use s3_snowman
+  fill lin #4a5060 #1e2129 0 2 0 12
+  stroke #0e1014 1.6
+  rect 25 2 14 8 1
+  rect 20 9 24 3 1
+
+category symbols
+
+emoji ballot_check U+2611 | checkbox tick done vote selected
+  fill lin #ffffff #dfe5ec 0 6 0 58
+  stroke #5d6a7c 2.6
+  rect 6 6 52 52 8
+  nofill
+  stroke $sym_greend 8
+  line 17 33 28 44 48 20
+  stroke $sym_green 4.6
+  line 17 33 28 44 48 20
+
+category objects
+
+emoji umbrella_rain U+2614 | rain weather drops shower
+  use s3_brolly 0 4 0.9
+  fill $tear
+  stroke $teard 1
+  path M 10 2 Q 7 7 10 9.5 Q 13 7 10 2 Z
+  path M 30 0.5 Q 27 5.5 30 8 Q 33 5.5 30 0.5 Z
+  path M 52 2 Q 49 7 52 9.5 Q 55 7 52 2 Z
+
+category nature
+
+emoji shamrock U+2618 | clover irish luck three leaf
+  nofill
+  stroke $natg 3.6
+  curve 32 36 34 48 40 60
+  fill rad #8fe06a #2f9a3c 26 22 30
+  stroke #145a24 2.2
+  path M 32 34 C 20 30 14 18 22 10 C 28 6 32 12 32 16 C 32 12 36 6 42 10 C 50 18 44 30 32 34 Z
+  path M 30 36 C 26 48 14 52 8 44 C 4 38 10 34 14 34 C 10 32 6 26 12 22 C 20 18 28 26 30 36 Z
+  path M 34 36 C 38 48 50 52 56 44 C 60 38 54 34 50 34 C 54 32 58 26 52 22 C 44 18 36 26 34 36 Z
+
+category symbols
+
+emoji orthodox_cross U+2626 | christian religion faith cross
+  use sh_purple_tile
+  fill $white
+  rect 29.5 10 5 44 1
+  rect 23 16 18 4.4 1
+  rect 17 25 30 5 1
+  poly 22 41 24 37 42 43 40 47
+
+emoji star_and_crescent U+262A | islam muslim religion faith
+  use sh_purple_tile
+  fill $white
+  path M 36 12 C 20 10 12 22 14 34 C 16 46 28 52 40 48 C 30 46 24 38 24 30 C 24 22 28 16 36 12 Z
+  poly 42 22 44.4 28 51 28.4 45.8 32.6 47.6 39 42 35.2 36.4 39 38.2 32.6 33 28.4 39.6 28
+
+emoji wheel_of_dharma U+2638 | buddhism dharma religion faith
+  use sh_purple_tile
+  nofill
+  stroke $white 3.4
+  circle 32 32 14
+  line 32 12 32 52
+  line 12 32 52 32
+  line 18 18 46 46
+  line 46 18 18 46
+  fill $white
+  nostroke
+  circle 32 32 4
+
+category smileys
+
+emoji relaxed U+263A | smile content pleased blush
+  use face
+  use eyes_closed 0 2
+  use blush
+  use smile_small
+
+category symbols
+
+emoji female_sign U+2640 | woman venus gender
+  use sh_purple_tile
+  nofill
+  stroke $white 4.4
+  circle 32 24 10
+  line 32 34 32 52
+  line 24 44 40 44
+
+emoji male_sign U+2642 | man mars gender
+  use sym_blue_tile
+  nofill
+  stroke $white 4.4
+  circle 27 37 10
+  line 34 30 48 16
+  line 37 16 48 16 48 27
+
+emoji aries U+2648 | zodiac ram star sign horoscope
+  use sh_purple_tile
+  nofill
+  stroke $white 4
+  curve 32 50 32 28 26 18 20 19 17 26
+  curve 32 28 38 18 44 19 47 26
+
+emoji taurus U+2649 | zodiac bull star sign horoscope
+  use sh_purple_tile
+  nofill
+  stroke $white 4
+  circle 32 39 9.5
+  curve 17 14 22 26 32 29 42 26 47 14
+
+emoji gemini U+264A | zodiac twins star sign horoscope
+  use sh_purple_tile
+  nofill
+  stroke $white 4
+  line 25 19 25 45
+  line 39 19 39 45
+  curve 15 15 32 21 49 15
+  curve 15 49 32 43 49 49
+
+emoji cancer U+264B | zodiac crab star sign horoscope
+  use sh_purple_tile
+  nofill
+  stroke $white 4
+  circle 22 27 5
+  circle 42 37 5
+  curve 17 24 30 13 48 22
+  curve 47 40 34 51 16 42
+
+emoji leo U+264C | zodiac lion star sign horoscope
+  use sh_purple_tile
+  nofill
+  stroke $white 4
+  circle 23 36 6
+  curve 29 35 24 18 37 15 45 24 40 40 42 49 49 46
+
+emoji virgo U+264D | zodiac maiden star sign horoscope
+  use sh_purple_tile
+  nofill
+  stroke $white 3.6
+  line 16 19 16 46
+  curve 16 24 20 17 24 24
+  line 24 24 24 46
+  curve 24 24 28 17 32 24
+  line 32 24 32 44
+  curve 32 30 44 26 45 38 34 51
+
+emoji libra U+264E | zodiac scales star sign horoscope
+  use sh_purple_tile
+  nofill
+  stroke $white 4
+  line 15 47 49 47
+  line 15 38 25 38
+  line 39 38 49 38
+  curve 25 38 21 22 32 19 43 22 39 38
+
+emoji scorpius U+264F | zodiac scorpion scorpio star sign
+  use sh_purple_tile
+  nofill
+  stroke $white 3.6
+  line 14 19 14 44
+  curve 14 24 18 17 22 24
+  line 22 24 22 44
+  curve 22 24 26 17 30 24
+  curve 30 24 30 40 34 46 44 44
+  fill $white
+  stroke $white 1.6
+  poly 42 37 50 44 42 50
+
+emoji sagittarius U+2650 | zodiac archer star sign horoscope
+  use sh_purple_tile
+  nofill
+  stroke $white 4
+  line 17 47 46 18
+  line 31 17 47 17 47 33
+  line 21 29 35 43
+
+emoji capricorn U+2651 | zodiac goat star sign horoscope
+  use sh_purple_tile
+  nofill
+  stroke $white 4
+  curve 15 19 21 24 24 42
+  curve 24 42 26 22 34 20 37 34 34 50
+  circle 43 41 5.5
+
+emoji aquarius U+2652 | zodiac water bearer star sign
+  use sh_purple_tile
+  nofill
+  stroke $white 4
+  line 13 27 21 20 29 27 37 20 45 27 51 22
+  line 13 43 21 36 29 43 37 36 45 43 51 38
+
+emoji pisces U+2653 | zodiac fish star sign horoscope
+  use sh_purple_tile
+  nofill
+  stroke $white 4
+  curve 19 15 28 32 19 49
+  curve 45 15 36 32 45 49
+  line 18 32 46 32
+
+emoji spades U+2660 | card suit black poker
+  fill lin #5a6270 #22262e 0 6 0 58
+  stroke #8a94a4 2
+  path M 32 5 C 44 18 58 26 58 38 C 58 48 46 52 36 44 Q 36 52 42 58 L 22 58 Q 28 52 28 44 C 18 52 6 48 6 38 C 6 26 20 18 32 5 Z
+
+emoji clubs U+2663 | card suit black poker clover
+  fill lin #5a6270 #22262e 0 6 0 58
+  stroke #8a94a4 2
+  path M 28 44 Q 28 52 22 58 L 42 58 Q 36 52 36 44 Z
+  circle 32 18 12.5
+  circle 18 36 12.5
+  circle 46 36 12.5
+
+emoji hearts U+2665 | card suit red poker love
+  use heart
+
+emoji diamonds U+2666 | card suit red poker
+  fill rad #ff7a70 $red 24 22 40
+  stroke $redd 2.4
+  poly 32 4 54 32 32 60 10 32
+
+emoji hot_springs U+2668 | onsen steam bath spa hot
+  nofill
+  stroke $red 4
+  curve 22 34 18 26 26 18 22 8
+  curve 32 34 28 26 36 18 32 8
+  curve 42 34 38 26 46 18 42 8
+  stroke $redd 5.4
+  curve 8 36 6 54 32 56 58 54 56 36
+  stroke $red 3
+  curve 8 36 6 54 32 56 58 54 56 36
+
+emoji wheelchair U+267F | accessible disabled access sign
+  use sym_blue_tile
+  fill $white
+  circle 27 15 5
+  nofill
+  stroke $white 4.4
+  line 27 22 28 36 40 36 46 50
+  line 28 28 38 28
+  arc 28 40 12 12 60 250
+
+category objects
+
+emoji hammer_and_pick U+2692 | tools mining build work
+  nofill
+  stroke #8a5a2c 4.4
+  line 14 54 46 18
+  line 50 54 18 18
+  fill lin #c4ccd6 #7d8795 0 6 0 30
+  stroke #4a525c 2
+  path M 6 26 Q 16 6 32 12 L 26 22 Q 16 18 6 26 Z
+  path M 38 12 L 52 6 L 60 18 L 48 26 Z
+
+emoji anchor U+2693 | ship sea navy harbour
+  nofill
+  stroke #3a4a6a 5.4
+  circle 32 12 5.5
+  line 32 18 32 54
+  line 20 26 44 26
+  curve 8 38 12 54 32 56 52 54 56 38
+  fill #3a4a6a
+  nostroke
+  poly 3 44 8 32 15 42
+  poly 61 44 56 32 49 42
+
+category symbols
+
+emoji medical_symbol U+2695 | health medicine doctor staff aesculapius
+  use sh_red_tile
+  nofill
+  stroke $white 4
+  line 32 10 32 54
+  curve 32 16 22 20 32 26 42 31 32 37 24 41 32 46
+  fill $white
+  nostroke
+  circle 26 15 3
+
+emoji fleur_de_lis U+269C | lily scouts royal emblem
+  fill rad #ffe27a #f2b01c 26 22 34
+  stroke #a87a0c 2.2
+  path M 32 4 C 40 14 40 30 36 40 L 28 40 C 24 30 24 14 32 4 Z
+  path M 26 40 C 22 26 6 22 6 34 C 6 40 12 42 14 38 C 14 46 22 46 26 40 Z
+  path M 38 40 C 42 26 58 22 58 34 C 58 40 52 42 50 38 C 50 46 42 46 38 40 Z
+  rect 18 40 28 6 2
+  path M 28 46 L 36 46 L 34 60 L 30 60 Z
+
+emoji transgender_symbol U+26A7 | trans gender identity pride
+  fill lin #9ad8ff #f5a8c8 0 5 0 59
+  stroke #5a8ab8 2.4
+  rect 5 5 54 54 12
+  nofill
+  stroke $white 3.6
+  circle 32 30 8
+  line 32 38 32 52
+  line 26 46 38 46
+  line 38 24 48 14
+  line 41 14 48 14 48 21
+  line 26 24 16 14
+  line 23 14 16 14 16 21
+  line 17 21 23 15
+
+category objects
+
+emoji coffin U+26B0 | death funeral casket halloween
+  fill lin #b9783a #7a4a1c 0 4 0 60
+  stroke #45280f 2.4
+  poly 22 4 42 4 52 20 40 60 24 60 12 20
+  nofill
+  stroke #e8c06a 3
+  line 32 16 32 40
+  line 25 24 39 24
+
+emoji funeral_urn U+26B1 | ashes death memorial vase
+  fill lin #c4ccd6 #7d8795 10 0 54 0
+  stroke #4a525c 2.2
+  rect 22 6 20 6 2
+  path M 24 12 L 40 12 Q 54 22 50 38 Q 46 50 40 52 L 24 52 Q 18 50 14 38 Q 10 22 24 12 Z
+  rect 20 52 24 7 2
+  nofill
+  stroke #4a525c 1.6
+  line 15 28 49 28
+  line 15 34 49 34
+
+category activities
+
+emoji soccer U+26BD | football ball sport goal
+  fill rad #ffffff #d6dde6 26 26 30
+  stroke #2a2f3b 2.4
+  circle 32 32 26
+  fill #2a2f3b
+  nostroke
+  poly 32 22 41.5 29 38 40 26 40 22.5 29
+  poly 32 6 38 8 32 13 26 8
+  poly 56 26 58 34 50 30 51 24
+  poly 8 26 6 34 14 30 13 24
+  poly 44 54 50 48 42 46 38 54
+  poly 20 54 14 48 22 46 26 54
+  nofill
+  stroke #2a2f3b 1.8
+  line 32 22 32 13
+  line 41.5 29 50 28
+  line 22.5 29 14 28
+  line 38 40 42 46
+  line 26 40 22 46
+
+emoji baseball U+26BE | ball sport pitch mlb
+  fill rad #ffffff #d6dde6 26 26 30
+  stroke #5d6a7c 2.4
+  circle 32 32 26
+  nofill
+  stroke #e2584a 2.2
+  curve 14 13 22 24 22 40 14 51
+  curve 50 13 42 24 42 40 50 51
+  stroke #e2584a 1.6
+  line 17 20 22 18
+  line 19 28 25 27
+  line 19 36 25 37
+  line 17 44 22 46
+  line 47 20 42 18
+  line 45 28 39 27
+  line 45 36 39 37
+  line 47 44 42 46
+
+category nature
+
+emoji snowman_plain U+26C4 | snow winter cold frosty
+  use s3_snowman
+
+emoji partly_sunny U+26C5 | sun cloud weather partly cloudy
+  use sk_sun 12 -10 0.62
+  use nat_cloud -2 8 0.82
+
+emoji thunder_rain U+26C8 | storm lightning rain weather
+  use nat_cloud 0 -10 0.84
+  fill lin #fff08a #ffb21c 0 36 0 60
+  stroke #e0860a 1.6
+  poly 34 34 24 48 31 48 27 60 42 44 34 44 38 34
+  fill $tear
+  stroke $teard 1
+  path M 14 44 Q 11 50 14 52.5 Q 17 50 14 44 Z
+  path M 50 44 Q 47 50 50 52.5 Q 53 50 50 44 Z
+
+category symbols
+
+emoji ophiuchus U+26CE | zodiac serpent bearer star sign
+  use sh_purple_tile
+  nofill
+  stroke $white 4
+  curve 13 23 22 30 32 23 42 30 51 23
+  curve 22 14 19 40 32 48 45 40 42 14
+
+category objects
+
+emoji pick U+26CF | pickaxe mining tool dig
+  nofill
+  stroke #8a5a2c 5
+  line 16 56 44 20
+  fill lin #c4ccd6 #7d8795 0 4 0 34
+  stroke #4a525c 2.2
+  path M 8 22 Q 28 0 58 14 Q 44 14 40 22 Q 34 14 8 22 Z
+
+emoji rescue_helmet U+26D1 | hard hat aid safety white cross
+  fill lin #ff7a6a #d8281c 0 10 0 48
+  stroke #8a140c 2.4
+  path M 6 44 Q 6 10 32 10 Q 58 10 58 44 Z
+  rect 2 42 60 8 3
+  fill $white
+  nostroke
+  rect 28 16 8 22 1
+  rect 21 23 22 8 1
+
+emoji chains U+26D3 | chain link bound lock metal
+  nofill
+  stroke #4a525c 6
+  ellipse 20 12 7 9
+  ellipse 20 40 7 9
+  ellipse 44 24 7 9
+  ellipse 44 52 7 9
+  stroke #c4ccd6 3
+  ellipse 20 12 7 9
+  ellipse 20 40 7 9
+  ellipse 44 24 7 9
+  ellipse 44 52 7 9
+  stroke #4a525c 5
+  line 20 20 20 32
+  line 44 32 44 44
+  stroke #9aa6b6 2.4
+  line 20 20 20 32
+  line 44 32 44 44
+
+category symbols
+
+emoji no_entry_sign U+26D4 | stop forbidden do not enter
+  fill rad #ff7a6a #d8281c 24 22 40
+  stroke #8a140c 2.4
+  circle 32 32 27
+  fill $white
+  nostroke
+  rect 13 26 38 12 3
+
+category travel
+
+emoji shinto_shrine U+26E9 | torii gate japan temple
+  fill lin #ff7a5a #d8321c 0 6 0 60
+  stroke #8a140c 2.2
+  path M 2 8 Q 32 16 62 8 L 60 17 Q 32 24 4 17 Z
+  rect 10 26 44 6 1
+  rect 14 18 7 42 1
+  rect 43 18 7 42 1
+  rect 28.5 18 7 10 1
+
+emoji church U+26EA | christian chapel religion building
+  fill $sym_gold
+  nostroke
+  rect 30.6 2 2.8 12
+  rect 26.5 5.5 11 2.8
+  fill lin #ff8a6a #d8402c 0 12 0 32
+  stroke #8a1c0c 2.2
+  poly 20 30 32 13 44 30
+  fill lin #fff3d6 #e8cf9a 0 28 0 58
+  stroke #8a6a2c 2.2
+  rect 22 28 20 30 1
+  rect 6 40 16 18 1
+  rect 42 40 16 18 1
+  fill #6e4526
+  stroke #45280f 1.4
+  path M 27.5 58 L 27.5 48 Q 32 43 36.5 48 L 36.5 58 Z
+  fill #bfe6ff
+  stroke #4f6a8a 1.2
+  circle 32 36 3.4
+  rect 11 46 6 7 1
+  rect 47 46 6 7 1
+
+emoji mountain U+26F0 | peak rock hill climb
+  fill lin #a8a090 #6a6254 0 6 0 58
+  stroke #3a3428 2.2
+  poly 2 58 24 8 38 34 46 22 62 58
+  fill #8a8272
+  nostroke
+  poly 24 8 30 30 20 44 14 34
+  poly 46 22 50 40 44 48 40 36
+
+emoji umbrella_ground U+26F1 | beach parasol sun shade
+  nofill
+  stroke #6e7684 3
+  line 34 22 30 56
+  fill lin #ffd23a #f2a01c 0 4 0 28
+  stroke #a8680a 2.2
+  path M 6 28 Q 10 4 36 4 Q 56 6 60 28 Q 52 22 46 28 Q 40 22 34 28 Q 26 22 20 28 Q 14 22 6 28 Z
+  fill #e2584a
+  nostroke
+  path M 20 28 Q 22 10 35 5 Q 30 16 34 28 Q 26 22 20 28 Z
+  path M 46 28 Q 48 14 38 5 Q 52 8 60 28 Q 52 22 46 28 Z
+  fill lin #ffe9a0 #f2c86a 0 52 0 60
+  stroke #b8902a 1.8
+  ellipse 30 57 22 4
+
+emoji fountain U+26F2 | water park plaza spray
+  nofill
+  stroke $tear 3
+  curve 32 30 32 8 22 6 18 18
+  curve 32 30 32 8 42 6 46 18
+  line 32 30 32 10
+  fill lin #c4ccd6 #7d8795 0 30 0 60
+  stroke #4a525c 2.2
+  path M 18 30 L 46 30 Q 44 40 36 40 L 36 48 L 28 48 L 28 40 Q 20 40 18 30 Z
+  path M 4 46 L 60 46 Q 58 60 44 60 L 20 60 Q 6 60 4 46 Z
+  fill $tear
+  nostroke
+  path M 7 48 L 57 48 Q 56 52 54 53 L 10 53 Q 8 52 7 48 Z
+
+category activities
+
+emoji golf_flag U+26F3 | golf hole flag course putt
+  fill rad #8fe06a #3fa03c 30 50 30
+  stroke #1f6a24 2.2
+  ellipse 32 50 28 10
+  fill #1f3a1c
+  nostroke
+  ellipse 34 50 7 3
+  nofill
+  stroke #6e7684 3
+  line 34 50 34 6
+  fill lin #ff7a5a #d8321c 34 0 56 0
+  stroke #8a140c 2
+  poly 34 6 56 14 34 22
+
+category travel
+
+emoji ferry U+26F4 | boat ship crossing car ferry
+  fill #e2584a
+  stroke #8a140c 1.8
+  rect 36 6 8 10 1
+  fill lin #ffffff #dfe5ec 0 14 0 38
+  stroke #5d6a7c 2
+  rect 10 16 44 10 2
+  rect 6 26 52 12 2
+  fill $t2glass
+  nostroke
+  rect 12 29 6 5 1
+  rect 22 29 6 5 1
+  rect 32 29 6 5 1
+  rect 42 29 6 5 1
+  fill lin #3a78d8 #1a3f9a 0 38 0 56
+  stroke #0e2a6a 2.2
+  path M 2 38 L 62 38 L 56 56 L 8 56 Z
+  use t2_sea
+
+emoji sailboat U+26F5 | boat sail yacht sea wind
+  nofill
+  stroke #6e4526 3
+  line 30 4 30 46
+  fill lin #ffffff #dfe5ec 0 6 0 44
+  stroke #5d6a7c 2
+  path M 33 6 Q 54 22 56 42 L 33 42 Z
+  fill lin #ff8a6a #d8402c 0 12 0 44
+  stroke #8a1c0c 2
+  path M 27 12 Q 10 26 8 42 L 27 42 Z
+  fill lin #c98a4a #8a4a1c 0 44 0 56
+  stroke #5f2a0c 2.2
+  path M 4 44 L 60 44 Q 56 56 44 56 L 16 56 Q 8 54 4 44 Z
+  use t2_sea 0 2
+
+category people
+
+emoji skier U+26F7 | ski snow winter sport downhill
+  nofill
+  stroke #5d6670 2.4
+  line 6 38 26 58
+  line 50 20 58 52
+  fill lin #6fb8f0 #2f6ad8 0 0 60 60
+  stroke #1a3f9a 2
+  path M 8 50 L 56 60 L 57 56 L 9 46 Z
+  nofill
+  stroke #2f3a4c 6
+  line 26 34 20 46 30 52
+  line 34 34 40 44 44 56
+  fill lin #ff7a5a #d8321c 0 16 0 36
+  stroke #8a140c 2
+  path M 22 20 L 38 16 L 40 34 L 24 36 Z
+  nofill
+  stroke #d8321c 5
+  line 24 22 12 34
+  line 38 20 50 22
+  fill $skin
+  stroke $skinl 1.6
+  circle 32 9 7
+  fill #ffd23a
+  nostroke
+  path M 24.5 8 Q 25 1.5 32 1.5 Q 39 1.5 39.5 8 Z
+
+category activities
+
+emoji ice_skate U+26F8 | skating rink winter figure
+  fill lin #ffffff #dfe5ec 0 4 0 44
+  stroke #5d6a7c 2.2
+  path M 14 4 L 30 4 L 32 24 Q 50 26 54 36 L 54 44 L 12 44 Z
+  nofill
+  stroke #6fb8f0 1.8
+  line 20 12 30 10
+  line 20 18 31 16
+  line 21 24 32 23
+  stroke #9aa6b6 3
+  line 18 44 18 52
+  line 46 44 46 52
+  stroke #5d6a7c 3.4
+  curve 4 50 8 54 58 54 60 48
+
+category people
+
+emoji person_with_ball U+26F9 | basketball bounce sport dribble
+  nofill
+  stroke $skinl 6.6
+  line 26 24 14 16
+  line 38 24 50 34
+  line 28 42 24 58
+  line 36 42 42 58
+  stroke $skin 4.4
+  line 26 24 14 16
+  line 38 24 50 34
+  line 28 42 24 58
+  line 36 42 42 58
+  fill lin #ffd23a #f2a01c 0 20 0 44
+  stroke #a8680a 2
+  path M 24 20 L 40 20 L 39 44 L 25 44 Z
+  fill $skin
+  stroke $skinl 1.6
+  circle 32 11 7.5
+  fill #6b4226
+  nostroke
+  path M 24.5 10 Q 25 3 32 3 Q 39 3 39.5 10 Q 32 6 24.5 10 Z
+  fill rad #ffb04a #e8701c 50 42 8
+  stroke #7a3a0c 1.8
+  circle 52 44 7
+
+category travel
+
+emoji tent U+26FA | camping camp outdoors shelter
+  fill lin #7fd47a #2f9a3c 0 8 0 56
+  stroke #145a24 2.2
+  poly 32 8 60 56 4 56
+  fill #145a24
+  nostroke
+  poly 32 26 42 56 22 56
+  nofill
+  stroke #6e7684 2.6
+  line 28 4 32 10 36 4
+  fill #7fbf4a
+  stroke #3f7a1c 1.6
+  rect 2 56 60 5 2
+
+emoji fuel_pump U+26FD | gas petrol station fill up
+  fill lin #ff7a5a #d8321c 0 6 0 58
+  stroke #8a140c 2.2
+  rect 8 6 32 52 4
+  rect 4 54 40 6 2
+  fill $t2glass
+  stroke $t2glassd 1.4
+  rect 14 12 20 14 2
+  nofill
+  stroke #2a2f3b 3.4
+  path M 40 30 L 48 30 Q 52 30 52 34 L 52 46 Q 52 50 56 50 Q 60 50 60 46 L 60 24 L 52 16
+
+emoji airplane U+2708 | plane flight travel jet fly
+  use t2_plane 0 0 1 45
+
+category objects
+
+emoji black_nib U+2712 | pen fountain write ink
+  fill lin #5a6270 #22262e 0 0 60 60
+  stroke #0e1014 2.2
+  path M 58 6 L 46 30 L 34 42 L 22 30 L 34 18 Z
+  path M 22 30 L 34 42 L 12 54 L 10 52 Z
+  fill #c4ccd6
+  nostroke
+  circle 40 24 3.4
+  nofill
+  stroke #c4ccd6 1.8
+  line 37 27 14 50
+
+category symbols
+
+emoji heavy_check U+2714 | check tick yes done correct
+  nofill
+  stroke $sym_greend 12
+  line 10 34 25 49 54 16
+  stroke $sym_green 7.4
+  line 10 34 25 49 54 16
+
+emoji heavy_x U+2716 | multiply times cross wrong
+  nofill
+  stroke #3a4452 12
+  line 13 13 51 51
+  line 51 13 13 51
+  stroke $sym_grey 7.4
+  line 13 13 51 51
+  line 51 13 13 51
+
+emoji latin_cross U+271D | christian religion faith cross
+  use sh_purple_tile
+  fill $white
+  rect 29 10 6 44 1.5
+  rect 18 21 28 6 1.5
+
+emoji star_of_david U+2721 | jewish judaism religion faith
+  use sh_purple_tile
+  nofill
+  stroke $white 3.6
+  poly 32 11 49 41 15 41
+  poly 32 53 49 23 15 23
+
+emoji eight_spoked_asterisk U+2733 | star asterisk green sparkle
+  fill lin #7fd47a #2f9a3c 0 5 0 59
+  stroke #145a24 2.4
+  rect 5 5 54 54 12
+  nofill
+  stroke $white 4.4
+  line 32 13 32 51
+  line 13 32 51 32
+  line 18.5 18.5 45.5 45.5
+  line 45.5 18.5 18.5 45.5
+
+emoji eight_pointed_star U+2734 | star orange sparkle burst
+  use sh_orange_tile
+  fill $white
+  poly 32 12 36.5 21 46 18 43 27.5 52 32 43 36.5 46 46 36.5 43 32 52 27.5 43 18 46 21 36.5 12 32 21 27.5 18 18 27.5 21
+
+emoji sparkle U+2747 | star shine green twinkle
+  fill lin #7fd47a #2f9a3c 0 5 0 59
+  stroke #145a24 2.4
+  rect 5 5 54 54 12
+  fill $white
+  nostroke
+  path M 32 12 Q 34 28 52 32 Q 34 36 32 52 Q 30 36 12 32 Q 30 28 32 12 Z
+
+emoji cross_mark_button U+274E | x no wrong negative green
+  fill lin #7fd47a #2f9a3c 0 5 0 59
+  stroke #145a24 2.4
+  rect 5 5 54 54 12
+  nofill
+  stroke $white 6.4
+  line 19 19 45 45
+  line 45 19 19 45
+
+emoji heart_exclamation U+2763 | heart love emphasis punctuation
+  fill rad #ff7a70 $red 26 16 30
+  stroke $redd 2.4
+  path M 32 42 C 12 30 12 16 18 10 C 24 5 30 8 32 14 C 34 8 40 5 46 10 C 52 16 52 30 32 42 Z
+  circle 32 53 5.5
+
+emoji curly_loop U+27B0 | loop curl scribble
+  nofill
+  stroke $sym_grey 5.6
+  curve 6 40 18 44 32 34 38 22 32 14 26 22 32 34 46 44 58 40
+
+emoji double_curly_loop U+27BF | loop curl voicemail double
+  nofill
+  stroke $sym_grey 5.2
+  curve 4 42 12 44 20 34 24 22 19 16 14 22 20 34 32 44 44 34 50 22 45 16 40 22 44 34 52 44 60 42
+
+emoji wavy_dash U+3030 | wave squiggle line tilde
+  nofill
+  stroke $sym_grey 5.6
+  curve 4 34 12 24 20 34 28 44 36 34 44 24 52 34 60 40
+
+emoji part_alternation_mark U+303D | m mark japanese song start
+  nofill
+  stroke #b8801c 9
+  line 8 52 22 14 34 40 44 22 56 46
+  stroke #ffd23a 5.4
+  line 8 52 22 14 34 40 44 22 56 46
+
+emoji congratulations U+3297 | japanese celebrate congratulation button
+  fill rad #ff7a6a #d8281c 24 22 40
+  stroke #8a140c 2.4
+  circle 32 32 27
+  nofill
+  stroke $white 3
+  line 14 22 24 22
+  line 19 16 19 28
+  line 13 34 25 30
+  line 19 30 19 48
+  line 14 40 18 44
+  line 24 40 20 44
+  rect 31 16 16 9
+  line 33 30 33 46 29 48
+  line 45 30 45 46 50 46 50 42
+
+emoji secret U+3299 | japanese secret hidden button
+  fill rad #ff7a6a #d8281c 24 22 40
+  stroke #8a140c 2.4
+  circle 32 32 27
+  nofill
+  stroke $white 3
+  line 13 22 25 20
+  line 19 15 19 48
+  line 13 36 19 28 25 34
+  line 30 18 34 24
+  line 46 16 42 24
+  curve 30 34 36 26 44 30 40 46 32 46
+  line 48 30 50 40
+
+category activities
+
+emoji mahjong U+1F004 | tile game red dragon chinese
+  fill lin #ffffff #e6ebf2 0 4 0 60
+  stroke #5d6a7c 2.4
+  rect 12 4 40 56 6
+  nofill
+  stroke $red 4.4
+  rect 21 20 22 16
+  line 32 12 32 52
+
+emoji joker U+1F0CF | card wild play jester
+  fill lin #ffffff #e6ebf2 0 4 0 60
+  stroke #5d6a7c 2.4
+  rect 12 4 40 56 6
+  fill #7a48d6
+  stroke #4a2596 1.6
+  path M 20 34 L 18 18 L 27 26 L 32 14 L 37 26 L 46 18 L 44 34 Z
+  fill #ffd23a
+  stroke #a8801c 1.2
+  circle 18 17 2.6
+  circle 32 13 2.6
+  circle 46 17 2.6
+  fill $skin
+  stroke $skinl 1.4
+  path M 22 34 L 42 34 Q 42 48 32 50 Q 22 48 22 34 Z
+  fill $ink
+  nostroke
+  circle 28 39 1.4
+  circle 36 39 1.4
+  nofill
+  stroke $ink 1.6
+  arc 32 41 4.5 3.4 25 155
