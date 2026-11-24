@@ -1,0 +1,12520 @@
+{
+ "family": "Remedy Emoji",
+ "version": "1.000",
+ "glyphs": [
+  {
+   "name": "grinning",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "happy",
+    "smile",
+    "grin",
+    "joy"
+   ],
+   "text": "😀",
+   "codepoints": [
+    "U+1F600"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "smile",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "happy",
+    "grin",
+    "joy",
+    "laugh"
+   ],
+   "text": "😄",
+   "codepoints": [
+    "U+1F604"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "grin",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "beaming",
+    "teeth",
+    "happy"
+   ],
+   "text": "😁",
+   "codepoints": [
+    "U+1F601"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "laughing",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "haha",
+    "xd",
+    "lol",
+    "squint"
+   ],
+   "text": "😆",
+   "codepoints": [
+    "U+1F606"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "joy",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "lol",
+    "laugh",
+    "tears",
+    "crying",
+    "haha",
+    "lmao"
+   ],
+   "text": "😂",
+   "codepoints": [
+    "U+1F602"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "rofl",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "rolling",
+    "floor",
+    "laughing",
+    "lol",
+    "lmao"
+   ],
+   "text": "🤣",
+   "codepoints": [
+    "U+1F923"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sweat_smile",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "phew",
+    "nervous",
+    "relief"
+   ],
+   "text": "😅",
+   "codepoints": [
+    "U+1F605"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "slight_smile",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "smile",
+    "ok",
+    "fine"
+   ],
+   "text": "🙂",
+   "codepoints": [
+    "U+1F642"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "upside_down",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "silly",
+    "sarcasm",
+    "flip"
+   ],
+   "text": "🙃",
+   "codepoints": [
+    "U+1F643"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "wink",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "flirt",
+    "joke"
+   ],
+   "text": "😉",
+   "codepoints": [
+    "U+1F609"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "blush",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "happy",
+    "shy",
+    "pleased",
+    "warm"
+   ],
+   "text": "😊",
+   "codepoints": [
+    "U+1F60A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "innocent",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "angel",
+    "halo"
+   ],
+   "text": "😇",
+   "codepoints": [
+    "U+1F607"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "heart_eyes",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "love",
+    "crush",
+    "adore"
+   ],
+   "text": "😍",
+   "codepoints": [
+    "U+1F60D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "smiling_hearts",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "love",
+    "adore",
+    "affection"
+   ],
+   "text": "🥰",
+   "codepoints": [
+    "U+1F970"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "star_struck",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "wow",
+    "amazing",
+    "stars",
+    "excited"
+   ],
+   "text": "🤩",
+   "codepoints": [
+    "U+1F929"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "kissing_heart",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "kiss",
+    "love",
+    "mwah"
+   ],
+   "text": "😘",
+   "codepoints": [
+    "U+1F618"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "yum",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "tasty",
+    "delicious",
+    "tongue",
+    "savoring"
+   ],
+   "text": "😋",
+   "codepoints": [
+    "U+1F60B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "stuck_out_tongue",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "tongue",
+    "playful",
+    "bleh"
+   ],
+   "text": "😛",
+   "codepoints": [
+    "U+1F61B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "stuck_out_tongue_wink",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "tongue",
+    "playful",
+    "joke",
+    "bleh"
+   ],
+   "text": "😜",
+   "codepoints": [
+    "U+1F61C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "zany",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "crazy",
+    "goofy",
+    "wild",
+    "silly"
+   ],
+   "text": "🤪",
+   "codepoints": [
+    "U+1F92A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "thinking",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "hmm",
+    "wonder",
+    "consider"
+   ],
+   "text": "🤔",
+   "codepoints": [
+    "U+1F914"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "shushing",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "quiet",
+    "shh",
+    "secret",
+    "silence"
+   ],
+   "text": "🤫",
+   "codepoints": [
+    "U+1F92B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "zipper_mouth",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "secret",
+    "quiet",
+    "sealed",
+    "lips"
+   ],
+   "text": "🤐",
+   "codepoints": [
+    "U+1F910"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "raised_eyebrow",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "skeptical",
+    "suspicious",
+    "doubt",
+    "really"
+   ],
+   "text": "🤨",
+   "codepoints": [
+    "U+1F928"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "neutral",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "meh",
+    "blank",
+    "straight"
+   ],
+   "text": "😐",
+   "codepoints": [
+    "U+1F610"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "expressionless",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "blank",
+    "flat",
+    "deadpan"
+   ],
+   "text": "😑",
+   "codepoints": [
+    "U+1F611"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "no_mouth",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "silent",
+    "speechless"
+   ],
+   "text": "😶",
+   "codepoints": [
+    "U+1F636"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "smirk",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "smug",
+    "sly"
+   ],
+   "text": "😏",
+   "codepoints": [
+    "U+1F60F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "unamused",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "annoyed",
+    "meh",
+    "side",
+    "eye"
+   ],
+   "text": "😒",
+   "codepoints": [
+    "U+1F612"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "rolling_eyes",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "eyeroll",
+    "whatever"
+   ],
+   "text": "🙄",
+   "codepoints": [
+    "U+1F644"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "grimacing",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "awkward",
+    "yikes",
+    "eek",
+    "teeth"
+   ],
+   "text": "😬",
+   "codepoints": [
+    "U+1F62C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "relieved",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "calm",
+    "content",
+    "peaceful"
+   ],
+   "text": "😌",
+   "codepoints": [
+    "U+1F60C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pensive",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "sad",
+    "thoughtful",
+    "down"
+   ],
+   "text": "😔",
+   "codepoints": [
+    "U+1F614"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sunglasses",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "cool",
+    "shades",
+    "awesome"
+   ],
+   "text": "😎",
+   "codepoints": [
+    "U+1F60E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "nerd",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "geek",
+    "glasses",
+    "smart"
+   ],
+   "text": "🤓",
+   "codepoints": [
+    "U+1F913"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "confused",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "unsure",
+    "puzzled",
+    "huh"
+   ],
+   "text": "😕",
+   "codepoints": [
+    "U+1F615"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "slight_frown",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "sad",
+    "down"
+   ],
+   "text": "🙁",
+   "codepoints": [
+    "U+1F641"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "frowning",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "sad",
+    "unhappy"
+   ],
+   "text": "☹",
+   "codepoints": [
+    "U+2639"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "worried",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "anxious",
+    "concerned",
+    "nervous"
+   ],
+   "text": "😟",
+   "codepoints": [
+    "U+1F61F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "open_mouth",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "oh",
+    "surprised",
+    "wow"
+   ],
+   "text": "😮",
+   "codepoints": [
+    "U+1F62E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "astonished",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "shocked",
+    "wow",
+    "gasp",
+    "surprised"
+   ],
+   "text": "😲",
+   "codepoints": [
+    "U+1F632"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "flushed",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "embarrassed",
+    "shy",
+    "blushing",
+    "oops"
+   ],
+   "text": "😳",
+   "codepoints": [
+    "U+1F633"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pleading",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "puppy",
+    "eyes",
+    "please",
+    "beg"
+   ],
+   "text": "🥺",
+   "codepoints": [
+    "U+1F97A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "smiling_tear",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "touched",
+    "grateful",
+    "bittersweet"
+   ],
+   "text": "🥲",
+   "codepoints": [
+    "U+1F972"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cry",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "sad",
+    "tear",
+    "upset"
+   ],
+   "text": "😢",
+   "codepoints": [
+    "U+1F622"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sob",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "crying",
+    "bawling",
+    "tears",
+    "wail"
+   ],
+   "text": "😭",
+   "codepoints": [
+    "U+1F62D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sweat",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "tired",
+    "stressed",
+    "phew"
+   ],
+   "text": "😓",
+   "codepoints": [
+    "U+1F613"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "scream",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "scared",
+    "horror",
+    "fear",
+    "omg"
+   ],
+   "text": "😱",
+   "codepoints": [
+    "U+1F631"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "angry",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "mad",
+    "grumpy",
+    "annoyed"
+   ],
+   "text": "😠",
+   "codepoints": [
+    "U+1F620"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "rage",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "furious",
+    "mad",
+    "pouting",
+    "red"
+   ],
+   "text": "😡",
+   "codepoints": [
+    "U+1F621"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cursing",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "swearing",
+    "mad",
+    "symbols",
+    "censored"
+   ],
+   "text": "🤬",
+   "codepoints": [
+    "U+1F92C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "triumph",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "huff",
+    "steam",
+    "proud",
+    "determined"
+   ],
+   "text": "😤",
+   "codepoints": [
+    "U+1F624"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "smiling_imp",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "devil",
+    "evil",
+    "mischief",
+    "horns"
+   ],
+   "text": "😈",
+   "codepoints": [
+    "U+1F608"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mask",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "sick",
+    "ill",
+    "medical"
+   ],
+   "text": "😷",
+   "codepoints": [
+    "U+1F637"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "nauseated",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "sick",
+    "gross",
+    "green",
+    "queasy"
+   ],
+   "text": "🤢",
+   "codepoints": [
+    "U+1F922"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "hot",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "heat",
+    "sweating",
+    "overheated",
+    "spicy"
+   ],
+   "text": "🥵",
+   "codepoints": [
+    "U+1F975"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cold",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "freezing",
+    "frozen",
+    "brr",
+    "ice"
+   ],
+   "text": "🥶",
+   "codepoints": [
+    "U+1F976"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "dizzy_face",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "dazed",
+    "knocked",
+    "out",
+    "stunned"
+   ],
+   "text": "😵",
+   "codepoints": [
+    "U+1F635"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "woozy",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "tipsy",
+    "drunk",
+    "dazed"
+   ],
+   "text": "🥴",
+   "codepoints": [
+    "U+1F974"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "exploding_head",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "mind",
+    "blown",
+    "shocked",
+    "whoa"
+   ],
+   "text": "🤯",
+   "codepoints": [
+    "U+1F92F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cowboy",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "yeehaw",
+    "hat",
+    "western",
+    "howdy"
+   ],
+   "text": "🤠",
+   "codepoints": [
+    "U+1F920"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "partying",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "party",
+    "celebrate",
+    "birthday",
+    "woo"
+   ],
+   "text": "🥳",
+   "codepoints": [
+    "U+1F973"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "monocle",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "inspect",
+    "curious",
+    "hmm",
+    "fancy"
+   ],
+   "text": "🧐",
+   "codepoints": [
+    "U+1F9D0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sleeping",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "zzz",
+    "tired",
+    "asleep",
+    "snore"
+   ],
+   "text": "😴",
+   "codepoints": [
+    "U+1F634"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "money_mouth",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "rich",
+    "cash",
+    "dollar",
+    "greedy"
+   ],
+   "text": "🤑",
+   "codepoints": [
+    "U+1F911"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "salute",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "respect",
+    "o7",
+    "yes",
+    "sir",
+    "aye"
+   ],
+   "text": "🫡",
+   "codepoints": [
+    "U+1FAE1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "skull",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "dead",
+    "death",
+    "rip",
+    "bones"
+   ],
+   "text": "💀",
+   "codepoints": [
+    "U+1F480"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "skull_crossbones",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "danger",
+    "pirate",
+    "poison",
+    "death"
+   ],
+   "text": "☠",
+   "codepoints": [
+    "U+2620"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "ghost",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "boo",
+    "spooky",
+    "halloween"
+   ],
+   "text": "👻",
+   "codepoints": [
+    "U+1F47B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "poop",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "poo",
+    "crap",
+    "pile"
+   ],
+   "text": "💩",
+   "codepoints": [
+    "U+1F4A9"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "clown",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "circus",
+    "joker",
+    "silly"
+   ],
+   "text": "🤡",
+   "codepoints": [
+    "U+1F921"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "alien",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "ufo",
+    "extraterrestrial",
+    "space"
+   ],
+   "text": "👽",
+   "codepoints": [
+    "U+1F47D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "robot",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "bot",
+    "machine",
+    "android",
+    "beep"
+   ],
+   "text": "🤖",
+   "codepoints": [
+    "U+1F916"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "thumbsup",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "like",
+    "yes",
+    "good",
+    "approve",
+    "+1"
+   ],
+   "text": "👍",
+   "codepoints": [
+    "U+1F44D"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "thumbsdown",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "dislike",
+    "no",
+    "bad",
+    "disapprove",
+    "-1"
+   ],
+   "text": "👎",
+   "codepoints": [
+    "U+1F44E"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "wave",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "hello",
+    "hi",
+    "bye",
+    "greeting"
+   ],
+   "text": "👋",
+   "codepoints": [
+    "U+1F44B"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "clap",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "applause",
+    "bravo",
+    "congrats",
+    "praise"
+   ],
+   "text": "👏",
+   "codepoints": [
+    "U+1F44F"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "ok_hand",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "okay",
+    "perfect",
+    "fine",
+    "good"
+   ],
+   "text": "👌",
+   "codepoints": [
+    "U+1F44C"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "v",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "peace",
+    "victory",
+    "two"
+   ],
+   "text": "✌",
+   "codepoints": [
+    "U+270C"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "fist",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "power",
+    "solidarity",
+    "raised",
+    "strong"
+   ],
+   "text": "✊",
+   "codepoints": [
+    "U+270A"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "punch",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "fist",
+    "bump",
+    "hit",
+    "bro"
+   ],
+   "text": "👊",
+   "codepoints": [
+    "U+1F44A"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "raised_hand",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "stop",
+    "high",
+    "five",
+    "palm",
+    "halt"
+   ],
+   "text": "✋",
+   "codepoints": [
+    "U+270B"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "pray",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "please",
+    "thanks",
+    "hope",
+    "namaste"
+   ],
+   "text": "🙏",
+   "codepoints": [
+    "U+1F64F"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "muscle",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "strong",
+    "flex",
+    "biceps",
+    "gym",
+    "power"
+   ],
+   "text": "💪",
+   "codepoints": [
+    "U+1F4AA"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "point_up",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "one",
+    "above",
+    "this",
+    "up"
+   ],
+   "text": "☝",
+   "codepoints": [
+    "U+261D"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "point_right",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "this",
+    "that",
+    "next",
+    "direction"
+   ],
+   "text": "👉",
+   "codepoints": [
+    "U+1F449"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "point_left",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "this",
+    "that",
+    "back",
+    "direction"
+   ],
+   "text": "👈",
+   "codepoints": [
+    "U+1F448"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "point_down",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "this",
+    "below",
+    "down",
+    "direction"
+   ],
+   "text": "👇",
+   "codepoints": [
+    "U+1F447"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "handshake",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "deal",
+    "agree",
+    "partner",
+    "welcome"
+   ],
+   "text": "🤝",
+   "codepoints": [
+    "U+1F91D"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "raised_hands",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "hooray",
+    "praise",
+    "celebrate",
+    "yay"
+   ],
+   "text": "🙌",
+   "codepoints": [
+    "U+1F64C"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "crossed_fingers",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "luck",
+    "hope",
+    "wish"
+   ],
+   "text": "🤞",
+   "codepoints": [
+    "U+1F91E"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "metal",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "rock",
+    "horns",
+    "concert"
+   ],
+   "text": "🤘",
+   "codepoints": [
+    "U+1F918"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "call_me",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "phone",
+    "shaka",
+    "hang",
+    "loose"
+   ],
+   "text": "🤙",
+   "codepoints": [
+    "U+1F919"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "writing_hand",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "write",
+    "sign",
+    "note",
+    "pen"
+   ],
+   "text": "✍",
+   "codepoints": [
+    "U+270D"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "eyes",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "look",
+    "see",
+    "watching",
+    "stare"
+   ],
+   "text": "👀",
+   "codepoints": [
+    "U+1F440"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "eye",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "look",
+    "see",
+    "watch",
+    "vision"
+   ],
+   "text": "👁",
+   "codepoints": [
+    "U+1F441"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "brain",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "smart",
+    "think",
+    "mind",
+    "idea"
+   ],
+   "text": "🧠",
+   "codepoints": [
+    "U+1F9E0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "ear",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "listen",
+    "hear",
+    "sound"
+   ],
+   "text": "👂",
+   "codepoints": [
+    "U+1F442"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "nose",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "smell",
+    "sniff"
+   ],
+   "text": "👃",
+   "codepoints": [
+    "U+1F443"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "lips",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "mouth",
+    "kiss",
+    "speak"
+   ],
+   "text": "👄",
+   "codepoints": [
+    "U+1F444"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "tongue",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "taste",
+    "lick",
+    "bleh"
+   ],
+   "text": "👅",
+   "codepoints": [
+    "U+1F445"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "footprints",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "feet",
+    "steps",
+    "walk",
+    "tracks"
+   ],
+   "text": "👣",
+   "codepoints": [
+    "U+1F463"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bust",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "person",
+    "user",
+    "profile",
+    "silhouette"
+   ],
+   "text": "👤",
+   "codepoints": [
+    "U+1F464"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "facepalm",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "ugh",
+    "disappointed",
+    "sigh",
+    "doh"
+   ],
+   "text": "󰀀",
+   "codepoints": [
+    "U+F0000"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "shrug",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "dunno",
+    "whatever",
+    "idk",
+    "maybe"
+   ],
+   "text": "󰀁",
+   "codepoints": [
+    "U+F0001"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "high_five",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "hi5",
+    "celebrate",
+    "teamwork",
+    "yes"
+   ],
+   "text": "󰀂",
+   "codepoints": [
+    "U+F0002"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "dog",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "puppy",
+    "pet",
+    "woof",
+    "animal"
+   ],
+   "text": "🐶",
+   "codepoints": [
+    "U+1F436"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cat",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "kitty",
+    "kitten",
+    "pet",
+    "meow"
+   ],
+   "text": "🐱",
+   "codepoints": [
+    "U+1F431"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mouse",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "mice",
+    "rodent",
+    "squeak",
+    "animal"
+   ],
+   "text": "🐭",
+   "codepoints": [
+    "U+1F42D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "fox",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "animal",
+    "sly",
+    "orange",
+    "kitsune"
+   ],
+   "text": "🦊",
+   "codepoints": [
+    "U+1F98A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bear",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "animal",
+    "teddy",
+    "grizzly",
+    "brown"
+   ],
+   "text": "🐻",
+   "codepoints": [
+    "U+1F43B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "panda",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "animal",
+    "bear",
+    "bamboo",
+    "china"
+   ],
+   "text": "🐼",
+   "codepoints": [
+    "U+1F43C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "frog",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "animal",
+    "toad",
+    "ribbit",
+    "green"
+   ],
+   "text": "🐸",
+   "codepoints": [
+    "U+1F438"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "monkey",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "animal",
+    "ape",
+    "primate",
+    "banana"
+   ],
+   "text": "🐵",
+   "codepoints": [
+    "U+1F435"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "see_no_evil",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "monkey",
+    "hide",
+    "shy",
+    "cover",
+    "eyes"
+   ],
+   "text": "🙈",
+   "codepoints": [
+    "U+1F648"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pig",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "animal",
+    "oink",
+    "pork",
+    "farm"
+   ],
+   "text": "🐷",
+   "codepoints": [
+    "U+1F437"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cow",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "animal",
+    "moo",
+    "cattle",
+    "farm",
+    "milk"
+   ],
+   "text": "🐮",
+   "codepoints": [
+    "U+1F42E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "wolf",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "animal",
+    "howl",
+    "wild",
+    "grey"
+   ],
+   "text": "🐺",
+   "codepoints": [
+    "U+1F43A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "lion",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "animal",
+    "king",
+    "mane",
+    "cat",
+    "roar"
+   ],
+   "text": "🦁",
+   "codepoints": [
+    "U+1F981"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "penguin",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "bird",
+    "cold",
+    "antarctic",
+    "animal"
+   ],
+   "text": "🐧",
+   "codepoints": [
+    "U+1F427"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "chick",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "bird",
+    "baby",
+    "chicken",
+    "hatchling"
+   ],
+   "text": "🐥",
+   "codepoints": [
+    "U+1F425"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "owl",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "bird",
+    "wise",
+    "night",
+    "hoot"
+   ],
+   "text": "🦉",
+   "codepoints": [
+    "U+1F989"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "duck",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "bird",
+    "quack",
+    "mallard",
+    "pond"
+   ],
+   "text": "🦆",
+   "codepoints": [
+    "U+1F986"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "unicorn",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "magic",
+    "horse",
+    "fantasy",
+    "horn",
+    "rainbow"
+   ],
+   "text": "🦄",
+   "codepoints": [
+    "U+1F984"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bee",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "insect",
+    "honey",
+    "buzz",
+    "bumblebee"
+   ],
+   "text": "🐝",
+   "codepoints": [
+    "U+1F41D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "caterpillar",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "bug",
+    "insect",
+    "worm",
+    "larva"
+   ],
+   "text": "🐛",
+   "codepoints": [
+    "U+1F41B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "ladybug",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "insect",
+    "bug",
+    "beetle",
+    "lucky"
+   ],
+   "text": "🐞",
+   "codepoints": [
+    "U+1F41E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "butterfly",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "insect",
+    "wings",
+    "pretty",
+    "flutter"
+   ],
+   "text": "🦋",
+   "codepoints": [
+    "U+1F98B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "turtle",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "animal",
+    "tortoise",
+    "slow",
+    "shell"
+   ],
+   "text": "🐢",
+   "codepoints": [
+    "U+1F422"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "snake",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "reptile",
+    "serpent",
+    "hiss",
+    "animal"
+   ],
+   "text": "🐍",
+   "codepoints": [
+    "U+1F40D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "octopus",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "sea",
+    "ocean",
+    "tentacles",
+    "squid"
+   ],
+   "text": "🐙",
+   "codepoints": [
+    "U+1F419"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "fish",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "sea",
+    "ocean",
+    "swim",
+    "animal"
+   ],
+   "text": "🐟",
+   "codepoints": [
+    "U+1F41F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "shark",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "sea",
+    "ocean",
+    "fish",
+    "jaws",
+    "predator"
+   ],
+   "text": "🦈",
+   "codepoints": [
+    "U+1F988"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "whale",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "sea",
+    "ocean",
+    "spout",
+    "big",
+    "animal"
+   ],
+   "text": "🐳",
+   "codepoints": [
+    "U+1F433"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "crab",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "sea",
+    "beach",
+    "claws",
+    "seafood"
+   ],
+   "text": "🦀",
+   "codepoints": [
+    "U+1F980"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "dragon",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "fantasy",
+    "mythical",
+    "fire",
+    "green"
+   ],
+   "text": "🐉",
+   "codepoints": [
+    "U+1F409"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "t_rex",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "dinosaur",
+    "dino",
+    "rex",
+    "jurassic"
+   ],
+   "text": "🦖",
+   "codepoints": [
+    "U+1F996"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sun",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "sunny",
+    "weather",
+    "bright",
+    "day",
+    "hot"
+   ],
+   "text": "☀",
+   "codepoints": [
+    "U+2600"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "moon",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "crescent",
+    "night",
+    "sky",
+    "sleep"
+   ],
+   "text": "🌙",
+   "codepoints": [
+    "U+1F319"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cloud",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "weather",
+    "sky",
+    "overcast",
+    "grey"
+   ],
+   "text": "☁",
+   "codepoints": [
+    "U+2601"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "rain",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "weather",
+    "cloud",
+    "rainy",
+    "storm",
+    "wet"
+   ],
+   "text": "🌧",
+   "codepoints": [
+    "U+1F327"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "snowflake",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "winter",
+    "cold",
+    "snow",
+    "ice",
+    "frozen"
+   ],
+   "text": "❄",
+   "codepoints": [
+    "U+2744"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "rainbow",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "weather",
+    "colors",
+    "pride",
+    "sky",
+    "arc"
+   ],
+   "text": "🌈",
+   "codepoints": [
+    "U+1F308"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "tree",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "evergreen",
+    "pine",
+    "forest",
+    "fir",
+    "nature"
+   ],
+   "text": "🌲",
+   "codepoints": [
+    "U+1F332"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "palm_tree",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "tropical",
+    "beach",
+    "island",
+    "vacation"
+   ],
+   "text": "🌴",
+   "codepoints": [
+    "U+1F334"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "flower",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "blossom",
+    "cherry",
+    "pink",
+    "spring",
+    "sakura"
+   ],
+   "text": "🌸",
+   "codepoints": [
+    "U+1F338"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "rose",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "flower",
+    "red",
+    "love",
+    "romance",
+    "valentine"
+   ],
+   "text": "🌹",
+   "codepoints": [
+    "U+1F339"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cactus",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "desert",
+    "plant",
+    "prickly",
+    "succulent"
+   ],
+   "text": "🌵",
+   "codepoints": [
+    "U+1F335"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mushroom",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "fungus",
+    "toadstool",
+    "forest",
+    "food"
+   ],
+   "text": "🍄",
+   "codepoints": [
+    "U+1F344"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "earth",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "world",
+    "globe",
+    "planet",
+    "africa",
+    "europe"
+   ],
+   "text": "🌍",
+   "codepoints": [
+    "U+1F30D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "four_leaf_clover",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "luck",
+    "lucky",
+    "irish",
+    "shamrock",
+    "green"
+   ],
+   "text": "🍀",
+   "codepoints": [
+    "U+1F340"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "leaf",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "leaves",
+    "wind",
+    "nature",
+    "green",
+    "blow"
+   ],
+   "text": "🍃",
+   "codepoints": [
+    "U+1F343"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "paw",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "paws",
+    "prints",
+    "pet",
+    "animal",
+    "tracks"
+   ],
+   "text": "🐾",
+   "codepoints": [
+    "U+1F43E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bone",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "dog",
+    "skeleton",
+    "treat",
+    "fossil"
+   ],
+   "text": "🦴",
+   "codepoints": [
+    "U+1F9B4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pizza",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "slice",
+    "pepperoni",
+    "cheese",
+    "italian"
+   ],
+   "text": "🍕",
+   "codepoints": [
+    "U+1F355"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "burger",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "hamburger",
+    "cheeseburger",
+    "fast",
+    "food",
+    "beef"
+   ],
+   "text": "🍔",
+   "codepoints": [
+    "U+1F354"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "fries",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "french",
+    "fries",
+    "chips",
+    "fast",
+    "food",
+    "potato"
+   ],
+   "text": "🍟",
+   "codepoints": [
+    "U+1F35F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "hotdog",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "sausage",
+    "frankfurter",
+    "mustard",
+    "bun"
+   ],
+   "text": "🌭",
+   "codepoints": [
+    "U+1F32D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "taco",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "mexican",
+    "shell",
+    "tortilla",
+    "food"
+   ],
+   "text": "🌮",
+   "codepoints": [
+    "U+1F32E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "burrito",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "wrap",
+    "mexican",
+    "tortilla",
+    "beans"
+   ],
+   "text": "🌯",
+   "codepoints": [
+    "U+1F32F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "donut",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "doughnut",
+    "sweet",
+    "dessert",
+    "sprinkles"
+   ],
+   "text": "🍩",
+   "codepoints": [
+    "U+1F369"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cookie",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "biscuit",
+    "chocolate",
+    "chip",
+    "sweet"
+   ],
+   "text": "🍪",
+   "codepoints": [
+    "U+1F36A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cake",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "birthday",
+    "party",
+    "candles",
+    "celebrate"
+   ],
+   "text": "🎂",
+   "codepoints": [
+    "U+1F382"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cupcake",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "muffin",
+    "frosting",
+    "sweet",
+    "dessert"
+   ],
+   "text": "🧁",
+   "codepoints": [
+    "U+1F9C1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "apple",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "red",
+    "fruit",
+    "healthy"
+   ],
+   "text": "🍎",
+   "codepoints": [
+    "U+1F34E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "banana",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "fruit",
+    "yellow",
+    "peel"
+   ],
+   "text": "🍌",
+   "codepoints": [
+    "U+1F34C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "watermelon",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "slice",
+    "fruit",
+    "summer",
+    "melon"
+   ],
+   "text": "🍉",
+   "codepoints": [
+    "U+1F349"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cherries",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "cherry",
+    "fruit",
+    "red",
+    "pair"
+   ],
+   "text": "🍒",
+   "codepoints": [
+    "U+1F352"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "strawberry",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "berry",
+    "fruit",
+    "red",
+    "sweet"
+   ],
+   "text": "🍓",
+   "codepoints": [
+    "U+1F353"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "grapes",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "fruit",
+    "purple",
+    "wine",
+    "bunch"
+   ],
+   "text": "🍇",
+   "codepoints": [
+    "U+1F347"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "lemon",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "citrus",
+    "sour",
+    "yellow",
+    "fruit"
+   ],
+   "text": "🍋",
+   "codepoints": [
+    "U+1F34B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "avocado",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "guacamole",
+    "green",
+    "fruit",
+    "healthy"
+   ],
+   "text": "🥑",
+   "codepoints": [
+    "U+1F951"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "hot_pepper",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "chili",
+    "spicy",
+    "hot",
+    "red"
+   ],
+   "text": "🌶",
+   "codepoints": [
+    "U+1F336"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "carrot",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "vegetable",
+    "orange",
+    "root",
+    "healthy"
+   ],
+   "text": "🥕",
+   "codepoints": [
+    "U+1F955"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "coffee",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "hot",
+    "drink",
+    "mug",
+    "cafe",
+    "espresso"
+   ],
+   "text": "☕",
+   "codepoints": [
+    "U+2615"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "tea",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "green",
+    "tea",
+    "cup",
+    "matcha",
+    "hot"
+   ],
+   "text": "🍵",
+   "codepoints": [
+    "U+1F375"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "beer",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "mug",
+    "ale",
+    "pint",
+    "drink",
+    "cheers"
+   ],
+   "text": "🍺",
+   "codepoints": [
+    "U+1F37A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "beers",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "cheers",
+    "clink",
+    "toast",
+    "mugs",
+    "drinks"
+   ],
+   "text": "🍻",
+   "codepoints": [
+    "U+1F37B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "wine",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "glass",
+    "red",
+    "drink",
+    "alcohol"
+   ],
+   "text": "🍷",
+   "codepoints": [
+    "U+1F377"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cocktail",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "martini",
+    "drink",
+    "bar",
+    "alcohol"
+   ],
+   "text": "🍸",
+   "codepoints": [
+    "U+1F378"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cup_with_straw",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "soda",
+    "drink",
+    "soft",
+    "drink",
+    "juice"
+   ],
+   "text": "🥤",
+   "codepoints": [
+    "U+1F964"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "ramen",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "noodles",
+    "soup",
+    "bowl",
+    "japanese"
+   ],
+   "text": "🍜",
+   "codepoints": [
+    "U+1F35C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sushi",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "nigiri",
+    "salmon",
+    "rice",
+    "japanese",
+    "fish"
+   ],
+   "text": "🍣",
+   "codepoints": [
+    "U+1F363"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "popcorn",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "movie",
+    "snack",
+    "cinema",
+    "corn"
+   ],
+   "text": "🍿",
+   "codepoints": [
+    "U+1F37F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cooking",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "fried",
+    "egg",
+    "pan",
+    "breakfast",
+    "frying"
+   ],
+   "text": "🍳",
+   "codepoints": [
+    "U+1F373"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cheese",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "wedge",
+    "cheddar",
+    "swiss",
+    "dairy"
+   ],
+   "text": "🧀",
+   "codepoints": [
+    "U+1F9C0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bacon",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "breakfast",
+    "meat",
+    "pork",
+    "strips"
+   ],
+   "text": "🥓",
+   "codepoints": [
+    "U+1F953"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "ice_cream",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "soft",
+    "serve",
+    "cone",
+    "dessert",
+    "sweet"
+   ],
+   "text": "🍦",
+   "codepoints": [
+    "U+1F366"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "candy",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "sweet",
+    "wrapped",
+    "bonbon",
+    "treat"
+   ],
+   "text": "🍬",
+   "codepoints": [
+    "U+1F36C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "lollipop",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "candy",
+    "sweet",
+    "swirl",
+    "sucker"
+   ],
+   "text": "🍭",
+   "codepoints": [
+    "U+1F36D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "chocolate",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "bar",
+    "candy",
+    "cocoa",
+    "sweet"
+   ],
+   "text": "🍫",
+   "codepoints": [
+    "U+1F36B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bread",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "loaf",
+    "toast",
+    "slice",
+    "bakery"
+   ],
+   "text": "🍞",
+   "codepoints": [
+    "U+1F35E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "energy_drink",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "can",
+    "energy",
+    "boost",
+    "caffeine",
+    "drink"
+   ],
+   "text": "󰀃",
+   "codepoints": [
+    "U+F0003"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "instant_noodles",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "cup",
+    "noodles",
+    "ramen",
+    "snack",
+    "quick"
+   ],
+   "text": "󰀄",
+   "codepoints": [
+    "U+F0004"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "snack_time",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "chips",
+    "crisps",
+    "bowl",
+    "snack",
+    "munch"
+   ],
+   "text": "󰀅",
+   "codepoints": [
+    "U+F0005"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "video_game",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "gamepad",
+    "controller",
+    "gaming",
+    "play",
+    "console"
+   ],
+   "text": "🎮",
+   "codepoints": [
+    "U+1F3AE"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "joystick",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "arcade",
+    "stick",
+    "gaming",
+    "control",
+    "retro"
+   ],
+   "text": "🕹",
+   "codepoints": [
+    "U+1F579"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "game_die",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "dice",
+    "roll",
+    "random",
+    "luck",
+    "chance"
+   ],
+   "text": "🎲",
+   "codepoints": [
+    "U+1F3B2"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "dart",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "target",
+    "bullseye",
+    "aim",
+    "goal",
+    "hit"
+   ],
+   "text": "🎯",
+   "codepoints": [
+    "U+1F3AF"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "chess_pawn",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "chess",
+    "piece",
+    "strategy",
+    "board",
+    "game"
+   ],
+   "text": "♟",
+   "codepoints": [
+    "U+265F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "jigsaw",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "puzzle",
+    "piece",
+    "solve",
+    "fit"
+   ],
+   "text": "🧩",
+   "codepoints": [
+    "U+1F9E9"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "crossed_swords",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "swords",
+    "fight",
+    "battle",
+    "duel",
+    "pvp"
+   ],
+   "text": "⚔",
+   "codepoints": [
+    "U+2694"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "dagger",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "knife",
+    "blade",
+    "stab",
+    "rogue"
+   ],
+   "text": "🗡",
+   "codepoints": [
+    "U+1F5E1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bow_and_arrow",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "archer",
+    "archery",
+    "ranger",
+    "shoot"
+   ],
+   "text": "🏹",
+   "codepoints": [
+    "U+1F3F9"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "magic_wand",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "magic",
+    "spell",
+    "wizard",
+    "trick"
+   ],
+   "text": "🪄",
+   "codepoints": [
+    "U+1FA84"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bomb",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "explode",
+    "boom",
+    "explosive",
+    "danger"
+   ],
+   "text": "💣",
+   "codepoints": [
+    "U+1F4A3"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "coin",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "gold",
+    "money",
+    "token",
+    "currency"
+   ],
+   "text": "🪙",
+   "codepoints": [
+    "U+1FA99"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "scroll",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "parchment",
+    "quest",
+    "lore",
+    "paper"
+   ],
+   "text": "📜",
+   "codepoints": [
+    "U+1F4DC"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "world_map",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "map",
+    "world",
+    "travel",
+    "explore",
+    "atlas"
+   ],
+   "text": "🗺",
+   "codepoints": [
+    "U+1F5FA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "crown",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "king",
+    "queen",
+    "royal",
+    "winner"
+   ],
+   "text": "👑",
+   "codepoints": [
+    "U+1F451"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "trophy",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "win",
+    "winner",
+    "cup",
+    "champion",
+    "prize"
+   ],
+   "text": "🏆",
+   "codepoints": [
+    "U+1F3C6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "first_place",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "gold",
+    "medal",
+    "winner",
+    "first",
+    "1st"
+   ],
+   "text": "🥇",
+   "codepoints": [
+    "U+1F947"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "second_place",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "silver",
+    "medal",
+    "second",
+    "2nd",
+    "runner"
+   ],
+   "text": "🥈",
+   "codepoints": [
+    "U+1F948"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "third_place",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "bronze",
+    "medal",
+    "third",
+    "3rd"
+   ],
+   "text": "🥉",
+   "codepoints": [
+    "U+1F949"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "medal",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "award",
+    "sports",
+    "honor",
+    "prize"
+   ],
+   "text": "🏅",
+   "codepoints": [
+    "U+1F3C5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "checkered_flag",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "race",
+    "finish",
+    "goal",
+    "racing",
+    "lap"
+   ],
+   "text": "🏁",
+   "codepoints": [
+    "U+1F3C1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pixel_monster",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "monster",
+    "alien",
+    "retro",
+    "arcade",
+    "creature"
+   ],
+   "text": "👾",
+   "codepoints": [
+    "U+1F47E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "headstone",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "grave",
+    "rip",
+    "dead",
+    "tombstone"
+   ],
+   "text": "🪦",
+   "codepoints": [
+    "U+1FAA6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "castle",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "fortress",
+    "kingdom",
+    "tower",
+    "keep"
+   ],
+   "text": "🏰",
+   "codepoints": [
+    "U+1F3F0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cyclone",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "portal",
+    "swirl",
+    "vortex",
+    "spiral",
+    "warp"
+   ],
+   "text": "🌀",
+   "codepoints": [
+    "U+1F300"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "gem",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "diamond",
+    "jewel",
+    "crystal",
+    "loot",
+    "rare"
+   ],
+   "text": "💎",
+   "codepoints": [
+    "U+1F48E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "moneybag",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "money",
+    "gold",
+    "loot",
+    "rich",
+    "cash"
+   ],
+   "text": "💰",
+   "codepoints": [
+    "U+1F4B0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "slot_machine",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "slots",
+    "casino",
+    "gamble",
+    "jackpot",
+    "luck"
+   ],
+   "text": "🎰",
+   "codepoints": [
+    "U+1F3B0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "eight_ball",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "pool",
+    "billiards",
+    "magic",
+    "ball"
+   ],
+   "text": "🎱",
+   "codepoints": [
+    "U+1F3B1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "axe",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "chop",
+    "hatchet",
+    "lumber",
+    "weapon"
+   ],
+   "text": "🪓",
+   "codepoints": [
+    "U+1FA93"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "d20",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "dice",
+    "roll",
+    "rpg",
+    "tabletop",
+    "critical"
+   ],
+   "text": "󰀆",
+   "codepoints": [
+    "U+F0006"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "health_potion",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "potion",
+    "heal",
+    "hp",
+    "flask",
+    "red"
+   ],
+   "text": "󰀇",
+   "codepoints": [
+    "U+F0007"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "mana_potion",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "potion",
+    "magic",
+    "mp",
+    "flask",
+    "blue"
+   ],
+   "text": "󰀈",
+   "codepoints": [
+    "U+F0008"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "poison",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "potion",
+    "toxic",
+    "venom",
+    "flask",
+    "deadly"
+   ],
+   "text": "󰀉",
+   "codepoints": [
+    "U+F0009"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "pixel_heart",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "heart",
+    "life",
+    "retro",
+    "love",
+    "8bit"
+   ],
+   "text": "󰀊",
+   "codepoints": [
+    "U+F000A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "hp_bar",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "health",
+    "life",
+    "bar",
+    "full",
+    "hud"
+   ],
+   "text": "󰀋",
+   "codepoints": [
+    "U+F000B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "low_hp",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "health",
+    "danger",
+    "dying",
+    "critical",
+    "bar"
+   ],
+   "text": "󰀌",
+   "codepoints": [
+    "U+F000C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "mana_bar",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "magic",
+    "mp",
+    "energy",
+    "bar",
+    "hud"
+   ],
+   "text": "󰀍",
+   "codepoints": [
+    "U+F000D"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "xp_orb",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "experience",
+    "xp",
+    "points",
+    "grind",
+    "orb"
+   ],
+   "text": "󰀎",
+   "codepoints": [
+    "U+F000E"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "level_up",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "levelup",
+    "upgrade",
+    "ding",
+    "rank",
+    "arrow"
+   ],
+   "text": "󰀏",
+   "codepoints": [
+    "U+F000F"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "loot_chest",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "treasure",
+    "chest",
+    "loot",
+    "reward",
+    "gold"
+   ],
+   "text": "󰀐",
+   "codepoints": [
+    "U+F0010"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "mimic",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "monster",
+    "chest",
+    "trap",
+    "teeth",
+    "fake"
+   ],
+   "text": "󰀑",
+   "codepoints": [
+    "U+F0011"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "quest",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "exclamation",
+    "mission",
+    "npc",
+    "task",
+    "alert"
+   ],
+   "text": "󰀒",
+   "codepoints": [
+    "U+F0012"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "quest_done",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "question",
+    "turn",
+    "in",
+    "npc",
+    "complete"
+   ],
+   "text": "󰀓",
+   "codepoints": [
+    "U+F0013"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "save_point",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "save",
+    "checkpoint",
+    "crystal",
+    "progress"
+   ],
+   "text": "󰀔",
+   "codepoints": [
+    "U+F0014"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "campfire",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "fire",
+    "camp",
+    "rest",
+    "bonfire",
+    "warm"
+   ],
+   "text": "󰀕",
+   "codepoints": [
+    "U+F0015"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "shield_up",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "shield",
+    "defense",
+    "buff",
+    "armor",
+    "block"
+   ],
+   "text": "󰀖",
+   "codepoints": [
+    "U+F0016"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "sword",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "blade",
+    "weapon",
+    "attack",
+    "melee",
+    "knight"
+   ],
+   "text": "󰀗",
+   "codepoints": [
+    "U+F0017"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "staff",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "wizard",
+    "mage",
+    "magic",
+    "caster",
+    "rod"
+   ],
+   "text": "󰀘",
+   "codepoints": [
+    "U+F0018"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "spellbook",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "book",
+    "magic",
+    "grimoire",
+    "tome",
+    "spells"
+   ],
+   "text": "󰀙",
+   "codepoints": [
+    "U+F0019"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "boss",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "bossfight",
+    "raid",
+    "demon",
+    "enemy",
+    "final"
+   ],
+   "text": "󰀚",
+   "codepoints": [
+    "U+F001A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "respawn",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "revive",
+    "retry",
+    "again",
+    "life",
+    "restart"
+   ],
+   "text": "󰀛",
+   "codepoints": [
+    "U+F001B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "crosshair",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "aim",
+    "target",
+    "reticle",
+    "fps",
+    "scope"
+   ],
+   "text": "󰀜",
+   "codepoints": [
+    "U+F001C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "headshot",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "kill",
+    "crit",
+    "snipe",
+    "aim",
+    "skull"
+   ],
+   "text": "󰀝",
+   "codepoints": [
+    "U+F001D"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "vr_headset",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "vr",
+    "virtual",
+    "reality",
+    "goggles",
+    "headset"
+   ],
+   "text": "󰀞",
+   "codepoints": [
+    "U+F001E"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "arcade",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "cabinet",
+    "retro",
+    "coin-op",
+    "machine",
+    "games"
+   ],
+   "text": "󰀟",
+   "codepoints": [
+    "U+F001F"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "cartridge",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "game",
+    "cart",
+    "retro",
+    "rom",
+    "classic"
+   ],
+   "text": "󰀠",
+   "codepoints": [
+    "U+F0020"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "handheld",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "portable",
+    "console",
+    "pocket",
+    "gaming"
+   ],
+   "text": "󰀡",
+   "codepoints": [
+    "U+F0021"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "wasd",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "keys",
+    "movement",
+    "keyboard",
+    "controls",
+    "pc"
+   ],
+   "text": "󰀢",
+   "codepoints": [
+    "U+F0022"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "mouse_click",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "mouse",
+    "click",
+    "lmb",
+    "pc",
+    "press"
+   ],
+   "text": "󰀣",
+   "codepoints": [
+    "U+F0023"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "key_f",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "f",
+    "respects",
+    "keyboard",
+    "key",
+    "press"
+   ],
+   "text": "󰀤",
+   "codepoints": [
+    "U+F0024"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "key_w",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "w",
+    "win",
+    "dub",
+    "victory",
+    "key"
+   ],
+   "text": "󰀥",
+   "codepoints": [
+    "U+F0025"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "key_l",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "l",
+    "loss",
+    "lose",
+    "defeat",
+    "key"
+   ],
+   "text": "󰀦",
+   "codepoints": [
+    "U+F0026"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "speedrun",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "fast",
+    "timer",
+    "stopwatch",
+    "race",
+    "pb"
+   ],
+   "text": "󰀧",
+   "codepoints": [
+    "U+F0027"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "inventory",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "backpack",
+    "bag",
+    "items",
+    "storage",
+    "gear"
+   ],
+   "text": "󰀨",
+   "codepoints": [
+    "U+F0028"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "dungeon_key",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "key",
+    "skeleton",
+    "boss",
+    "door",
+    "unlock"
+   ],
+   "text": "󰀩",
+   "codepoints": [
+    "U+F0029"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "bomb_defuse",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "defuse",
+    "disarm",
+    "wire",
+    "cutters",
+    "clutch"
+   ],
+   "text": "󰀪",
+   "codepoints": [
+    "U+F002A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "gg",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "good",
+    "game",
+    "well",
+    "played",
+    "thanks"
+   ],
+   "text": "󰀫",
+   "codepoints": [
+    "U+F002B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "ggwp",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "good",
+    "game",
+    "well",
+    "played",
+    "respect"
+   ],
+   "text": "󰀬",
+   "codepoints": [
+    "U+F002C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "glhf",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "good",
+    "luck",
+    "have",
+    "fun",
+    "start"
+   ],
+   "text": "󰀭",
+   "codepoints": [
+    "U+F002D"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "ez",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "easy",
+    "cheeky",
+    "simple",
+    "too",
+    "easy"
+   ],
+   "text": "󰀮",
+   "codepoints": [
+    "U+F002E"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "afk",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "away",
+    "from",
+    "keyboard",
+    "gone",
+    "idle"
+   ],
+   "text": "󰀯",
+   "codepoints": [
+    "U+F002F"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "brb",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "be",
+    "right",
+    "back",
+    "soon",
+    "wait"
+   ],
+   "text": "󰀰",
+   "codepoints": [
+    "U+F0030"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "omw",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "on",
+    "my",
+    "way",
+    "coming",
+    "moving"
+   ],
+   "text": "󰀱",
+   "codepoints": [
+    "U+F0031"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "nerf",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "weaker",
+    "down",
+    "balance",
+    "patch"
+   ],
+   "text": "󰀲",
+   "codepoints": [
+    "U+F0032"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "buff",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "stronger",
+    "up",
+    "balance",
+    "patch"
+   ],
+   "text": "󰀳",
+   "codepoints": [
+    "U+F0033"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "op",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "overpowered",
+    "strong",
+    "broken",
+    "power"
+   ],
+   "text": "󰀴",
+   "codepoints": [
+    "U+F0034"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "lag",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "slow",
+    "connection",
+    "stutter",
+    "delay"
+   ],
+   "text": "󰀵",
+   "codepoints": [
+    "U+F0035"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "fps",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "frames",
+    "counter",
+    "framerate",
+    "smooth"
+   ],
+   "text": "󰀶",
+   "codepoints": [
+    "U+F0036"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "ping",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "latency",
+    "signal",
+    "connection",
+    "ms"
+   ],
+   "text": "󰀷",
+   "codepoints": [
+    "U+F0037"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "crit",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "critical",
+    "hit",
+    "damage",
+    "big"
+   ],
+   "text": "󰀸",
+   "codepoints": [
+    "U+F0038"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "miss",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "missed",
+    "whiff",
+    "dodge",
+    "fail"
+   ],
+   "text": "󰀹",
+   "codepoints": [
+    "U+F0039"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "ko",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "knockout",
+    "down",
+    "finished",
+    "punch"
+   ],
+   "text": "󰀺",
+   "codepoints": [
+    "U+F003A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "win",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "victory",
+    "won",
+    "first",
+    "winner"
+   ],
+   "text": "󰀻",
+   "codepoints": [
+    "U+F003B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "lose",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "defeat",
+    "lost",
+    "sad",
+    "second"
+   ],
+   "text": "󰀼",
+   "codepoints": [
+    "U+F003C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "mvp",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "most",
+    "valuable",
+    "player",
+    "best",
+    "star"
+   ],
+   "text": "󰀽",
+   "codepoints": [
+    "U+F003D"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "ace",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "card",
+    "perfect",
+    "flawless",
+    "team",
+    "wipe"
+   ],
+   "text": "󰀾",
+   "codepoints": [
+    "U+F003E"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "clutch",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "fist",
+    "win",
+    "close",
+    "save"
+   ],
+   "text": "󰀿",
+   "codepoints": [
+    "U+F003F"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "noob",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "newbie",
+    "beginner",
+    "sprout",
+    "new"
+   ],
+   "text": "󰁀",
+   "codepoints": [
+    "U+F0040"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "pro",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "professional",
+    "skilled",
+    "expert",
+    "laurel"
+   ],
+   "text": "󰁁",
+   "codepoints": [
+    "U+F0041"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "gank",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "ambush",
+    "daggers",
+    "surprise",
+    "attack"
+   ],
+   "text": "󰁂",
+   "codepoints": [
+    "U+F0042"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "camp",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "camping",
+    "tent",
+    "waiting",
+    "hiding"
+   ],
+   "text": "󰁃",
+   "codepoints": [
+    "U+F0043"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "rush",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "fast",
+    "go",
+    "push",
+    "speed"
+   ],
+   "text": "󰁄",
+   "codepoints": [
+    "U+F0044"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "heal",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "health",
+    "support",
+    "medic",
+    "restore"
+   ],
+   "text": "󰁅",
+   "codepoints": [
+    "U+F0045"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "tank",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "shield",
+    "defense",
+    "frontline",
+    "protect"
+   ],
+   "text": "󰁆",
+   "codepoints": [
+    "U+F0046"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "dps",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "damage",
+    "sword",
+    "attack",
+    "carry"
+   ],
+   "text": "󰁇",
+   "codepoints": [
+    "U+F0047"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "loot",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "coins",
+    "gold",
+    "treasure",
+    "drop"
+   ],
+   "text": "󰁈",
+   "codepoints": [
+    "U+F0048"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "nice",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "good",
+    "well",
+    "done",
+    "great"
+   ],
+   "text": "󰁉",
+   "codepoints": [
+    "U+F0049"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "oof",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "ouch",
+    "hurt",
+    "bad",
+    "yikes"
+   ],
+   "text": "󰁊",
+   "codepoints": [
+    "U+F004A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "rekt",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "wrecked",
+    "destroyed",
+    "owned",
+    "stamp"
+   ],
+   "text": "󰁋",
+   "codepoints": [
+    "U+F004B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "f_respects",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "respect",
+    "rip",
+    "press",
+    "f",
+    "tribute"
+   ],
+   "text": "󰁌",
+   "codepoints": [
+    "U+F004C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "one_more",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "another",
+    "round",
+    "again",
+    "plus",
+    "one"
+   ],
+   "text": "󰁍",
+   "codepoints": [
+    "U+F004D"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "carry",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "strong",
+    "arm",
+    "lift",
+    "team",
+    "star"
+   ],
+   "text": "󰁎",
+   "codepoints": [
+    "U+F004E"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "tilt",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "tilted",
+    "angry",
+    "frustrated",
+    "mad"
+   ],
+   "text": "󰁏",
+   "codepoints": [
+    "U+F004F"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "salt",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "salty",
+    "bitter",
+    "mad",
+    "shaker"
+   ],
+   "text": "󰁐",
+   "codepoints": [
+    "U+F0050"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "toxic",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "poison",
+    "rude",
+    "nasty",
+    "slime"
+   ],
+   "text": "󰁑",
+   "codepoints": [
+    "U+F0051"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "bot",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "robot",
+    "ai",
+    "npc",
+    "fake",
+    "player"
+   ],
+   "text": "󰁒",
+   "codepoints": [
+    "U+F0052"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "hype",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "excited",
+    "pog",
+    "lets",
+    "go",
+    "wow"
+   ],
+   "text": "󰁓",
+   "codepoints": [
+    "U+F0053"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "rage_quit",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "angry",
+    "quit",
+    "throw",
+    "controller",
+    "mad"
+   ],
+   "text": "󰁔",
+   "codepoints": [
+    "U+F0054"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "sweaty",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "tryhard",
+    "sweat",
+    "headset",
+    "effort"
+   ],
+   "text": "󰁕",
+   "codepoints": [
+    "U+F0055"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "gamer_focus",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "concentrate",
+    "locked",
+    "in",
+    "headset",
+    "tongue"
+   ],
+   "text": "󰁖",
+   "codepoints": [
+    "U+F0056"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "sleepy_gamer",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "tired",
+    "late",
+    "night",
+    "headset",
+    "exhausted"
+   ],
+   "text": "󰁗",
+   "codepoints": [
+    "U+F0057"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "winner",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "champion",
+    "crown",
+    "victory",
+    "first",
+    "confetti"
+   ],
+   "text": "󰁘",
+   "codepoints": [
+    "U+F0058"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "big_brain",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "smart",
+    "genius",
+    "galaxy",
+    "brain",
+    "idea"
+   ],
+   "text": "󰁙",
+   "codepoints": [
+    "U+F0059"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "smooth_brain",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "dumb",
+    "empty",
+    "no",
+    "thoughts",
+    "derp"
+   ],
+   "text": "󰁚",
+   "codepoints": [
+    "U+F005A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "cope",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "coping",
+    "denial",
+    "breathe",
+    "mask",
+    "fine"
+   ],
+   "text": "󰁛",
+   "codepoints": [
+    "U+F005B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "not_like_this",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "despair",
+    "no",
+    "disaster",
+    "hands",
+    "on",
+    "head"
+   ],
+   "text": "󰁜",
+   "codepoints": [
+    "U+F005C"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "pain",
+   "kind": "emoji",
+   "category": "gamer",
+   "keywords": [
+    "fine",
+    "hurting",
+    "inside",
+    "thumbs",
+    "up",
+    "cope"
+   ],
+   "text": "󰁝",
+   "codepoints": [
+    "U+F005D"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "microphone",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "mic",
+    "sing",
+    "karaoke",
+    "voice",
+    "audio"
+   ],
+   "text": "🎤",
+   "codepoints": [
+    "U+1F3A4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "studio_microphone",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "mic",
+    "podcast",
+    "record",
+    "voice",
+    "audio"
+   ],
+   "text": "🎙",
+   "codepoints": [
+    "U+1F399"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "headphones",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "headset",
+    "music",
+    "audio",
+    "listen"
+   ],
+   "text": "🎧",
+   "codepoints": [
+    "U+1F3A7"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "movie_camera",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "film",
+    "video",
+    "record",
+    "cinema",
+    "camera"
+   ],
+   "text": "🎥",
+   "codepoints": [
+    "U+1F3A5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "clapper",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "action",
+    "film",
+    "movie",
+    "scene",
+    "take"
+   ],
+   "text": "🎬",
+   "codepoints": [
+    "U+1F3AC"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "tv",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "television",
+    "show",
+    "watch",
+    "screen"
+   ],
+   "text": "📺",
+   "codepoints": [
+    "U+1F4FA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mute",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "silent",
+    "muted",
+    "no",
+    "sound",
+    "speaker",
+    "off"
+   ],
+   "text": "🔇",
+   "codepoints": [
+    "U+1F507"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "loud_sound",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "volume",
+    "speaker",
+    "audio",
+    "loud",
+    "up"
+   ],
+   "text": "🔊",
+   "codepoints": [
+    "U+1F50A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mega",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "megaphone",
+    "announce",
+    "shout",
+    "cheer",
+    "loud"
+   ],
+   "text": "📣",
+   "codepoints": [
+    "U+1F4E3"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "scissors",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "cut",
+    "snip",
+    "trim",
+    "edit"
+   ],
+   "text": "✂",
+   "codepoints": [
+    "U+2702"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "play",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "start",
+    "resume",
+    "go",
+    "button"
+   ],
+   "text": "▶",
+   "codepoints": [
+    "U+25B6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pause",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "hold",
+    "wait",
+    "break",
+    "button"
+   ],
+   "text": "⏸",
+   "codepoints": [
+    "U+23F8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "stop",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "end",
+    "halt",
+    "square",
+    "button"
+   ],
+   "text": "⏹",
+   "codepoints": [
+    "U+23F9"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "record",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "rec",
+    "capture",
+    "circle",
+    "button"
+   ],
+   "text": "⏺",
+   "codepoints": [
+    "U+23FA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "fast_forward",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "skip",
+    "ahead",
+    "speed",
+    "next",
+    "button"
+   ],
+   "text": "⏩",
+   "codepoints": [
+    "U+23E9"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "rewind",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "back",
+    "replay",
+    "previous",
+    "button"
+   ],
+   "text": "⏪",
+   "codepoints": [
+    "U+23EA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "film",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "frames",
+    "movie",
+    "reel",
+    "strip",
+    "cinema"
+   ],
+   "text": "🎞",
+   "codepoints": [
+    "U+1F39E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "popcorn_time",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "popcorn",
+    "movie",
+    "watch",
+    "drama",
+    "snacks"
+   ],
+   "text": "󰁞",
+   "codepoints": [
+    "U+F005E"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "live",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "streaming",
+    "on",
+    "air",
+    "broadcast",
+    "now"
+   ],
+   "text": "󰁟",
+   "codepoints": [
+    "U+F005F"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "offline",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "off",
+    "ended",
+    "away",
+    "not",
+    "live"
+   ],
+   "text": "󰁠",
+   "codepoints": [
+    "U+F0060"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "rec",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "recording",
+    "record",
+    "red",
+    "dot",
+    "capture"
+   ],
+   "text": "󰁡",
+   "codepoints": [
+    "U+F0061"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "on_air",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "broadcast",
+    "live",
+    "studio",
+    "sign",
+    "radio"
+   ],
+   "text": "󰁢",
+   "codepoints": [
+    "U+F0062"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "webcam",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "camera",
+    "cam",
+    "video",
+    "facecam"
+   ],
+   "text": "󰁣",
+   "codepoints": [
+    "U+F0063"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "ring_light",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "light",
+    "glow",
+    "selfie",
+    "lighting",
+    "lamp"
+   ],
+   "text": "󰁤",
+   "codepoints": [
+    "U+F0064"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "green_screen",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "chroma",
+    "key",
+    "backdrop",
+    "studio",
+    "background"
+   ],
+   "text": "󰁥",
+   "codepoints": [
+    "U+F0065"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "macro_pad",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "keys",
+    "shortcuts",
+    "buttons",
+    "deck",
+    "control"
+   ],
+   "text": "󰁦",
+   "codepoints": [
+    "U+F0066"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "capture",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "screenshot",
+    "screen",
+    "record",
+    "grab"
+   ],
+   "text": "󰁧",
+   "codepoints": [
+    "U+F0067"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "clip",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "cut",
+    "moment",
+    "highlight",
+    "short"
+   ],
+   "text": "󰁨",
+   "codepoints": [
+    "U+F0068"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "highlight",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "best",
+    "moment",
+    "star",
+    "reel",
+    "feature"
+   ],
+   "text": "󰁩",
+   "codepoints": [
+    "U+F0069"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "vod",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "replay",
+    "video",
+    "archive",
+    "past",
+    "broadcast"
+   ],
+   "text": "󰁪",
+   "codepoints": [
+    "U+F006A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "follow",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "heart",
+    "plus",
+    "subscribe",
+    "add",
+    "fan"
+   ],
+   "text": "󰁫",
+   "codepoints": [
+    "U+F006B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "sub",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "subscriber",
+    "star",
+    "badge",
+    "member",
+    "support"
+   ],
+   "text": "󰁬",
+   "codepoints": [
+    "U+F006C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "gift_sub",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "gift",
+    "present",
+    "subscription",
+    "donate",
+    "star"
+   ],
+   "text": "󰁭",
+   "codepoints": [
+    "U+F006D"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "tip_jar",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "tips",
+    "donate",
+    "coins",
+    "money",
+    "support"
+   ],
+   "text": "󰁮",
+   "codepoints": [
+    "U+F006E"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "cheer",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "gem",
+    "bits",
+    "sparkle",
+    "celebrate",
+    "hype"
+   ],
+   "text": "󰁯",
+   "codepoints": [
+    "U+F006F"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "raid",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "charge",
+    "flags",
+    "attack",
+    "invade",
+    "rush"
+   ],
+   "text": "󰁰",
+   "codepoints": [
+    "U+F0070"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "host_wave",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "hello",
+    "hi",
+    "wave",
+    "greet",
+    "welcome"
+   ],
+   "text": "󰁱",
+   "codepoints": [
+    "U+F0071"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "mod",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "moderator",
+    "shield",
+    "staff",
+    "guard",
+    "tick"
+   ],
+   "text": "󰁲",
+   "codepoints": [
+    "U+F0072"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "vip",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "very",
+    "important",
+    "gem",
+    "badge",
+    "special"
+   ],
+   "text": "󰁳",
+   "codepoints": [
+    "U+F0073"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "streamer_badge",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "broadcaster",
+    "creator",
+    "host",
+    "camera"
+   ],
+   "text": "󰁴",
+   "codepoints": [
+    "U+F0074"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "verified",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "check",
+    "tick",
+    "official",
+    "confirmed",
+    "real"
+   ],
+   "text": "󰁵",
+   "codepoints": [
+    "U+F0075"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "viewers",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "watching",
+    "eye",
+    "audience",
+    "count"
+   ],
+   "text": "󰁶",
+   "codepoints": [
+    "U+F0076"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "chat_spam",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "flood",
+    "messages",
+    "talk",
+    "busy",
+    "copypasta"
+   ],
+   "text": "󰁷",
+   "codepoints": [
+    "U+F0077"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "emote_only",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "emoji",
+    "chat",
+    "mode",
+    "smiley",
+    "restricted"
+   ],
+   "text": "󰁸",
+   "codepoints": [
+    "U+F0078"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "slow_mode",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "slow",
+    "chat",
+    "snail",
+    "cooldown",
+    "wait"
+   ],
+   "text": "󰁹",
+   "codepoints": [
+    "U+F0079"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "timeout",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "muted",
+    "minutes",
+    "temporary",
+    "silence",
+    "clock"
+   ],
+   "text": "󰁺",
+   "codepoints": [
+    "U+F007A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "ban_hammer",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "ban",
+    "banned",
+    "moderation",
+    "justice",
+    "smash"
+   ],
+   "text": "󰁻",
+   "codepoints": [
+    "U+F007B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "lurk",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "lurking",
+    "peek",
+    "watching",
+    "hiding",
+    "quiet"
+   ],
+   "text": "󰁼",
+   "codepoints": [
+    "U+F007C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "first",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "1st",
+    "winner",
+    "early",
+    "number",
+    "one"
+   ],
+   "text": "󰁽",
+   "codepoints": [
+    "U+F007D"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "hype_train",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "hype",
+    "train",
+    "choo",
+    "momentum",
+    "party"
+   ],
+   "text": "󰁾",
+   "codepoints": [
+    "U+F007E"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "poll",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "vote",
+    "survey",
+    "bars",
+    "results",
+    "choose"
+   ],
+   "text": "󰁿",
+   "codepoints": [
+    "U+F007F"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "prediction",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "crystal",
+    "ball",
+    "future",
+    "guess",
+    "bet"
+   ],
+   "text": "󰂀",
+   "codepoints": [
+    "U+F0080"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "giveaway",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "raffle",
+    "ticket",
+    "prize",
+    "win",
+    "contest"
+   ],
+   "text": "󰂁",
+   "codepoints": [
+    "U+F0081"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "brb_screen",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "brb",
+    "be",
+    "right",
+    "back",
+    "away",
+    "break"
+   ],
+   "text": "󰂂",
+   "codepoints": [
+    "U+F0082"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "starting_soon",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "countdown",
+    "soon",
+    "wait",
+    "intro",
+    "timer"
+   ],
+   "text": "󰂃",
+   "codepoints": [
+    "U+F0083"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "technical_difficulties",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "error",
+    "broken",
+    "test",
+    "bars",
+    "fix"
+   ],
+   "text": "󰂄",
+   "codepoints": [
+    "U+F0084"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "scuffed",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "broken",
+    "janky",
+    "taped",
+    "low",
+    "budget"
+   ],
+   "text": "󰂅",
+   "codepoints": [
+    "U+F0085"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "bitrate",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "quality",
+    "drop",
+    "connection",
+    "lag",
+    "graph"
+   ],
+   "text": "󰂆",
+   "codepoints": [
+    "U+F0086"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "dropped_frames",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "lag",
+    "stutter",
+    "frames",
+    "lost",
+    "skip"
+   ],
+   "text": "󰂇",
+   "codepoints": [
+    "U+F0087"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "donation_alert",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "donate",
+    "tip",
+    "alert",
+    "money",
+    "bell"
+   ],
+   "text": "󰂈",
+   "codepoints": [
+    "U+F0088"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "shoutout",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "so",
+    "promote",
+    "mention",
+    "love",
+    "megaphone"
+   ],
+   "text": "󰂉",
+   "codepoints": [
+    "U+F0089"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "collab",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "together",
+    "duo",
+    "partner",
+    "team",
+    "up"
+   ],
+   "text": "󰂊",
+   "codepoints": [
+    "U+F008A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "mic_muted",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "muted",
+    "silent",
+    "mic",
+    "off",
+    "quiet"
+   ],
+   "text": "󰂋",
+   "codepoints": [
+    "U+F008B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "hot_mic",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "live",
+    "mic",
+    "open",
+    "oops",
+    "talking"
+   ],
+   "text": "󰂌",
+   "codepoints": [
+    "U+F008C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "cam_off",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "camera",
+    "off",
+    "no",
+    "video",
+    "hidden"
+   ],
+   "text": "󰂍",
+   "codepoints": [
+    "U+F008D"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "overlay",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "layout",
+    "scene",
+    "hud",
+    "frame",
+    "design"
+   ],
+   "text": "󰂎",
+   "codepoints": [
+    "U+F008E"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "thumbnail",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "preview",
+    "clickbait",
+    "cover",
+    "image",
+    "shocked"
+   ],
+   "text": "󰂏",
+   "codepoints": [
+    "U+F008F"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "like",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "thumbs",
+    "up",
+    "approve",
+    "good",
+    "yes"
+   ],
+   "text": "󰂐",
+   "codepoints": [
+    "U+F0090"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "share",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "send",
+    "forward",
+    "export",
+    "repost"
+   ],
+   "text": "󰂑",
+   "codepoints": [
+    "U+F0091"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "notification",
+   "kind": "emoji",
+   "category": "streamer",
+   "keywords": [
+    "alert",
+    "bell",
+    "ping",
+    "unread",
+    "notify"
+   ],
+   "text": "󰂒",
+   "codepoints": [
+    "U+F0092"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "computer",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "laptop",
+    "pc",
+    "notebook",
+    "code"
+   ],
+   "text": "💻",
+   "codepoints": [
+    "U+1F4BB"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "desktop",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "monitor",
+    "screen",
+    "pc",
+    "display"
+   ],
+   "text": "🖥",
+   "codepoints": [
+    "U+1F5A5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "keyboard",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "typing",
+    "keys",
+    "input",
+    "type"
+   ],
+   "text": "⌨",
+   "codepoints": [
+    "U+2328"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "computer_mouse",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "click",
+    "pointer",
+    "scroll",
+    "device"
+   ],
+   "text": "🖱",
+   "codepoints": [
+    "U+1F5B1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "floppy",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "save",
+    "disk",
+    "diskette",
+    "retro"
+   ],
+   "text": "💾",
+   "codepoints": [
+    "U+1F4BE"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cd",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "disc",
+    "dvd",
+    "music",
+    "optical"
+   ],
+   "text": "💿",
+   "codepoints": [
+    "U+1F4BF"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "battery",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "power",
+    "charge",
+    "full",
+    "energy"
+   ],
+   "text": "🔋",
+   "codepoints": [
+    "U+1F50B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "low_battery",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "empty",
+    "dying",
+    "charge",
+    "power"
+   ],
+   "text": "🪫",
+   "codepoints": [
+    "U+1FAAB"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "plug",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "power",
+    "electric",
+    "socket",
+    "cable"
+   ],
+   "text": "🔌",
+   "codepoints": [
+    "U+1F50C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bulb",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "idea",
+    "light",
+    "lamp",
+    "bright"
+   ],
+   "text": "💡",
+   "codepoints": [
+    "U+1F4A1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "gear",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "settings",
+    "cog",
+    "config",
+    "options"
+   ],
+   "text": "⚙",
+   "codepoints": [
+    "U+2699"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "wrench",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "tool",
+    "fix",
+    "spanner",
+    "repair"
+   ],
+   "text": "🔧",
+   "codepoints": [
+    "U+1F527"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "hammer",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "tool",
+    "build",
+    "nail",
+    "hit"
+   ],
+   "text": "🔨",
+   "codepoints": [
+    "U+1F528"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "tools",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "hammer",
+    "wrench",
+    "fix",
+    "build",
+    "repair"
+   ],
+   "text": "🛠",
+   "codepoints": [
+    "U+1F6E0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mag",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "search",
+    "find",
+    "zoom",
+    "magnifying",
+    "glass"
+   ],
+   "text": "🔍",
+   "codepoints": [
+    "U+1F50D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "lock",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "locked",
+    "secure",
+    "private",
+    "closed"
+   ],
+   "text": "🔒",
+   "codepoints": [
+    "U+1F512"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "unlock",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "unlocked",
+    "open",
+    "access"
+   ],
+   "text": "🔓",
+   "codepoints": [
+    "U+1F513"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "key",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "password",
+    "unlock",
+    "access",
+    "secret"
+   ],
+   "text": "🔑",
+   "codepoints": [
+    "U+1F511"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "shield",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "protect",
+    "security",
+    "defense",
+    "safe"
+   ],
+   "text": "🛡",
+   "codepoints": [
+    "U+1F6E1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "satellite_dish",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "antenna",
+    "signal",
+    "broadcast",
+    "radar"
+   ],
+   "text": "📡",
+   "codepoints": [
+    "U+1F4E1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "phone",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "mobile",
+    "smartphone",
+    "cell",
+    "device"
+   ],
+   "text": "📱",
+   "codepoints": [
+    "U+1F4F1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "camera",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "photo",
+    "picture",
+    "snapshot",
+    "lens"
+   ],
+   "text": "📷",
+   "codepoints": [
+    "U+1F4F7"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "printer",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "print",
+    "paper",
+    "office",
+    "document"
+   ],
+   "text": "🖨",
+   "codepoints": [
+    "U+1F5A8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "folder",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "directory",
+    "files",
+    "documents"
+   ],
+   "text": "📁",
+   "codepoints": [
+    "U+1F4C1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "package",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "box",
+    "parcel",
+    "delivery",
+    "shipping"
+   ],
+   "text": "📦",
+   "codepoints": [
+    "U+1F4E6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "hourglass",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "time",
+    "wait",
+    "timer",
+    "sand"
+   ],
+   "text": "⌛",
+   "codepoints": [
+    "U+231B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "alarm_clock",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "time",
+    "wake",
+    "morning",
+    "timer"
+   ],
+   "text": "⏰",
+   "codepoints": [
+    "U+23F0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "calendar",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "date",
+    "day",
+    "schedule",
+    "month"
+   ],
+   "text": "📅",
+   "codepoints": [
+    "U+1F4C5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "email",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "envelope",
+    "mail",
+    "letter",
+    "message"
+   ],
+   "text": "✉",
+   "codepoints": [
+    "U+2709"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "link",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "chain",
+    "url",
+    "hyperlink",
+    "connect"
+   ],
+   "text": "🔗",
+   "codepoints": [
+    "U+1F517"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "paperclip",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "attach",
+    "attachment",
+    "clip",
+    "file"
+   ],
+   "text": "📎",
+   "codepoints": [
+    "U+1F4CE"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pushpin",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "pin",
+    "tack",
+    "location",
+    "pinned"
+   ],
+   "text": "📌",
+   "codepoints": [
+    "U+1F4CC"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "trash",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "delete",
+    "bin",
+    "garbage",
+    "wastebasket",
+    "remove"
+   ],
+   "text": "🗑",
+   "codepoints": [
+    "U+1F5D1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "books",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "library",
+    "study",
+    "read",
+    "stack"
+   ],
+   "text": "📚",
+   "codepoints": [
+    "U+1F4DA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "book",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "open",
+    "read",
+    "pages",
+    "reading"
+   ],
+   "text": "📖",
+   "codepoints": [
+    "U+1F4D6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pencil",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "write",
+    "draw",
+    "edit",
+    "sketch"
+   ],
+   "text": "✏",
+   "codepoints": [
+    "U+270F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "memo",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "note",
+    "write",
+    "document",
+    "todo"
+   ],
+   "text": "📝",
+   "codepoints": [
+    "U+1F4DD"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "signal",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "bars",
+    "reception",
+    "network",
+    "cellular"
+   ],
+   "text": "📶",
+   "codepoints": [
+    "U+1F4F6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "terminal",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "console",
+    "shell",
+    "command",
+    "prompt",
+    "cli"
+   ],
+   "text": "󰂓",
+   "codepoints": [
+    "U+F0093"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "code",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "programming",
+    "developer",
+    "html",
+    "source",
+    "dev"
+   ],
+   "text": "󰂔",
+   "codepoints": [
+    "U+F0094"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "cpu",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "processor",
+    "chip",
+    "core",
+    "silicon"
+   ],
+   "text": "󰂕",
+   "codepoints": [
+    "U+F0095"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "gpu",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "graphics",
+    "card",
+    "video",
+    "rendering",
+    "gaming"
+   ],
+   "text": "󰂖",
+   "codepoints": [
+    "U+F0096"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "ram",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "memory",
+    "stick",
+    "dimm",
+    "module"
+   ],
+   "text": "󰂗",
+   "codepoints": [
+    "U+F0097"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "server",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "rack",
+    "host",
+    "datacenter",
+    "backend"
+   ],
+   "text": "󰂘",
+   "codepoints": [
+    "U+F0098"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "database",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "db",
+    "sql",
+    "storage",
+    "data"
+   ],
+   "text": "󰂙",
+   "codepoints": [
+    "U+F0099"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "hard_drive",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "hdd",
+    "disk",
+    "storage",
+    "drive"
+   ],
+   "text": "󰂚",
+   "codepoints": [
+    "U+F009A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "usb",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "flash",
+    "drive",
+    "thumb",
+    "stick",
+    "storage"
+   ],
+   "text": "󰂛",
+   "codepoints": [
+    "U+F009B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "wifi",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "wireless",
+    "internet",
+    "network",
+    "connection"
+   ],
+   "text": "󰂜",
+   "codepoints": [
+    "U+F009C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "rubber_duck",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "debug",
+    "debugging",
+    "duck",
+    "quack",
+    "explain"
+   ],
+   "text": "󰂝",
+   "codepoints": [
+    "U+F009D"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "bug_fix",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "debug",
+    "fixed",
+    "patch",
+    "bugfix",
+    "squash"
+   ],
+   "text": "󰂞",
+   "codepoints": [
+    "U+F009E"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "git_branch",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "branch",
+    "fork",
+    "version",
+    "control",
+    "vcs"
+   ],
+   "text": "󰂟",
+   "codepoints": [
+    "U+F009F"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "merge",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "pull",
+    "request",
+    "join",
+    "combine",
+    "git"
+   ],
+   "text": "󰂠",
+   "codepoints": [
+    "U+F00A0"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "error_404",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "not",
+    "found",
+    "missing",
+    "page",
+    "broken"
+   ],
+   "text": "󰂡",
+   "codepoints": [
+    "U+F00A1"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "binary",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "bits",
+    "zeros",
+    "ones",
+    "data",
+    "digital"
+   ],
+   "text": "󰂢",
+   "codepoints": [
+    "U+F00A2"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "cloud_upload",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "upload",
+    "send",
+    "sync",
+    "backup"
+   ],
+   "text": "󰂣",
+   "codepoints": [
+    "U+F00A3"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "cloud_download",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "download",
+    "save",
+    "fetch",
+    "pull"
+   ],
+   "text": "󰂤",
+   "codepoints": [
+    "U+F00A4"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "power",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "on",
+    "off",
+    "shutdown",
+    "button",
+    "restart"
+   ],
+   "text": "󰂥",
+   "codepoints": [
+    "U+F00A5"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "loading",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "spinner",
+    "wait",
+    "busy",
+    "progress"
+   ],
+   "text": "󰂦",
+   "codepoints": [
+    "U+F00A6"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "blue_screen",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "crash",
+    "bsod",
+    "error",
+    "sad",
+    "computer"
+   ],
+   "text": "󰂧",
+   "codepoints": [
+    "U+F00A7"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "works_on_my_machine",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "wfm",
+    "excuse",
+    "deploy",
+    "shrug",
+    "works"
+   ],
+   "text": "󰂨",
+   "codepoints": [
+    "U+F00A8"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "coffee_code",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "coffee",
+    "mug",
+    "caffeine",
+    "programmer",
+    "fuel"
+   ],
+   "text": "󰂩",
+   "codepoints": [
+    "U+F00A9"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "keycap_esc",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "escape",
+    "key",
+    "exit",
+    "quit"
+   ],
+   "text": "󰂪",
+   "codepoints": [
+    "U+F00AA"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "keycap_ctrl",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "control",
+    "key",
+    "shortcut",
+    "modifier"
+   ],
+   "text": "󰂫",
+   "codepoints": [
+    "U+F00AB"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "keycap_enter",
+   "kind": "emoji",
+   "category": "tech",
+   "keywords": [
+    "return",
+    "key",
+    "submit",
+    "newline"
+   ],
+   "text": "󰂬",
+   "codepoints": [
+    "U+F00AC"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "rocket",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "space",
+    "launch",
+    "ship",
+    "fast",
+    "liftoff"
+   ],
+   "text": "🚀",
+   "codepoints": [
+    "U+1F680"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "ufo",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "alien",
+    "saucer",
+    "space",
+    "flying",
+    "abduct"
+   ],
+   "text": "🛸",
+   "codepoints": [
+    "U+1F6F8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "satellite",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "orbit",
+    "space",
+    "signal",
+    "gps",
+    "broadcast"
+   ],
+   "text": "🛰",
+   "codepoints": [
+    "U+1F6F0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "telescope",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "stars",
+    "astronomy",
+    "space",
+    "observe",
+    "look"
+   ],
+   "text": "🔭",
+   "codepoints": [
+    "U+1F52D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "microscope",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "lab",
+    "science",
+    "zoom",
+    "biology",
+    "cells"
+   ],
+   "text": "🔬",
+   "codepoints": [
+    "U+1F52C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "test_tube",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "lab",
+    "chemistry",
+    "experiment",
+    "sample"
+   ],
+   "text": "🧪",
+   "codepoints": [
+    "U+1F9EA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "petri_dish",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "lab",
+    "bacteria",
+    "culture",
+    "biology"
+   ],
+   "text": "🧫",
+   "codepoints": [
+    "U+1F9EB"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "dna",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "gene",
+    "helix",
+    "biology",
+    "genetics"
+   ],
+   "text": "🧬",
+   "codepoints": [
+    "U+1F9EC"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "atom",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "physics",
+    "science",
+    "nucleus",
+    "electron"
+   ],
+   "text": "⚛",
+   "codepoints": [
+    "U+269B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "magnet",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "attract",
+    "pull",
+    "magnetic",
+    "horseshoe"
+   ],
+   "text": "🧲",
+   "codepoints": [
+    "U+1F9F2"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "alembic",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "chemistry",
+    "distill",
+    "alchemy",
+    "potion"
+   ],
+   "text": "⚗",
+   "codepoints": [
+    "U+2697"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "thermometer",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "temperature",
+    "hot",
+    "fever",
+    "weather"
+   ],
+   "text": "🌡",
+   "codepoints": [
+    "U+1F321"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "stethoscope",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "doctor",
+    "medical",
+    "heart",
+    "health"
+   ],
+   "text": "🩺",
+   "codepoints": [
+    "U+1FA7A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pill",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "medicine",
+    "capsule",
+    "drug",
+    "vitamin"
+   ],
+   "text": "💊",
+   "codepoints": [
+    "U+1F48A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "syringe",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "needle",
+    "shot",
+    "vaccine",
+    "injection",
+    "medical"
+   ],
+   "text": "💉",
+   "codepoints": [
+    "U+1F489"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "microbe",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "germ",
+    "bacteria",
+    "virus",
+    "bug",
+    "cell"
+   ],
+   "text": "🦠",
+   "codepoints": [
+    "U+1F9A0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "ringed_planet",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "saturn",
+    "space",
+    "planet",
+    "rings"
+   ],
+   "text": "🪐",
+   "codepoints": [
+    "U+1FA90"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "comet",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "space",
+    "meteor",
+    "shooting",
+    "tail"
+   ],
+   "text": "☄",
+   "codepoints": [
+    "U+2604"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "abacus",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "count",
+    "math",
+    "calculate",
+    "beads"
+   ],
+   "text": "🧮",
+   "codepoints": [
+    "U+1F9EE"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "compass",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "navigate",
+    "direction",
+    "north",
+    "map"
+   ],
+   "text": "🧭",
+   "codepoints": [
+    "U+1F9ED"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "triangular_ruler",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "geometry",
+    "math",
+    "set",
+    "square",
+    "measure"
+   ],
+   "text": "📐",
+   "codepoints": [
+    "U+1F4D0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "radioactive",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "nuclear",
+    "radiation",
+    "danger",
+    "hazard"
+   ],
+   "text": "☢",
+   "codepoints": [
+    "U+2622"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "biohazard",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "danger",
+    "toxic",
+    "hazard",
+    "virus"
+   ],
+   "text": "☣",
+   "codepoints": [
+    "U+2623"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "lab_goggles",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "safety",
+    "glasses",
+    "protect",
+    "eyes"
+   ],
+   "text": "🥽",
+   "codepoints": [
+    "U+1F97D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "full_moon",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "night",
+    "lunar",
+    "space",
+    "sky"
+   ],
+   "text": "🌕",
+   "codepoints": [
+    "U+1F315"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "milky_way",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "galaxy",
+    "night",
+    "stars",
+    "space",
+    "sky"
+   ],
+   "text": "🌌",
+   "codepoints": [
+    "U+1F30C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "volcano",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "eruption",
+    "lava",
+    "mountain",
+    "fire"
+   ],
+   "text": "🌋",
+   "codepoints": [
+    "U+1F30B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "astronaut",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "space",
+    "cosmonaut",
+    "helmet",
+    "suit"
+   ],
+   "text": "󰂭",
+   "codepoints": [
+    "U+F00AD"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "flask",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "erlenmeyer",
+    "chemistry",
+    "lab",
+    "potion",
+    "bubbling"
+   ],
+   "text": "󰂮",
+   "codepoints": [
+    "U+F00AE"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "beaker",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "lab",
+    "chemistry",
+    "glass",
+    "measure",
+    "liquid"
+   ],
+   "text": "󰂯",
+   "codepoints": [
+    "U+F00AF"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "pi",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "math",
+    "constant",
+    "circle",
+    "number",
+    "greek"
+   ],
+   "text": "󰂰",
+   "codepoints": [
+    "U+F00B0"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "sigma",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "math",
+    "sum",
+    "total",
+    "greek",
+    "statistics"
+   ],
+   "text": "󰂱",
+   "codepoints": [
+    "U+F00B1"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "delta",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "math",
+    "change",
+    "difference",
+    "greek",
+    "triangle"
+   ],
+   "text": "󰂲",
+   "codepoints": [
+    "U+F00B2"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "black_hole",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "space",
+    "void",
+    "gravity",
+    "singularity"
+   ],
+   "text": "󰂳",
+   "codepoints": [
+    "U+F00B3"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "galaxy",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "spiral",
+    "space",
+    "stars",
+    "cosmos"
+   ],
+   "text": "󰂴",
+   "codepoints": [
+    "U+F00B4"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "solar_system",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "planets",
+    "orbit",
+    "sun",
+    "space"
+   ],
+   "text": "󰂵",
+   "codepoints": [
+    "U+F00B5"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "molecule",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "chemistry",
+    "atoms",
+    "bond",
+    "compound"
+   ],
+   "text": "󰂶",
+   "codepoints": [
+    "U+F00B6"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "bell_curve",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "statistics",
+    "normal",
+    "distribution",
+    "gauss",
+    "average"
+   ],
+   "text": "󰂷",
+   "codepoints": [
+    "U+F00B7"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "graph_axes",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "chart",
+    "plot",
+    "growth",
+    "math",
+    "trend"
+   ],
+   "text": "󰂸",
+   "codepoints": [
+    "U+F00B8"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "eureka",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "idea",
+    "lightbulb",
+    "discovery",
+    "aha"
+   ],
+   "text": "󰂹",
+   "codepoints": [
+    "U+F00B9"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "lab_coat",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "scientist",
+    "doctor",
+    "white",
+    "coat"
+   ],
+   "text": "󰂺",
+   "codepoints": [
+    "U+F00BA"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "bunsen_burner",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "flame",
+    "lab",
+    "gas",
+    "heat",
+    "chemistry"
+   ],
+   "text": "󰂻",
+   "codepoints": [
+    "U+F00BB"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "prism",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "light",
+    "rainbow",
+    "spectrum",
+    "optics",
+    "refraction"
+   ],
+   "text": "󰂼",
+   "codepoints": [
+    "U+F00BC"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "periodic_tile",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "element",
+    "chemistry",
+    "table",
+    "freespeak"
+   ],
+   "text": "󰂽",
+   "codepoints": [
+    "U+F00BD"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "e_mc2",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "einstein",
+    "relativity",
+    "physics",
+    "chalkboard",
+    "equation"
+   ],
+   "text": "󰂾",
+   "codepoints": [
+    "U+F00BE"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "hypothesis",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "theory",
+    "idea",
+    "question",
+    "think",
+    "test"
+   ],
+   "text": "󰂿",
+   "codepoints": [
+    "U+F00BF"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "robot_arm",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "factory",
+    "industrial",
+    "machine",
+    "automation"
+   ],
+   "text": "󰃀",
+   "codepoints": [
+    "U+F00C0"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "mars_rover",
+   "kind": "emoji",
+   "category": "science",
+   "keywords": [
+    "space",
+    "robot",
+    "explore",
+    "nasa",
+    "wheels"
+   ],
+   "text": "󰃁",
+   "codepoints": [
+    "U+F00C1"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "briefcase",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "work",
+    "job",
+    "case",
+    "business",
+    "office"
+   ],
+   "text": "💼",
+   "codepoints": [
+    "U+1F4BC"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "chart_up",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "graph",
+    "growth",
+    "rising",
+    "stonks",
+    "profit"
+   ],
+   "text": "📈",
+   "codepoints": [
+    "U+1F4C8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "chart_down",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "graph",
+    "falling",
+    "loss",
+    "decline",
+    "crash"
+   ],
+   "text": "📉",
+   "codepoints": [
+    "U+1F4C9"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bar_chart",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "graph",
+    "stats",
+    "data",
+    "numbers",
+    "report"
+   ],
+   "text": "📊",
+   "codepoints": [
+    "U+1F4CA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "dollar",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "money",
+    "cash",
+    "banknote",
+    "bill",
+    "pay"
+   ],
+   "text": "💵",
+   "codepoints": [
+    "U+1F4B5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "money_wings",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "spend",
+    "flying",
+    "cash",
+    "gone",
+    "expensive"
+   ],
+   "text": "💸",
+   "codepoints": [
+    "U+1F4B8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "credit_card",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "pay",
+    "card",
+    "bank",
+    "debit",
+    "purchase"
+   ],
+   "text": "💳",
+   "codepoints": [
+    "U+1F4B3"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bank",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "finance",
+    "building",
+    "money",
+    "savings",
+    "loan"
+   ],
+   "text": "🏦",
+   "codepoints": [
+    "U+1F3E6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "office",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "building",
+    "work",
+    "company",
+    "tower",
+    "hq"
+   ],
+   "text": "🏢",
+   "codepoints": [
+    "U+1F3E2"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "necktie",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "tie",
+    "formal",
+    "suit",
+    "dress",
+    "work"
+   ],
+   "text": "👔",
+   "codepoints": [
+    "U+1F454"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "clipboard",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "list",
+    "notes",
+    "tasks",
+    "checklist",
+    "form"
+   ],
+   "text": "📋",
+   "codepoints": [
+    "U+1F4CB"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "receipt",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "bill",
+    "purchase",
+    "total",
+    "expenses",
+    "proof"
+   ],
+   "text": "🧾",
+   "codepoints": [
+    "U+1F9FE"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "telephone",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "phone",
+    "call",
+    "ring",
+    "desk",
+    "landline"
+   ],
+   "text": "☎",
+   "codepoints": [
+    "U+260E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "stopwatch",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "timer",
+    "time",
+    "race",
+    "speed",
+    "clock"
+   ],
+   "text": "⏱",
+   "codepoints": [
+    "U+23F1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mailbox",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "mail",
+    "post",
+    "letter",
+    "delivery",
+    "flag"
+   ],
+   "text": "📫",
+   "codepoints": [
+    "U+1F4EB"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "inbox",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "receive",
+    "incoming",
+    "tray",
+    "download",
+    "mail"
+   ],
+   "text": "📥",
+   "codepoints": [
+    "U+1F4E5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "outbox",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "send",
+    "outgoing",
+    "tray",
+    "upload",
+    "mail"
+   ],
+   "text": "📤",
+   "codepoints": [
+    "U+1F4E4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "file_cabinet",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "files",
+    "drawers",
+    "storage",
+    "archive",
+    "records"
+   ],
+   "text": "🗄",
+   "codepoints": [
+    "U+1F5C4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "scales",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "justice",
+    "law",
+    "balance",
+    "legal",
+    "fair"
+   ],
+   "text": "⚖",
+   "codepoints": [
+    "U+2696"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "page",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "document",
+    "file",
+    "paper",
+    "text",
+    "doc"
+   ],
+   "text": "📄",
+   "codepoints": [
+    "U+1F4C4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "newspaper",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "news",
+    "press",
+    "headline",
+    "article",
+    "paper"
+   ],
+   "text": "📰",
+   "codepoints": [
+    "U+1F4F0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "id_badge",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "pass",
+    "name",
+    "tag",
+    "lanyard",
+    "access",
+    "staff"
+   ],
+   "text": "🪪",
+   "codepoints": [
+    "U+1FAAA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "coin_stack",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "money",
+    "gold",
+    "savings",
+    "wealth",
+    "coins",
+    "treasure"
+   ],
+   "text": "󰃂",
+   "codepoints": [
+    "U+F00C2"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "piggy_bank",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "savings",
+    "save",
+    "money",
+    "coin",
+    "pig",
+    "fund"
+   ],
+   "text": "󰃃",
+   "codepoints": [
+    "U+F00C3"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "approved",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "ok",
+    "yes",
+    "accepted",
+    "stamp",
+    "pass"
+   ],
+   "text": "󰃄",
+   "codepoints": [
+    "U+F00C4"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "rejected",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "no",
+    "denied",
+    "declined",
+    "stamp",
+    "fail"
+   ],
+   "text": "󰃅",
+   "codepoints": [
+    "U+F00C5"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "deadline",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "due",
+    "urgent",
+    "date",
+    "crunch",
+    "late"
+   ],
+   "text": "󰃆",
+   "codepoints": [
+    "U+F00C6"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "meeting",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "team",
+    "sync",
+    "standup",
+    "discuss",
+    "huddle"
+   ],
+   "text": "󰃇",
+   "codepoints": [
+    "U+F00C7"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "video_call",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "zoom",
+    "remote",
+    "conference",
+    "screen",
+    "webcam"
+   ],
+   "text": "󰃈",
+   "codepoints": [
+    "U+F00C8"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "presentation",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "slides",
+    "pitch",
+    "deck",
+    "demo",
+    "easel"
+   ],
+   "text": "󰃉",
+   "codepoints": [
+    "U+F00C9"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "whiteboard",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "plan",
+    "diagram",
+    "brainstorm",
+    "flowchart",
+    "draw"
+   ],
+   "text": "󰃊",
+   "codepoints": [
+    "U+F00CA"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "sticky_note",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "note",
+    "memo",
+    "reminder",
+    "postit",
+    "jot"
+   ],
+   "text": "󰃋",
+   "codepoints": [
+    "U+F00CB"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "todo",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "tasks",
+    "checklist",
+    "list",
+    "pending",
+    "plan"
+   ],
+   "text": "󰃌",
+   "codepoints": [
+    "U+F00CC"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "done",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "complete",
+    "finished",
+    "check",
+    "tick",
+    "shipped"
+   ],
+   "text": "󰃍",
+   "codepoints": [
+    "U+F00CD"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "blocked",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "stuck",
+    "waiting",
+    "stop",
+    "blocker",
+    "halt"
+   ],
+   "text": "󰃎",
+   "codepoints": [
+    "U+F00CE"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "wip",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "work",
+    "in",
+    "progress",
+    "unfinished",
+    "draft"
+   ],
+   "text": "󰃏",
+   "codepoints": [
+    "U+F00CF"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "asap",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "urgent",
+    "now",
+    "hurry",
+    "rush",
+    "fast"
+   ],
+   "text": "󰃐",
+   "codepoints": [
+    "U+F00D0"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "fyi",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "info",
+    "heads",
+    "up",
+    "notice",
+    "note"
+   ],
+   "text": "󰃑",
+   "codepoints": [
+    "U+F00D1"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "tldr",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "summary",
+    "short",
+    "long",
+    "skip",
+    "brief"
+   ],
+   "text": "󰃒",
+   "codepoints": [
+    "U+F00D2"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "lgtm",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "approve",
+    "looks",
+    "good",
+    "review",
+    "ship"
+   ],
+   "text": "󰃓",
+   "codepoints": [
+    "U+F00D3"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "eod",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "end",
+    "of",
+    "day",
+    "evening",
+    "deadline",
+    "sunset"
+   ],
+   "text": "󰃔",
+   "codepoints": [
+    "U+F00D4"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "ooo",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "out",
+    "of",
+    "office",
+    "away",
+    "vacation"
+   ],
+   "text": "󰃕",
+   "codepoints": [
+    "U+F00D5"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "pto",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "vacation",
+    "holiday",
+    "leave",
+    "beach",
+    "day",
+    "off"
+   ],
+   "text": "󰃖",
+   "codepoints": [
+    "U+F00D6"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "overtime",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "late",
+    "night",
+    "extra",
+    "hours",
+    "crunch"
+   ],
+   "text": "󰃗",
+   "codepoints": [
+    "U+F00D7"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "payday",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "salary",
+    "wages",
+    "paycheck",
+    "money",
+    "income"
+   ],
+   "text": "󰃘",
+   "codepoints": [
+    "U+F00D8"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "invoice",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "bill",
+    "payment",
+    "due",
+    "charge",
+    "billing"
+   ],
+   "text": "󰃙",
+   "codepoints": [
+    "U+F00D9"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "contract",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "agreement",
+    "sign",
+    "deal",
+    "legal",
+    "signature"
+   ],
+   "text": "󰃚",
+   "codepoints": [
+    "U+F00DA"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "handover",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "handoff",
+    "pass",
+    "transfer",
+    "delegate",
+    "give"
+   ],
+   "text": "󰃛",
+   "codepoints": [
+    "U+F00DB"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "promotion",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "career",
+    "level",
+    "up",
+    "advance",
+    "ladder"
+   ],
+   "text": "󰃜",
+   "codepoints": [
+    "U+F00DC"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "raise",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "pay",
+    "rise",
+    "salary",
+    "increase",
+    "bonus"
+   ],
+   "text": "󰃝",
+   "codepoints": [
+    "U+F00DD"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "budget",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "pie",
+    "chart",
+    "spending",
+    "finance",
+    "share"
+   ],
+   "text": "󰃞",
+   "codepoints": [
+    "U+F00DE"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "kpi",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "metric",
+    "gauge",
+    "performance",
+    "target",
+    "dial"
+   ],
+   "text": "󰃟",
+   "codepoints": [
+    "U+F00DF"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "target_hit",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "goal",
+    "bullseye",
+    "nailed",
+    "achieved",
+    "success"
+   ],
+   "text": "󰃠",
+   "codepoints": [
+    "U+F00E0"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "roadmap",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "plan",
+    "milestones",
+    "strategy",
+    "route",
+    "timeline"
+   ],
+   "text": "󰃡",
+   "codepoints": [
+    "U+F00E1"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "launch",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "ship",
+    "release",
+    "rocket",
+    "go",
+    "live",
+    "deploy"
+   ],
+   "text": "󰃢",
+   "codepoints": [
+    "U+F00E2"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "pivot",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "change",
+    "direction",
+    "turn",
+    "strategy",
+    "shift"
+   ],
+   "text": "󰃣",
+   "codepoints": [
+    "U+F00E3"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "synergy",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "teamwork",
+    "gears",
+    "together",
+    "collaborate",
+    "align"
+   ],
+   "text": "󰃤",
+   "codepoints": [
+    "U+F00E4"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "buzzword",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "jargon",
+    "corporate",
+    "speak",
+    "nonsense",
+    "blah"
+   ],
+   "text": "󰃥",
+   "codepoints": [
+    "U+F00E5"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "circle_back",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "follow",
+    "up",
+    "later",
+    "revisit",
+    "return"
+   ],
+   "text": "󰃦",
+   "codepoints": [
+    "U+F00E6"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "per_my_last_email",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "passive",
+    "aggressive",
+    "as",
+    "stated",
+    "reminder"
+   ],
+   "text": "󰃧",
+   "codepoints": [
+    "U+F00E7"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "reply_all",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "email",
+    "everyone",
+    "thread",
+    "cc",
+    "spam"
+   ],
+   "text": "󰃨",
+   "codepoints": [
+    "U+F00E8"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "unsubscribe",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "stop",
+    "email",
+    "opt",
+    "out",
+    "remove",
+    "spam"
+   ],
+   "text": "󰃩",
+   "codepoints": [
+    "U+F00E9"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "spreadsheet",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "excel",
+    "sheet",
+    "table",
+    "cells",
+    "data"
+   ],
+   "text": "󰃪",
+   "codepoints": [
+    "U+F00EA"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "coffee_run",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "coffee",
+    "break",
+    "drinks",
+    "order",
+    "takeaway"
+   ],
+   "text": "󰃫",
+   "codepoints": [
+    "U+F00EB"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "monday",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "mon",
+    "week",
+    "start",
+    "ugh",
+    "grumpy"
+   ],
+   "text": "󰃬",
+   "codepoints": [
+    "U+F00EC"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "friday",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "fri",
+    "weekend",
+    "tgif",
+    "party",
+    "happy"
+   ],
+   "text": "󰃭",
+   "codepoints": [
+    "U+F00ED"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "water_cooler",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "gossip",
+    "chat",
+    "break",
+    "office",
+    "rumor"
+   ],
+   "text": "󰃮",
+   "codepoints": [
+    "U+F00EE"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "corner_office",
+   "kind": "emoji",
+   "category": "business",
+   "keywords": [
+    "boss",
+    "executive",
+    "view",
+    "window",
+    "promoted"
+   ],
+   "text": "󰃯",
+   "codepoints": [
+    "U+F00EF"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "musical_note",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "music",
+    "song",
+    "tune",
+    "sound"
+   ],
+   "text": "🎵",
+   "codepoints": [
+    "U+1F3B5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "notes",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "music",
+    "song",
+    "melody",
+    "singing"
+   ],
+   "text": "🎶",
+   "codepoints": [
+    "U+1F3B6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "musical_score",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "sheet",
+    "music",
+    "staff",
+    "notation"
+   ],
+   "text": "🎼",
+   "codepoints": [
+    "U+1F3BC"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "guitar",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "electric",
+    "rock",
+    "band",
+    "music"
+   ],
+   "text": "🎸",
+   "codepoints": [
+    "U+1F3B8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "musical_keyboard",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "piano",
+    "keys",
+    "music",
+    "play"
+   ],
+   "text": "🎹",
+   "codepoints": [
+    "U+1F3B9"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "drum",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "snare",
+    "drumroll",
+    "beat",
+    "percussion"
+   ],
+   "text": "🥁",
+   "codepoints": [
+    "U+1F941"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "saxophone",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "sax",
+    "jazz",
+    "brass",
+    "music"
+   ],
+   "text": "🎷",
+   "codepoints": [
+    "U+1F3B7"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "trumpet",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "brass",
+    "horn",
+    "fanfare",
+    "music"
+   ],
+   "text": "🎺",
+   "codepoints": [
+    "U+1F3BA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "violin",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "fiddle",
+    "strings",
+    "orchestra",
+    "classical"
+   ],
+   "text": "🎻",
+   "codepoints": [
+    "U+1F3BB"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "banjo",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "bluegrass",
+    "folk",
+    "strings",
+    "country"
+   ],
+   "text": "🪕",
+   "codepoints": [
+    "U+1FA95"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "accordion",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "squeezebox",
+    "polka",
+    "folk",
+    "music"
+   ],
+   "text": "🪗",
+   "codepoints": [
+    "U+1FA97"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "maracas",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "shaker",
+    "rattle",
+    "latin",
+    "rhythm"
+   ],
+   "text": "🪇",
+   "codepoints": [
+    "U+1FA87"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "flute",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "woodwind",
+    "pipe",
+    "orchestra",
+    "music"
+   ],
+   "text": "🪈",
+   "codepoints": [
+    "U+1FA88"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "long_drum",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "conga",
+    "tribal",
+    "percussion",
+    "beat"
+   ],
+   "text": "🪘",
+   "codepoints": [
+    "U+1FA98"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "radio",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "fm",
+    "broadcast",
+    "tuner",
+    "station"
+   ],
+   "text": "📻",
+   "codepoints": [
+    "U+1F4FB"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "shuffle",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "random",
+    "mix",
+    "arrows",
+    "playlist"
+   ],
+   "text": "🔀",
+   "codepoints": [
+    "U+1F500"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "repeat",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "loop",
+    "again",
+    "arrows",
+    "replay"
+   ],
+   "text": "🔁",
+   "codepoints": [
+    "U+1F501"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "repeat_one",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "loop",
+    "single",
+    "once",
+    "replay"
+   ],
+   "text": "🔂",
+   "codepoints": [
+    "U+1F502"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "speaker",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "sound",
+    "volume",
+    "audio",
+    "quiet"
+   ],
+   "text": "🔈",
+   "codepoints": [
+    "U+1F508"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "level_slider",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "fader",
+    "volume",
+    "control",
+    "studio"
+   ],
+   "text": "🎚",
+   "codepoints": [
+    "U+1F39A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "control_knobs",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "dials",
+    "studio",
+    "mixer",
+    "settings"
+   ],
+   "text": "🎛",
+   "codepoints": [
+    "U+1F39B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "treble_clef",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "clef",
+    "music",
+    "notation",
+    "g"
+   ],
+   "text": "󰃰",
+   "codepoints": [
+    "U+F00F0"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "bass_clef",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "clef",
+    "music",
+    "notation",
+    "f",
+    "low"
+   ],
+   "text": "󰃱",
+   "codepoints": [
+    "U+F00F1"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "sharp",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "accidental",
+    "note",
+    "higher",
+    "music"
+   ],
+   "text": "󰃲",
+   "codepoints": [
+    "U+F00F2"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "flat",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "accidental",
+    "note",
+    "lower",
+    "music"
+   ],
+   "text": "󰃳",
+   "codepoints": [
+    "U+F00F3"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "vinyl",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "record",
+    "lp",
+    "album",
+    "spin"
+   ],
+   "text": "󰃴",
+   "codepoints": [
+    "U+F00F4"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "turntable",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "deck",
+    "dj",
+    "record",
+    "player"
+   ],
+   "text": "󰃵",
+   "codepoints": [
+    "U+F00F5"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "cassette",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "tape",
+    "mixtape",
+    "retro",
+    "audio"
+   ],
+   "text": "󰃶",
+   "codepoints": [
+    "U+F00F6"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "boombox",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "stereo",
+    "portable",
+    "ghetto",
+    "blaster",
+    "speakers"
+   ],
+   "text": "󰃷",
+   "codepoints": [
+    "U+F00F7"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "acoustic_guitar",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "guitar",
+    "folk",
+    "strum",
+    "unplugged"
+   ],
+   "text": "󰃸",
+   "codepoints": [
+    "U+F00F8"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "bass_guitar",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "bass",
+    "four",
+    "strings",
+    "low",
+    "groove"
+   ],
+   "text": "󰃹",
+   "codepoints": [
+    "U+F00F9"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "drum_kit",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "drums",
+    "kick",
+    "snare",
+    "cymbal",
+    "band"
+   ],
+   "text": "󰃺",
+   "codepoints": [
+    "U+F00FA"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "drumsticks",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "sticks",
+    "drummer",
+    "percussion",
+    "beat"
+   ],
+   "text": "󰃻",
+   "codepoints": [
+    "U+F00FB"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "synth",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "synthesizer",
+    "keys",
+    "electronic",
+    "analog"
+   ],
+   "text": "󰃼",
+   "codepoints": [
+    "U+F00FC"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "midi_pad",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "pads",
+    "launch",
+    "beat",
+    "sampler",
+    "controller"
+   ],
+   "text": "󰃽",
+   "codepoints": [
+    "U+F00FD"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "amp",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "amplifier",
+    "guitar",
+    "loud",
+    "combo"
+   ],
+   "text": "󰃾",
+   "codepoints": [
+    "U+F00FE"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "pedal",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "stompbox",
+    "effect",
+    "distortion",
+    "guitar"
+   ],
+   "text": "󰃿",
+   "codepoints": [
+    "U+F00FF"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "mixer",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "mixing",
+    "desk",
+    "console",
+    "faders",
+    "studio"
+   ],
+   "text": "󰄀",
+   "codepoints": [
+    "U+F0100"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "equalizer",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "levels",
+    "bars",
+    "spectrum",
+    "eq"
+   ],
+   "text": "󰄁",
+   "codepoints": [
+    "U+F0101"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "waveform",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "audio",
+    "sound",
+    "wave",
+    "voice"
+   ],
+   "text": "󰄂",
+   "codepoints": [
+    "U+F0102"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "metronome",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "tempo",
+    "beat",
+    "tick",
+    "bpm"
+   ],
+   "text": "󰄃",
+   "codepoints": [
+    "U+F0103"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "tuning_fork",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "pitch",
+    "tune",
+    "note",
+    "a440"
+   ],
+   "text": "󰄄",
+   "codepoints": [
+    "U+F0104"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "earbuds",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "wireless",
+    "earphones",
+    "buds",
+    "listen"
+   ],
+   "text": "󰄅",
+   "codepoints": [
+    "U+F0105"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "studio_monitors",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "speakers",
+    "monitors",
+    "studio",
+    "stereo"
+   ],
+   "text": "󰄆",
+   "codepoints": [
+    "U+F0106"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "mic_stand",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "microphone",
+    "stage",
+    "sing",
+    "karaoke"
+   ],
+   "text": "󰄇",
+   "codepoints": [
+    "U+F0107"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "mic_drop",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "boom",
+    "done",
+    "finished",
+    "win"
+   ],
+   "text": "󰄈",
+   "codepoints": [
+    "U+F0108"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "encore",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "lighters",
+    "crowd",
+    "more",
+    "concert"
+   ],
+   "text": "󰄉",
+   "codepoints": [
+    "U+F0109"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "headbang",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "metal",
+    "rock",
+    "horns",
+    "mosh"
+   ],
+   "text": "󰄊",
+   "codepoints": [
+    "U+F010A"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "air_guitar",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "rock",
+    "pretend",
+    "strum",
+    "shred"
+   ],
+   "text": "󰄋",
+   "codepoints": [
+    "U+F010B"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "dancing",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "dance",
+    "groove",
+    "party",
+    "moves"
+   ],
+   "text": "󰄌",
+   "codepoints": [
+    "U+F010C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "disco_ball",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "party",
+    "dance",
+    "mirror",
+    "ball",
+    "club"
+   ],
+   "text": "󰄍",
+   "codepoints": [
+    "U+F010D"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "concert",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "gig",
+    "live",
+    "show",
+    "stage",
+    "crowd"
+   ],
+   "text": "󰄎",
+   "codepoints": [
+    "U+F010E"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "ticket",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "admit",
+    "concert",
+    "pass",
+    "entry"
+   ],
+   "text": "󰄏",
+   "codepoints": [
+    "U+F010F"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "playlist",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "queue",
+    "list",
+    "songs",
+    "tracks"
+   ],
+   "text": "󰄐",
+   "codepoints": [
+    "U+F0110"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "now_playing",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "player",
+    "track",
+    "listening",
+    "song"
+   ],
+   "text": "󰄑",
+   "codepoints": [
+    "U+F0111"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "bass_drop",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "drop",
+    "bass",
+    "heavy",
+    "boom",
+    "sub"
+   ],
+   "text": "󰄒",
+   "codepoints": [
+    "U+F0112"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "on_repeat",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "loop",
+    "again",
+    "obsessed",
+    "replay",
+    "song"
+   ],
+   "text": "󰄓",
+   "codepoints": [
+    "U+F0113"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "earworm",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "stuck",
+    "song",
+    "catchy",
+    "head"
+   ],
+   "text": "󰄔",
+   "codepoints": [
+    "U+F0114"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "autotune",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "pitch",
+    "correct",
+    "robot",
+    "voice",
+    "tuned"
+   ],
+   "text": "󰄕",
+   "codepoints": [
+    "U+F0115"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "choir",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "sing",
+    "chorus",
+    "vocal",
+    "harmony"
+   ],
+   "text": "󰄖",
+   "codepoints": [
+    "U+F0116"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "lullaby",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "sleep",
+    "baby",
+    "night",
+    "calm",
+    "song"
+   ],
+   "text": "󰄗",
+   "codepoints": [
+    "U+F0117"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "banger",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "fire",
+    "hit",
+    "song",
+    "hot",
+    "track"
+   ],
+   "text": "󰄘",
+   "codepoints": [
+    "U+F0118"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "vibing",
+   "kind": "emoji",
+   "category": "music",
+   "keywords": [
+    "headphones",
+    "listening",
+    "chill",
+    "mood"
+   ],
+   "text": "󰄙",
+   "codepoints": [
+    "U+F0119"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "heart",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "love",
+    "red",
+    "like",
+    "romance"
+   ],
+   "text": "❤",
+   "codepoints": [
+    "U+2764"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "orange_heart",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "love",
+    "orange",
+    "like",
+    "warm"
+   ],
+   "text": "🧡",
+   "codepoints": [
+    "U+1F9E1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "yellow_heart",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "love",
+    "yellow",
+    "like",
+    "friendship"
+   ],
+   "text": "💛",
+   "codepoints": [
+    "U+1F49B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "green_heart",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "love",
+    "green",
+    "like",
+    "nature"
+   ],
+   "text": "💚",
+   "codepoints": [
+    "U+1F49A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "blue_heart",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "love",
+    "blue",
+    "like",
+    "calm"
+   ],
+   "text": "💙",
+   "codepoints": [
+    "U+1F499"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "purple_heart",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "love",
+    "purple",
+    "like",
+    "violet"
+   ],
+   "text": "💜",
+   "codepoints": [
+    "U+1F49C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "black_heart",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "love",
+    "black",
+    "dark",
+    "goth"
+   ],
+   "text": "🖤",
+   "codepoints": [
+    "U+1F5A4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "white_heart",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "love",
+    "white",
+    "pure",
+    "like"
+   ],
+   "text": "🤍",
+   "codepoints": [
+    "U+1F90D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "broken_heart",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "heartbreak",
+    "sad",
+    "breakup",
+    "love"
+   ],
+   "text": "💔",
+   "codepoints": [
+    "U+1F494"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sparkling_heart",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "love",
+    "sparkle",
+    "pink",
+    "shiny"
+   ],
+   "text": "💖",
+   "codepoints": [
+    "U+1F496"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "two_hearts",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "love",
+    "pink",
+    "pair",
+    "couple"
+   ],
+   "text": "💕",
+   "codepoints": [
+    "U+1F495"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "fire",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "flame",
+    "hot",
+    "lit",
+    "burn"
+   ],
+   "text": "🔥",
+   "codepoints": [
+    "U+1F525"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sparkles",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "shiny",
+    "magic",
+    "clean",
+    "glitter",
+    "new"
+   ],
+   "text": "✨",
+   "codepoints": [
+    "U+2728"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "star",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "favourite",
+    "gold",
+    "rating",
+    "best"
+   ],
+   "text": "⭐",
+   "codepoints": [
+    "U+2B50"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "glowing_star",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "shine",
+    "bright",
+    "awesome",
+    "gold"
+   ],
+   "text": "🌟",
+   "codepoints": [
+    "U+1F31F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "zap",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "lightning",
+    "bolt",
+    "electric",
+    "power",
+    "fast"
+   ],
+   "text": "⚡",
+   "codepoints": [
+    "U+26A1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "boom",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "explosion",
+    "bang",
+    "crash",
+    "collision"
+   ],
+   "text": "💥",
+   "codepoints": [
+    "U+1F4A5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "hundred",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "100",
+    "perfect",
+    "score",
+    "full"
+   ],
+   "text": "💯",
+   "codepoints": [
+    "U+1F4AF"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "check",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "yes",
+    "done",
+    "ok",
+    "tick",
+    "correct"
+   ],
+   "text": "✅",
+   "codepoints": [
+    "U+2705"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "x",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "no",
+    "wrong",
+    "cross",
+    "cancel",
+    "close"
+   ],
+   "text": "❌",
+   "codepoints": [
+    "U+274C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "question",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "what",
+    "why",
+    "ask",
+    "help"
+   ],
+   "text": "❓",
+   "codepoints": [
+    "U+2753"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "exclamation",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "important",
+    "alert",
+    "attention",
+    "bang"
+   ],
+   "text": "❗",
+   "codepoints": [
+    "U+2757"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "warning",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "caution",
+    "alert",
+    "danger",
+    "careful"
+   ],
+   "text": "⚠",
+   "codepoints": [
+    "U+26A0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "no_entry",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "forbidden",
+    "banned",
+    "prohibited",
+    "stop",
+    "not"
+   ],
+   "text": "🚫",
+   "codepoints": [
+    "U+1F6AB"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "zzz",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "sleep",
+    "tired",
+    "snore",
+    "bored"
+   ],
+   "text": "💤",
+   "codepoints": [
+    "U+1F4A4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sweat_drops",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "water",
+    "splash",
+    "wet",
+    "spray"
+   ],
+   "text": "💦",
+   "codepoints": [
+    "U+1F4A6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "dash",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "wind",
+    "fast",
+    "run",
+    "gust",
+    "puff"
+   ],
+   "text": "💨",
+   "codepoints": [
+    "U+1F4A8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "speech_balloon",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "chat",
+    "talk",
+    "message",
+    "comment",
+    "say"
+   ],
+   "text": "💬",
+   "codepoints": [
+    "U+1F4AC"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "thought_balloon",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "think",
+    "dream",
+    "idea",
+    "wonder"
+   ],
+   "text": "💭",
+   "codepoints": [
+    "U+1F4AD"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "anger",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "mad",
+    "angry",
+    "vein",
+    "annoyed",
+    "rage"
+   ],
+   "text": "💢",
+   "codepoints": [
+    "U+1F4A2"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bell",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "notification",
+    "ring",
+    "alert",
+    "ding"
+   ],
+   "text": "🔔",
+   "codepoints": [
+    "U+1F514"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "tada",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "party",
+    "celebrate",
+    "congrats",
+    "popper",
+    "hooray"
+   ],
+   "text": "🎉",
+   "codepoints": [
+    "U+1F389"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "confetti_ball",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "party",
+    "celebrate",
+    "festive",
+    "streamers"
+   ],
+   "text": "🎊",
+   "codepoints": [
+    "U+1F38A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "balloon",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "party",
+    "birthday",
+    "celebrate",
+    "float"
+   ],
+   "text": "🎈",
+   "codepoints": [
+    "U+1F388"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "gift",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "present",
+    "birthday",
+    "box",
+    "surprise",
+    "wrapped"
+   ],
+   "text": "🎁",
+   "codepoints": [
+    "U+1F381"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "plus",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "add",
+    "more",
+    "positive",
+    "math"
+   ],
+   "text": "➕",
+   "codepoints": [
+    "U+2795"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "minus",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "subtract",
+    "less",
+    "negative",
+    "math"
+   ],
+   "text": "➖",
+   "codepoints": [
+    "U+2796"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "infinity",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "forever",
+    "endless",
+    "loop",
+    "always"
+   ],
+   "text": "♾",
+   "codepoints": [
+    "U+267E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "recycle",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "reuse",
+    "green",
+    "environment",
+    "eco"
+   ],
+   "text": "♻",
+   "codepoints": [
+    "U+267B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "peace",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "love",
+    "calm",
+    "hippie",
+    "harmony"
+   ],
+   "text": "☮",
+   "codepoints": [
+    "U+262E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "yin_yang",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "balance",
+    "harmony",
+    "zen",
+    "duality"
+   ],
+   "text": "☯",
+   "codepoints": [
+    "U+262F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "arrow_up",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "north",
+    "top",
+    "direction",
+    "rise"
+   ],
+   "text": "⬆",
+   "codepoints": [
+    "U+2B06"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "arrow_down",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "south",
+    "bottom",
+    "direction",
+    "fall"
+   ],
+   "text": "⬇",
+   "codepoints": [
+    "U+2B07"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "arrow_left",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "west",
+    "back",
+    "previous",
+    "direction"
+   ],
+   "text": "⬅",
+   "codepoints": [
+    "U+2B05"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "arrow_right",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "east",
+    "next",
+    "forward",
+    "direction"
+   ],
+   "text": "➡",
+   "codepoints": [
+    "U+27A1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "upvote",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "up",
+    "agree",
+    "like",
+    "vote",
+    "good"
+   ],
+   "text": "󰄚",
+   "codepoints": [
+    "U+F011A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "downvote",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "down",
+    "disagree",
+    "dislike",
+    "vote",
+    "bad"
+   ],
+   "text": "󰄛",
+   "codepoints": [
+    "U+F011B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "plus_one",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "agree",
+    "yes",
+    "same",
+    "upvote"
+   ],
+   "text": "󰄜",
+   "codepoints": [
+    "U+F011C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "minus_one",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "disagree",
+    "no",
+    "downvote",
+    "nope"
+   ],
+   "text": "󰄝",
+   "codepoints": [
+    "U+F011D"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "new",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "fresh",
+    "latest",
+    "update",
+    "badge"
+   ],
+   "text": "󰄞",
+   "codepoints": [
+    "U+F011E"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "free",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "gratis",
+    "no_cost",
+    "zero",
+    "price",
+    "badge"
+   ],
+   "text": "󰄟",
+   "codepoints": [
+    "U+F011F"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "good_game",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "gg",
+    "win",
+    "match"
+   ],
+   "text": "󰄠",
+   "codepoints": [
+    "U+F0120"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "well_played",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "wp",
+    "respect",
+    "match"
+   ],
+   "text": "󰄡",
+   "codepoints": [
+    "U+F0121"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "good_luck",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "glhf",
+    "luck",
+    "fun"
+   ],
+   "text": "󰄢",
+   "codepoints": [
+    "U+F0122"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "too_easy",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "ez",
+    "easy",
+    "smug"
+   ],
+   "text": "󰄣",
+   "codepoints": [
+    "U+F0123"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "clutch_play",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "clutch",
+    "crown",
+    "king"
+   ],
+   "text": "󰄤",
+   "codepoints": [
+    "U+F0124"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "hype_time",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "hype",
+    "fire",
+    "lets",
+    "go"
+   ],
+   "text": "󰄥",
+   "codepoints": [
+    "U+F0125"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "rage_mode",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "rage",
+    "angry",
+    "tilt"
+   ],
+   "text": "󰄦",
+   "codepoints": [
+    "U+F0126"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "big_oof",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "oof",
+    "rip",
+    "dead"
+   ],
+   "text": "󰄧",
+   "codepoints": [
+    "U+F0127"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "level_up_now",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "level",
+    "up",
+    "ding"
+   ],
+   "text": "󰄨",
+   "codepoints": [
+    "U+F0128"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "loot_time",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "loot",
+    "chest",
+    "treasure"
+   ],
+   "text": "󰄩",
+   "codepoints": [
+    "U+F0129"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "heal_me",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "heal",
+    "potion",
+    "help"
+   ],
+   "text": "󰄪",
+   "codepoints": [
+    "U+F012A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "one_more_game",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "one",
+    "more",
+    "game",
+    "again"
+   ],
+   "text": "󰄫",
+   "codepoints": [
+    "U+F012B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "lag_spike",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "lag",
+    "ping",
+    "slow"
+   ],
+   "text": "󰄬",
+   "codepoints": [
+    "U+F012C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "afk_now",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "afk",
+    "away",
+    "sleep"
+   ],
+   "text": "󰄭",
+   "codepoints": [
+    "U+F012D"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "be_right_back",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "brb",
+    "back",
+    "soon",
+    "coffee"
+   ],
+   "text": "󰄮",
+   "codepoints": [
+    "U+F012E"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "on_my_way",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "omw",
+    "coming",
+    "rocket"
+   ],
+   "text": "󰄯",
+   "codepoints": [
+    "U+F012F"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "hello_there",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "hello",
+    "hi",
+    "wave",
+    "hey"
+   ],
+   "text": "󰄰",
+   "codepoints": [
+    "U+F0130"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "thank_you",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "thanks",
+    "ty",
+    "grateful"
+   ],
+   "text": "󰄱",
+   "codepoints": [
+    "U+F0131"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "nice_one",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "nice",
+    "good",
+    "thumbs"
+   ],
+   "text": "󰄲",
+   "codepoints": [
+    "U+F0132"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "good_job",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "gj",
+    "well",
+    "done",
+    "clap"
+   ],
+   "text": "󰄳",
+   "codepoints": [
+    "U+F0133"
+   ],
+   "unicode": false,
+   "tones": true
+  },
+  {
+   "name": "oh_yes",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "yes",
+    "wow",
+    "excited"
+   ],
+   "text": "󰄴",
+   "codepoints": [
+    "U+F0134"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "nope",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "no",
+    "nope",
+    "refuse"
+   ],
+   "text": "󰄵",
+   "codepoints": [
+    "U+F0135"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "so_sorry",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "sorry",
+    "apologize",
+    "please"
+   ],
+   "text": "󰄶",
+   "codepoints": [
+    "U+F0136"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "too_funny",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "lol",
+    "laugh",
+    "haha"
+   ],
+   "text": "󰄷",
+   "codepoints": [
+    "U+F0137"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "love_it",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "love",
+    "adore",
+    "heart"
+   ],
+   "text": "󰄸",
+   "codepoints": [
+    "U+F0138"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "mind_blown",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "whoa",
+    "wow",
+    "mind",
+    "blown"
+   ],
+   "text": "󰄹",
+   "codepoints": [
+    "U+F0139"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "respect",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "o7",
+    "salute",
+    "respect"
+   ],
+   "text": "󰄺",
+   "codepoints": [
+    "U+F013A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "its_fine",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "fine",
+    "fire",
+    "calm",
+    "ok"
+   ],
+   "text": "󰄻",
+   "codepoints": [
+    "U+F013B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "good_morning",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "gm",
+    "morning",
+    "sun"
+   ],
+   "text": "󰄼",
+   "codepoints": [
+    "U+F013C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "good_night",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "gn",
+    "night",
+    "sleep",
+    "moon"
+   ],
+   "text": "󰄽",
+   "codepoints": [
+    "U+F013D"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "happy_birthday",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "birthday",
+    "hbd",
+    "cake"
+   ],
+   "text": "󰄾",
+   "codepoints": [
+    "U+F013E"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "party_time",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "party",
+    "celebrate",
+    "woo"
+   ],
+   "text": "󰄿",
+   "codepoints": [
+    "U+F013F"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "ship_it",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "ship",
+    "release",
+    "deploy",
+    "launch"
+   ],
+   "text": "󰅀",
+   "codepoints": [
+    "U+F0140"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "it_works",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "works",
+    "success",
+    "build"
+   ],
+   "text": "󰅁",
+   "codepoints": [
+    "U+F0141"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "bug_hunt",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "bug",
+    "debug",
+    "issue"
+   ],
+   "text": "󰅂",
+   "codepoints": [
+    "U+F0142"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "quack",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "duck",
+    "debug",
+    "rubber"
+   ],
+   "text": "󰅃",
+   "codepoints": [
+    "U+F0143"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "big_brain_time",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "smart",
+    "brain",
+    "genius"
+   ],
+   "text": "󰅄",
+   "codepoints": [
+    "U+F0144"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "need_coffee",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "coffee",
+    "tired",
+    "code"
+   ],
+   "text": "󰅅",
+   "codepoints": [
+    "U+F0145"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "for_science",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "science",
+    "experiment",
+    "lab"
+   ],
+   "text": "󰅆",
+   "codepoints": [
+    "U+F0146"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "eureka_moment",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "idea",
+    "eureka",
+    "got",
+    "it"
+   ],
+   "text": "󰅇",
+   "codepoints": [
+    "U+F0147"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "going_live",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "live",
+    "stream",
+    "start"
+   ],
+   "text": "󰅈",
+   "codepoints": [
+    "U+F0148"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "lurking",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "lurk",
+    "watching",
+    "quiet"
+   ],
+   "text": "󰅉",
+   "codepoints": [
+    "U+F0149"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "good_vibes",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "vibes",
+    "music",
+    "chill"
+   ],
+   "text": "󰅊",
+   "codepoints": [
+    "U+F014A"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "banger_alert",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "banger",
+    "music",
+    "song"
+   ],
+   "text": "󰅋",
+   "codepoints": [
+    "U+F014B"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "looks_good",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "lgtm",
+    "approve",
+    "ok",
+    "review"
+   ],
+   "text": "󰅌",
+   "codepoints": [
+    "U+F014C"
+   ],
+   "unicode": false,
+   "tones": false
+  },
+  {
+   "name": "pay_day",
+   "kind": "sticker",
+   "category": "originals",
+   "keywords": [
+    "money",
+    "paid",
+    "payday"
+   ],
+   "text": "󰅍",
+   "codepoints": [
+    "U+F014D"
+   ],
+   "unicode": false,
+   "tones": false
+  }
+ ]
+}

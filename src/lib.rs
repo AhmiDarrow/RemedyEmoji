@@ -16,7 +16,7 @@ use std::collections::{HashMap, HashSet};
 use std::fmt;
 use std::sync::OnceLock;
 
-pub use raster::{render, render_into, render_plain, Image};
+pub use raster::{render, render_into, render_plain, tone_color, Image};
 
 /// Glyphs are drawn on a 64 by 64 unit canvas.
 pub const CANVAS: f32 = 64.0;

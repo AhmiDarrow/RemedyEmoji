@@ -14,6 +14,29 @@ rasterizer in this crate. The crate has no dependencies.
 
 ## Use
 
+There are three ways in, all from the same art.
+
+### The font (any app, any language)
+
+`fonts/RemedyEmoji.ttf` (and `.woff2` for the web) is a color font, family **Remedy Emoji**.
+
+- The 389 emoji that have a Unicode code point are at that code point, so plain text
+  with emoji in it just works: `font-family: "Remedy Emoji"` after your text font.
+- Skin tones follow Unicode: the emoji, then U+1F3FB to U+1F3FF.
+- The 334 glyphs of our own (and the stickers) are in the private use area, plane 15.
+  Their code points are in `font/codepoints.txt` and never change once given.
+
+It is a COLRv1 font (layers with gradients). RemedyUI, Chrome, Edge, Firefox, Android and
+Windows 11 draw it; Safari and Apple's text system do not draw COLRv1 fonts yet.
+
+### The list (pickers, search, shortcodes)
+
+`fonts/RemedyEmoji.json` has every glyph: `name` (its `:name:` shortcode), `kind` (emoji or
+sticker), `category`, `keywords`, `text` (the characters to put in a string), `codepoints`,
+`unicode` (false for our own glyphs) and `tones`.
+
+### The Rust crate (draws without a font)
+
 ```toml
 [dependencies]
 remedy-emoji = { git = "https://github.com/AhmiDarrow/RemedyEmoji" }
@@ -30,7 +53,8 @@ let parts = lib.segments("well done :gg: 👍");
 ```
 
 `Library` also has the picker's needs: `categories`, `search`, `complete`, and
-`parse_sticker` for a sticker received from someone else.
+`parse_sticker` for a sticker received from someone else (the crate reads art that
+arrives at run time; the font holds only the built-in set).
 
 ## The art
 
@@ -45,11 +69,17 @@ contact sheet:
 cargo run --example sheet -- sheet.png --px 96 --cols 8
 ```
 
-## Check
+## Build and check
+
+After changing the art, rebuild the font and commit it with the art:
 
 ```
 cargo test
+cargo run --release --example export -- target/art.json
+python font/build.py && python font/check.py
 ```
+
+`build.py` needs fontTools, skia-pathops and brotli. The same art gives the same bytes.
 
 ## License
 

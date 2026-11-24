@@ -24,7 +24,8 @@ const TONE_TABLE: [[(u8, u8, u8); 3]; 6] = [
     [(107, 69, 47), (82, 50, 32), (52, 30, 16)],
 ];
 
-pub(crate) fn tone_color(tone: u8, slot: u8) -> Color {
+/// The colour a skin slot (1 base, 2 shade, 3 line) takes in `tone` (0 to 5).
+pub fn tone_color(tone: u8, slot: u8) -> Color {
     let row = TONE_TABLE[(tone as usize).min(TONE_TABLE.len() - 1)];
     let (r, g, b) = row[(slot.clamp(1, 3) - 1) as usize];
     Color::rgb(r, g, b)
