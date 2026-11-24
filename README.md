@@ -1,6 +1,7 @@
 # Remedy Emoji
 
-Our own emoji and stickers: 677 emoji in 13 categories and 46 stickers, all original art.
+Our own emoji and stickers: 1,670 emoji in 14 categories and 46 stickers, all original art.
+Every standard single emoji is drawn (1,386), plus 284 of our own.
 No emoji font and no third-party image set. First drawn for FreeSpeak.
 
 Each glyph is a few lines of text in a small vector format (`.fsa`) and is drawn by the
@@ -20,10 +21,10 @@ There are three ways in, all from the same art.
 
 `fonts/RemedyEmoji.ttf` (and `.woff2` for the web) is a color font, family **Remedy Emoji**.
 
-- The 389 emoji that have a Unicode code point are at that code point, so plain text
+- The 1,386 emoji that have a Unicode code point are at that code point, so plain text
   with emoji in it just works: `font-family: "Remedy Emoji"` after your text font.
 - Skin tones follow Unicode: the emoji, then U+1F3FB to U+1F3FF.
-- The 334 glyphs of our own (and the stickers) are in the private use area, plane 15.
+- The 330 glyphs of our own (stickers included) are in the private use area, plane 15.
   Their code points are in `font/codepoints.txt` and never change once given.
 
 It is a COLRv1 font (layers with gradients). RemedyUI, Chrome, Edge, Firefox, Android and
@@ -70,6 +71,10 @@ cargo run --example sheet -- sheet.png --px 96 --cols 8
 ```
 
 ## Build and check
+
+Most sheets in `art/emoji/` are written by hand. Three are written by scripts in `art/`
+(`gen_shapes3.py` for the patterned symbols, `gen_animals2.py` for the four-legged animals);
+change those there and run the script.
 
 After changing the art, rebuild the font and commit it with the art:
 

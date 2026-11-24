@@ -8443,11 +8443,11 @@
     "white",
     "coat"
    ],
-   "text": "󰂺",
+   "text": "🥼",
    "codepoints": [
-    "U+F00BA"
+    "U+1F97C"
    ],
-   "unicode": false,
+   "unicode": true,
    "tones": false
   },
   {
@@ -10672,11 +10672,11 @@
     "ball",
     "club"
    ],
-   "text": "󰄍",
+   "text": "🪩",
    "codepoints": [
-    "U+F010D"
+    "U+1FAA9"
    ],
-   "unicode": false,
+   "unicode": true,
    "tones": false
   },
   {
@@ -16751,41 +16751,6 @@
    "tones": false
   },
   {
-   "name": "rat",
-   "kind": "emoji",
-   "category": "nature",
-   "keywords": [
-    "rodent",
-    "pest",
-    "grey",
-    "animal"
-   ],
-   "text": "🐀",
-   "codepoints": [
-    "U+1F400"
-   ],
-   "unicode": true,
-   "tones": false
-  },
-  {
-   "name": "mouse2",
-   "kind": "emoji",
-   "category": "nature",
-   "keywords": [
-    "rodent",
-    "white",
-    "lab",
-    "animal",
-    "small"
-   ],
-   "text": "🐁",
-   "codepoints": [
-    "U+1F401"
-   ],
-   "unicode": true,
-   "tones": false
-  },
-  {
    "name": "ox",
    "kind": "emoji",
    "category": "nature",
@@ -17479,6 +17444,41 @@
    "text": "🐿",
    "codepoints": [
     "U+1F43F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "rat",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "rodent",
+    "pest",
+    "grey",
+    "animal"
+   ],
+   "text": "🐀",
+   "codepoints": [
+    "U+1F400"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mouse2",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "rodent",
+    "white",
+    "lab",
+    "animal",
+    "small"
+   ],
+   "text": "🐁",
+   "codepoints": [
+    "U+1F401"
    ],
    "unicode": true,
    "tones": false
@@ -25269,6 +25269,3527 @@
    ],
    "unicode": true,
    "tones": false
+  },
+  {
+   "name": "deer",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "stag",
+    "buck",
+    "antlers",
+    "forest",
+    "animal"
+   ],
+   "text": "🦌",
+   "codepoints": [
+    "U+1F98C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "rhinoceros",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "rhino",
+    "horn",
+    "safari",
+    "animal"
+   ],
+   "text": "🦏",
+   "codepoints": [
+    "U+1F98F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "llama",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "alpaca",
+    "wool",
+    "andes",
+    "animal"
+   ],
+   "text": "🦙",
+   "codepoints": [
+    "U+1F999"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "hippopotamus",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "hippo",
+    "river",
+    "africa",
+    "animal"
+   ],
+   "text": "🦛",
+   "codepoints": [
+    "U+1F99B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "raccoon",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "trash",
+    "panda",
+    "bandit",
+    "mask",
+    "animal"
+   ],
+   "text": "🦝",
+   "codepoints": [
+    "U+1F99D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "badger",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "honey",
+    "badger",
+    "stripe",
+    "animal"
+   ],
+   "text": "🦡",
+   "codepoints": [
+    "U+1F9A1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mammoth",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "woolly",
+    "extinct",
+    "ice",
+    "age",
+    "tusks",
+    "animal"
+   ],
+   "text": "🦣",
+   "codepoints": [
+    "U+1F9A3"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "otter",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "river",
+    "sea",
+    "playful",
+    "animal"
+   ],
+   "text": "🦦",
+   "codepoints": [
+    "U+1F9A6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "skunk",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "smell",
+    "stink",
+    "stripe",
+    "animal"
+   ],
+   "text": "🦨",
+   "codepoints": [
+    "U+1F9A8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "beaver",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "dam",
+    "builder",
+    "teeth",
+    "river",
+    "animal"
+   ],
+   "text": "🦫",
+   "codepoints": [
+    "U+1F9AB"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bison",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "buffalo",
+    "plains",
+    "herd",
+    "animal"
+   ],
+   "text": "🦬",
+   "codepoints": [
+    "U+1F9AC"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "guide_dog",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "service",
+    "dog",
+    "assistance",
+    "blind",
+    "animal"
+   ],
+   "text": "🦮",
+   "codepoints": [
+    "U+1F9AE"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "hedgehog",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "spiky",
+    "spines",
+    "garden",
+    "animal"
+   ],
+   "text": "🦔",
+   "codepoints": [
+    "U+1F994"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "scorpion",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "sting",
+    "desert",
+    "arachnid",
+    "scorpio"
+   ],
+   "text": "🦂",
+   "codepoints": [
+    "U+1F982"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "turkey",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "thanksgiving",
+    "bird",
+    "gobble",
+    "poultry"
+   ],
+   "text": "🦃",
+   "codepoints": [
+    "U+1F983"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "eagle",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "bird",
+    "prey",
+    "bald",
+    "freedom",
+    "america"
+   ],
+   "text": "🦅",
+   "codepoints": [
+    "U+1F985"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bat",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "vampire",
+    "night",
+    "halloween",
+    "fly"
+   ],
+   "text": "🦇",
+   "codepoints": [
+    "U+1F987"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "gorilla",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "ape",
+    "primate",
+    "kong",
+    "strong"
+   ],
+   "text": "🦍",
+   "codepoints": [
+    "U+1F98D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "lizard",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "reptile",
+    "gecko",
+    "green",
+    "crawl"
+   ],
+   "text": "🦎",
+   "codepoints": [
+    "U+1F98E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "shrimp",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "prawn",
+    "seafood",
+    "shellfish",
+    "sea"
+   ],
+   "text": "🦐",
+   "codepoints": [
+    "U+1F990"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "squid",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "sea",
+    "tentacles",
+    "calamari",
+    "ocean"
+   ],
+   "text": "🦑",
+   "codepoints": [
+    "U+1F991"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "giraffe",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "tall",
+    "neck",
+    "spots",
+    "safari",
+    "face"
+   ],
+   "text": "🦒",
+   "codepoints": [
+    "U+1F992"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "zebra",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "stripes",
+    "horse",
+    "safari",
+    "face"
+   ],
+   "text": "🦓",
+   "codepoints": [
+    "U+1F993"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sauropod",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "dinosaur",
+    "brontosaurus",
+    "long",
+    "neck",
+    "dino"
+   ],
+   "text": "🦕",
+   "codepoints": [
+    "U+1F995"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cricket_insect",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "grasshopper",
+    "insect",
+    "chirp",
+    "bug"
+   ],
+   "text": "🦗",
+   "codepoints": [
+    "U+1F997"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "kangaroo",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "australia",
+    "joey",
+    "hop",
+    "marsupial"
+   ],
+   "text": "🦘",
+   "codepoints": [
+    "U+1F998"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "peacock",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "bird",
+    "feathers",
+    "proud",
+    "display"
+   ],
+   "text": "🦚",
+   "codepoints": [
+    "U+1F99A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "parrot",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "bird",
+    "talk",
+    "tropical",
+    "macaw"
+   ],
+   "text": "🦜",
+   "codepoints": [
+    "U+1F99C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "lobster",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "seafood",
+    "claws",
+    "shellfish",
+    "red"
+   ],
+   "text": "🦞",
+   "codepoints": [
+    "U+1F99E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mosquito",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "insect",
+    "bite",
+    "pest",
+    "bug"
+   ],
+   "text": "🦟",
+   "codepoints": [
+    "U+1F99F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "swan",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "bird",
+    "elegant",
+    "white",
+    "lake"
+   ],
+   "text": "🦢",
+   "codepoints": [
+    "U+1F9A2"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "dodo",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "extinct",
+    "bird",
+    "mauritius"
+   ],
+   "text": "🦤",
+   "codepoints": [
+    "U+1F9A4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sloth",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "slow",
+    "lazy",
+    "hang",
+    "tree",
+    "animal"
+   ],
+   "text": "🦥",
+   "codepoints": [
+    "U+1F9A5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "orangutan",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "ape",
+    "primate",
+    "orange",
+    "borneo"
+   ],
+   "text": "🦧",
+   "codepoints": [
+    "U+1F9A7"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "flamingo",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "pink",
+    "bird",
+    "tropical",
+    "leg"
+   ],
+   "text": "🦩",
+   "codepoints": [
+    "U+1F9A9"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "oyster",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "shell",
+    "pearl",
+    "seafood",
+    "clam"
+   ],
+   "text": "🦪",
+   "codepoints": [
+    "U+1F9AA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "seal",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "sea",
+    "lion",
+    "pup",
+    "ocean",
+    "animal"
+   ],
+   "text": "🦭",
+   "codepoints": [
+    "U+1F9AD"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "wilted_flower",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "sad",
+    "dead",
+    "droop",
+    "rose"
+   ],
+   "text": "🥀",
+   "codepoints": [
+    "U+1F940"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "clinking_glasses",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "cheers",
+    "toast",
+    "champagne",
+    "celebrate"
+   ],
+   "text": "🥂",
+   "codepoints": [
+    "U+1F942"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "tumbler_glass",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "whisky",
+    "drink",
+    "ice",
+    "liquor"
+   ],
+   "text": "🥃",
+   "codepoints": [
+    "U+1F943"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "spoon",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "cutlery",
+    "eat",
+    "soup",
+    "utensil"
+   ],
+   "text": "🥄",
+   "codepoints": [
+    "U+1F944"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "croissant",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "pastry",
+    "french",
+    "breakfast",
+    "bakery"
+   ],
+   "text": "🥐",
+   "codepoints": [
+    "U+1F950"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cucumber",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "vegetable",
+    "green",
+    "pickle",
+    "salad"
+   ],
+   "text": "🥒",
+   "codepoints": [
+    "U+1F952"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "potato",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "vegetable",
+    "spud",
+    "starch"
+   ],
+   "text": "🥔",
+   "codepoints": [
+    "U+1F954"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "baguette",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "bread",
+    "french",
+    "loaf",
+    "bakery"
+   ],
+   "text": "🥖",
+   "codepoints": [
+    "U+1F956"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "green_salad",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "salad",
+    "healthy",
+    "vegetables",
+    "bowl"
+   ],
+   "text": "🥗",
+   "codepoints": [
+    "U+1F957"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "shallow_pan",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "paella",
+    "pan",
+    "food",
+    "cooking"
+   ],
+   "text": "🥘",
+   "codepoints": [
+    "U+1F958"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "stuffed_flatbread",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "kebab",
+    "pita",
+    "falafel",
+    "wrap"
+   ],
+   "text": "🥙",
+   "codepoints": [
+    "U+1F959"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "egg",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "breakfast",
+    "shell",
+    "white",
+    "chicken"
+   ],
+   "text": "🥚",
+   "codepoints": [
+    "U+1F95A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "glass_of_milk",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "milk",
+    "drink",
+    "dairy",
+    "white"
+   ],
+   "text": "🥛",
+   "codepoints": [
+    "U+1F95B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "peanuts",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "nuts",
+    "snack",
+    "legume",
+    "shell"
+   ],
+   "text": "🥜",
+   "codepoints": [
+    "U+1F95C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "kiwi",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "fruit",
+    "green",
+    "fuzzy",
+    "slice"
+   ],
+   "text": "🥝",
+   "codepoints": [
+    "U+1F95D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pancakes",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "breakfast",
+    "stack",
+    "syrup",
+    "hotcakes"
+   ],
+   "text": "🥞",
+   "codepoints": [
+    "U+1F95E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "dumpling",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "gyoza",
+    "potsticker",
+    "jiaozi",
+    "dim",
+    "sum"
+   ],
+   "text": "🥟",
+   "codepoints": [
+    "U+1F95F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "fortune_cookie",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "cookie",
+    "chinese",
+    "luck",
+    "message"
+   ],
+   "text": "🥠",
+   "codepoints": [
+    "U+1F960"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "takeout_box",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "chinese",
+    "food",
+    "noodles",
+    "box",
+    "takeaway"
+   ],
+   "text": "🥡",
+   "codepoints": [
+    "U+1F961"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "chopsticks",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "sticks",
+    "eat",
+    "asian",
+    "utensil"
+   ],
+   "text": "🥢",
+   "codepoints": [
+    "U+1F962"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bowl_with_spoon",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "cereal",
+    "soup",
+    "breakfast",
+    "bowl"
+   ],
+   "text": "🥣",
+   "codepoints": [
+    "U+1F963"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "coconut",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "tropical",
+    "palm",
+    "fruit"
+   ],
+   "text": "🥥",
+   "codepoints": [
+    "U+1F965"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "broccoli",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "vegetable",
+    "green",
+    "tree",
+    "healthy"
+   ],
+   "text": "🥦",
+   "codepoints": [
+    "U+1F966"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pie",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "dessert",
+    "pastry",
+    "bake",
+    "slice"
+   ],
+   "text": "🥧",
+   "codepoints": [
+    "U+1F967"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pretzel",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "twisted",
+    "snack",
+    "salty",
+    "german"
+   ],
+   "text": "🥨",
+   "codepoints": [
+    "U+1F968"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cut_of_meat",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "steak",
+    "beef",
+    "raw",
+    "meat"
+   ],
+   "text": "🥩",
+   "codepoints": [
+    "U+1F969"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sandwich",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "lunch",
+    "bread",
+    "sub",
+    "toast"
+   ],
+   "text": "🥪",
+   "codepoints": [
+    "U+1F96A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "canned_food",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "can",
+    "tin",
+    "soup",
+    "preserve"
+   ],
+   "text": "🥫",
+   "codepoints": [
+    "U+1F96B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "leafy_green",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "lettuce",
+    "bok",
+    "choy",
+    "vegetable",
+    "salad"
+   ],
+   "text": "🥬",
+   "codepoints": [
+    "U+1F96C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mango",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "fruit",
+    "tropical",
+    "sweet",
+    "yellow"
+   ],
+   "text": "🥭",
+   "codepoints": [
+    "U+1F96D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "moon_cake",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "mid",
+    "autumn",
+    "festival",
+    "chinese",
+    "pastry"
+   ],
+   "text": "🥮",
+   "codepoints": [
+    "U+1F96E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bagel",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "bread",
+    "breakfast",
+    "cream",
+    "cheese"
+   ],
+   "text": "🥯",
+   "codepoints": [
+    "U+1F96F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "salt_shaker",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "shaker",
+    "seasoning",
+    "cooking"
+   ],
+   "text": "🧂",
+   "codepoints": [
+    "U+1F9C2"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "beverage_box",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "juice",
+    "box",
+    "drink",
+    "straw",
+    "carton"
+   ],
+   "text": "🧃",
+   "codepoints": [
+    "U+1F9C3"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "garlic",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "bulb",
+    "cooking",
+    "flavour",
+    "vampire"
+   ],
+   "text": "🧄",
+   "codepoints": [
+    "U+1F9C4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "onion",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "vegetable",
+    "cooking",
+    "tears",
+    "bulb"
+   ],
+   "text": "🧅",
+   "codepoints": [
+    "U+1F9C5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "falafel",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "chickpea",
+    "balls",
+    "middle",
+    "east"
+   ],
+   "text": "🧆",
+   "codepoints": [
+    "U+1F9C6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "waffle",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "breakfast",
+    "syrup",
+    "grid",
+    "belgian"
+   ],
+   "text": "🧇",
+   "codepoints": [
+    "U+1F9C7"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "butter",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "dairy",
+    "spread",
+    "stick",
+    "yellow"
+   ],
+   "text": "🧈",
+   "codepoints": [
+    "U+1F9C8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mate",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "yerba",
+    "tea",
+    "drink",
+    "gourd",
+    "straw"
+   ],
+   "text": "🧉",
+   "codepoints": [
+    "U+1F9C9"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "ice_cube",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "ice",
+    "cold",
+    "frozen",
+    "drink"
+   ],
+   "text": "🧊",
+   "codepoints": [
+    "U+1F9CA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bubble_tea",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "boba",
+    "milk",
+    "tea",
+    "drink",
+    "pearls"
+   ],
+   "text": "🧋",
+   "codepoints": [
+    "U+1F9CB"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "koko",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "here",
+    "button",
+    "katakana"
+   ],
+   "text": "🈁",
+   "codepoints": [
+    "U+1F201"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sa",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "service",
+    "charge",
+    "button",
+    "katakana"
+   ],
+   "text": "🈂",
+   "codepoints": [
+    "U+1F202"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "free_of_charge",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "free",
+    "no",
+    "charge",
+    "button"
+   ],
+   "text": "🈚",
+   "codepoints": [
+    "U+1F21A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "reserved",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "reserved",
+    "finger",
+    "button"
+   ],
+   "text": "🈯",
+   "codepoints": [
+    "U+1F22F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "prohibited",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "forbidden",
+    "button"
+   ],
+   "text": "🈲",
+   "codepoints": [
+    "U+1F232"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "vacancy",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "empty",
+    "vacant",
+    "button"
+   ],
+   "text": "🈳",
+   "codepoints": [
+    "U+1F233"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "passing_grade",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "pass",
+    "agreement",
+    "button"
+   ],
+   "text": "🈴",
+   "codepoints": [
+    "U+1F234"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "no_vacancy",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "full",
+    "occupied",
+    "button"
+   ],
+   "text": "🈵",
+   "codepoints": [
+    "U+1F235"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "not_free_of_charge",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "charge",
+    "paid",
+    "button"
+   ],
+   "text": "🈶",
+   "codepoints": [
+    "U+1F236"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "monthly_amount",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "month",
+    "button"
+   ],
+   "text": "🈷",
+   "codepoints": [
+    "U+1F237"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "application",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "apply",
+    "request",
+    "button"
+   ],
+   "text": "🈸",
+   "codepoints": [
+    "U+1F238"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "discount",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "discount",
+    "sale",
+    "button"
+   ],
+   "text": "🈹",
+   "codepoints": [
+    "U+1F239"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "open_for_business",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "open",
+    "shop",
+    "button"
+   ],
+   "text": "🈺",
+   "codepoints": [
+    "U+1F23A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bargain",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "advantage",
+    "deal",
+    "circle"
+   ],
+   "text": "🉐",
+   "codepoints": [
+    "U+1F250"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "acceptable",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "japanese",
+    "accept",
+    "ok",
+    "circle"
+   ],
+   "text": "🉑",
+   "codepoints": [
+    "U+1F251"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "diving_mask",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "snorkel",
+    "scuba",
+    "swim",
+    "sea"
+   ],
+   "text": "🤿",
+   "codepoints": [
+    "U+1F93F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "goal_net",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "goal",
+    "soccer",
+    "hockey",
+    "score"
+   ],
+   "text": "🥅",
+   "codepoints": [
+    "U+1F945"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "boxing_glove",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "boxing",
+    "fight",
+    "punch",
+    "sport"
+   ],
+   "text": "🥊",
+   "codepoints": [
+    "U+1F94A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "martial_arts_uniform",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "karate",
+    "judo",
+    "gi",
+    "taekwondo"
+   ],
+   "text": "🥋",
+   "codepoints": [
+    "U+1F94B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "curling_stone",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "curling",
+    "ice",
+    "winter",
+    "sport"
+   ],
+   "text": "🥌",
+   "codepoints": [
+    "U+1F94C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "lacrosse",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "stick",
+    "ball",
+    "sport",
+    "net"
+   ],
+   "text": "🥍",
+   "codepoints": [
+    "U+1F94D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "softball",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "ball",
+    "sport",
+    "yellow",
+    "pitch"
+   ],
+   "text": "🥎",
+   "codepoints": [
+    "U+1F94E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "flying_disc",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "frisbee",
+    "throw",
+    "park",
+    "ultimate"
+   ],
+   "text": "🥏",
+   "codepoints": [
+    "U+1F94F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sari",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "indian",
+    "dress",
+    "clothes",
+    "traditional"
+   ],
+   "text": "🥻",
+   "codepoints": [
+    "U+1F97B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "hiking_boot",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "boot",
+    "trek",
+    "mountain",
+    "walk"
+   ],
+   "text": "🥾",
+   "codepoints": [
+    "U+1F97E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "flat_shoe",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "ballet",
+    "flat",
+    "slipper",
+    "shoe"
+   ],
+   "text": "🥿",
+   "codepoints": [
+    "U+1F97F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "probing_cane",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "white",
+    "cane",
+    "blind",
+    "accessibility"
+   ],
+   "text": "🦯",
+   "codepoints": [
+    "U+1F9AF"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "safety_vest",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "hi",
+    "vis",
+    "construction",
+    "vest"
+   ],
+   "text": "🦺",
+   "codepoints": [
+    "U+1F9BA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "motorized_wheelchair",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "power",
+    "chair",
+    "mobility",
+    "accessibility"
+   ],
+   "text": "🦼",
+   "codepoints": [
+    "U+1F9BC"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "manual_wheelchair",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "wheelchair",
+    "mobility",
+    "accessibility"
+   ],
+   "text": "🦽",
+   "codepoints": [
+    "U+1F9BD"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "billed_cap",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "baseball",
+    "cap",
+    "hat",
+    "sport"
+   ],
+   "text": "🧢",
+   "codepoints": [
+    "U+1F9E2"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "scarf",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "winter",
+    "warm",
+    "neck",
+    "clothes"
+   ],
+   "text": "🧣",
+   "codepoints": [
+    "U+1F9E3"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "gloves",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "winter",
+    "hands",
+    "warm",
+    "mittens"
+   ],
+   "text": "🧤",
+   "codepoints": [
+    "U+1F9E4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "coat",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "jacket",
+    "winter",
+    "clothes",
+    "outerwear"
+   ],
+   "text": "🧥",
+   "codepoints": [
+    "U+1F9E5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "socks",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "feet",
+    "warm",
+    "clothes",
+    "pair"
+   ],
+   "text": "🧦",
+   "codepoints": [
+    "U+1F9E6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "red_envelope",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "hongbao",
+    "lucky",
+    "money",
+    "chinese",
+    "new",
+    "year"
+   ],
+   "text": "🧧",
+   "codepoints": [
+    "U+1F9E7"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "firecracker",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "dynamite",
+    "explosive",
+    "bang",
+    "new",
+    "year"
+   ],
+   "text": "🧨",
+   "codepoints": [
+    "U+1F9E8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "fire_extinguisher",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "fire",
+    "safety",
+    "emergency",
+    "put",
+    "out"
+   ],
+   "text": "🧯",
+   "codepoints": [
+    "U+1F9EF"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "toolbox",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "tools",
+    "repair",
+    "fix",
+    "kit"
+   ],
+   "text": "🧰",
+   "codepoints": [
+    "U+1F9F0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "brick",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "bricks",
+    "wall",
+    "build",
+    "clay"
+   ],
+   "text": "🧱",
+   "codepoints": [
+    "U+1F9F1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "luggage",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "suitcase",
+    "travel",
+    "bag",
+    "trip"
+   ],
+   "text": "🧳",
+   "codepoints": [
+    "U+1F9F3"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "lotion_bottle",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "lotion",
+    "soap",
+    "shampoo",
+    "pump"
+   ],
+   "text": "🧴",
+   "codepoints": [
+    "U+1F9F4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "thread",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "spool",
+    "sewing",
+    "needle",
+    "string"
+   ],
+   "text": "🧵",
+   "codepoints": [
+    "U+1F9F5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "yarn",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "ball",
+    "wool",
+    "knit",
+    "crochet"
+   ],
+   "text": "🧶",
+   "codepoints": [
+    "U+1F9F6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "safety_pin",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "pin",
+    "fasten",
+    "diaper",
+    "punk"
+   ],
+   "text": "🧷",
+   "codepoints": [
+    "U+1F9F7"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "teddy_bear",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "toy",
+    "plush",
+    "cuddly",
+    "bear"
+   ],
+   "text": "🧸",
+   "codepoints": [
+    "U+1F9F8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "broom",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "sweep",
+    "clean",
+    "witch",
+    "brush"
+   ],
+   "text": "🧹",
+   "codepoints": [
+    "U+1F9F9"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "basket",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "wicker",
+    "picnic",
+    "laundry",
+    "carry"
+   ],
+   "text": "🧺",
+   "codepoints": [
+    "U+1F9FA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "roll_of_paper",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "toilet",
+    "paper",
+    "tissue",
+    "roll"
+   ],
+   "text": "🧻",
+   "codepoints": [
+    "U+1F9FB"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "soap",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "wash",
+    "clean",
+    "bar",
+    "bubbles"
+   ],
+   "text": "🧼",
+   "codepoints": [
+    "U+1F9FC"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sponge",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "clean",
+    "wash",
+    "absorb",
+    "kitchen"
+   ],
+   "text": "🧽",
+   "codepoints": [
+    "U+1F9FD"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "nazar_amulet",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "evil",
+    "eye",
+    "charm",
+    "protection",
+    "turkish"
+   ],
+   "text": "🧿",
+   "codepoints": [
+    "U+1F9FF"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "ballet_shoes",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "dance",
+    "pointe",
+    "ballerina",
+    "slippers"
+   ],
+   "text": "🩰",
+   "codepoints": [
+    "U+1FA70"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "one_piece_swimsuit",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "swim",
+    "bathing",
+    "suit",
+    "beach"
+   ],
+   "text": "🩱",
+   "codepoints": [
+    "U+1FA71"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "briefs",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "underwear",
+    "swim",
+    "trunks",
+    "pants"
+   ],
+   "text": "🩲",
+   "codepoints": [
+    "U+1FA72"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "shorts",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "pants",
+    "swim",
+    "trunks",
+    "summer"
+   ],
+   "text": "🩳",
+   "codepoints": [
+    "U+1FA73"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "thong_sandal",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "flip",
+    "flop",
+    "beach",
+    "summer",
+    "sandal"
+   ],
+   "text": "🩴",
+   "codepoints": [
+    "U+1FA74"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "drop_of_blood",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "blood",
+    "donate",
+    "bleed",
+    "period"
+   ],
+   "text": "🩸",
+   "codepoints": [
+    "U+1FA78"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "adhesive_bandage",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "plaster",
+    "band",
+    "aid",
+    "hurt"
+   ],
+   "text": "🩹",
+   "codepoints": [
+    "U+1FA79"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "x_ray",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "xray",
+    "bones",
+    "scan",
+    "medical"
+   ],
+   "text": "🩻",
+   "codepoints": [
+    "U+1FA7B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "crutch",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "injury",
+    "support",
+    "walk",
+    "aid"
+   ],
+   "text": "🩼",
+   "codepoints": [
+    "U+1FA7C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "yo_yo",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "toy",
+    "string",
+    "spin"
+   ],
+   "text": "🪀",
+   "codepoints": [
+    "U+1FA80"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "kite",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "fly",
+    "wind",
+    "toy",
+    "sky"
+   ],
+   "text": "🪁",
+   "codepoints": [
+    "U+1FA81"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "parachute",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "skydive",
+    "jump",
+    "chute",
+    "fall"
+   ],
+   "text": "🪂",
+   "codepoints": [
+    "U+1FA82"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "boomerang",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "throw",
+    "return",
+    "australia"
+   ],
+   "text": "🪃",
+   "codepoints": [
+    "U+1FA83"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pinata",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "party",
+    "candy",
+    "mexican",
+    "fiesta"
+   ],
+   "text": "🪅",
+   "codepoints": [
+    "U+1FA85"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "nesting_dolls",
+   "kind": "emoji",
+   "category": "activities",
+   "keywords": [
+    "matryoshka",
+    "russian",
+    "doll",
+    "toy"
+   ],
+   "text": "🪆",
+   "codepoints": [
+    "U+1FA86"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "chair",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "seat",
+    "sit",
+    "furniture",
+    "wood"
+   ],
+   "text": "🪑",
+   "codepoints": [
+    "U+1FA91"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "razor",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "shave",
+    "blade",
+    "barber"
+   ],
+   "text": "🪒",
+   "codepoints": [
+    "U+1FA92"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "diya_lamp",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "diwali",
+    "oil",
+    "lamp",
+    "light",
+    "festival"
+   ],
+   "text": "🪔",
+   "codepoints": [
+    "U+1FA94"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "military_helmet",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "army",
+    "soldier",
+    "helmet",
+    "war"
+   ],
+   "text": "🪖",
+   "codepoints": [
+    "U+1FA96"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "carpentry_saw",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "saw",
+    "cut",
+    "wood",
+    "tool"
+   ],
+   "text": "🪚",
+   "codepoints": [
+    "U+1FA9A"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "screwdriver",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "tool",
+    "fix",
+    "screw",
+    "repair"
+   ],
+   "text": "🪛",
+   "codepoints": [
+    "U+1FA9B"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "ladder",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "climb",
+    "steps",
+    "rungs",
+    "up"
+   ],
+   "text": "🪜",
+   "codepoints": [
+    "U+1FA9C"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "hook",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "catch",
+    "hang",
+    "fishing",
+    "pirate"
+   ],
+   "text": "🪝",
+   "codepoints": [
+    "U+1FA9D"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mirror",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "reflection",
+    "looking",
+    "glass",
+    "vanity"
+   ],
+   "text": "🪞",
+   "codepoints": [
+    "U+1FA9E"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "window",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "frame",
+    "glass",
+    "view",
+    "house"
+   ],
+   "text": "🪟",
+   "codepoints": [
+    "U+1FA9F"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "plunger",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "toilet",
+    "unclog",
+    "plumber"
+   ],
+   "text": "🪠",
+   "codepoints": [
+    "U+1FAA0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "sewing_needle",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "needle",
+    "thread",
+    "stitch",
+    "sew"
+   ],
+   "text": "🪡",
+   "codepoints": [
+    "U+1FAA1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "knot",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "rope",
+    "tie",
+    "tangle",
+    "string"
+   ],
+   "text": "🪢",
+   "codepoints": [
+    "U+1FAA2"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bucket",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "pail",
+    "water",
+    "carry",
+    "mop"
+   ],
+   "text": "🪣",
+   "codepoints": [
+    "U+1FAA3"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "mouse_trap",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "trap",
+    "cheese",
+    "bait",
+    "catch"
+   ],
+   "text": "🪤",
+   "codepoints": [
+    "U+1FAA4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "toothbrush",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "teeth",
+    "clean",
+    "dental",
+    "brush"
+   ],
+   "text": "🪥",
+   "codepoints": [
+    "U+1FAA5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "placard",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "sign",
+    "protest",
+    "picket",
+    "board"
+   ],
+   "text": "🪧",
+   "codepoints": [
+    "U+1FAA7"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "rock",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "stone",
+    "boulder",
+    "solid"
+   ],
+   "text": "🪨",
+   "codepoints": [
+    "U+1FAA8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "hamsa",
+   "kind": "emoji",
+   "category": "symbols",
+   "keywords": [
+    "hand",
+    "fatima",
+    "protection",
+    "amulet"
+   ],
+   "text": "🪬",
+   "codepoints": [
+    "U+1FAAC"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "fly",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "insect",
+    "bug",
+    "pest",
+    "buzz"
+   ],
+   "text": "🪰",
+   "codepoints": [
+    "U+1FAB0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "worm",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "earthworm",
+    "bait",
+    "garden",
+    "soil"
+   ],
+   "text": "🪱",
+   "codepoints": [
+    "U+1FAB1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "beetle",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "bug",
+    "insect",
+    "scarab"
+   ],
+   "text": "🪲",
+   "codepoints": [
+    "U+1FAB2"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "cockroach",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "roach",
+    "pest",
+    "bug",
+    "insect"
+   ],
+   "text": "🪳",
+   "codepoints": [
+    "U+1FAB3"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "potted_plant",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "houseplant",
+    "grow",
+    "green",
+    "pot"
+   ],
+   "text": "🪴",
+   "codepoints": [
+    "U+1FAB4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "wood",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "log",
+    "timber",
+    "lumber",
+    "tree"
+   ],
+   "text": "🪵",
+   "codepoints": [
+    "U+1FAB5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "feather",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "bird",
+    "plume",
+    "light",
+    "quill"
+   ],
+   "text": "🪶",
+   "codepoints": [
+    "U+1FAB6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "lotus",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "flower",
+    "pink",
+    "water",
+    "lily",
+    "zen"
+   ],
+   "text": "🪷",
+   "codepoints": [
+    "U+1FAB7"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "coral",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "reef",
+    "sea",
+    "ocean",
+    "marine"
+   ],
+   "text": "🪸",
+   "codepoints": [
+    "U+1FAB8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "empty_nest",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "nest",
+    "bird",
+    "home",
+    "twigs"
+   ],
+   "text": "🪹",
+   "codepoints": [
+    "U+1FAB9"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "nest_with_eggs",
+   "kind": "emoji",
+   "category": "nature",
+   "keywords": [
+    "nest",
+    "eggs",
+    "bird",
+    "hatch"
+   ],
+   "text": "🪺",
+   "codepoints": [
+    "U+1FABA"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "anatomical_heart",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "heart",
+    "organ",
+    "cardiac",
+    "pulse"
+   ],
+   "text": "🫀",
+   "codepoints": [
+    "U+1FAC0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "lungs",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "breathe",
+    "organ",
+    "respiratory",
+    "chest"
+   ],
+   "text": "🫁",
+   "codepoints": [
+    "U+1FAC1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "people_hugging",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "hug",
+    "embrace",
+    "support",
+    "comfort"
+   ],
+   "text": "🫂",
+   "codepoints": [
+    "U+1FAC2"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pregnant_man",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "pregnancy",
+    "expecting",
+    "belly",
+    "man"
+   ],
+   "text": "🫃",
+   "codepoints": [
+    "U+1FAC3"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "pregnant_person",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "pregnancy",
+    "expecting",
+    "belly",
+    "person"
+   ],
+   "text": "🫄",
+   "codepoints": [
+    "U+1FAC4"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "person_with_crown",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "royal",
+    "monarch",
+    "crown",
+    "ruler"
+   ],
+   "text": "🫅",
+   "codepoints": [
+    "U+1FAC5"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "blueberries",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "berry",
+    "fruit",
+    "blue",
+    "sweet"
+   ],
+   "text": "🫐",
+   "codepoints": [
+    "U+1FAD0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bell_pepper",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "capsicum",
+    "vegetable",
+    "green",
+    "pepper"
+   ],
+   "text": "🫑",
+   "codepoints": [
+    "U+1FAD1"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "olive",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "fruit",
+    "green",
+    "mediterranean",
+    "oil"
+   ],
+   "text": "🫒",
+   "codepoints": [
+    "U+1FAD2"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "flatbread",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "naan",
+    "pita",
+    "bread",
+    "roti"
+   ],
+   "text": "🫓",
+   "codepoints": [
+    "U+1FAD3"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "tamale",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "mexican",
+    "corn",
+    "husk",
+    "wrap"
+   ],
+   "text": "🫔",
+   "codepoints": [
+    "U+1FAD4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "fondue",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "cheese",
+    "pot",
+    "melt",
+    "swiss",
+    "dip"
+   ],
+   "text": "🫕",
+   "codepoints": [
+    "U+1FAD5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "teapot",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "tea",
+    "pot",
+    "brew",
+    "kettle"
+   ],
+   "text": "🫖",
+   "codepoints": [
+    "U+1FAD6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "pouring_liquid",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "pour",
+    "drink",
+    "spill",
+    "water"
+   ],
+   "text": "🫗",
+   "codepoints": [
+    "U+1FAD7"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "beans",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "legume",
+    "kidney",
+    "pulse",
+    "food"
+   ],
+   "text": "🫘",
+   "codepoints": [
+    "U+1FAD8"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "jar",
+   "kind": "emoji",
+   "category": "food",
+   "keywords": [
+    "container",
+    "glass",
+    "storage",
+    "preserve"
+   ],
+   "text": "🫙",
+   "codepoints": [
+    "U+1FAD9"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "melting",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "melt",
+    "hot",
+    "embarrassed",
+    "dissolve"
+   ],
+   "text": "🫠",
+   "codepoints": [
+    "U+1FAE0"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "face_open_eyes_hand_over_mouth",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "gasp",
+    "shock",
+    "oops",
+    "surprise"
+   ],
+   "text": "🫢",
+   "codepoints": [
+    "U+1FAE2"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "peeking",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "peek",
+    "shy",
+    "scared",
+    "cover",
+    "eyes"
+   ],
+   "text": "🫣",
+   "codepoints": [
+    "U+1FAE3"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "diagonal_mouth",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "unsure",
+    "skeptical",
+    "meh",
+    "hmm"
+   ],
+   "text": "🫤",
+   "codepoints": [
+    "U+1FAE4"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "dotted_line_face",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "invisible",
+    "hidden",
+    "ignored",
+    "fading"
+   ],
+   "text": "🫥",
+   "codepoints": [
+    "U+1FAE5"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "biting_lip",
+   "kind": "emoji",
+   "category": "smileys",
+   "keywords": [
+    "flirt",
+    "nervous",
+    "lips",
+    "bite"
+   ],
+   "text": "🫦",
+   "codepoints": [
+    "U+1FAE6"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "bubbles",
+   "kind": "emoji",
+   "category": "objects",
+   "keywords": [
+    "soap",
+    "bubble",
+    "float",
+    "clean"
+   ],
+   "text": "🫧",
+   "codepoints": [
+    "U+1FAE7"
+   ],
+   "unicode": true,
+   "tones": false
+  },
+  {
+   "name": "finger_heart",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "love",
+    "heart",
+    "k-pop",
+    "gesture",
+    "crossed"
+   ],
+   "text": "🫰",
+   "codepoints": [
+    "U+1FAF0"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "rightwards_hand",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "hand",
+    "right",
+    "offer",
+    "shake"
+   ],
+   "text": "🫱",
+   "codepoints": [
+    "U+1FAF1"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "leftwards_hand",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "hand",
+    "left",
+    "offer",
+    "shake"
+   ],
+   "text": "🫲",
+   "codepoints": [
+    "U+1FAF2"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "palm_down_hand",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "drop",
+    "dismiss",
+    "hand",
+    "down"
+   ],
+   "text": "🫳",
+   "codepoints": [
+    "U+1FAF3"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "palm_up_hand",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "offer",
+    "receive",
+    "hand",
+    "up",
+    "beg"
+   ],
+   "text": "🫴",
+   "codepoints": [
+    "U+1FAF4"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "point_at_viewer",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "you",
+    "point",
+    "index",
+    "finger"
+   ],
+   "text": "🫵",
+   "codepoints": [
+    "U+1FAF5"
+   ],
+   "unicode": true,
+   "tones": true
+  },
+  {
+   "name": "heart_hands",
+   "kind": "emoji",
+   "category": "people",
+   "keywords": [
+    "love",
+    "heart",
+    "hands",
+    "gesture"
+   ],
+   "text": "🫶",
+   "codepoints": [
+    "U+1FAF6"
+   ],
+   "unicode": true,
+   "tones": true
   },
   {
    "name": "good_game",

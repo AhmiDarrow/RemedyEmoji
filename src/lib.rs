@@ -153,6 +153,11 @@ const SHEETS: &[(&str, &str)] = &[
     ("emoji/people3.fsa", include_str!("../art/emoji/people3.fsa")),
     ("emoji/objects3.fsa", include_str!("../art/emoji/objects3.fsa")),
     ("emoji/sup_people.fsa", include_str!("../art/emoji/sup_people.fsa")),
+    ("emoji/animals3.fsa", include_str!("../art/emoji/animals3.fsa")),
+    ("emoji/food3.fsa", include_str!("../art/emoji/food3.fsa")),
+    ("emoji/tiles3.fsa", include_str!("../art/emoji/tiles3.fsa")),
+    ("emoji/things4.fsa", include_str!("../art/emoji/things4.fsa")),
+    ("emoji/last4.fsa", include_str!("../art/emoji/last4.fsa")),
     ("stickers/originals.fsa", include_str!("../art/stickers/originals.fsa")),
 ];
 
