@@ -504,6 +504,7 @@ emoji chipmunk U+1F43F | squirrel rodent nut animal
   nostroke
   ellipse 31 31 2.6 1.8
   ellipse 49 31 2.6 1.8
-  fill rad #c98a4a #8a4a1c 44 46 6
-  stroke #4a2208 1.4
-  ellipse 43 47 4.4 5.4
+  fill rad #f5c088 #d08a40 34 44 8
+  stroke #6e3a0c 1.6
+  ellipse 29 45.5 3.6 4.4
+  ellipse 39 45.5 3.6 4.4

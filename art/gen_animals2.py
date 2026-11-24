@@ -104,7 +104,7 @@ animal("mouse2", 0x1F401, "rodent white lab animal small", "#ffffff", "#d6dde6",
 animal("ox", 0x1F402, "bull cattle farm animal", "#d99a5a", "#9a5a22", "#4a2a0c", tail="tuft", ears="side", mouth=False, nose="#00000000",
        head=HORNS + SNOUT("#ffd8c0", "#4a2a0c") + ["nofill", "stroke #c8a02a 2", "ellipse 45 37.5 2.6 2"])  # fmt: skip
 animal("water_buffalo", 0x1F403, "buffalo cattle farm animal", "#7d8795", "#3f4652", "#16181d", tail="tuft", ears="side", mouth=False, nose="#00000000",
-       head=["nofill", "stroke #16181d 5.4", "curve 34 14 22 12 22 2", "curve 56 14 68 12 66 2", "stroke #d6dde6 3", "curve 34 14 22 12 22 2", "curve 56 14 68 12 66 2"] + SNOUT("#a8b2c0", "#16181d"))  # fmt: skip
+       head=["nofill", "stroke #16181d 5.4", "curve 35 15 28 12 28.5 2", "curve 55 15 62 12 61.5 2", "stroke #d6dde6 3", "curve 35 15 28 12 28.5 2", "curve 55 15 62 12 61.5 2"] + SNOUT("#a8b2c0", "#16181d"))  # fmt: skip
 animal("cow2", 0x1F404, "cattle dairy farm moo animal", "#ffffff", "#d6dde6", "#5d6a7c", tail="tuft", ears="side", mouth=False, nose="#00000000", legs="#e3e7ec",
        body=["fill #2a2f3b", "nostroke", "blob 12 34 20 30 26 36 20 44 12 42", "blob 30 42 36 38 40 46 34 50"],
        head=HORNS + ["fill #2a2f3b", "nostroke", "blob 31 18 38 12 42 20 37 28 31 26"] + SNOUT("#ffb6c0", "#5d6a7c"))  # fmt: skip
