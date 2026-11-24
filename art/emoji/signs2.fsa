@@ -1,0 +1,730 @@
+// Street signs, facility signs and things around a building. Original Remedy Emoji art.
+category symbols
+
+color s2k #2a2f3b
+
+part s2_ban_bg
+  fill #ffffff
+  circle 32 32 25
+
+part s2_ban
+  nofill
+  stroke $redd 8.5
+  circle 32 32 24
+  line 15 15 49 49
+  stroke $red 5
+  circle 32 32 24
+  line 15 15 49 49
+
+part s2_man_w
+  fill $white
+  circle 32 12.5 5.5
+  path M 23 21 Q 23 19.5 25 19.5 L 39 19.5 Q 41 19.5 41 21 L 41 38 L 37.5 38 L 37.5 57 L 33 57 L 33 40 L 31 40 L 31 57 L 26.5 57 L 26.5 38 L 23 38 Z
+
+part s2_woman_w
+  fill $white
+  circle 32 12.5 5.5
+  path M 27 19.5 L 37 19.5 L 44 43 L 37.5 43 L 37.5 57 L 33 57 L 33 43 L 31 43 L 31 57 L 26.5 57 L 26.5 43 L 20 43 Z
+
+part s2_walker
+  fill $s2k
+  circle 34 12 5
+  nofill
+  stroke $s2k 5
+  line 33 20 30 36 22 50
+  line 30 36 38 44 40 54
+  line 33 22 24 30
+  line 33 22 42 30
+
+part s2_bike
+  nofill
+  stroke $s2k 2.6
+  circle 18 42 8
+  circle 46 42 8
+  line 18 42 27 28 40 28 46 42
+  line 27 28 32 42 18 42
+  line 32 42 40 28
+  line 24 25 30 25
+  line 40 28 39 22 44 21
+
+part s2_square_blue
+  fill lin #74c2ff #2f86ea 0 6 0 58
+  stroke $sym_blued 2.4
+  rect 6 6 52 52 10
+
+emoji horizontal_traffic_light U+1F6A5 | signal stop go road
+  fill lin #4a5060 #262a34 0 20 0 44
+  stroke #0e1014 2.2
+  rect 3 20 58 24 10
+  fill #f04a3a
+  stroke #8a140c 1.4
+  circle 15 32 7
+  fill #ffd23a
+  stroke #a8801c 1.4
+  circle 32 32 7
+  fill #4fd45a
+  stroke #1f8a2c 1.4
+  circle 49 32 7
+
+emoji vertical_traffic_light U+1F6A6 | signal stop go road
+  fill lin #4a5060 #262a34 0 3 0 61
+  stroke #0e1014 2.2
+  rect 20 3 24 58 10
+  fill #f04a3a
+  stroke #8a140c 1.4
+  circle 32 15 7
+  fill #ffd23a
+  stroke #a8801c 1.4
+  circle 32 32 7
+  fill #4fd45a
+  stroke #1f8a2c 1.4
+  circle 32 49 7
+
+emoji construction U+1F6A7 | roadworks barrier wip caution
+  fill #9aa6b6
+  stroke #5d6a7c 2
+  rect 10 30 5 30 1
+  rect 49 30 5 30 1
+  fill #ffd23a
+  stroke #a8801c 2.2
+  rect 3 14 58 20 3
+  fill #2a2f3b
+  nostroke
+  poly 8 15 17 15 9 33 4 33 4 24
+  poly 26 15 35 15 27 33 18 33
+  poly 44 15 53 15 45 33 36 33
+  poly 60 20 60 33 54 33
+
+emoji rotating_light U+1F6A8 | siren alarm police emergency alert
+  nofill
+  stroke #ff8a6a 3
+  line 32 2 32 8
+  line 10 10 15 15
+  line 54 10 49 15
+  line 2 30 8 30
+  line 62 30 56 30
+  fill rad #ff9a8a #e02a1c 26 26 26
+  stroke #8a140c 2.2
+  path M 14 48 L 14 30 Q 14 12 32 12 Q 50 12 50 30 L 50 48 Z
+  fill #ffffff88
+  nostroke
+  ellipse 24 26 4 8 15
+  fill lin #5a6270 #2f343e 0 48 0 58
+  stroke #16181d 2.2
+  rect 8 48 48 10 3
+
+emoji triangular_flag U+1F6A9 | flag red marker pin golf
+  nofill
+  stroke #6e7684 4
+  line 14 60 14 5
+  fill lin #ff7a5a #d8321c 14 0 54 0
+  stroke #8a140c 2.2
+  poly 14 6 56 20 14 34
+
+emoji door U+1F6AA | exit entrance room open
+  fill lin #c98a4a #8a4a1c 0 4 0 60
+  stroke #5f2a0c 2.4
+  rect 14 4 36 56 3
+  nofill
+  stroke #5f2a0c 1.6
+  rect 20 10 24 18 2
+  rect 20 34 24 20 2
+  fill $sym_gold
+  stroke #7a4a08 1.4
+  circle 43 32 2.8
+
+emoji smoking U+1F6AC | cigarette smoke tobacco
+  nofill
+  stroke #b9c4cf 2.6
+  curve 50 26 46 20 52 14 48 8
+  fill #ffffff
+  stroke #8793a3 2
+  rect 4 32 44 10 2
+  fill #e8a05a
+  stroke #a8680a 2
+  rect 4 32 14 10 2
+  fill #e2584a
+  stroke #8a140c 2
+  rect 48 32 9 10 2
+
+emoji no_smoking U+1F6AD | forbidden cigarette smoke free
+  use s2_ban_bg
+  fill #ffffff
+  stroke $s2k 1.8
+  rect 14 28 32 8 1.5
+  fill $s2k
+  nostroke
+  rect 39 28 7 8 1
+  nofill
+  stroke $s2k 2
+  curve 46 24 43 20 47 16
+  use s2_ban
+
+emoji litter_bin U+1F6AE | trash tidy throw away put litter
+  use s2_square_blue
+  fill $white
+  circle 22 16 4.4
+  nofill
+  stroke $white 4
+  line 22 22 22 38 18 52
+  line 22 38 28 52
+  line 22 26 34 28
+  fill $white
+  nostroke
+  rect 37 26 4 4 1
+  path M 36 36 L 52 36 L 50 54 L 38 54 Z
+
+emoji no_littering U+1F6AF | forbidden trash litter clean
+  use s2_ban_bg
+  fill $s2k
+  circle 24 20 4
+  nofill
+  stroke $s2k 3.6
+  line 24 26 24 38 20 48
+  line 24 38 29 48
+  line 24 28 34 30
+  fill $s2k
+  nostroke
+  rect 37 32 3.6 3.6 1
+  rect 40 39 3.6 3.6 1
+  rect 35 43 3.6 3.6 1
+  use s2_ban
+
+emoji potable_water U+1F6B0 | drinking tap faucet water safe
+  use s2_square_blue
+  fill $white
+  path M 12 20 L 30 20 L 30 16 L 38 16 L 38 20 Q 48 20 48 30 L 48 34 L 40 34 L 40 30 Q 40 28 38 28 L 12 28 Z
+  rect 31 10 6 6 1
+  path M 44 38 Q 39 46 44 50 Q 49 46 44 38 Z
+
+emoji non_potable_water U+1F6B1 | not drinking unsafe water tap
+  use s2_ban_bg
+  fill $s2k
+  path M 14 22 L 30 22 L 30 18 L 37 18 L 37 22 Q 46 22 46 31 L 46 34 L 39 34 L 39 31 Q 39 29 37 29 L 14 29 Z
+  path M 42.5 37 Q 38 44 42.5 48 Q 47 44 42.5 37 Z
+  use s2_ban
+
+emoji no_bicycles U+1F6B3 | forbidden bike cycling
+  use s2_ban_bg
+  use s2_bike 0 -2 0.8
+  use s2_ban
+
+category people
+
+emoji bicyclist U+1F6B4 | cycling bike ride cyclist
+  nofill
+  stroke $t2tyre 2.6
+  circle 14 46 10
+  circle 50 46 10
+  stroke #e2584a 2.8
+  line 14 46 26 32 42 32 50 46
+  line 26 32 32 46
+  nofill
+  stroke $skinl 6.2
+  line 30 20 24 32 32 46
+  line 34 20 44 30
+  stroke $skin 4
+  line 30 20 24 32 32 46
+  line 34 20 44 30
+  fill lin #5aa8f0 #2f6ad8 0 14 0 30
+  stroke #1a3f9a 1.8
+  path M 26 16 L 38 14 L 34 30 L 24 30 Z
+  fill $skin
+  stroke $skinl 1.6
+  circle 40 9 6
+  fill #ffd23a
+  nostroke
+  path M 33.5 8 Q 34 2.5 40 2.5 Q 46 2.5 46.5 8 Z
+
+emoji mountain_bicyclist U+1F6B5 | mtb bike trail cyclist
+  fill lin #9a8a6a #6a5a3a 0 40 0 62
+  stroke #4a3a1c 2
+  poly 2 62 2 54 20 44 36 52 50 40 62 50 62 62
+  nofill
+  stroke $t2tyre 2.6
+  circle 16 40 9
+  circle 48 34 9
+  stroke #7fd47a 2.8
+  line 16 40 28 26 42 22 48 34
+  line 28 26 32 38
+  nofill
+  stroke $skinl 6.2
+  line 30 14 26 26 32 38
+  line 34 14 43 21
+  stroke $skin 4
+  line 30 14 26 26 32 38
+  line 34 14 43 21
+  fill lin #ff7a5a #d8321c 0 8 0 24
+  stroke #8a140c 1.8
+  path M 26 10 L 38 8 L 34 24 L 24 24 Z
+  fill $skin
+  stroke $skinl 1.6
+  circle 40 5.5 5
+
+emoji pedestrian U+1F6B6 | walk walking stroll person
+  nofill
+  stroke $skinl 6.2
+  line 32 24 22 34
+  line 34 24 42 34
+  stroke $skin 4
+  line 32 24 22 34
+  line 34 24 42 34
+  nofill
+  stroke #2f3a4c 6
+  line 30 40 22 58
+  line 34 40 42 58
+  fill lin #7fd47a #2f9a3c 0 18 0 42
+  stroke #145a24 2
+  path M 25 18 L 39 18 L 38 42 L 26 42 Z
+  fill $skin
+  stroke $skinl 1.6
+  circle 33 10 7
+  fill #6b4226
+  nostroke
+  path M 25.5 9 Q 26 2 33 2 Q 40 2 40.5 9 Q 33 5 25.5 9 Z
+
+category symbols
+
+emoji no_pedestrians U+1F6B7 | forbidden walking no entry
+  use s2_ban_bg
+  use s2_walker 0 3 0.8
+  use s2_ban
+
+emoji children_crossing U+1F6B8 | school kids caution sign
+  fill lin #ffe27a #f2b01c 0 4 0 60
+  stroke #a87a0c 2.4
+  poly 32 3 61 32 32 61 3 32
+  fill $s2k
+  nostroke
+  circle 24 22 4
+  circle 40 26 3.4
+  nofill
+  stroke $s2k 3.6
+  line 24 28 24 40 20 50
+  line 24 40 28 50
+  line 24 31 33 35
+  stroke $s2k 3
+  line 40 31 40 41 37 50
+  line 40 41 43 50
+
+emoji mens U+1F6B9 | men restroom toilet male
+  use s2_square_blue
+  use s2_man_w
+
+emoji womens U+1F6BA | women restroom toilet female
+  fill lin #ff9ac4 #e23c86 0 6 0 58
+  stroke #a31a5a 2.4
+  rect 6 6 52 52 10
+  use s2_woman_w
+
+emoji restroom U+1F6BB | toilet bathroom wc men women
+  use s2_square_blue
+  use s2_man_w -11 2 0.78
+  use s2_woman_w 11 2 0.78
+  fill $white
+  rect 31 14 2 38 1
+
+emoji baby_symbol U+1F6BC | changing nursery infant
+  fill lin #ffb04a #e8701c 0 6 0 58
+  stroke #a8420a 2.4
+  rect 6 6 52 52 10
+  fill $white
+  circle 32 20 8
+  path M 22 32 Q 32 28 42 32 L 48 42 L 43 45 L 39 39 L 40 52 L 24 52 L 25 39 L 21 45 L 16 42 Z
+
+category objects
+
+emoji toilet U+1F6BD | bathroom loo wc
+  fill lin #ffffff #dfe5ec 0 4 0 60
+  stroke #8793a3 2.2
+  rect 16 4 32 22 4
+  path M 12 30 L 52 30 Q 52 46 40 48 L 42 60 L 22 60 L 24 48 Q 12 46 12 30 Z
+  fill #dfe5ec
+  stroke #8793a3 1.8
+  rect 8 26 48 6 3
+  fill #9aa6b6
+  nostroke
+  rect 36 9 7 3 1.5
+
+category symbols
+
+emoji wc U+1F6BE | toilet restroom water closet
+  use s2_square_blue
+  fill $white
+  text 32 41 22 WC 4.6
+
+category objects
+
+emoji shower U+1F6BF | bath wash water clean
+  nofill
+  stroke #9aa6b6 4
+  curve 54 60 54 14 40 8 30 14
+  fill lin #e3e9f0 #9aa6b6 0 12 0 26
+  stroke #5d6a7c 2
+  path M 16 26 Q 16 12 30 12 Q 42 14 42 26 Z
+  nofill
+  stroke $tear 2.6
+  line 20 32 16 42
+  line 29 32 29 44
+  line 38 32 42 42
+  line 18 48 14 58
+  line 29 50 29 60
+  line 40 48 44 58
+
+category people
+
+emoji bath U+1F6C0 | bathtub wash relax soak
+  fill $skin
+  stroke $skinl 1.6
+  circle 22 20 8
+  fill #6b4226
+  nostroke
+  path M 13.5 19 Q 14 11 22 11 Q 30 11 30.5 19 Q 22 15 13.5 19 Z
+  fill #ffffffdd
+  stroke #9fd4ff 1.4
+  circle 40 28 5
+  circle 48 24 4
+  circle 33 30 4
+  fill lin #ffffff #dfe5ec 0 30 0 56
+  stroke #8793a3 2.2
+  path M 3 30 L 61 30 L 58 46 Q 56 54 46 54 L 18 54 Q 8 54 6 46 Z
+  fill #9aa6b6
+  nostroke
+  rect 12 54 5 6 2
+  rect 47 54 5 6 2
+
+category objects
+
+emoji bathtub U+1F6C1 | bath wash tub bathroom
+  nofill
+  stroke #9aa6b6 3.4
+  curve 50 30 50 12 42 10 38 16
+  fill #ffffffdd
+  stroke #9fd4ff 1.4
+  circle 18 26 5
+  circle 27 23 4
+  circle 34 27 4.4
+  fill lin #ffffff #dfe5ec 0 30 0 56
+  stroke #8793a3 2.2
+  path M 3 30 L 61 30 L 58 46 Q 56 54 46 54 L 18 54 Q 8 54 6 46 Z
+  fill #9aa6b6
+  nostroke
+  rect 12 54 5 6 2
+  rect 47 54 5 6 2
+
+category symbols
+
+emoji passport_control U+1F6C2 | border immigration airport
+  use s2_square_blue
+  fill $white
+  circle 24 20 5
+  path M 15 46 L 15 32 Q 15 28 19 28 L 29 28 Q 33 28 33 32 L 33 46 Z
+  rect 37 30 13 16 2
+  fill $sym_blue
+  circle 43.5 36 2.6
+
+emoji customs U+1F6C3 | border inspection airport declare
+  use s2_square_blue
+  fill $white
+  circle 22 18 5
+  path M 13 44 L 13 30 Q 13 26 17 26 L 27 26 Q 31 26 31 30 L 31 44 Z
+  rect 36 34 16 14 2
+  nofill
+  stroke $white 2.4
+  path M 40 34 L 40 30 L 48 30 L 48 34
+
+emoji baggage_claim U+1F6C4 | luggage airport suitcase arrival
+  use s2_square_blue
+  fill $white
+  rect 16 24 32 24 4
+  nofill
+  stroke $white 3
+  path M 25 24 L 25 17 L 39 17 L 39 24
+  stroke $sym_blue 2.4
+  line 24 28 24 44
+  line 40 28 40 44
+
+emoji left_luggage U+1F6C5 | locker storage airport bag
+  use s2_square_blue
+  fill $white
+  rect 14 22 22 26 3
+  nofill
+  stroke $white 2.6
+  path M 20 22 L 20 16 L 30 16 L 30 22
+  stroke $white 3
+  circle 46 26 5
+  line 46 31 46 46
+  line 46 40 51 40
+  line 46 45 50 45
+
+category objects
+
+emoji couch_lamp U+1F6CB | sofa furniture living room lounge
+  nofill
+  stroke #6e7684 2.6
+  line 52 20 52 44
+  fill lin #ffe27a #f2b01c 0 6 0 20
+  stroke #a87a0c 1.8
+  poly 46 6 58 6 62 20 42 20
+  fill lin #ff8a6a #d8402c 0 24 0 54
+  stroke #8a1c0c 2.2
+  path M 8 44 L 8 30 Q 8 24 14 24 L 40 24 Q 46 24 46 30 L 46 44 Z
+  path M 2 54 L 2 38 Q 2 34 6 34 Q 10 34 10 38 L 10 44 L 44 44 L 44 38 Q 44 34 48 34 Q 52 34 52 38 L 52 54 Z
+  fill #5f340c
+  nostroke
+  rect 6 54 5 6 1
+  rect 43 54 5 6 1
+
+category people
+
+emoji sleeping_bed U+1F6CC | sleep bed rest hotel accommodation
+  fill #9a6a3a
+  stroke #5f3414 2
+  rect 2 18 6 40 2
+  rect 56 34 6 24 2
+  fill lin #ffffff #dfe5ec 0 26 0 38
+  stroke #8793a3 1.8
+  rect 10 28 14 9 4
+  fill $skin
+  stroke $skinl 1.6
+  circle 19 24 6.5
+  fill lin #6fb8f0 #2f6ad8 0 30 0 48
+  stroke #1a3f9a 2.2
+  path M 8 48 L 8 38 Q 26 26 40 32 Q 56 34 56 40 L 56 48 Z
+  fill #9a6a3a
+  stroke #5f3414 2
+  rect 6 46 52 6 2
+
+category objects
+
+emoji shopping_bags U+1F6CD | shop buy retail mall
+  nofill
+  stroke #a8420a 2.4
+  curve 12 24 14 10 26 10 28 24
+  fill lin #ffb04a #e8701c 0 22 0 58
+  stroke #a8420a 2.2
+  path M 6 24 L 34 24 L 36 58 L 4 58 Z
+  nofill
+  stroke #a31a5a 2.4
+  curve 36 30 38 16 50 16 52 30
+  fill lin #ff9ac4 #e23c86 0 28 0 60
+  stroke #a31a5a 2.2
+  path M 30 30 L 58 30 L 60 60 L 28 60 Z
+
+emoji bellhop_bell U+1F6CE | service reception hotel ring desk
+  fill $sym_gold
+  stroke #7a4a08 1.6
+  rect 29 8 6 8 2
+  fill rad #fff08a #f2b01c 24 26 30
+  stroke #a87a0c 2.2
+  path M 8 46 Q 8 16 32 16 Q 56 16 56 46 Z
+  fill #ffffff88
+  nostroke
+  ellipse 22 28 4 8 30
+  fill lin #5a6270 #2f343e 0 46 0 54
+  stroke #16181d 2.2
+  rect 4 46 56 8 3
+
+emoji bed U+1F6CF | sleep bedroom furniture hotel
+  fill #9a6a3a
+  stroke #5f3414 2
+  rect 2 16 6 42 2
+  rect 56 32 6 26 2
+  fill lin #ffffff #dfe5ec 0 26 0 38
+  stroke #8793a3 1.8
+  rect 10 26 16 10 4
+  fill lin #ff8a6a #d8402c 0 34 0 48
+  stroke #8a1c0c 2.2
+  path M 8 48 L 8 38 L 30 36 Q 56 34 56 40 L 56 48 Z
+  fill #9a6a3a
+  stroke #5f3414 2
+  rect 6 46 52 6 2
+
+category symbols
+
+emoji place_of_worship U+1F6D0 | pray religion temple church
+  fill lin #b98cf5 #7a48d6 0 6 0 58
+  stroke #4a2596 2.4
+  rect 6 6 52 52 10
+  fill $white
+  poly 32 12 52 26 12 26
+  rect 14 46 36 5 1
+  circle 32 31 3.4
+  path M 24 46 L 26 37 Q 32 33 38 37 L 40 46 Z
+
+emoji stop_sign U+1F6D1 | octagon halt red stop
+  fill lin #ff7a5a #d8281c 0 4 0 60
+  stroke #8a140c 2.4
+  poly 20 4 44 4 60 20 60 44 44 60 20 60 4 44 4 20
+  nofill
+  stroke #ffffff 2
+  poly 22 9 42 9 55 22 55 42 42 55 22 55 9 42 9 22
+  fill $white
+  nostroke
+  text 32 37.5 13 STOP 3.4
+
+category objects
+
+emoji shopping_cart U+1F6D2 | trolley shop buy basket store
+  nofill
+  stroke #5d6a7c 3.4
+  line 2 10 12 10 20 44 52 44
+  fill #e3e9f0
+  stroke #5d6a7c 2.4
+  path M 14 18 L 58 18 L 52 38 L 19 38 Z
+  nofill
+  stroke #5d6a7c 1.6
+  line 26 18 28 38
+  line 37 18 37 38
+  line 48 18 46 38
+  line 16 28 55 28
+  fill $t2tyre
+  stroke #16181d 1.6
+  circle 24 53 5
+  circle 46 53 5
+
+category travel
+
+emoji hindu_temple U+1F6D5 | mandir temple worship india
+  fill $sym_gold
+  nostroke
+  rect 31 2 2 8
+  poly 33 2 41 5 33 8
+  fill lin #ffb04a #e8701c 0 8 0 58
+  stroke #a8420a 2.2
+  path M 32 8 Q 44 20 44 34 L 20 34 Q 20 20 32 8 Z
+  path M 8 58 L 8 40 Q 14 30 20 40 L 44 40 Q 50 30 56 40 L 56 58 Z
+  rect 14 34 36 8 2
+  fill #5f2a0c
+  nostroke
+  path M 27 58 L 27 50 Q 32 44 37 50 L 37 58 Z
+  nofill
+  stroke #a8420a 1.4
+  line 24 20 40 20
+  line 21 27 43 27
+
+emoji hut U+1F6D6 | house shelter thatch round
+  fill lin #d9b06a #a8782c 0 4 0 34
+  stroke #6e4a0c 2.2
+  path M 32 4 Q 50 18 60 34 L 4 34 Q 14 18 32 4 Z
+  nofill
+  stroke #6e4a0c 1.4
+  line 32 6 32 34
+  line 26 10 18 34
+  line 38 10 46 34
+  fill lin #e8c89a #b8905a 0 34 0 58
+  stroke #6e4a0c 2.2
+  rect 12 34 40 24 2
+  fill #5f340c
+  nostroke
+  path M 27 58 L 27 46 Q 32 40 37 46 L 37 58 Z
+
+category symbols
+
+emoji elevator U+1F6D7 | lift up down floor
+  fill lin #9aa6b6 #5d6a7c 0 4 0 60
+  stroke #3a4452 2.4
+  rect 8 4 48 56 4
+  fill #e3e9f0
+  stroke #3a4452 1.8
+  rect 14 22 17 32 1
+  rect 33 22 17 32 1
+  fill $white
+  nostroke
+  poly 26 8 31 16 21 16
+  poly 38 16 43 8 48 8 43 16
+  poly 38 16 33 8 43 8
+
+category activities
+
+emoji playground_slide U+1F6DD | park kids play slide
+  nofill
+  stroke #5d6a7c 3
+  line 12 60 12 14
+  line 26 60 26 14
+  line 12 24 26 24
+  line 12 34 26 34
+  line 12 44 26 44
+  line 12 54 26 54
+  fill #e2584a
+  stroke #8a140c 1.8
+  rect 8 8 22 7 2
+  nofill
+  stroke #a8680a 7
+  curve 28 16 40 20 46 44 60 54
+  stroke #ffd23a 4
+  curve 28 16 40 20 46 44 60 54
+
+category travel
+
+emoji wheel U+1F6DE | tire tyre car rim
+  fill $t2tyre
+  stroke #16181d 2.2
+  circle 32 32 27
+  fill lin #e3e9f0 #9aa6b6 0 14 0 50
+  stroke #5d6a7c 2
+  circle 32 32 17
+  fill $t2tyre
+  nostroke
+  circle 32 32 4
+  circle 32 21 3
+  circle 42.5 28.5 3
+  circle 38.5 41 3
+  circle 25.5 41 3
+  circle 21.5 28.5 3
+
+emoji ring_buoy U+1F6DF | lifebuoy life saver rescue float
+  nofill
+  stroke #8a140c 18
+  circle 32 32 18
+  stroke #ffffff 14.5
+  circle 32 32 18
+  stroke #e2584a 14.5
+  arc 32 32 18 18 -22 22
+  arc 32 32 18 18 68 112
+  arc 32 32 18 18 158 202
+  arc 32 32 18 18 248 292
+
+category objects
+
+emoji oil_drum U+1F6E2 | barrel fuel petroleum
+  fill lin #5aa8f0 #2f5fb8 10 0 54 0
+  stroke #1a3f8a 2.4
+  rect 12 6 40 52 6
+  nofill
+  stroke #1a3f8a 2
+  line 12 20 52 20
+  line 12 44 52 44
+  fill #2a2f3b
+  nostroke
+  path M 32 25 Q 26 33 32 39 Q 38 33 32 25 Z
+  fill #9aa6b6
+  rect 26 3 12 5 2
+
+category travel
+
+emoji motorway U+1F6E3 | highway road freeway
+  fill lin #9ad46a #4fa03a 0 4 0 60
+  stroke #2f6a1c 2.2
+  rect 4 4 56 56 8
+  fill #4a5060
+  nostroke
+  poly 26 5 38 5 54 59 10 59
+  fill #ffffff
+  poly 31.4 8 32.6 8 33 16 31 16
+  poly 30.8 24 33.2 24 33.6 34 30.4 34
+  poly 30 42 34 42 34.6 56 29.4 56
+
+emoji railway_track U+1F6E4 | train rail tracks line
+  fill lin #9ad46a #4fa03a 0 4 0 60
+  stroke #2f6a1c 2.2
+  rect 4 4 56 56 8
+  nofill
+  stroke #8a5a2c 3
+  line 24 14 40 14
+  line 21 26 43 26
+  line 17 40 47 40
+  line 13 54 51 54
+  stroke #5d6670 3
+  line 28 5 16 59
+  line 36 5 48 59
