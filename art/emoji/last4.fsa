@@ -337,19 +337,29 @@ emoji flatbread U+1FAD3 | naan pita bread roti
   ellipse 34 30 3 2
 
 emoji tamale U+1FAD4 | mexican corn husk wrap
-  fill lin #e8d08a #b8964a 0 0 60 60
+  fill lin #f2e0a0 #c8a85a 0 14 0 50
   stroke #7a5a14 2.4
-  path M 4 44 L 20 20 L 44 8 L 60 20 L 44 44 L 20 56 Z
-  fill #f2c04a
-  stroke #a8801c 1.8
-  path M 22 30 L 42 20 L 50 26 L 30 42 Z
+  path M 2 32 Q 16 14 32 14 Q 48 14 62 32 Q 48 50 32 50 Q 16 50 2 32 Z
   nofill
-  stroke #7a5a14 1.6
-  line 20 20 30 42
-  line 44 8 50 26
-  stroke #e2584a 2.4
-  line 12 34 18 40
-  line 46 12 54 20
+  stroke #a8862a 1.6
+  curve 8 32 20 22 32 20
+  curve 56 32 44 22 32 20
+  curve 8 32 20 42 32 44
+  curve 56 32 44 42 32 44
+  fill rad #ffd86a #e8a02a 32 30 14
+  stroke #a8680a 1.8
+  path M 18 32 Q 32 20 46 32 Q 32 44 18 32 Z
+  fill #c8382c
+  nostroke
+  circle 27 31 2
+  circle 34 34 2
+  circle 37 29 1.8
+  fill #5fbf3c
+  circle 31 28 1.6
+  nofill
+  stroke #7a5a14 2.4
+  line 10 26 12 38
+  line 54 26 52 38
 
 emoji fondue U+1FAD5 | cheese pot melt swiss dip
   nofill
@@ -395,14 +405,20 @@ emoji teapot U+1FAD6 | tea pot brew kettle
 emoji pouring_liquid U+1FAD7 | pour drink spill water
   fill #dff4ff88
   stroke #7fa8d8 2.2
-  path M 20 4 L 54 20 L 46 36 L 12 20 Z
-  fill lin #6fd0ff #1f74d8 0 14 0 58
-  stroke #134c9c 1.8
-  path M 12 20 L 28 27.6 Q 20 36 22 48 Q 22 56 16 56 Q 10 56 10 48 Q 12 36 8 26 Z
+  path M 26 4 L 60 16 L 52 40 Q 50 44 46 42 L 20 32 Q 16 30 18 26 Z
+  fill lin #9fdcff #3a8ae0 0 10 0 40
+  nostroke
+  path M 24 18 L 54 28 L 50.6 38 Q 49.6 41 46.6 40 L 21 30.4 Q 18.6 29.4 20 26.4 Z
+  nofill
+  stroke #134c9c 9
+  path M 22 26 Q 8 30 10 52
+  stroke #6fd0ff 5.6
+  path M 22 26 Q 8 30 10 52
   fill #6fd0ff
-  stroke #134c9c 1.4
-  circle 30 54 3
-  circle 6 50 2
+  stroke #134c9c 1.6
+  ellipse 12 57 10 3.4
+  circle 26 52 2.4
+  circle 3 48 1.8
 
 emoji beans U+1FAD8 | legume kidney pulse food
   fill rad #c8503a #7a1c14 20 26 16
@@ -456,21 +472,15 @@ emoji peeking U+1FAE3 | peek shy scared cover eyes
   use face
   fill $white
   stroke $ink 1.6
-  ellipse 42 26 5.4 6.4
+  ellipse 43 27 6 7
   fill $ink
   nostroke
-  circle 42 26.6 2.6
+  circle 43 28 3
+  fill $white
+  circle 44.2 26.6 1.1
   stroke $ink 3
-  arc 32 46 7 4 205 335
-  fill rad $skin $skind 22 26 18
-  stroke $skinl 1.8
-  path M 6 30 Q 6 18 18 18 L 30 18 Q 34 20 32 26 L 30 34 Q 26 40 16 38 Q 6 36 6 30 Z
-  path M 34 20 L 52 20 Q 56 22 54 26 L 50 26 L 50 22 L 36 22 Z
-  nofill
-  stroke $skinl 1.2
-  line 14 20 14 30
-  line 21 19 21 30
-  line 28 19 27 30
+  arc 36 48 7 4 205 335
+  use pp_hand -10 -1 0.6 -6
 
 emoji diagonal_mouth U+1FAE4 | unsure skeptical meh hmm
   use face
@@ -479,19 +489,21 @@ emoji diagonal_mouth U+1FAE4 | unsure skeptical meh hmm
   line 22 47 42 41
 
 emoji dotted_line_face U+1FAE5 | invisible hidden ignored fading
-  nofill
-  stroke $rim 2.6
-  arc 32 32 27 27 0 22
-  arc 32 32 27 27 45 67
-  arc 32 32 27 27 90 112
-  arc 32 32 27 27 135 157
-  arc 32 32 27 27 180 202
-  arc 32 32 27 27 225 247
-  arc 32 32 27 27 270 292
-  arc 32 32 27 27 315 337
-  fill #ffd86a55
+  fill rad #fff6d0 #ffe69a 24 20 48
   nostroke
-  circle 32 32 25
+  circle 32 32 26
+  nofill
+  stroke $rim 3
+  arc 32 32 27 27 2 24
+  arc 32 32 27 27 38 60
+  arc 32 32 27 27 74 96
+  arc 32 32 27 27 110 132
+  arc 32 32 27 27 146 168
+  arc 32 32 27 27 182 204
+  arc 32 32 27 27 218 240
+  arc 32 32 27 27 254 276
+  arc 32 32 27 27 290 312
+  arc 32 32 27 27 326 348
   use eyes
   stroke $ink 3
   line 24 44 40 44
@@ -525,12 +537,17 @@ emoji bubbles U+1FAE7 | soap bubble float clean
 category people
 
 emoji finger_heart U+1FAF0 | love heart k-pop gesture crossed
-  use heart 14 -22 0.2
-  fill rad $skin $skind 26 36 30
+  use heart 16 -22 0.2
+  fill rad $skin $skind 26 36 44
   stroke $skinl 2.2
-  path M 30 30 L 36 10 Q 38 5 42.5 6.5 Q 47 8 45.5 13 L 40 32 Z
-  path M 22 34 L 40 20 Q 44 17 47 20.5 Q 50 24 46 27 L 30 40 Z
-  path M 12 60 L 12 44 Q 14 32 26 32 L 42 32 Q 48 34 48 42 Q 48 54 40 60 Z
+  ellipse 38 20 5 14 18
+  path M 12 34 Q 12 28 20 28 L 44 28 Q 52 28 52 36 L 50 50 Q 48 60 36 60 L 24 60 Q 12 60 12 48 Z
+  ellipse 26 24 5 13 -28
+  nofill
+  stroke $skinl 1.5
+  line 22 40 22 52
+  line 31 40 31 53
+  line 40 40 40 52
 
 emoji rightwards_hand U+1FAF1 | hand right offer shake
   fill rad $skin $skind 26 30 34
@@ -543,35 +560,54 @@ emoji leftwards_hand U+1FAF2 | hand left offer shake
   path M 62 22 L 38 22 L 30 14 Q 26 10 22.5 13 Q 19 17 23 21 L 26 24 L 8 24 Q 3 24 3 29 Q 3 34 8 34 L 20 34 L 12 34 Q 7 34 7 39 Q 7 44 12 44 L 18 44 Q 13 44 13 48.5 Q 13 53 18 53 L 40 53 Q 50 53 54 46 L 62 46 Z
 
 emoji palm_down_hand U+1FAF3 | drop dismiss hand down
-  fill rad $skin $skind 28 22 34
+  fill rad $skin $skind 30 20 46
   stroke $skinl 2.2
-  path M 2 14 L 30 12 Q 46 12 50 22 L 58 22 Q 62 24 61 28 Q 60 31 56 31 L 52 31 L 52 44 Q 52 49 47.6 49 Q 43 49 43 44 L 43 48 Q 43 53 38.6 53 Q 34 53 34 48 L 34 49 Q 34 54 29.6 54 Q 25 54 25 49 L 25 46 Q 25 51 20.6 51 Q 16 51 16 46 L 16 36 L 2 36 Z
+  path M 62 16 L 36 14 Q 14 14 6 26 Q 2 32 6 36 Q 12 38 20 32 L 30 30 Q 30 42 36 44 Q 42 44 42 34 L 62 38 Z
+  nofill
+  stroke $skinl 1.5
+  curve 9 31 16 24 26 22
+  curve 12 34 18 28 27 26
+  line 36 34 36 40
 
 emoji palm_up_hand U+1FAF4 | offer receive hand up beg
-  fill rad $skin $skind 28 42 34
+  fill rad $skin $skind 30 44 46
   stroke $skinl 2.2
-  path M 2 50 L 30 52 Q 46 52 50 42 L 58 42 Q 62 40 61 36 Q 60 33 56 33 L 52 33 L 52 20 Q 52 15 47.6 15 Q 43 15 43 20 L 43 16 Q 43 11 38.6 11 Q 34 11 34 16 L 34 15 Q 34 10 29.6 10 Q 25 10 25 15 L 25 18 Q 25 13 20.6 13 Q 16 13 16 18 L 16 28 L 2 28 Z
+  path M 62 48 L 36 50 Q 14 50 6 38 Q 2 32 6 28 Q 12 26 20 32 L 30 34 Q 30 22 36 20 Q 42 20 42 30 L 62 26 Z
+  nofill
+  stroke $skinl 1.5
+  curve 9 33 16 40 26 42
+  curve 12 30 18 36 27 38
+  line 36 30 36 24
 
 emoji point_at_viewer U+1FAF5 | you point index finger
-  fill rad $skin $skind 28 30 34
+  fill rad $skin $skind 28 26 50
   stroke $skinl 2.2
-  rect 8 28 12 22 6
-  rect 44 28 12 22 6
-  path M 16 30 Q 16 20 26 20 L 38 20 Q 48 20 48 30 L 48 46 Q 48 58 32 58 Q 16 58 16 46 Z
-  fill rad $skin $skind 30 30 12
-  circle 32 34 9.5
-  fill $skind
-  nostroke
-  ellipse 32 31 5 4
-  nofill
+  ellipse 12 30 5.4 10 18
+  path M 14 28 Q 14 14 32 14 Q 50 14 50 28 L 50 42 Q 50 50 42 50 L 22 50 Q 14 50 14 42 Z
+  rect 15 40 9.6 17 4.8
+  rect 25 42 9.6 17 4.8
+  rect 35 42 9.6 17 4.8
+  rect 44.6 40 8.4 15 4.2
+  fill rad $skin $skind 30 24 14
+  circle 32 28 11
+  fill #ffffff55
   stroke $skinl 1.4
-  arc 32 34 6.4 6.4 20 160
+  path M 26.6 24 Q 32 17 37.4 24 Q 37 28 32 28 Q 27 28 26.6 24 Z
 
 emoji heart_hands U+1FAF6 | love heart hands gesture
-  fill rad $skin $skind 28 30 34
-  stroke $skinl 2.2
-  path M 30 16 Q 22 6 12 12 Q 2 20 6 34 Q 10 46 22 54 L 22 62 L 6 62 Q 0 40 2 26 Q 4 8 20 6 Q 28 6 32 14 Z
-  path M 34 16 Q 42 6 52 12 Q 62 20 58 34 Q 54 46 42 54 L 42 62 L 58 62 Q 64 40 62 26 Q 60 8 44 6 Q 36 6 32 14 Z
-  fill #15151500
-  nostroke
-  circle 32 32 1
+  nofill
+  stroke $skinl 13.4
+  path M 31 20 Q 24 6 13 12 Q 4 20 9 34 Q 15 46 31 56
+  path M 33 20 Q 40 6 51 12 Q 60 20 55 34 Q 49 46 33 56
+  stroke $skin 9
+  path M 31 20 Q 24 6 13 12 Q 4 20 9 34 Q 15 46 31 56
+  path M 33 20 Q 40 6 51 12 Q 60 20 55 34 Q 49 46 33 56
+  stroke $skinl 1.5
+  line 5.6 24 13 26
+  line 7 32 14 31.6
+  line 12 42 17.6 38.4
+  line 58.4 24 51 26
+  line 57 32 50 31.6
+  line 52 42 46.4 38.4
+  line 32 14 32 24
+  line 32 50 32 60

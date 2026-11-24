@@ -209,13 +209,19 @@ emoji dumpling U+1F95F | gyoza potsticker jiaozi dim sum
 emoji fortune_cookie U+1F960 | cookie chinese luck message
   fill #ffffff
   stroke #8793a3 1.6
-  path M 34 30 L 60 22 L 62 30 L 38 38 Z
-  fill rad #f2c478 #cd8f3c 24 26 36
+  path M 34 40 L 58 46 L 57 53 L 33 47 Z
+  fill rad #f8d48e #d0903c 24 22 40
   stroke #7a4a0c 2.2
-  path M 6 30 Q 8 10 28 10 Q 44 12 44 30 Q 52 40 46 50 Q 36 58 26 48 Q 8 50 6 30 Z
+  path M 6 36 Q 4 12 30 10 Q 56 10 58 34 Q 58 42 50 44 Q 44 36 34 38 Q 30 50 16 50 Q 6 46 6 36 Z
   nofill
   stroke #7a4a0c 1.8
-  curve 26 48 30 38 44 30
+  curve 34 38 30 28 34 16
+  fill #ffffff66
+  nostroke
+  ellipse 18 22 6 3.4 -35
+  fill #b8762c
+  ellipse 46 26 2 1.2
+  ellipse 22 38 2 1.2
 
 emoji takeout_box U+1F961 | chinese food noodles box takeaway
   nofill

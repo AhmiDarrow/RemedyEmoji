@@ -312,9 +312,12 @@ emoji name_badge U+1F4DB | badge name tag fire
   rect 16 30 32 14 2
 
 emoji telephone_receiver U+1F4DE | phone call handset dial
-  fill lin #5a6270 #22262e 0 0 60 60
-  stroke #0e1014 2.4
+  fill lin #6a7280 #2f343e 0 0 60 60
+  stroke #9aa3b0 2
   path M 12 6 Q 20 2 24 10 L 28 18 Q 30 24 24 26 Q 22 34 30 42 Q 34 44 40 40 Q 44 36 48 38 L 56 44 Q 60 48 56 54 Q 48 62 34 56 Q 12 44 8 22 Q 6 12 12 6 Z
+  fill #ffffff33
+  nostroke
+  ellipse 16 14 3 5 -25
 
 emoji pager U+1F4DF | beeper device message retro
   fill lin #5a6270 #22262e 0 12 0 52
@@ -1020,52 +1023,40 @@ emoji crayon U+1F58D | crayon draw colour wax kid
 category people
 
 emoji hand_splayed U+1F590 | hand five fingers spread palm
-  nofill
-  stroke $skinl 9.6
-  line 20 40 8 26
-  line 25 37 20 12
-  line 32 37 32 6
-  line 39 37 45 12
-  line 44 42 56 30
-  stroke $skin 6.6
-  line 20 40 8 26
-  line 25 37 20 12
-  line 32 37 32 6
-  line 39 37 45 12
-  line 44 42 56 30
-  use o3_palm
+  fill rad $skin $skind 28 20 60
+  stroke $skinl 2.2
+  ellipse 10.5 37 4.8 11 -52
+  ellipse 22 19 4.8 14.5 -14
+  ellipse 32 17 4.8 15.5
+  ellipse 42 19 4.8 14.5 14
+  ellipse 51 27 4.4 12 30
+  path M 17 34 L 47 34 L 47 46 Q 46 59 32 59 Q 18 59 17 46 Z
+  nostroke
+  ellipse 32 36 13.4 5
 
 emoji middle_finger U+1F595 | rude flip off finger
-  nofill
-  stroke $skinl 9.6
-  line 32 38 32 6
-  stroke $skin 6.6
-  line 32 38 32 6
-  fill rad $skin $skind 28 36 30
+  fill rad $skin $skind 28 20 60
   stroke $skinl 2.2
-  rect 16 28 9 14 4
-  rect 39 28 9 14 4
-  rect 47 31 8 12 4
-  use o3_palm
-  fill $skin
-  stroke $skinl 2.2
-  path M 17 44 Q 6 40 8 32 Q 12 28 16 34 Z
+  ellipse 32 20 5 17
+  rect 16 27 9.6 14 4.8
+  rect 38.4 27 9.6 14 4.8
+  rect 47 31 8.4 12 4.2
+  path M 16 36 L 48 36 L 50 46 Q 48 59 32 59 Q 18 59 16 46 Z
+  ellipse 14 43 9 4.8 28
+  nostroke
+  ellipse 31 38 13 4.6
 
 emoji vulcan_salute U+1F596 | spock live long prosper hand
-  nofill
-  stroke $skinl 9.6
-  line 20 42 8 30
-  line 24 37 17 10
-  line 30 37 26 8
-  line 38 37 42 8
-  line 44 37 51 12
-  stroke $skin 6.6
-  line 20 42 8 30
-  line 24 37 17 10
-  line 30 37 26 8
-  line 38 37 42 8
-  line 44 37 51 12
-  use o3_palm
+  fill rad $skin $skind 28 20 60
+  stroke $skinl 2.2
+  ellipse 10.5 38 4.8 11 -52
+  ellipse 19.5 20 4.8 14.5 -16
+  ellipse 28 17.6 4.8 15.5 -9
+  ellipse 38 18 4.8 15.5 11
+  ellipse 46.4 21 4.5 14 18
+  path M 17 34 L 47 34 L 47 46 Q 46 59 32 59 Q 18 59 17 46 Z
+  nostroke
+  ellipse 32 36 13.4 5
 
 category objects
 

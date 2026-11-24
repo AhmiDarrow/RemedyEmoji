@@ -47,15 +47,16 @@ emoji boxing_glove U+1F94A | boxing fight punch sport
 emoji martial_arts_uniform U+1F94B | karate judo gi taekwondo
   fill lin #ffffff #dfe5ec 0 4 0 60
   stroke #8793a3 2.4
-  path M 22 4 L 42 4 L 62 16 L 58 32 L 48 28 L 50 60 L 14 60 L 16 28 L 6 32 L 2 16 Z
-  nofill
+  path M 22 6 L 42 6 L 61 16 L 56 34 L 47 30 L 49 58 L 15 58 L 17 30 L 8 34 L 3 16 Z
+  fill #eef1f5
   stroke #8793a3 2
-  line 22 4 36 34
-  line 42 4 28 30
-  fill #2a2f3b
-  stroke #0e1014 1.6
-  rect 15 34 34 7 1
-  path M 28 41 L 34 41 L 36 54 L 30 54 Z
+  path M 22 6 L 32 20 L 26 36 L 17 30 Z
+  path M 42 6 L 32 20 L 38 36 L 47 30 Z
+  fill lin #3a3f4c #16181d 0 36 0 44
+  stroke #0e1014 1.8
+  path M 16.4 36 L 47.6 36 L 48 44 L 16 44 Z
+  path M 29 40 L 35 40 L 38 56 L 32 54 Z
+  path M 29 40 L 35 40 L 28 54 L 23 52 Z
 
 emoji curling_stone U+1F94C | curling ice winter sport
   fill lin #e2584a #a8201c 0 8 0 26
@@ -166,44 +167,59 @@ emoji safety_vest U+1F9BA | hi vis construction vest
   line 32 16 32 60
 
 emoji motorized_wheelchair U+1F9BC | power chair mobility accessibility
-  fill lin #5a6270 #22262e 0 8 0 44
+  fill lin #5a6270 #2f343e 0 6 0 36
   stroke #0e1014 2.2
-  path M 14 8 L 22 8 L 24 32 L 44 32 L 44 40 L 16 40 Z
-  rect 40 22 14 4 2
+  rect 13 6 9 28 4
+  rect 15 28 30 9 4
+  fill #3a4452
+  stroke #0e1014 1.8
+  rect 30 20 18 5 2
   fill #e2584a
   stroke #8a140c 1.4
-  circle 54 22 3
+  circle 48 16 3.4
+  nofill
+  stroke #0e1014 2.4
+  line 47 20 48 18
+  fill lin #6a7280 #3a3f4c 0 36 0 48
+  stroke #0e1014 2.2
+  rect 14 37 36 11 4
+  path M 46 38 L 56 46 L 58 52 L 50 52 Z
   fill #2f343e
   stroke #0e1014 2.2
-  circle 22 50 10
-  circle 50 54 6
+  circle 22 52 9
+  circle 44 54 6.5
   fill #9aa6b6
   nostroke
-  circle 22 50 4
-  circle 50 54 2.4
-  fill #5a6270
-  stroke #0e1014 1.8
-  rect 30 40 18 8 2
+  circle 22 52 3.4
+  circle 44 54 2.6
 
 emoji manual_wheelchair U+1F9BD | wheelchair mobility accessibility
-  fill lin #5a86c8 #2f4f9a 0 8 0 40
-  stroke #1a2f6a 2.2
-  path M 16 8 L 24 8 L 26 30 L 44 30 L 44 37 L 18 37 Z
   nofill
-  stroke #5d6a7c 3
-  line 44 36 50 52
-  line 12 8 18 8
+  stroke #3a4452 4
+  path M 12 8 L 20 8 L 24 34 L 46 34 L 52 52
+  fill lin #5aa8f0 #2f6ad8 0 10 0 38
+  stroke #1a3f9a 2
+  rect 19 10 7 22 3
+  rect 22 30 24 7 3
   fill #2f343e
-  stroke #0e1014 1.8
-  circle 51 55 5
+  stroke #0e1014 2
+  circle 52 55 5.5
+  fill #9aa6b6
+  nostroke
+  circle 52 55 2
   nofill
-  stroke #2f343e 4
-  circle 24 44 15
-  stroke #9aa6b6 1.4
-  line 24 29 24 59
-  line 9 44 39 44
-  line 13.4 33.4 34.6 54.6
-  line 34.6 33.4 13.4 54.6
+  stroke #16181d 6.4
+  circle 24 43 15
+  stroke #6e7684 3.4
+  circle 24 43 15
+  stroke #9aa6b6 1.6
+  line 24 28 24 58
+  line 9 43 39 43
+  line 13.4 32.4 34.6 53.6
+  line 34.6 32.4 13.4 53.6
+  fill #c4ccd6
+  stroke #3a4452 1.6
+  circle 24 43 3.4
 
 emoji billed_cap U+1F9E2 | baseball cap hat sport
   fill lin #5aa8f0 #2f6ad8 0 10 0 44
@@ -220,19 +236,33 @@ emoji billed_cap U+1F9E2 | baseball cap hat sport
   curve 32 13 26 26 28 40
 
 emoji scarf U+1F9E3 | winter warm neck clothes
-  fill lin #ff7a6a #d8281c 0 6 0 60
-  stroke #8a140c 2.4
-  path M 14 14 Q 32 2 50 14 Q 54 24 46 28 Q 32 22 18 28 Q 10 24 14 14 Z
-  path M 34 24 L 46 28 L 48 54 L 36 54 Z
+  fill lin #ff6a5a #d8281c 0 24 0 60
+  stroke #8a140c 2.2
+  path M 20 24 L 34 22 L 30 54 L 14 52 Z
+  path M 32 22 L 46 26 L 50 46 L 36 46 Z
   fill #ffffff
   nostroke
-  rect 36.4 40 11.4 4
-  rect 36.4 47 11.4 4
+  path M 16.6 38 L 32 39.6 L 31.6 43.6 L 16 42 Z
+  path M 15.6 46 L 31 47.6 L 30.6 51.6 L 15 50 Z
+  path M 35.4 36 L 48.4 36 L 49.2 40 L 35.8 40 Z
   nofill
-  stroke #8a140c 1.6
-  line 38 54 38 60
-  line 42 54 42 60
-  line 46 54 46 60
+  stroke #8a140c 2
+  line 16 52.4 15 59
+  line 20 52.8 19.4 59.4
+  line 24 53.2 23.6 59.8
+  line 28 53.6 27.8 60
+  line 38 46 38 52
+  line 42 46 42.4 52
+  line 46 46 46.8 52
+  fill lin #ff7a6a #e0382c 0 6 0 28
+  stroke #8a140c 2.2
+  path M 8 16 Q 8 6 20 6 L 44 6 Q 56 6 56 16 Q 56 26 44 26 L 20 26 Q 8 26 8 16 Z
+  fill #c8201c
+  stroke #8a140c 2
+  rect 25 19 14 9 3
+  nofill
+  stroke #ffffff55 2.4
+  line 16 12 46 12
 
 emoji gloves U+1F9E4 | winter hands warm mittens
   fill lin #7fd47a #2f9a3c 0 6 0 60
@@ -611,16 +641,19 @@ emoji x_ray U+1FA7B | xray bones scan medical
 
 emoji crutch U+1FA7C | injury support walk aid
   nofill
-  stroke #5d6a7c 4.4
-  line 20 14 44 56
-  line 34 8 46 30 44 56
-  stroke #c4ccd6 2
-  line 20 14 44 56
-  line 34 8 46 30 44 56
-  fill #3a3f4c
-  stroke #0e1014 1.6
-  path M 14 12 L 38 2 L 40 7 L 16 17 Z
-  rect 26 26 14 5 2
+  stroke #3a4452 7
+  path M 23 10 L 27 40 L 32 50 L 37 40 L 41 10
+  line 32 50 32 60
+  stroke #c4ccd6 3.6
+  path M 23 10 L 27 40 L 32 50 L 37 40 L 41 10
+  line 32 50 32 60
+  fill lin #6a7280 #2f343e 0 3 0 12
+  stroke #0e1014 2
+  path M 16 8 Q 16 3 22 3 L 42 3 Q 48 3 48 8 Q 48 12 42 12 L 22 12 Q 16 12 16 8 Z
+  rect 23 26 18 6 3
+  fill #2f343e
+  nostroke
+  rect 28.4 56.6 7.2 5.4 2
 
 category activities
 
@@ -675,13 +708,17 @@ emoji parachute U+1FA82 | skydive jump chute fall
   rect 27 50 10 9 2
 
 emoji boomerang U+1FA83 | throw return australia
-  fill lin #d99a5a #a8601c 0 0 60 60
-  stroke #5f340c 2.4
-  path M 8 10 Q 14 4 22 8 L 52 32 Q 58 38 56 46 L 54 54 Q 50 60 44 56 L 36 40 L 14 24 Q 4 18 8 10 Z
   nofill
-  stroke #ffd23a 2.4
-  line 14 12 20 17
-  line 46 46 50 53
+  stroke #5f340c 14
+  path M 10 18 Q 44 18 50 54
+  stroke #d99a5a 10
+  path M 10 18 Q 44 18 50 54
+  stroke #ffd23a 10
+  path M 10 18 Q 14 18 18 18.4
+  path M 49.2 46 Q 49.6 50 50 54
+  stroke #e2584a 3
+  line 21 13.6 21 23.4
+  line 44.6 44 54.4 43
 
 emoji pinata U+1FA85 | party candy mexican fiesta
   nofill
@@ -721,25 +758,39 @@ emoji nesting_dolls U+1FA86 | matryoshka russian doll toy
 category objects
 
 emoji chair U+1FA91 | seat sit furniture wood
-  fill lin #d99a5a #a8601c 0 4 0 60
-  stroke #5f340c 2.4
-  rect 16 4 6 56 2
-  rect 42 30 6 30 2
-  rect 16 30 32 7 2
-  rect 16 8 30 5 2
-  rect 16 18 30 5 2
-  rect 40 4 6 30 2
+  fill lin #c98a4a #8a4a1c 0 4 0 60
+  stroke #4a2208 2.2
+  rect 39 34 6 22 2
+  rect 14 5 7 53 3
+  rect 37 5 7 32 3
+  fill lin #e0a868 #b0702c 0 4 0 34
+  rect 12 5 34 9 4
+  rect 22 13 5 18 1
+  rect 31 13 5 18 1
+  fill lin #e8b478 #c08238 0 32 0 44
+  path M 10 33 L 44 33 L 56 42 L 22 42 Z
+  fill lin #b0702c #8a4a1c 0 42 0 48
+  path M 22 42 L 56 42 L 56 48 L 22 48 Z
+  path M 10 33 L 22 42 L 22 48 L 10 39 Z
+  fill lin #c98a4a #8a4a1c 0 46 0 60
+  rect 22 47 7 13 2
+  rect 49 47 7 13 2
 
 emoji razor U+1FA92 | shave blade barber
-  fill lin #c4ccd6 #7d8795 0 0 60 60
-  stroke #4a525c 2.2
-  path M 30 6 L 58 22 L 52 32 L 24 16 Z
-  fill lin #5aa8f0 #2f6ad8 0 0 60 60
+  fill lin #5aa8f0 #2f6ad8 0 24 0 60
   stroke #1a3f9a 2.2
-  path M 36 22 L 44 27 L 20 58 Q 16 61 12 58 Q 9 55 12 51 Z
+  rect 27 26 10 34 5
+  fill #9fd4ff
+  nostroke
+  rect 30 34 4 18 2
+  fill lin #e3e9f0 #9aa6b6 0 6 0 28
+  stroke #5d6a7c 2.2
+  rect 10 8 44 18 5
   nofill
-  stroke #ffffff 1.6
-  line 30 11 54 25
+  stroke #5d6a7c 1.6
+  line 14 14 50 14
+  line 14 18 50 18
+  line 14 22 50 22
 
 emoji diya_lamp U+1FA94 | diwali oil lamp light festival
   fill rad #fff6a0 #ff9a1c 32 14 10
@@ -865,14 +916,23 @@ emoji sewing_needle U+1FAA1 | needle thread stitch sew
 
 emoji knot U+1FAA2 | rope tie tangle string
   nofill
-  stroke #7a5214 8.4
-  path M 2 40 Q 14 44 24 34 Q 36 20 28 12 Q 20 6 16 16 Q 14 28 30 36 Q 46 44 62 30
-  stroke #e8c06a 5
-  path M 2 40 Q 14 44 24 34 Q 36 20 28 12 Q 20 6 16 16 Q 14 28 30 36 Q 46 44 62 30
-  stroke #7a5214 8.4
-  path M 44 54 Q 34 44 40 30 Q 44 22 50 26
-  stroke #e8c06a 5
-  path M 44 54 Q 34 44 40 30 Q 44 22 50 26
+  stroke #6e4a0c 10
+  path M 3 46 C 24 46 46 52 46 30 C 46 10 18 10 18 30
+  stroke #e8c06a 6.4
+  path M 3 46 C 24 46 46 52 46 30 C 46 10 18 10 18 30
+  stroke #6e4a0c 10
+  path M 18 30 C 18 52 40 46 61 46
+  stroke #e8c06a 6.4
+  path M 18 30 C 18 52 40 46 61 46
+  stroke #e8c06a 6.4
+  path M 36 49.6 C 42 48 46 42 46 34
+  stroke #6e4a0c 1.2
+  line 7 43.4 10 48.6
+  line 14 43.6 17 48.8
+  line 50 44 53 49
+  line 56 43.6 58.6 48.6
+  line 28 11.6 30 16.6
+  line 36 12.6 37 17.6
 
 emoji bucket U+1FAA3 | pail water carry mop
   nofill

@@ -175,13 +175,16 @@ emoji troll U+1F9CC | monster ogre creature fantasy
 category people
 
 emoji pinched_fingers U+1F90C | italian gesture what chef kiss
-  fill rad $skin $skind 28 30 30
+  fill rad $skin $skind 28 26 50
   stroke $skinl 2.2
-  path M 22 60 L 20 40 Q 14 30 20 20 L 28 6 Q 32 4 34 8 L 34 18 L 38 6 Q 42 4 44 9 L 42 22 L 48 14 Q 52 13 53 18 L 46 34 Q 48 44 42 50 L 42 60 Z
-  nofill
-  stroke $skinl 1.4
-  line 30 22 30 34
-  line 38 22 37 34
+  path M 18 60 L 19 44 Q 32 36 45 44 L 46 60 Z
+  ellipse 22 30 4.8 15 16
+  ellipse 42 30 4.8 15 -16
+  ellipse 28 26 4.8 17 8
+  ellipse 36 26 4.8 17 -8
+  ellipse 32 25 4.6 16
+  nostroke
+  ellipse 32 46 12 6
 
 emoji brown_heart U+1F90E | heart brown love
   fill rad #c98a5a #8a4a22 24 22 40
@@ -189,10 +192,19 @@ emoji brown_heart U+1F90E | heart brown love
   path M 32 55 C 6 38 5 22 13 14.5 C 20.5 8 29 11.5 32 19 C 35 11.5 43.5 8 51 14.5 C 59 22 58 38 32 55 Z
 
 emoji pinching_hand U+1F90F | small tiny little bit pinch
-  fill rad $skin $skind 28 36 30
+  fill rad $skin $skind 40 34 40
   stroke $skinl 2.2
-  path M 8 58 L 10 40 Q 12 30 24 30 L 50 30 Q 56 30 56 35 Q 56 40 50 40 L 34 40 L 34 44 L 48 46 Q 54 47 53 52 Q 52 56 46 55.4 L 30 56 Q 26 60 20 60 Z
-  path M 22 30 L 26 14 Q 28 9 32.5 10.5 Q 37 12 35.5 17 L 32 30 Z
+  ellipse 20 22 15 5 -10
+  ellipse 22 44 13 5 14
+  path M 30 14 Q 30 8 38 8 L 50 8 Q 60 8 60 18 L 60 46 Q 60 56 50 56 L 40 56 Q 30 56 30 48 Z
+  nostroke
+  ellipse 33 22 5 6
+  ellipse 34 44 5 6
+  nofill
+  stroke $skinl 1.5
+  line 44 22 56 22
+  line 44 32 57 32
+  line 44 42 56 42
 
 emoji raised_back_of_hand U+1F91A | hand back stop raised
   use pp_hand 3 0 1 0 flip
@@ -532,16 +544,23 @@ emoji ear_hearing_aid U+1F9BB | hearing aid deaf accessibility
   path M 44 16 Q 54 18 52 34 Q 50 42 44 40 Q 48 30 44 16 Z
 
 emoji mechanical_arm U+1F9BE | prosthetic robot arm strong
-  fill lin #c4ccd6 #7d8795 0 4 0 60
-  stroke #4a525c 2.2
-  path M 8 58 L 10 36 Q 12 26 22 22 L 30 6 Q 34 2 40 6 Q 52 16 48 28 Q 46 34 38 34 L 36 44 L 40 58 Z
+  fill lin #d6dde6 #8a94a4 0 4 0 60
+  stroke #3a4452 2.2
+  path M 6 58 L 8 44 Q 10 34 22 32 L 40 34 L 40 58 Z
+  path M 30 36 L 30 20 Q 30 8 42 8 Q 54 8 54 20 L 52 38 Z
+  fill lin #c4ccd6 #7d8795 0 4 0 20
+  path M 34 12 Q 34 3 43 3 Q 52 3 52 10 L 52 16 L 34 18 Z
+  fill #5aa8f0
+  stroke #1a3f9a 1.8
+  circle 36 40 7
   nofill
-  stroke #4a525c 1.6
-  line 12 40 36 40
-  line 24 22 44 30
-  fill #2f6ad8
-  nostroke
-  circle 20 49 3.4
+  stroke #3a4452 1.6
+  line 12 46 30 46
+  line 12 52 30 52
+  line 36 24 50 24
+  line 38 3.6 38 15
+  line 43 3 43 16
+  line 48 3.6 48 16
 
 emoji mechanical_leg U+1F9BF | prosthetic robot leg
   fill lin #c4ccd6 #7d8795 0 4 0 60
