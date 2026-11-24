@@ -1,0 +1,933 @@
+// Letter tiles, word buttons, coloured shapes, arrows and clock faces.
+// Original Remedy Emoji art. Written by art/gen_shapes3.py: change it there.
+category symbols
+
+part sh_red_tile
+  fill lin #ff7a6a #d8281c 0 5 0 59
+  stroke #8a140c 2.4
+  rect 5 5 54 54 12
+
+part sh_orange_tile
+  fill lin #ffb04a #e8701c 0 5 0 59
+  stroke #a8420a 2.4
+  rect 5 5 54 54 12
+
+part sh_purple_tile
+  fill lin #b98cf5 #7a48d6 0 5 0 59
+  stroke #4a2596 2.4
+  rect 5 5 54 54 12
+
+part sh_dbl
+  fill $white
+  poly 9 32 22 19 22 27.5 42 27.5 42 19 55 32 42 45 42 36.5 22 36.5 22 45
+
+part sh_hook
+  nofill
+  stroke $white 6
+  path M 22 25 L 39 25 Q 50 25 50 36 Q 50 47 39 47 L 26 47
+  fill $white
+  stroke $white 2
+  poly 23 14 10 25 23 36
+
+part sh_curve
+  nofill
+  stroke $white 6
+  path M 11 47 L 29 47 Q 43 47 43 31 L 43 25
+  fill $white
+  stroke $white 2
+  poly 32 26 43 12 54 26
+
+part sh_cycle
+  nofill
+  stroke $white 5
+  arc 32 32 15 15 205 325
+  arc 32 32 15 15 25 145
+  fill $white
+  stroke $white 2
+  poly 40 17 52 21 44 31
+  poly 24 47 12 43 20 33
+
+part sh_clock
+  fill rad #ffffff #dfe5ec 26 24 34
+  stroke #5d6a7c 3
+  circle 32 32 26
+  fill #5d6a7c
+  nostroke
+  circle 32 10.5 1.7
+  circle 53.5 32 1.7
+  circle 32 53.5 1.7
+  circle 10.5 32 1.7
+
+emoji regional_a U+1F1E6 | letter a flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 A 5.0
+
+emoji regional_b U+1F1E7 | letter b flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 B 5.0
+
+emoji regional_c U+1F1E8 | letter c flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 C 5.0
+
+emoji regional_d U+1F1E9 | letter d flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 D 5.0
+
+emoji regional_e U+1F1EA | letter e flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 E 5.0
+
+emoji regional_f U+1F1EB | letter f flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 F 5.0
+
+emoji regional_g U+1F1EC | letter g flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 G 5.0
+
+emoji regional_h U+1F1ED | letter h flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 H 5.0
+
+emoji regional_i U+1F1EE | letter i flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 I 5.0
+
+emoji regional_j U+1F1EF | letter j flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 J 5.0
+
+emoji regional_k U+1F1F0 | letter k flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 K 5.0
+
+emoji regional_l U+1F1F1 | letter l flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 L 5.0
+
+emoji regional_m U+1F1F2 | letter m flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 M 5.0
+
+emoji regional_n U+1F1F3 | letter n flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 N 5.0
+
+emoji regional_o U+1F1F4 | letter o flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 O 5.0
+
+emoji regional_p U+1F1F5 | letter p flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 P 5.0
+
+emoji regional_q U+1F1F6 | letter q flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 Q 5.0
+
+emoji regional_r U+1F1F7 | letter r flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 R 5.0
+
+emoji regional_s U+1F1F8 | letter s flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 S 5.0
+
+emoji regional_t U+1F1F9 | letter t flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 T 5.0
+
+emoji regional_u U+1F1FA | letter u flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 U 5.0
+
+emoji regional_v U+1F1FB | letter v flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 V 5.0
+
+emoji regional_w U+1F1FC | letter w flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 W 5.0
+
+emoji regional_x U+1F1FD | letter x flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 X 5.0
+
+emoji regional_y U+1F1FE | letter y flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 Y 5.0
+
+emoji regional_z U+1F1FF | letter z flag indicator alphabet
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 Z 5.0
+
+emoji a_button U+1F170 | blood type a letter
+  use sh_red_tile
+  fill $white
+  text 32 45.0 26.0 A 5.0
+
+emoji b_button U+1F171 | blood type b letter
+  use sh_red_tile
+  fill $white
+  text 32 45.0 26.0 B 5.0
+
+emoji o_button U+1F17E | blood type o letter
+  use sh_red_tile
+  fill $white
+  text 32 45.0 26.0 O 5.0
+
+emoji parking U+1F17F | p car park sign
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 P 5.0
+
+emoji ab_button U+1F18E | blood type ab
+  use sh_red_tile
+  fill $white
+  text 32 45.0 26.0 AB 5.0
+
+emoji cl_button U+1F191 | clear delete
+  use sh_red_tile
+  fill $white
+  text 32 45.0 26.0 CL 5.0
+
+emoji cool_button U+1F192 | cool nice word
+  use sym_blue_tile
+  fill $white
+  text 32 38.1 12.3 COOL 2.6
+
+emoji free_button U+1F193 | free no cost word
+  use sym_blue_tile
+  fill $white
+  text 32 38.1 12.3 FREE 2.6
+
+emoji id_button U+1F194 | identity id word
+  use sh_purple_tile
+  fill $white
+  text 32 45.0 26.0 ID 5.0
+
+emoji new_button U+1F195 | new fresh word
+  use sym_blue_tile
+  fill $white
+  text 32 40.4 16.8 NEW 3.4
+
+emoji ng_button U+1F196 | no good ng word
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 NG 5.0
+
+emoji ok_button U+1F197 | okay ok yes word
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 OK 5.0
+
+emoji sos U+1F198 | help emergency rescue
+  use sh_red_tile
+  fill $white
+  text 32 40.4 16.8 SOS 3.4
+
+emoji up_button U+1F199 | up level word
+  use sym_blue_tile
+  fill $white
+  text 32 40.4 16.8 UP! 3.4
+
+emoji vs_button U+1F19A | versus against match
+  use sh_orange_tile
+  fill $white
+  text 32 45.0 26.0 VS 5.0
+
+emoji keycap_ten U+1F51F | ten 10 number
+  use sym_blue_tile
+  fill $white
+  text 32 45.0 26.0 10 5.0
+
+emoji input_capitals U+1F520 | abcd capital letters uppercase input
+  use sym_blue_tile
+  fill $white
+  text 32 38.1 12.3 ABCD 2.6
+
+emoji input_lowercase U+1F521 | abcd small letters lowercase input
+  use sym_blue_tile
+  fill $white
+  text 32 36.5 9.0 ABCD 2.6
+
+emoji input_numbers U+1F522 | 1234 digits numbers input
+  use sym_blue_tile
+  fill $white
+  text 32 38.1 12.3 1234 2.6
+
+emoji input_symbols U+1F523 | symbols punctuation input
+  use sym_blue_tile
+  fill $white
+  text 32 38.1 12.3 #&%! 2.6
+
+emoji input_letters U+1F524 | abc alphabet letters input
+  use sym_blue_tile
+  fill $white
+  text 32 40.4 16.8 ABC 3.4
+
+emoji bangbang U+203C | double exclamation surprise
+  use sh_red_tile
+  fill $white
+  text 32 45.0 26.0 !! 5.0
+
+emoji interrobang U+2049 | exclamation question what
+  use sh_red_tile
+  fill $white
+  text 32 45.0 26.0 !? 5.0
+
+emoji tm U+2122 | trademark brand mark
+  fill $sym_grey
+  text 32 39 20 TM 4.2
+
+emoji metro_m U+24C2 | circled m metro subway
+  fill lin #74c2ff #2f86ea 0 5 0 59
+  stroke $sym_blued 2.4
+  circle 32 32 27
+  fill $white
+  text 32 42 20 M 4.4
+
+emoji information U+2139 | info help details i
+  use sym_blue_tile
+  fill $white
+  circle 32 17 4.6
+  path M 25 26 L 36 26 L 36 46 L 41 46 L 41 51 L 24 51 L 24 46 L 28 46 L 28 31 L 25 31 Z
+
+emoji grey_question U+2754 | question white what unsure
+  fill #c4ccd6
+  text 32 55 46 ? 9.5
+  fill #ffffff
+  text 32 55 46 ? 5
+
+emoji grey_exclamation U+2755 | exclamation white alert
+  fill #c4ccd6
+  text 32 55 46 ! 9.5
+  fill #ffffff
+  text 32 55 46 ! 5
+
+emoji heavy_equals U+1F7F0 | equals same math
+  fill $sym_grey
+  rect 10 19 44 9 3
+  rect 10 36 44 9 3
+
+emoji heavy_division U+2797 | divide math division
+  fill $sym_grey
+  rect 9 27.5 46 9 3
+  circle 32 14 5.5
+  circle 32 50 5.5
+
+emoji underage U+1F51E | no under eighteen 18 adults only
+  use s2_ban_bg
+  fill $s2k
+  text 32 40 17 18 4
+  use s2_ban
+
+emoji back_arrow U+1F519 | back return previous
+  fill $sym_grey
+  poly 8 19 20 9 20 15.5 32 15.5 32 22.5 20 22.5 20 29
+  rect 30 15.5 22 7 2
+  text 32 55.2 15.2 BACK 3.0
+
+emoji end_arrow U+1F51A | end finish last
+  fill $sym_grey
+  poly 8 19 20 9 20 15.5 32 15.5 32 22.5 20 22.5 20 29
+  rect 30 15.5 22 7 2
+  text 32 58.0 18.0 END 3.6
+
+emoji on_arrow U+1F51B | on active mark
+  fill $sym_grey
+  poly 8 19 20 9 20 15.5 32 15.5 32 22.5 20 22.5 20 29
+  poly 56 19 44 9 44 15.5 32 15.5 32 22.5 44 22.5 44 29
+  text 32 58.0 18.0 ON! 3.6
+
+emoji soon_arrow U+1F51C | soon coming next
+  fill $sym_grey
+  poly 56 19 44 9 44 15.5 32 15.5 32 22.5 44 22.5 44 29
+  rect 12 15.5 22 7 2
+  text 32 55.2 15.2 SOON 3.0
+
+emoji top_arrow U+1F51D | top up best
+  fill $sym_grey
+  poly 32 6 44 20 36.5 20 36.5 32 27.5 32 27.5 20 20 20
+  text 32 58.0 18.0 TOP 3.6
+
+emoji left_right_arrow U+2194 | horizontal both ways resize
+  use sym_blue_tile
+  use sh_dbl
+
+emoji up_down_arrow U+2195 | vertical both ways resize
+  use sym_blue_tile
+  use sh_dbl 0 0 1 90
+
+emoji arrow_upper_left U+2196 | north west diagonal
+  use sym_blue_tile
+  use sym_arrow 0 0 1 -45
+
+emoji arrow_upper_right U+2197 | north east diagonal
+  use sym_blue_tile
+  use sym_arrow 0 0 1 45
+
+emoji arrow_lower_right U+2198 | south east diagonal
+  use sym_blue_tile
+  use sym_arrow 0 0 1 135
+
+emoji arrow_lower_left U+2199 | south west diagonal
+  use sym_blue_tile
+  use sym_arrow 0 0 1 225
+
+emoji arrow_hook_left U+21A9 | return back undo reply
+  use sym_blue_tile
+  use sh_hook
+
+emoji arrow_hook_right U+21AA | forward redo turn
+  use sym_blue_tile
+  use sh_hook 0 0 1 0 flip
+
+emoji arrow_curve_up U+2934 | curve rise turn up
+  use sym_blue_tile
+  use sh_curve
+
+emoji arrow_curve_down U+2935 | curve fall turn down
+  use sym_blue_tile
+  use sh_curve 0 0 1 180 flip
+
+emoji arrows_clockwise U+1F503 | reload refresh sync vertical
+  use sym_blue_tile
+  use sh_cycle
+
+emoji arrows_counterclockwise U+1F504 | refresh sync anticlockwise repeat
+  use sym_blue_tile
+  use sh_cycle 0 0 1 0 flip
+
+emoji eject U+23CF | eject button disc remove
+  use sym_blue_tile
+  fill $white
+  stroke $white 2
+  poly 32 13 51 35 13 35
+  rect 13 41 38 8 2
+
+emoji arrow_double_up U+23EB | fast up double scroll top
+  use sym_blue_tile
+  fill $white
+  stroke $white 2
+  poly 32 11 50 30 14 30
+  poly 32 31 50 50 14 50
+
+emoji arrow_double_down U+23EC | fast down double scroll bottom
+  use sym_blue_tile
+  fill $white
+  stroke $white 2
+  poly 32 53 50 34 14 34
+  poly 32 33 50 14 14 14
+
+emoji next_track U+23ED | skip next forward song
+  use sym_blue_tile
+  fill $white
+  stroke $white 2
+  poly 13 17 31 32 13 47
+  poly 29 17 47 32 29 47
+  rect 46 17 6 30 1.5
+
+emoji previous_track U+23EE | skip previous back song
+  use sym_blue_tile
+  fill $white
+  stroke $white 2
+  poly 51 17 33 32 51 47
+  poly 35 17 17 32 35 47
+  rect 12 17 6 30 1.5
+
+emoji play_pause U+23EF | play pause toggle button
+  use sym_blue_tile
+  fill $white
+  stroke $white 2
+  poly 11 17 31 32 11 47
+  rect 36 17 7 30 1.5
+  rect 46 17 7 30 1.5
+
+emoji reverse U+25C0 | back left play backwards button
+  use sym_blue_tile
+  fill $white
+  stroke $white 2
+  poly 44 14 44 50 16 32
+
+emoji radio_button U+1F518 | option select choice circle
+  fill rad #ffffff #dfe5ec 26 24 34
+  stroke #5d6a7c 3
+  circle 32 32 25
+  fill rad #74c2ff #2f86ea 28 28 16
+  stroke $sym_blued 2
+  circle 32 32 13
+
+emoji orange_circle U+1F7E0 | orange circle dot round
+  fill rad #ffb04a #e8701c 24 22 40
+  stroke #a8420a 2.4
+  circle 32 32 26
+
+emoji yellow_circle U+1F7E1 | yellow circle dot round
+  fill rad #ffe27a #f2b01c 24 22 40
+  stroke #a87a0c 2.4
+  circle 32 32 26
+
+emoji green_circle U+1F7E2 | green circle dot round
+  fill rad #7fd47a #2f9a3c 24 22 40
+  stroke #145a24 2.4
+  circle 32 32 26
+
+emoji purple_circle U+1F7E3 | purple circle dot round
+  fill rad #b98cf5 #7a48d6 24 22 40
+  stroke #4a2596 2.4
+  circle 32 32 26
+
+emoji brown_circle U+1F7E4 | brown circle dot round
+  fill rad #c98a4a #8a4a1c 24 22 40
+  stroke #4a2208 2.4
+  circle 32 32 26
+
+emoji red_circle U+1F534 | red circle dot round
+  fill rad #ff7a6a #d8281c 24 22 40
+  stroke #8a140c 2.4
+  circle 32 32 26
+
+emoji blue_circle U+1F535 | blue circle dot round
+  fill rad #74c2ff #2f86ea 24 22 40
+  stroke #1c5fc0 2.4
+  circle 32 32 26
+
+emoji white_circle U+26AA | white circle dot round
+  fill rad #ffffff #dfe5ec 24 22 40
+  stroke #8793a3 2.4
+  circle 32 32 19
+
+emoji black_circle U+26AB | black circle dot round
+  fill rad #5a6270 #22262e 24 22 40
+  stroke #0e1014 2.4
+  circle 32 32 19
+
+emoji o_ring U+2B55 | circle ring correct round red
+  nofill
+  stroke #8a140c 11
+  circle 32 32 21.5
+  stroke #e8382c 7
+  circle 32 32 21.5
+
+emoji red_square U+1F7E5 | red square block large
+  fill rad #ff7a6a #d8281c 24 22 40
+  stroke #8a140c 2.4
+  rect 6 6 52 52 6
+
+emoji blue_square U+1F7E6 | blue square block large
+  fill rad #74c2ff #2f86ea 24 22 40
+  stroke #1c5fc0 2.4
+  rect 6 6 52 52 6
+
+emoji orange_square U+1F7E7 | orange square block large
+  fill rad #ffb04a #e8701c 24 22 40
+  stroke #a8420a 2.4
+  rect 6 6 52 52 6
+
+emoji yellow_square U+1F7E8 | yellow square block large
+  fill rad #ffe27a #f2b01c 24 22 40
+  stroke #a87a0c 2.4
+  rect 6 6 52 52 6
+
+emoji green_square U+1F7E9 | green square block large
+  fill rad #7fd47a #2f9a3c 24 22 40
+  stroke #145a24 2.4
+  rect 6 6 52 52 6
+
+emoji purple_square U+1F7EA | purple square block large
+  fill rad #b98cf5 #7a48d6 24 22 40
+  stroke #4a2596 2.4
+  rect 6 6 52 52 6
+
+emoji brown_square U+1F7EB | brown square block large
+  fill rad #c98a4a #8a4a1c 24 22 40
+  stroke #4a2208 2.4
+  rect 6 6 52 52 6
+
+emoji black_square U+2B1B | black square block large
+  fill rad #5a6270 #22262e 24 22 40
+  stroke #0e1014 2.4
+  rect 6 6 52 52 6
+
+emoji white_square U+2B1C | white square block large
+  fill rad #ffffff #dfe5ec 24 22 40
+  stroke #8793a3 2.4
+  rect 6 6 52 52 6
+
+emoji white_medium_square U+25FB | white square medium
+  fill rad #ffffff #dfe5ec 24 22 40
+  stroke #8793a3 2.4
+  rect 11 11 42 42 4.7
+
+emoji black_medium_square U+25FC | black square medium
+  fill rad #5a6270 #22262e 24 22 40
+  stroke #0e1014 2.4
+  rect 11 11 42 42 4.7
+
+emoji white_medium_small_square U+25FD | white square medium small
+  fill rad #ffffff #dfe5ec 24 22 40
+  stroke #8793a3 2.4
+  rect 16 16 32 32 3.6
+
+emoji black_medium_small_square U+25FE | black square medium small
+  fill rad #5a6270 #22262e 24 22 40
+  stroke #0e1014 2.4
+  rect 16 16 32 32 3.6
+
+emoji black_small_square U+25AA | black square small
+  fill rad #5a6270 #22262e 24 22 40
+  stroke #0e1014 2.4
+  rect 22 22 20 20 2.2
+
+emoji white_small_square U+25AB | white square small
+  fill rad #ffffff #dfe5ec 24 22 40
+  stroke #8793a3 2.4
+  rect 22 22 20 20 2.2
+
+emoji black_square_button U+1F532 | button square dark
+  fill rad #5a6270 #22262e 24 22 40
+  stroke #0e1014 2.4
+  rect 6 6 52 52 8
+  nofill
+  stroke #c4ccd6 3
+  rect 16 16 32 32 4
+
+emoji white_square_button U+1F533 | button square light
+  fill rad #ffffff #dfe5ec 24 22 40
+  stroke #8793a3 2.4
+  rect 6 6 52 52 8
+  nofill
+  stroke #5d6a7c 3
+  rect 16 16 32 32 4
+
+emoji large_orange_diamond U+1F536 | orange diamond large rhombus
+  fill rad #ffb04a #e8701c 24 22 40
+  stroke #a8420a 2.4
+  poly 32 5 59 32 32 59 5 32
+
+emoji large_blue_diamond U+1F537 | blue diamond large rhombus
+  fill rad #74c2ff #2f86ea 24 22 40
+  stroke #1c5fc0 2.4
+  poly 32 5 59 32 32 59 5 32
+
+emoji small_orange_diamond U+1F538 | orange diamond small rhombus
+  fill rad #ffb04a #e8701c 24 22 40
+  stroke #a8420a 2.4
+  poly 32 18 46 32 32 46 18 32
+
+emoji small_blue_diamond U+1F539 | blue diamond small rhombus
+  fill rad #74c2ff #2f86ea 24 22 40
+  stroke #1c5fc0 2.4
+  poly 32 18 46 32 32 46 18 32
+
+emoji red_triangle_up U+1F53A | red triangle up
+  fill rad #ff7a6a #d8281c 24 22 40
+  stroke #8a140c 2.4
+  poly 32 7 57 52 7 52
+
+emoji red_triangle_down U+1F53B | red triangle down
+  fill rad #ff7a6a #d8281c 24 22 40
+  stroke #8a140c 2.4
+  poly 32 57 57 12 7 12
+
+emoji small_red_triangle_up U+1F53C | red triangle up
+  fill rad #ff7a6a #d8281c 24 22 40
+  stroke #8a140c 2.4
+  poly 32 18 46 43.2 18 43.2
+
+emoji small_red_triangle_down U+1F53D | red triangle down
+  fill rad #ff7a6a #d8281c 24 22 40
+  stroke #8a140c 2.4
+  poly 32 46 46 20.8 18 20.8
+
+emoji clock1 U+1F550 | 1 o clock hour time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 38.5 20.7
+  stroke #2a2f3b 3
+  line 32 32 32.0 12.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock2 U+1F551 | 2 o clock hour time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 43.3 25.5
+  stroke #2a2f3b 3
+  line 32 32 32.0 12.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock3 U+1F552 | 3 o clock hour time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 45.0 32.0
+  stroke #2a2f3b 3
+  line 32 32 32.0 12.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock4 U+1F553 | 4 o clock hour time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 43.3 38.5
+  stroke #2a2f3b 3
+  line 32 32 32.0 12.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock5 U+1F554 | 5 o clock hour time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 38.5 43.3
+  stroke #2a2f3b 3
+  line 32 32 32.0 12.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock6 U+1F555 | 6 o clock hour time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 32.0 45.0
+  stroke #2a2f3b 3
+  line 32 32 32.0 12.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock7 U+1F556 | 7 o clock hour time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 25.5 43.3
+  stroke #2a2f3b 3
+  line 32 32 32.0 12.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock8 U+1F557 | 8 o clock hour time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 20.7 38.5
+  stroke #2a2f3b 3
+  line 32 32 32.0 12.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock9 U+1F558 | 9 o clock hour time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 19.0 32.0
+  stroke #2a2f3b 3
+  line 32 32 32.0 12.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock10 U+1F559 | 10 o clock hour time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 20.7 25.5
+  stroke #2a2f3b 3
+  line 32 32 32.0 12.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock11 U+1F55A | 11 o clock hour time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 25.5 20.7
+  stroke #2a2f3b 3
+  line 32 32 32.0 12.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock12 U+1F55B | 12 o clock hour time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 32.0 19.0
+  stroke #2a2f3b 3
+  line 32 32 32.0 12.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock130 U+1F55C | 1 thirty half past time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 41.2 22.8
+  stroke #2a2f3b 3
+  line 32 32 32.0 52.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock230 U+1F55D | 2 thirty half past time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 44.6 28.6
+  stroke #2a2f3b 3
+  line 32 32 32.0 52.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock330 U+1F55E | 3 thirty half past time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 44.6 35.4
+  stroke #2a2f3b 3
+  line 32 32 32.0 52.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock430 U+1F55F | 4 thirty half past time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 41.2 41.2
+  stroke #2a2f3b 3
+  line 32 32 32.0 52.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock530 U+1F560 | 5 thirty half past time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 35.4 44.6
+  stroke #2a2f3b 3
+  line 32 32 32.0 52.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock630 U+1F561 | 6 thirty half past time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 28.6 44.6
+  stroke #2a2f3b 3
+  line 32 32 32.0 52.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock730 U+1F562 | 7 thirty half past time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 22.8 41.2
+  stroke #2a2f3b 3
+  line 32 32 32.0 52.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock830 U+1F563 | 8 thirty half past time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 19.4 35.4
+  stroke #2a2f3b 3
+  line 32 32 32.0 52.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock930 U+1F564 | 9 thirty half past time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 19.4 28.6
+  stroke #2a2f3b 3
+  line 32 32 32.0 52.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock1030 U+1F565 | 10 thirty half past time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 22.8 22.8
+  stroke #2a2f3b 3
+  line 32 32 32.0 52.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock1130 U+1F566 | 11 thirty half past time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 28.6 19.4
+  stroke #2a2f3b 3
+  line 32 32 32.0 52.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
+
+emoji clock1230 U+1F567 | 12 thirty half past time
+  use sh_clock
+  nofill
+  stroke #2a2f3b 4
+  line 32 32 35.4 19.4
+  stroke #2a2f3b 3
+  line 32 32 32.0 52.0
+  fill #e2584a
+  nostroke
+  circle 32 32 2.6
