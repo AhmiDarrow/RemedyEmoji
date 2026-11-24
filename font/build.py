@@ -248,6 +248,10 @@ def main():
         by_code[tuple(chars)] = name
         if g["chars"]:
             rules.append(([name, 0xFE0F], name))
+            # A glyph that had a private use code point before it took a Unicode one keeps
+            # answering to it: text saved with the old one still draws.
+            if g["name"] in private:
+                cmap[private[g["name"]]] = name
         if g["tones"]:
             for i, code in enumerate(TONE_MODIFIERS):
                 add_color_glyph(f"{name}.t{i + 1}", shapes, i + 1)

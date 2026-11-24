@@ -47,6 +47,9 @@ def main():
     assert ligatures == unicode + 5 * toned, f"{ligatures} sequences"
     private = build.read_codepoints()
     assert len(set(private.values())) == len(private), "a private use code point is given twice"
+    names = {g["name"] for g in listing}
+    for name, code in private.items():
+        assert name not in names or cmap.get(code) in painted, f"{name} lost its private use code point U+{code:X}"
     assert all(build.PUA_START <= c <= 0xFFFFD for c in private.values()), "outside private use plane 15"
 
     # The font in the repository is what the art builds, byte for byte.
