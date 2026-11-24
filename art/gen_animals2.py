@@ -98,16 +98,6 @@ def animal(name, code, keywords, light, dark, line, *, muzzle=None, nose="#3a2a2
 HORNS = ["fill #fff3d6", "stroke #a8905a 1.6", "path M 33 15 Q 26 8 30 2 Q 33 8 37 12 Z", "path M 57 15 Q 64 8 60 2 Q 57 8 53 12 Z"]
 SNOUT = lambda fill, line: [f"fill {fill}", f"stroke {line} 1.6", "ellipse 45 33.5 8 5.5", f"fill {line}", "nostroke", "ellipse 42 33.5 1.5 2", "ellipse 48 33.5 1.5 2"]  # noqa: E731
 
-animal("rat", 0x1F400, "rodent pest grey animal", "#c8ced6", "#8a94a0", "#4a525c", tail="none", ears="big", inner="#e8a0a8", nose="#00000000", mouth=False,
-       before=["nofill", "stroke #b86a7a 4.4", "curve 8 42 0 44 2 54 12 60", "stroke #f0a8b4 2.4", "curve 8 42 0 44 2 54 12 60"],
-       head=["fill #ffffff", "stroke #4a525c 1", "rect 43.4 33.6 3.2 3.6 0.8", "nofill", "stroke #4a525c 0.8", "line 45 33.8 45 37",
-             "stroke #4a525c 1.1", "line 38 31.5 29 29.5", "line 38 33.5 29 34.5", "line 52 31.5 61 29.5", "line 52 33.5 61 34.5",
-             "fill #e8708a", "stroke #4a525c 1", "ellipse 45 31.6 2.8 2.2"])  # fmt: skip
-animal("mouse2", 0x1F401, "rodent white lab animal small", "#ffffff", "#d6dde6", "#8793a3", tail="none", ears="big", inner="#ffb6c0", nose="#00000000", mouth=False, blush=True,
-       before=["nofill", "stroke #b86a7a 4.4", "curve 8 42 0 44 2 54 12 60", "stroke #ffb6c0 2.4", "curve 8 42 0 44 2 54 12 60"],
-       head=["fill #ffffff", "stroke #8793a3 1", "rect 43.4 33.6 3.2 3.6 0.8", "nofill", "stroke #8793a3 0.8", "line 45 33.8 45 37",
-             "stroke #8793a3 1.1", "line 38 31.5 29 29.5", "line 38 33.5 29 34.5", "line 52 31.5 61 29.5", "line 52 33.5 61 34.5",
-             "fill #f07a9c", "stroke #8793a3 1", "ellipse 45 31.6 2.8 2.2"])  # fmt: skip
 animal("ox", 0x1F402, "bull cattle farm animal", "#d99a5a", "#9a5a22", "#4a2a0c", tail="tuft", ears="side", mouth=False, nose="#00000000",
        head=HORNS + SNOUT("#ffd8c0", "#4a2a0c") + ["nofill", "stroke #c8a02a 2", "ellipse 45 37.5 2.6 2"])  # fmt: skip
 animal("water_buffalo", 0x1F403, "buffalo cattle farm animal", "#7d8795", "#3f4652", "#16181d", tail="tuft", ears="side", mouth=False, nose="#00000000",

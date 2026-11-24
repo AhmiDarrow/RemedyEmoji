@@ -508,3 +508,75 @@ emoji chipmunk U+1F43F | squirrel rodent nut animal
   stroke #6e3a0c 1.6
   ellipse 29 45.5 3.6 4.4
   ellipse 39 45.5 3.6 4.4
+
+emoji rat U+1F400 | rodent pest grey animal
+  nofill
+  stroke #b86a7a 5
+  curve 9 44 1 46 2 57 16 60 26 57
+  stroke #f0a8b4 2.8
+  curve 9 44 1 46 2 57 16 60 26 57
+  fill rad #c8ced6 #8a94a0 22 16 14
+  stroke #4a525c 2.2
+  circle 21 20 7
+  fill #f0a8b4
+  stroke #b86a7a 1.4
+  ellipse 22 54 6 3
+  ellipse 42 54 6 3
+  fill rad #c8ced6 #8a94a0 24 30 34
+  stroke #4a525c 2.2
+  path M 6 42 Q 6 24 28 23 Q 44 23 54 33 L 62 40 Q 63.5 43 60.5 45 L 50 50 Q 40 54 24 54 Q 6 54 6 42 Z
+  circle 35 19 9
+  fill #f0a8b4
+  nostroke
+  circle 35 19.5 5
+  fill $natk
+  ellipse 49 35 2.6 3
+  fill $white
+  circle 49.9 34 1
+  fill #b86a7a
+  stroke #4a525c 1
+  circle 61.5 42.3 2.3
+  nofill
+  stroke #4a525c 1.2
+  line 54 43 60 50
+  line 53 45 56 53
+  line 55 40 62 33
+  fill #ff8a8a66
+  nostroke
+  ellipse 44 42 3.4 2.2
+
+emoji mouse2 U+1F401 | rodent white lab animal small
+  nofill
+  stroke #d0788a 5
+  curve 9 44 1 46 2 57 16 60 26 57
+  stroke #ffb6c0 2.8
+  curve 9 44 1 46 2 57 16 60 26 57
+  fill rad #ffffff #d6dde6 22 16 14
+  stroke #8793a3 2.2
+  circle 21 20 9.5
+  fill #ffb6c0
+  stroke #d0788a 1.4
+  ellipse 22 54 6 3
+  ellipse 42 54 6 3
+  fill rad #ffffff #d6dde6 24 30 34
+  stroke #8793a3 2.2
+  path M 6 42 Q 6 24 28 23 Q 44 23 54 33 L 60 40 Q 61.5 43 58.5 45 L 50 50 Q 40 54 24 54 Q 6 54 6 42 Z
+  circle 35 19 11.5
+  fill #ffb6c0
+  nostroke
+  circle 35 19.5 7.5
+  fill $natk
+  ellipse 49 35 2.6 3
+  fill $white
+  circle 49.9 34 1
+  fill #d0788a
+  stroke #8793a3 1
+  circle 59.5 42.3 2.3
+  nofill
+  stroke #8793a3 1.2
+  line 54 43 60 50
+  line 53 45 56 53
+  line 55 40 62 33
+  fill #ff8a8a66
+  nostroke
+  ellipse 44 42 3.4 2.2
