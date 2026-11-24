@@ -1,0 +1,830 @@
+// People, what they wear, and tokens of love. Original Remedy Emoji art.
+category people
+
+color p3brown #6b4226
+color p3black #2a2018
+color p3blond #f2c23a
+color p3grey #c4ccd6
+
+part p3_face
+  fill $skin
+  stroke $skinl 2
+  mirror circle 12.5 36 4
+  circle 32 35 20
+  fill $ink
+  nostroke
+  mirror ellipse 24.5 34 2.2 3
+  nofill
+  stroke $ink 2.2
+  arc 32 40 7 5 25 155
+
+part p3_short_hair
+  fill $p3brown
+  path M 11.5 32 Q 10 12 32 12 Q 54 12 52.5 32 Q 46 21 32 23 Q 18 21 11.5 32 Z
+
+part p3_small
+  fill $skin
+  stroke $skinl 1.4
+  circle 32 16 8
+  fill $ink
+  nostroke
+  mirror circle 29 16 1.1
+  nofill
+  stroke $ink 1.4
+  arc 32 18.5 3 2.2 25 155
+
+emoji point_up_2 U+1F446 | up above this backhand finger
+  use pp_point 0 0 1 0 flip
+
+emoji open_hands U+1F450 | hands open hug jazz
+  use pp_hand -13 4 0.62 -12
+  use pp_hand 13 4 0.62 12 flip
+
+category objects
+
+emoji womans_hat U+1F452 | hat sun bonnet fashion
+  fill lin #ffe9a0 #f2c86a 0 10 0 50
+  stroke #a8801c 2.2
+  ellipse 32 42 29 11
+  path M 14 40 Q 14 12 32 12 Q 50 12 50 40 Q 32 48 14 40 Z
+  fill #e2584a
+  stroke #8a140c 1.6
+  path M 14.4 34 Q 32 42 49.6 34 L 50 40 Q 32 48 14 40 Z
+  fill #ff9ac4
+  circle 44 38 4
+
+emoji eyeglasses U+1F453 | glasses specs reading nerd
+  fill #bfe6ff66
+  stroke #2a2f3b 3.4
+  ellipse 18 34 12 11
+  ellipse 46 34 12 11
+  nofill
+  stroke #2a2f3b 3
+  curve 28 30 32 26 36 30
+  line 6 30 2 22
+  line 58 30 62 22
+
+emoji shirt U+1F455 | tshirt tee clothes top
+  fill lin #6fb8f0 #2f6ad8 0 6 0 58
+  stroke #1a3f9a 2.4
+  path M 22 6 Q 32 16 42 6 L 60 18 L 54 30 L 46 26 L 46 58 L 18 58 L 18 26 L 10 30 L 4 18 Z
+
+emoji jeans U+1F456 | trousers pants denim clothes
+  fill lin #5a86c8 #2f4f9a 0 4 0 60
+  stroke #1a2f6a 2.4
+  path M 12 4 L 52 4 L 56 60 L 38 60 L 32 24 L 26 60 L 8 60 Z
+  nofill
+  stroke #9ab8e8 1.4
+  line 12 11 52 11
+  line 32 11 32 24
+  curve 16 12 18 18 24 18
+
+emoji dress U+1F457 | clothes gown fashion woman
+  fill lin #ff9ac4 #e23c86 0 4 0 60
+  stroke #a31a5a 2.4
+  path M 22 4 L 26 4 Q 32 14 38 4 L 42 4 L 40 22 Q 32 26 24 22 Z
+  path M 24 22 Q 32 26 40 22 L 56 56 Q 32 64 8 56 Z
+  fill #a31a5a
+  nostroke
+  path M 23.5 20 Q 32 25 40.5 20 L 40 24 Q 32 29 24 24 Z
+
+emoji kimono U+1F458 | japanese robe clothes traditional
+  fill lin #b98cf5 #7a48d6 0 4 0 60
+  stroke #4a2596 2.4
+  path M 22 4 L 42 4 L 62 18 L 58 34 L 48 30 L 50 60 L 14 60 L 16 30 L 6 34 L 2 18 Z
+  fill #ffffff
+  nostroke
+  poly 22 4 32 22 42 4 38 4 32 15 26 4
+  fill #ffd23a
+  stroke #a8801c 1.6
+  rect 16 30 32 8 1
+  nofill
+  stroke #4a2596 1.6
+  line 32 22 32 30
+
+emoji bikini U+1F459 | swimsuit beach summer clothes
+  fill lin #ff9ac4 #e23c86 0 6 0 58
+  stroke #a31a5a 2.2
+  path M 10 8 L 14 8 Q 16 16 26 18 Q 30 22 26 28 Q 16 30 10 22 Z
+  path M 54 8 L 50 8 Q 48 16 38 18 Q 34 22 38 28 Q 48 30 54 22 Z
+  path M 10 40 L 54 40 Q 50 48 40 50 Q 36 58 32 58 Q 28 58 24 50 Q 14 48 10 40 Z
+  nofill
+  stroke #a31a5a 1.8
+  line 26 23 38 23
+
+emoji womans_clothes U+1F45A | blouse top shirt fashion
+  fill lin #ffb6d4 #f07aa8 0 6 0 58
+  stroke #a31a5a 2.4
+  path M 20 6 Q 32 18 44 6 L 58 14 L 60 32 L 50 34 L 48 24 L 50 58 L 14 58 L 16 24 L 14 34 L 4 32 L 6 14 Z
+  fill #ffffff
+  stroke #a31a5a 1.4
+  poly 26 10 32 18 38 10 32 14
+  fill #a31a5a
+  nostroke
+  circle 32 28 1.6
+  circle 32 38 1.6
+  circle 32 48 1.6
+
+emoji purse U+1F45B | coin wallet money clutch
+  fill $sym_gold
+  stroke #7a4a08 1.6
+  circle 28 12 4
+  circle 36 12 4
+  fill rad #ff9ac4 #e23c86 24 30 34
+  stroke #a31a5a 2.4
+  path M 12 22 Q 32 14 52 22 Q 62 44 50 56 L 14 56 Q 2 44 12 22 Z
+  fill $sym_gold
+  stroke #7a4a08 1.6
+  path M 12 22 Q 32 14 52 22 L 53.6 26 Q 32 18 10.4 26 Z
+
+emoji handbag U+1F45C | bag purse fashion tote
+  nofill
+  stroke #7a3a0c 3.4
+  curve 20 26 20 6 44 6 44 26
+  fill lin #d99a5a #a8601c 0 22 0 58
+  stroke #6e3408 2.4
+  path M 8 24 L 56 24 L 60 52 Q 60 58 54 58 L 10 58 Q 4 58 4 52 Z
+  fill $sym_gold
+  stroke #7a4a08 1.6
+  rect 27 30 10 8 2
+
+emoji pouch U+1F45D | bag clutch makeup case
+  fill lin #ffd98a #e8a03a 0 16 0 54
+  stroke #a8680a 2.4
+  rect 4 18 56 36 8
+  nofill
+  stroke #a8680a 2
+  line 4 28 60 28
+  fill $sym_gold
+  stroke #7a4a08 1.4
+  rect 44 25 10 6 2
+
+emoji mans_shoe U+1F45E | shoe dress formal oxford
+  fill lin #8a5a2c #5a3414 0 20 0 50
+  stroke #2a1808 2.4
+  path M 6 22 L 24 22 Q 30 32 44 34 Q 60 36 60 46 L 60 50 L 4 50 Z
+  fill #2a1808
+  nostroke
+  rect 4 46 56 5 2
+  nofill
+  stroke #c9a878 1.6
+  line 28 28 24 34
+  line 34 31 30 37
+
+emoji athletic_shoe U+1F45F | sneaker trainer running sport
+  fill lin #ffffff #dfe5ec 0 18 0 50
+  stroke #5d6a7c 2.4
+  path M 6 20 L 22 20 Q 28 30 42 32 Q 60 34 60 44 L 60 50 L 4 50 Z
+  fill #3a78d8
+  nostroke
+  path M 4 44 L 60 44 L 60 50 L 4 50 Z
+  path M 14 36 L 30 30 L 34 34 L 20 42 Z
+  nofill
+  stroke #e2584a 1.8
+  line 26 26 22 32
+  line 32 29 28 35
+
+emoji high_heel U+1F460 | shoe stiletto fashion pump
+  fill lin #ff7a6a #d8281c 0 10 0 54
+  stroke #8a140c 2.4
+  path M 8 12 Q 14 10 16 16 Q 22 34 40 38 Q 58 40 60 48 L 60 52 L 34 52 Q 26 42 18 38 L 16 54 L 10 54 Z
+
+emoji sandal U+1F461 | shoe summer womans strap
+  fill lin #e8c06a #b8862a 0 40 0 54
+  stroke #6e4a0c 2.4
+  path M 6 40 Q 20 36 34 42 Q 50 46 60 46 L 60 52 L 30 52 Q 20 46 12 46 L 10 54 L 6 54 Z
+  nofill
+  stroke #e2584a 4
+  curve 12 40 12 24 22 22 24 40
+  curve 40 44 44 34 52 34 54 46
+
+emoji boot U+1F462 | boots womans fashion knee high
+  fill lin #b9783a #7a4a1c 0 4 0 58
+  stroke #45280f 2.4
+  path M 16 4 L 36 4 L 36 34 Q 56 38 60 48 L 60 54 L 30 54 Q 26 48 22 48 L 22 58 L 14 58 Z
+  fill #45280f
+  nostroke
+  rect 16 4.8 20 5
+
+category people
+
+emoji busts U+1F465 | people users group silhouette
+  fill lin #8fa3bd #5d7591 0 6 0 56
+  stroke #3f5672 2
+  path M 26 54 Q 26 36 44 36 Q 62 36 62 54 Z
+  circle 44 22 10.5
+  fill lin #a9bdd4 #6f88a6 0 12 0 60
+  stroke #4f6682 2.2
+  path M 2 60 Q 2 40 22 40 Q 42 40 42 60 Z
+  circle 22 26 12
+
+emoji boy U+1F466 | child kid young son
+  use p3_face
+  use p3_short_hair
+
+emoji girl U+1F467 | child kid young daughter
+  fill $p3brown
+  circle 7 30 7
+  circle 57 30 7
+  use p3_face
+  use p3_short_hair
+  fill #ff7a8a
+  stroke #b83a4a 1.4
+  poly 44 12 54 6 54 18
+  poly 44 12 34 6 34 18
+
+emoji man U+1F468 | adult male guy person
+  use p3_face
+  use p3_short_hair
+  fill $p3brown
+  nostroke
+  path M 20 46 Q 32 50 44 46 Q 42 56 32 56 Q 22 56 20 46 Z
+  fill $skin
+  ellipse 32 47 6 2.2
+
+emoji woman U+1F469 | adult female lady person
+  fill $p3brown
+  path M 8 58 Q 4 10 32 10 Q 60 10 56 58 Q 46 60 44 50 L 20 50 Q 18 60 8 58 Z
+  use p3_face
+  fill $p3brown
+  path M 12 32 Q 14 13 32 13 Q 50 13 52 32 Q 44 20 30 22 Q 20 24 12 32 Z
+
+emoji family U+1F46A | parents child kids household
+  fill lin #5aa8f0 #2f6ad8 0 26 0 58
+  stroke #1a3f9a 1.8
+  path M 6 58 L 6 34 Q 6 26 16 26 Q 26 26 26 34 L 26 58 Z
+  fill lin #ff9ac4 #e23c86 0 26 0 58
+  stroke #a31a5a 1.8
+  path M 34 58 L 38 34 Q 38 26 48 26 Q 58 26 58 34 L 62 58 Z
+  fill lin #7fd47a #2f9a3c 0 40 0 58
+  stroke #145a24 1.8
+  path M 24 58 L 24 46 Q 24 40 32 40 Q 40 40 40 46 L 40 58 Z
+  use p3_small -16 0
+  use p3_small 16 0
+  use p3_small 0 16 0.8
+
+emoji couple U+1F46B | man woman holding hands pair
+  fill lin #5aa8f0 #2f6ad8 0 26 0 58
+  stroke #1a3f9a 1.8
+  path M 8 58 L 8 34 Q 8 26 17 26 Q 26 26 26 34 L 26 58 Z
+  fill lin #ff9ac4 #e23c86 0 26 0 58
+  stroke #a31a5a 1.8
+  path M 36 58 L 40 34 Q 40 26 48 26 Q 56 26 56 34 L 60 58 Z
+  nofill
+  stroke $skinl 5
+  line 26 40 40 40
+  stroke $skin 3
+  line 26 40 40 40
+  use p3_small -15 0
+  use p3_small 16 0
+
+emoji two_men_holding_hands U+1F46C | men pair friends couple
+  fill lin #5aa8f0 #2f6ad8 0 26 0 58
+  stroke #1a3f9a 1.8
+  path M 8 58 L 8 34 Q 8 26 17 26 Q 26 26 26 34 L 26 58 Z
+  fill lin #7fd47a #2f9a3c 0 26 0 58
+  stroke #145a24 1.8
+  path M 38 58 L 38 34 Q 38 26 47 26 Q 56 26 56 34 L 56 58 Z
+  nofill
+  stroke $skinl 5
+  line 26 40 38 40
+  stroke $skin 3
+  line 26 40 38 40
+  use p3_small -15 0
+  use p3_small 15 0
+
+emoji two_women_holding_hands U+1F46D | women pair friends couple
+  fill lin #b98cf5 #7a48d6 0 26 0 58
+  stroke #4a2596 1.8
+  path M 4 58 L 8 34 Q 8 26 16 26 Q 24 26 24 34 L 28 58 Z
+  fill lin #ff9ac4 #e23c86 0 26 0 58
+  stroke #a31a5a 1.8
+  path M 36 58 L 40 34 Q 40 26 48 26 Q 56 26 56 34 L 60 58 Z
+  nofill
+  stroke $skinl 5
+  line 24 40 40 40
+  stroke $skin 3
+  line 24 40 40 40
+  use p3_small -16 0
+  use p3_small 16 0
+
+emoji police_officer U+1F46E | cop law police guard
+  use p3_face 0 3
+  fill lin #3a5aa8 #1e2f6a 0 4 0 28
+  stroke #0e1a44 2
+  path M 10 26 Q 10 6 32 6 Q 54 6 54 26 Q 32 20 10 26 Z
+  path M 8 26 Q 32 18 56 26 L 56 31 Q 32 24 8 31 Z
+  fill $sym_gold
+  stroke #7a4a08 1.2
+  poly 32 9 35 13 32 19 29 13
+
+emoji people_with_bunny_ears U+1F46F | dancers party bunny show
+  fill #2a2018
+  stroke #0e0a06 1.6
+  ellipse 24 9 4 10 -12
+  ellipse 40 9 4 10 12
+  fill #ffb6c0
+  nostroke
+  ellipse 24 9.5 1.8 6 -12
+  ellipse 40 9.5 1.8 6 12
+  fill $p3brown
+  path M 9 56 Q 6 16 32 16 Q 58 16 55 56 Q 46 58 44 50 L 20 50 Q 18 58 9 56 Z
+  use p3_face 0 2
+  fill $p3brown
+  path M 12 34 Q 14 16 32 16 Q 50 16 52 34 Q 44 23 32 25 Q 20 23 12 34 Z
+
+emoji bride_with_veil U+1F470 | wedding marriage bride veil
+  fill #ffffffdd
+  stroke #c4ccd6 1.8
+  path M 6 60 Q 2 8 32 8 Q 62 8 58 60 Z
+  use p3_face 0 2
+  fill $p3brown
+  path M 13 32 Q 14 16 32 16 Q 50 16 51 32 Q 44 23 32 25 Q 20 23 13 32 Z
+  fill $sym_gold
+  stroke #7a4a08 1.2
+  poly 24 16 26 9 30 14 32 7 34 14 38 9 40 16
+
+emoji blond_person U+1F471 | blonde hair fair person
+  use p3_face
+  fill $p3blond
+  path M 11.5 32 Q 10 12 32 12 Q 54 12 52.5 32 Q 46 21 32 23 Q 18 21 11.5 32 Z
+
+emoji man_with_cap U+1F472 | gua pi mao chinese cap hat
+  use p3_face 0 2
+  fill lin #3a3f4c #1e2129 0 8 0 28
+  stroke #0e1014 2
+  path M 11 28 Q 12 9 32 9 Q 52 9 53 28 Q 32 22 11 28 Z
+  fill #e2584a
+  stroke #8a140c 1.2
+  circle 32 8 3
+
+emoji person_with_turban U+1F473 | turban headwear sikh wrap
+  use p3_face 0 4
+  fill lin #ffffff #dfe5ec 0 4 0 30
+  stroke #8793a3 2
+  path M 9 30 Q 8 6 32 6 Q 56 6 55 30 Q 32 22 9 30 Z
+  nofill
+  stroke #8793a3 1.6
+  curve 12 22 28 22 46 8
+  curve 20 27 38 24 53 18
+  fill #6fb8f0
+  stroke #2f6ad8 1.2
+  circle 32 14 3
+
+emoji older_man U+1F474 | grandpa elderly senior old
+  use p3_face
+  fill $p3grey
+  path M 11.5 34 Q 10 22 16 16 Q 18 26 20 30 Z
+  path M 52.5 34 Q 54 22 48 16 Q 46 26 44 30 Z
+  path M 22 44 Q 32 40 42 44 Q 38 48 32 46 Q 26 48 22 44 Z
+  nofill
+  stroke $skinl 1.4
+  curve 24 21 32 19 40 21
+
+emoji older_woman U+1F475 | grandma elderly senior old
+  fill $p3grey
+  stroke #8793a3 1.6
+  circle 32 9 8
+  use p3_face
+  fill $p3grey
+  path M 11.5 32 Q 10 12 32 12 Q 54 12 52.5 32 Q 46 21 32 23 Q 18 21 11.5 32 Z
+  nofill
+  stroke $skinl 1.4
+  curve 24 27 32 25.5 40 27
+
+emoji baby U+1F476 | infant newborn child cute
+  use p3_face
+  nofill
+  stroke $p3brown 2.6
+  curve 32 15 28 8 34 6 36 11
+  fill $blush
+  nostroke
+  mirror ellipse 19 41 4.4 3
+
+emoji construction_worker U+1F477 | builder hard hat labour
+  use p3_face 0 3
+  fill lin #ffe27a #f2a01c 0 4 0 28
+  stroke #a8680a 2
+  path M 10 28 Q 10 6 32 6 Q 54 6 54 28 Z
+  rect 5 26 54 6 3
+  fill #f2a01c
+  nostroke
+  rect 29 6.6 6 20
+
+emoji princess U+1F478 | crown royal queen tiara
+  fill $p3blond
+  path M 8 58 Q 4 12 32 12 Q 60 12 56 58 Q 46 60 44 50 L 20 50 Q 18 60 8 58 Z
+  use p3_face 0 2
+  fill $p3blond
+  path M 12 34 Q 14 16 32 16 Q 50 16 52 34 Q 44 23 32 25 Q 20 23 12 34 Z
+  fill $sym_gold
+  stroke #7a4a08 1.6
+  poly 18 18 16 4 25 11 32 2 39 11 48 4 46 18
+  fill #e2584a
+  nostroke
+  circle 32 12 2.2
+
+category smileys
+
+emoji ogre U+1F479 | oni monster japanese red demon
+  fill #fff6e0
+  stroke #b8a37a 1.6
+  poly 16 16 10 2 24 10
+  poly 48 16 54 2 40 10
+  fill $p3black
+  nostroke
+  path M 6 30 Q 6 8 32 8 Q 58 8 58 30 Q 46 16 32 18 Q 18 16 6 30 Z
+  use face_red 0 3 0.92
+  fill #ffe27a
+  stroke $ink 1.6
+  mirror ellipse 22 30 5.5 5
+  fill $ink
+  nostroke
+  mirror circle 22.5 30.5 2.2
+  stroke $ink 3.4
+  mirror line 13.5 21 27 26
+  fill $mouth
+  nostroke
+  path M 16 43 Q 32 39 48 43 Q 46 55 32 55 Q 18 55 16 43 Z
+  fill $white
+  poly 20 42.4 24 49 27 41.6
+  poly 44 42.4 40 49 37 41.6
+
+emoji goblin U+1F47A | tengu japanese red mask long nose
+  fill $p3black
+  path M 6 26 Q 8 6 32 6 Q 56 6 58 26 Q 46 16 32 17 Q 18 16 6 26 Z
+  use face_red 0 2 0.92
+  fill $white
+  stroke $ink 1.4
+  mirror ellipse 21 27 5 4
+  fill $ink
+  nostroke
+  mirror circle 21.5 27.5 1.9
+  stroke $ink 3.6
+  mirror line 12 18 28 23
+  fill rad #ff8a6a #c8281c 34 36 12
+  stroke #8a140c 1.8
+  path M 27 30 Q 32 26 37 30 L 40 48 Q 32 54 24 48 Z
+  nofill
+  stroke $ink 2.4
+  arc 32 56 12 6 200 340
+
+category people
+
+emoji baby_angel U+1F47C | cherub angel halo wings
+  fill lin #ffffff #dfe5ec 0 26 0 50
+  stroke #8793a3 1.8
+  path M 14 40 Q 0 30 4 22 Q 12 26 16 34 Z
+  path M 50 40 Q 64 30 60 22 Q 52 26 48 34 Z
+  nofill
+  stroke #f2b01c 3
+  ellipse 32 8 12 3.4
+  use p3_face 0 2
+  nofill
+  stroke $p3blond 2.6
+  curve 32 17 28 12 34 10 36 14
+  fill $blush
+  nostroke
+  mirror ellipse 19 43 4.4 3
+
+category smileys
+
+emoji imp U+1F47F | devil angry evil purple
+  fill #8d52e3
+  stroke #5a2aa8 2
+  poly 14 18 8 2 24 12
+  poly 50 18 56 2 40 12
+  use face_purple
+  use eyes 0 2
+  use brows_angry 0 2
+  use frown
+
+category people
+
+emoji information_desk_person U+1F481 | help tipping hand sassy info
+  use f3_shirt
+  nofill
+  stroke $skinl 9
+  line 48 54 54 40
+  stroke $skin 6
+  line 48 54 54 40
+  fill $skin
+  stroke $skinl 1.8
+  ellipse 56 35 7 4.4 -20
+  use f3_head
+  nofill
+  stroke $ink 2
+  arc 32 31 4.5 3.2 25 155
+
+emoji guardsman U+1F482 | guard royal bearskin soldier
+  fill lin #ff7a6a #d8281c 0 46 0 62
+  stroke #8a140c 2
+  path M 12 62 Q 12 48 32 48 Q 52 48 52 62 Z
+  fill $skin
+  stroke $skinl 1.8
+  circle 32 38 12
+  fill lin #3a3f4c #16181d 0 2 0 34
+  stroke #0e1014 2
+  path M 17 34 Q 14 2 32 2 Q 50 2 47 34 Q 32 28 17 34 Z
+  fill $ink
+  nostroke
+  mirror ellipse 27.5 39 1.6 2.2
+  nofill
+  stroke $ink 1.8
+  line 28 45 36 45
+  stroke $sym_gold 2
+  curve 19 40 22 50 32 52 42 50 45 40
+
+emoji dancer U+1F483 | dance salsa flamenco party woman
+  nofill
+  stroke $skinl 6.2
+  line 28 22 14 12
+  line 38 24 52 30
+  line 36 54 44 62
+  stroke $skin 4
+  line 28 22 14 12
+  line 38 24 52 30
+  line 36 54 44 62
+  fill lin #ff7a6a #d8281c 0 18 0 56
+  stroke #8a140c 2.2
+  path M 26 18 L 40 18 L 40 32 Q 58 44 54 56 Q 40 50 30 58 Q 18 52 8 56 Q 12 40 26 32 Z
+  fill $skin
+  stroke $skinl 1.6
+  circle 34 10 7
+  fill $p3black
+  nostroke
+  path M 27 10 Q 26 2 34 2 Q 42 2 41 10 Q 34 5 27 10 Z
+  circle 40 4 3.4
+
+category objects
+
+emoji lipstick U+1F484 | makeup cosmetics beauty red
+  fill lin #ff7a6a #d8281c 0 4 0 26
+  stroke #8a140c 2
+  path M 24 26 L 24 12 L 38 4 L 40 26 Z
+  fill lin #ffe27a #c8901c 0 24 0 40
+  stroke #7a5a08 2
+  rect 21 24 22 14 1
+  fill lin #3a3f4c #16181d 0 36 0 60
+  stroke #0e1014 2
+  rect 17 36 30 24 3
+
+emoji nail_polish U+1F485 | manicure nails beauty cosmetics
+  fill $skin
+  stroke $skinl 1.8
+  path M 2 42 L 20 34 Q 26 32 28 36 Q 30 40 24 42 L 2 52 Z
+  fill #ff7a8a
+  stroke #b83a4a 1.4
+  path M 20 34.6 Q 26 32 27.6 36 Q 26 39 22 39.6 Z
+  fill lin #3a3f4c #16181d 0 4 0 24
+  stroke #0e1014 2
+  rect 40 4 10 20 2
+  fill lin #ff9ac4 #e23c86 0 24 0 58
+  stroke #a31a5a 2.2
+  path M 34 28 Q 34 24 38 24 L 52 24 Q 56 24 56 28 L 58 52 Q 58 58 52 58 L 38 58 Q 32 58 32 52 Z
+
+category people
+
+emoji face_massage U+1F486 | spa relax massage head
+  use p3_face
+  use p3_short_hair
+  fill $skin
+  stroke $skinl 1.8
+  ellipse 12 24 6 9 20
+  ellipse 52 24 6 9 -20
+  nofill
+  stroke $pp_blue 2.4
+  line 32 2 32 8
+  line 20 4 22 9
+  line 44 4 42 9
+
+emoji haircut U+1F487 | barber salon hair scissors
+  use p3_face
+  use p3_short_hair
+  fill #c4ccd6
+  stroke #5d6a7c 1.6
+  poly 40 4 44 6 50 22 47 22
+  poly 56 6 60 8 51 22 48 21
+  nofill
+  stroke #e2584a 2.4
+  circle 46 26 3.4
+  circle 53 25 3.4
+
+category objects
+
+emoji barber_pole U+1F488 | barber shop haircut pole
+  fill #9aa6b6
+  stroke #5d6a7c 2
+  rect 20 6 24 8 3
+  rect 20 50 24 8 3
+  circle 32 5 4
+  fill #ffffff
+  stroke #8793a3 2
+  rect 23 14 18 36 1
+  fill #e2584a
+  nostroke
+  poly 23.8 16 40.2 26 40.2 32 23.8 22
+  poly 23.8 40 40.2 50 37 50 23.8 46
+  fill #3a78d8
+  poly 23.8 28 40.2 38 40.2 44 23.8 34
+
+category symbols
+
+emoji kiss_mark U+1F48B | lips kiss lipstick smooch
+  fill rad #ff7a8a #d8284a 26 26 34
+  stroke #8a1430 2.2
+  path M 4 30 Q 14 14 24 20 Q 32 26 40 20 Q 50 14 60 30 Q 50 52 32 52 Q 14 52 4 30 Z
+  fill #8a1430
+  nostroke
+  path M 8 31 Q 32 38 56 31 Q 32 34 8 31 Z
+  nofill
+  stroke #8a1430 1.4
+  line 22 40 23 46
+  line 32 41 32 48
+  line 42 40 41 46
+
+emoji love_letter U+1F48C | mail heart valentine envelope
+  fill lin #ffffff #e6ebf2 0 14 0 54
+  stroke #8793a3 2.2
+  rect 4 14 56 40 4
+  nofill
+  stroke #8793a3 1.8
+  line 5 16 32 36 59 16
+  use heart 0 4 0.32
+
+category objects
+
+emoji ring U+1F48D | diamond engagement wedding jewel
+  nofill
+  stroke #a87a0c 9
+  circle 32 42 15
+  stroke #ffd23a 5.4
+  circle 32 42 15
+  fill lin #dff4ff #7fc8f5 0 4 0 26
+  stroke #2f7ac8 2
+  poly 22 12 28 4 36 4 42 12 32 26
+  nofill
+  stroke #2f7ac8 1.2
+  line 22 12 42 12
+
+category people
+
+emoji couple_kiss U+1F48F | kiss love pair romance
+  fill $p3brown
+  path M 4 30 Q 4 12 18 12 Q 30 12 30 26 L 28 44 L 8 44 Z
+  fill $skin
+  stroke $skinl 1.8
+  path M 10 28 Q 10 16 20 16 Q 30 18 30 30 L 31 36 L 28 38 L 28 44 Q 22 50 14 46 Q 8 40 10 28 Z
+  fill $p3black
+  path M 60 30 Q 60 12 46 12 Q 34 12 34 26 L 36 30 L 56 24 Z
+  fill $skin
+  stroke $skinl 1.8
+  path M 54 28 Q 54 16 44 16 Q 34 18 34 30 L 33 36 L 36 38 L 36 44 Q 42 50 50 46 Q 56 40 54 28 Z
+  nofill
+  stroke $ink 1.8
+  arc 20 30 3 2.4 25 155
+  arc 44 30 3 2.4 25 155
+  use heart 0 -22 0.2
+
+category nature
+
+emoji bouquet U+1F490 | flowers gift bunch romance
+  fill lin #9fdcff #5aa8e0 0 36 0 60
+  stroke #2f7ac8 2
+  path M 20 38 L 44 38 L 36 60 L 28 60 Z
+  fill #e2584a
+  stroke #8a140c 1.4
+  rect 24 42 16 5 2
+  fill rad #8fe06a #2f9a3c 32 30 20
+  stroke #145a24 1.6
+  ellipse 14 32 8 4 30
+  ellipse 50 32 8 4 -30
+  fill rad #ff9ac4 #e23c86 22 18 12
+  stroke #a31a5a 1.8
+  circle 20 22 10
+  fill rad #ffe27a #f2a01c 44 18 12
+  stroke #a8680a 1.8
+  circle 44 22 10
+  fill rad #ff8a6a #d8281c 32 12 12
+  stroke #8a140c 1.8
+  circle 32 14 10
+  fill rad #b98cf5 #7a48d6 32 30 10
+  stroke #4a2596 1.8
+  circle 32 30 8
+
+category people
+
+emoji couple_with_heart U+1F491 | love pair romance together
+  fill lin #5aa8f0 #2f6ad8 0 34 0 60
+  stroke #1a3f9a 1.8
+  path M 4 60 Q 4 42 17 42 Q 30 42 30 60 Z
+  fill lin #ff9ac4 #e23c86 0 34 0 60
+  stroke #a31a5a 1.8
+  path M 34 60 Q 34 42 47 42 Q 60 42 60 60 Z
+  use p3_small -15 14 1.2
+  use p3_small 15 14 1.2
+  use heart 0 -19 0.26
+
+category travel
+
+emoji wedding U+1F492 | chapel marriage church heart
+  fill lin #ff9ac4 #e23c86 0 6 0 30
+  stroke #a31a5a 2.2
+  poly 18 30 32 8 46 30
+  fill lin #ffffff #f2e6ec 0 28 0 58
+  stroke #a8809a 2.2
+  rect 20 28 24 30 1
+  rect 4 40 16 18 1
+  rect 44 40 16 18 1
+  fill #6e4526
+  stroke #45280f 1.4
+  path M 27.5 58 L 27.5 48 Q 32 43 36.5 48 L 36.5 58 Z
+  use heart 0 4 0.16
+
+category symbols
+
+emoji heartbeat U+1F493 | beating heart pulse love
+  nofill
+  stroke #ff9ab0 2.6
+  curve 6 20 3 30 6 40
+  curve 58 20 61 30 58 40
+  use heart 0 0 0.8
+
+emoji heartpulse U+1F497 | growing heart love bigger
+  use heart
+  nofill
+  stroke #ffc0cc 2.2
+  path M 32 47 C 14 35 13 24 18.5 19 C 24 14.5 30 17 32 22 C 34 17 40 14.5 45.5 19 C 51 24 50 35 32 47 Z
+
+emoji cupid U+1F498 | heart arrow love valentine
+  nofill
+  stroke #8a5a2c 3.4
+  line 4 58 60 6
+  use heart 0 2 0.82
+  nofill
+  stroke #8a5a2c 3.4
+  line 4 58 18 45
+  line 48 17 60 6
+  fill #c4ccd6
+  stroke #5d6a7c 1.4
+  poly 60 6 48 8 58 18
+  fill #6fb8f0
+  stroke #2f6ad8 1.4
+  poly 4 58 4 48 10 52
+  poly 4 58 14 58 10 52
+
+emoji gift_heart U+1F49D | heart ribbon present valentine
+  use heart
+  fill #ffd23a
+  stroke #a8801c 1.4
+  rect 29 12 6 44 1
+  path M 8 28 L 56 28 L 55 34 L 9 34 Z
+  path M 32 14 C 26 4 18 6 20 12 C 22 16 28 16 32 14 Z
+  path M 32 14 C 38 4 46 6 44 12 C 42 16 36 16 32 14 Z
+
+emoji revolving_hearts U+1F49E | hearts spinning love orbit
+  use heart -12 -10 0.48
+  use heart 12 10 0.48
+  nofill
+  stroke #ff9ab0 2.6
+  arc 32 32 26 26 300 20
+  arc 32 32 26 26 120 200
+
+emoji heart_decoration U+1F49F | heart button purple love
+  use sh_purple_tile
+  fill $white
+  path M 32 49 C 13 37 12 24 18 18.5 C 24 13.5 30 16.5 32 22 C 34 16.5 40 13.5 46 18.5 C 52 24 51 37 32 49 Z
+
+emoji diamond_dot U+1F4A0 | diamond flower cute kawaii
+  fill rad #a6dcff #3a86e0 24 22 40
+  stroke #1a4fa8 2.4
+  poly 32 4 60 32 32 60 4 32
+  fill #dff4ff
+  stroke #1a4fa8 1.6
+  circle 32 32 6
+
+category nature
+
+emoji droplet U+1F4A7 | water drop tear sweat
+  use drop
+  fill #ffffffaa
+  nostroke
+  ellipse 25 38 3 6 20
+
+category symbols
+
+emoji dizzy U+1F4AB | star spin dizzy shooting
+  nofill
+  stroke #ffd86a 3
+  arc 32 34 26 18 200 30
+  arc 32 34 16 10 20 200
+  use star 12 -8 0.42
+
+emoji white_flower U+1F4AE | well done stamp japanese flower
+  fill lin #ffffff #f2e6ec 0 4 0 60
+  stroke #e0708a 2.4
+  path M 32 4 Q 44 6 44 16 Q 56 16 58 28 Q 58 40 48 42 Q 48 56 36 58 Q 26 60 22 50 Q 8 50 6 38 Q 4 28 14 22 Q 12 8 32 4 Z
+  nofill
+  stroke #e0708a 2.2
+  circle 32 31 9
+  curve 26 44 32 48 38 44
