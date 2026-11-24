@@ -1,0 +1,756 @@
+// Vehicles on road, rail, water and in the air. Original Remedy Emoji art.
+category travel
+
+color t2glass #bfe6ff
+color t2glassd #4f6a8a
+color t2tyre #2f343e
+
+part t2_wheel
+  fill $t2tyre
+  stroke #16181d 2
+  circle 32 32 6.6
+  fill #b9c4cf
+  nostroke
+  circle 32 32 2.6
+
+part t2_carkit
+  fill $t2glass
+  stroke $t2glassd 1.4
+  path M 19 28 L 24 20.5 L 31 20.5 L 31 28 Z
+  path M 34 20.5 L 40 20.5 L 45.5 28 L 34 28 Z
+  fill #fff6a0
+  nostroke
+  rect 56 33 4 4 1.5
+  fill #e2584a
+  rect 4 33 3 4 1.5
+  use t2_wheel -16 14
+  use t2_wheel 14 14
+
+part t2_frontkit
+  fill $t2glass
+  stroke $t2glassd 1.4
+  path M 15 28 L 18 17 L 46 17 L 49 28 Z
+  fill #fff6a0
+  stroke #b8a01c 1.2
+  mirror circle 15 38 3.6
+  fill #3a3f4c
+  nostroke
+  rect 23 35 18 6 2
+  fill $t2tyre
+  mirror rect 9 49 9 8 2
+
+part t2_buskit
+  fill $t2glass
+  stroke $t2glassd 1.4
+  rect 7 19 9 11 2
+  rect 19 19 9 11 2
+  rect 31 19 9 11 2
+  rect 43 19 9 11 2
+  fill #fff6a0
+  nostroke
+  rect 57 37 4 4 1.5
+  use t2_wheel -17 16
+  use t2_wheel 15 16
+
+part t2_railkit
+  fill $t2glass
+  stroke $t2glassd 1.4
+  rect 8 22 10 10 2
+  rect 21 22 10 10 2
+  rect 34 22 10 10 2
+  rect 47 22 10 10 2
+  fill $t2tyre
+  nostroke
+  circle 14 50 4
+  circle 26 50 4
+  circle 40 50 4
+  circle 52 50 4
+  rect 2 54 60 2.4 1
+
+part t2_trainfront
+  fill $t2glass
+  stroke $t2glassd 1.4
+  rect 16 16 32 14 4
+  fill #fff6a0
+  stroke #b8a01c 1.2
+  mirror circle 18 40 3.4
+  fill $t2tyre
+  nostroke
+  rect 14 51 36 4 2
+  nofill
+  stroke #5d6670 2.4
+  line 20 56 12 62
+  line 44 56 52 62
+
+part t2_sea
+  fill lin #6fd0ff #1f74d8 0 50 0 62
+  stroke #134c9c 1.8
+  path M 2 62 L 2 54 Q 10 48 18 54 Q 26 48 34 54 Q 42 48 50 54 Q 56 50 62 54 L 62 62 Z
+
+part t2_plane
+  fill lin #ffffff #c9d6e6 0 0 0 64
+  stroke #5d6a7c 2
+  path M 32 3 Q 37 6 37 16 L 37 24 L 60 38 L 60 44 L 37 38 L 36 52 L 44 58 L 44 62 L 32 59 L 20 62 L 20 58 L 28 52 L 27 38 L 4 44 L 4 38 L 27 24 L 27 16 Q 27 6 32 3 Z
+  fill $t2glass
+  stroke $t2glassd 1.2
+  path M 29 12 Q 32 8 35 12 L 35 15 L 29 15 Z
+
+emoji helicopter U+1F681 | chopper aircraft fly rescue
+  nofill
+  stroke #5d6670 3
+  line 6 12 58 12
+  line 32 12 32 20
+  line 22 52 46 52
+  line 28 46 26 52
+  line 40 46 42 52
+  fill lin #ff7a5a #d8321c 0 18 0 48
+  stroke #8a140c 2.2
+  path M 14 34 Q 14 20 32 20 Q 50 20 52 34 L 60 28 L 62 30 L 58 40 L 50 42 Q 44 48 32 48 Q 14 48 14 34 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  path M 18 34 Q 18 24 30 24 L 30 36 Q 22 38 18 34 Z
+
+emoji steam_locomotive U+1F682 | train engine railway choo
+  fill #dfe5ec
+  nostroke
+  circle 16 9 5
+  circle 26 5 4
+  fill lin #4a5060 #262a34 0 16 0 46
+  stroke #0e1014 2.2
+  rect 12 14 9 12 2
+  path M 6 26 L 36 26 L 36 14 L 58 14 L 58 46 L 6 46 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  rect 41 19 12 10 2
+  fill #e2584a
+  stroke #8a140c 2
+  circle 16 48 7
+  circle 34 48 7
+  circle 51 49 6
+  fill #e2584a
+  nostroke
+  poly 6 46 0 54 6 54
+
+emoji railway_car U+1F683 | train carriage wagon tram
+  fill lin #6fb8f0 #2f6ad8 0 14 0 48
+  stroke #1a3f9a 2.2
+  rect 3 14 58 34 6
+  use t2_railkit
+  fill #ffd23a
+  nostroke
+  rect 4 36 56 3.4
+
+emoji bullet_train U+1F684 | shinkansen fast rail high speed
+  fill lin #ffffff #c9d6e6 0 14 0 48
+  stroke #5d6a7c 2.2
+  path M 3 20 Q 3 14 9 14 L 40 14 Q 56 18 61 40 Q 61 48 54 48 L 3 48 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  rect 8 22 9 9 2
+  rect 20 22 9 9 2
+  path M 34 22 L 44 22 Q 50 26 52 31 L 34 31 Z
+  fill #3a78d8
+  nostroke
+  rect 3.6 36 56.8 3.4
+  fill $t2tyre
+  circle 14 50 4
+  circle 46 50 4
+  rect 2 54 60 2.4 1
+
+emoji bullet_train_nose U+1F685 | shinkansen fast rail japan
+  fill lin #ffffff #c9d6e6 0 6 0 52
+  stroke #5d6a7c 2.2
+  path M 32 6 Q 50 8 54 34 Q 56 50 44 52 L 20 52 Q 8 50 10 34 Q 14 8 32 6 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  path M 22 22 Q 32 12 42 22 L 44 30 L 20 30 Z
+  fill #3a78d8
+  nostroke
+  path M 12 36 Q 32 42 52 36 L 52.6 40 Q 32 46 11.4 40 Z
+  fill #fff6a0
+  mirror circle 20 46 2.6
+  nofill
+  stroke #5d6670 2.4
+  line 20 54 12 62
+  line 44 54 52 62
+
+emoji train_front U+1F686 | railway rail commuter
+  fill lin #6fd47a #2f9a3c 0 6 0 54
+  stroke #145a24 2.2
+  rect 10 6 44 48 8
+  use t2_trainfront
+  fill #ffd23a
+  nostroke
+  rect 11 33 42 3
+
+emoji metro U+1F687 | subway underground tube
+  fill #3a3f4c
+  stroke #16181d 2.2
+  path M 2 60 L 2 28 Q 2 4 32 4 Q 62 4 62 28 L 62 60 Z
+  fill lin #6fb8f0 #2f6ad8 0 14 0 56
+  stroke #1a3f9a 2
+  rect 12 14 40 42 7
+  use t2_trainfront 0 3
+
+emoji light_rail U+1F688 | tram streetcar train city
+  nofill
+  stroke #5d6670 2
+  line 2 6 62 6
+  line 24 6 30 14
+  line 40 6 34 14
+  fill lin #ffb04a #e8701c 0 14 0 48
+  stroke #a8420a 2.2
+  rect 3 14 58 34 8
+  use t2_railkit
+
+emoji station U+1F689 | train platform railway stop
+  fill #9aa6b6
+  stroke #5d6a7c 2
+  path M 2 12 L 62 12 L 58 20 L 6 20 Z
+  rect 6 20 4 38
+  rect 54 20 4 38
+  fill lin #ff7a5a #d8321c 0 24 0 54
+  stroke #8a140c 2
+  rect 16 24 32 30 6
+  use t2_trainfront 0 8 0.72
+  fill #6e7684
+  nostroke
+  rect 2 58 60 4
+
+emoji tram_front U+1F68A | streetcar trolley city rail
+  nofill
+  stroke #5d6670 2
+  line 4 4 60 4
+  line 32 4 32 10
+  fill lin #b98cf5 #7a48d6 0 10 0 54
+  stroke #4a2596 2.2
+  rect 12 10 40 44 8
+  use t2_trainfront 0 2
+
+emoji tram_car U+1F68B | streetcar trolley carriage
+  nofill
+  stroke #5d6670 2
+  line 2 6 62 6
+  line 32 6 32 14
+  fill lin #7fd47a #2f9a3c 0 14 0 48
+  stroke #145a24 2.2
+  rect 3 14 58 34 6
+  use t2_railkit
+
+emoji bus U+1F68C | coach public transport school
+  fill lin #ffd23a #f2a01c 0 12 0 48
+  stroke #a8680a 2.2
+  rect 3 12 58 36 7
+  use t2_buskit
+
+emoji oncoming_bus U+1F68D | coach front public transport
+  fill lin #ffd23a #f2a01c 0 10 0 52
+  stroke #a8680a 2.2
+  rect 9 8 46 44 8
+  use t2_frontkit 0 2
+  fill #3a3f4c
+  nostroke
+  rect 22 10.5 20 4 2
+
+emoji trolleybus U+1F68E | electric bus tram wires
+  nofill
+  stroke #5d6670 2
+  line 2 4 62 4
+  line 22 12 30 4
+  line 40 12 44 4
+  fill lin #6fd4c8 #2f9a8c 0 12 0 48
+  stroke #145a52 2.2
+  rect 3 12 58 36 7
+  use t2_buskit
+
+emoji bus_stop U+1F68F | stop sign wait transit
+  fill #9aa6b6
+  stroke #5d6a7c 2
+  rect 29.5 26 5 34 2
+  rect 20 57 24 5 2
+  fill lin #6fb8f0 #2f6ad8 0 4 0 30
+  stroke #1a3f9a 2.2
+  circle 32 17 14
+  fill #ffffff
+  nostroke
+  rect 24 11 16 10 2
+  fill #1a3f9a
+  circle 27.5 23 1.8
+  circle 36.5 23 1.8
+
+emoji minibus U+1F690 | van shuttle transport
+  fill lin #ffffff #c9d6e6 0 14 0 48
+  stroke #5d6a7c 2.2
+  path M 3 22 Q 3 14 11 14 L 44 14 Q 50 14 53 20 L 60 32 L 60 48 L 3 48 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  rect 8 19 10 10 2
+  rect 21 19 10 10 2
+  path M 35 19 L 46 19 L 52 29 L 35 29 Z
+  fill #3a78d8
+  nostroke
+  rect 4 36 55 3
+  use t2_wheel -17 16
+  use t2_wheel 15 16
+
+emoji ambulance U+1F691 | emergency medical hospital rescue
+  fill #e2584a
+  stroke #8a140c 1.4
+  rect 24 8 8 6 2
+  fill lin #ffffff #dfe5ec 0 14 0 48
+  stroke #5d6a7c 2.2
+  path M 3 20 Q 3 14 9 14 L 42 14 L 42 22 L 50 22 L 60 34 L 60 48 L 3 48 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  path M 44 25 L 49 25 L 55 33 L 44 33 Z
+  fill #e2584a
+  nostroke
+  rect 19 20 6 18 1
+  rect 13 26 18 6 1
+  use t2_wheel -17 16
+  use t2_wheel 15 16
+
+emoji fire_engine U+1F692 | fire truck emergency rescue
+  fill #9aa6b6
+  stroke #5d6a7c 1.6
+  path M 4 10 L 40 10 L 40 13 L 4 13 Z
+  path M 4 16 L 40 16 L 40 19 L 4 19 Z
+  fill lin #ff7a5a #d8321c 0 18 0 48
+  stroke #8a140c 2.2
+  path M 3 22 L 42 22 L 42 16 L 52 16 L 60 30 L 60 48 L 3 48 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  path M 45 20 L 50 20 L 55 29 L 45 29 Z
+  fill #ffd23a
+  nostroke
+  rect 4 36 55 3
+  use t2_wheel -17 16
+  use t2_wheel 15 16
+
+emoji police_car U+1F693 | cop patrol law emergency
+  fill #3a78d8
+  stroke #1a3f9a 1.4
+  rect 27 10 5 7 2
+  fill #e2584a
+  stroke #8a140c 1.4
+  rect 32 10 5 7 2
+  fill lin #ffffff #dfe5ec 0 16 0 46
+  stroke #5d6a7c 2.2
+  path M 4 46 L 4 35 Q 4 30 10 29 L 18 20 Q 20 17 24 17 L 40 17 Q 44 17 46 20 L 53 29 Q 60 30 60 36 L 60 46 Z
+  fill #1e2a5a
+  nostroke
+  rect 4.6 34 54.8 4.4
+  use t2_carkit
+
+emoji oncoming_police_car U+1F694 | cop patrol front law
+  fill #3a78d8
+  stroke #1a3f9a 1.4
+  rect 22 5 10 7 2
+  fill #e2584a
+  stroke #8a140c 1.4
+  rect 32 5 10 7 2
+  fill lin #ffffff #dfe5ec 0 12 0 50
+  stroke #5d6a7c 2.2
+  path M 8 50 L 8 30 L 13 16 Q 14 12 19 12 L 45 12 Q 50 12 51 16 L 56 30 L 56 50 Z
+  use t2_frontkit
+  fill #1e2a5a
+  nostroke
+  rect 9 30 46 3
+
+emoji taxi U+1F695 | cab ride yellow hire
+  fill #1e1e22
+  stroke #0e1014 1.4
+  rect 27 11 10 6 2
+  fill lin #ffe27a #f2b01c 0 16 0 46
+  stroke #a87a0c 2.2
+  path M 4 46 L 4 35 Q 4 30 10 29 L 18 20 Q 20 17 24 17 L 40 17 Q 44 17 46 20 L 53 29 Q 60 30 60 36 L 60 46 Z
+  use t2_carkit
+  fill #1e1e22
+  nostroke
+  rect 22 33 3 3
+  rect 28 33 3 3
+  rect 34 33 3 3
+  rect 25 36 3 3
+  rect 31 36 3 3
+  rect 37 36 3 3
+
+emoji oncoming_taxi U+1F696 | cab front yellow hire
+  fill #1e1e22
+  stroke #0e1014 1.4
+  rect 25 5 14 7 2
+  fill lin #ffe27a #f2b01c 0 12 0 50
+  stroke #a87a0c 2.2
+  path M 8 50 L 8 30 L 13 16 Q 14 12 19 12 L 45 12 Q 50 12 51 16 L 56 30 L 56 50 Z
+  use t2_frontkit
+
+emoji car U+1F697 | automobile drive vehicle red
+  fill lin #ff7a5a #d8321c 0 16 0 46
+  stroke #8a140c 2.2
+  path M 4 46 L 4 35 Q 4 30 10 29 L 18 20 Q 20 17 24 17 L 40 17 Q 44 17 46 20 L 53 29 Q 60 30 60 36 L 60 46 Z
+  use t2_carkit
+
+emoji oncoming_car U+1F698 | automobile front drive vehicle
+  fill lin #ff7a5a #d8321c 0 12 0 50
+  stroke #8a140c 2.2
+  path M 8 50 L 8 30 L 13 16 Q 14 12 19 12 L 45 12 Q 50 12 51 16 L 56 30 L 56 50 Z
+  use t2_frontkit
+
+emoji camper U+1F699 | rv suv recreational van trip
+  fill lin #6fb8f0 #2f6ad8 0 14 0 48
+  stroke #1a3f9a 2.2
+  path M 3 22 Q 3 14 11 14 L 40 14 Q 46 14 49 20 L 54 30 Q 60 31 60 38 L 60 48 L 3 48 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  rect 9 20 12 10 2
+  rect 24 20 12 10 2
+  path M 39 20 L 45 20 L 50 30 L 39 30 Z
+  use t2_wheel -17 16
+  use t2_wheel 15 16
+
+emoji delivery_truck U+1F69A | lorry van shipping cargo
+  fill lin #f2e6c8 #d0b88a 0 12 0 46
+  stroke #7a6a3a 2.2
+  rect 3 12 36 34 3
+  fill lin #6fb8f0 #2f6ad8 0 20 0 46
+  stroke #1a3f9a 2.2
+  path M 39 20 L 51 20 L 60 32 L 60 46 L 39 46 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  path M 43 24 L 49.5 24 L 55 32 L 43 32 Z
+  use t2_wheel -18 14
+  use t2_wheel 17 14
+
+emoji lorry U+1F69B | articulated truck semi trailer freight
+  fill lin #ffffff #dfe5ec 0 10 0 44
+  stroke #5d6a7c 2.2
+  rect 2 10 40 34 3
+  fill lin #7fd47a #2f9a3c 0 20 0 46
+  stroke #145a24 2.2
+  path M 44 20 L 54 20 L 61 32 L 61 46 L 44 46 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  path M 47 24 L 52.5 24 L 57 32 L 47 32 Z
+  fill #5d6670
+  nostroke
+  rect 2 44 42 3
+  use t2_wheel -22 15 0.85
+  use t2_wheel -8 15 0.85
+  use t2_wheel 21 15 0.85
+
+emoji tractor U+1F69C | farm vehicle agriculture field
+  nofill
+  stroke #5d6670 3
+  line 44 22 44 8
+  fill lin #7fd47a #2f9a3c 0 18 0 44
+  stroke #145a24 2.2
+  path M 8 30 L 8 14 L 30 14 L 34 28 L 56 28 L 56 44 L 8 44 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  path M 12 18 L 27 18 L 30 28 L 12 28 Z
+  fill $t2tyre
+  stroke #16181d 2.2
+  circle 20 46 14
+  circle 50 51 9
+  fill #ffd23a
+  nostroke
+  circle 20 46 5.5
+  circle 50 51 3.6
+
+emoji monorail U+1F69D | train elevated rail
+  fill lin #ffffff #c9d6e6 0 12 0 42
+  stroke #5d6a7c 2.2
+  path M 3 20 Q 3 12 11 12 L 44 12 Q 58 16 61 34 Q 61 42 54 42 L 3 42 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  rect 8 19 9 9 2
+  rect 20 19 9 9 2
+  path M 33 19 L 44 19 Q 50 22 52 28 L 33 28 Z
+  fill #e2584a
+  nostroke
+  rect 3.6 32 57 3
+  fill #6e7684
+  stroke #3a3f4c 1.8
+  rect 2 44 60 6 2
+  rect 14 50 6 12
+  rect 44 50 6 12
+
+emoji mountain_railway U+1F69E | train hill cog rail
+  fill lin #7c8fc4 #4b5c96 0 20 0 60
+  stroke #33406e 2
+  poly 2 60 2 44 22 20 40 42 50 32 62 46 62 60
+  fill lin #ff7a5a #d8321c 0 0 60 60
+  stroke #8a140c 2
+  path M 20 34 L 46 22 Q 50 20 52 24 L 56 34 Q 58 38 54 40 L 28 52 Q 24 54 22 50 L 18 40 Q 16 36 20 34 Z
+  fill $t2glass
+  stroke $t2glassd 1.2
+  poly 25 37 33 33.4 36 40 28 43.6
+  poly 38 31 46 27.4 49 34 41 37.6
+
+emoji suspension_railway U+1F69F | hanging train monorail
+  fill #6e7684
+  stroke #3a3f4c 1.8
+  rect 2 6 60 6 2
+  rect 16 12 5 10
+  rect 43 12 5 10
+  fill lin #6fb8f0 #2f6ad8 0 22 0 54
+  stroke #1a3f9a 2.2
+  rect 5 22 54 32 8
+  fill $t2glass
+  stroke $t2glassd 1.4
+  rect 10 28 12 12 2
+  rect 26 28 12 12 2
+  rect 42 28 12 12 2
+  fill #ffd23a
+  nostroke
+  rect 6 45 52 3
+
+emoji mountain_cableway U+1F6A0 | gondola cable car ski lift
+  nofill
+  stroke #5d6670 2.4
+  line 2 16 62 6
+  line 32 11 32 24
+  fill lin #ff7a5a #d8321c 0 22 0 56
+  stroke #8a140c 2.2
+  path M 12 28 Q 12 22 18 22 L 46 22 Q 52 22 52 28 L 50 50 Q 50 56 44 56 L 20 56 Q 14 56 14 50 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  rect 17 28 13 13 2
+  rect 34 28 13 13 2
+
+emoji aerial_tramway U+1F6A1 | cable car gondola ropeway
+  nofill
+  stroke #5d6670 2.4
+  line 2 6 62 12
+  line 32 9 26 22
+  line 32 9 38 22
+  fill lin #ffd23a #f2a01c 0 22 0 54
+  stroke #a8680a 2.2
+  rect 8 22 48 32 6
+  fill $t2glass
+  stroke $t2glassd 1.4
+  rect 13 28 10 12 2
+  rect 27 28 10 12 2
+  rect 41 28 10 12 2
+
+emoji ship U+1F6A2 | boat cruise ferry liner
+  fill #e2584a
+  stroke #8a140c 1.8
+  rect 26 4 8 12 1
+  fill lin #ffffff #dfe5ec 0 14 0 36
+  stroke #5d6a7c 2
+  rect 14 16 30 10 2
+  rect 9 26 42 10 2
+  fill $t2glass
+  nostroke
+  rect 14 29 5 4 1
+  rect 23 29 5 4 1
+  rect 32 29 5 4 1
+  rect 41 29 5 4 1
+  fill lin #3a4a6a #1e2a44 0 36 0 56
+  stroke #0e1420 2.2
+  path M 2 36 L 62 36 L 54 56 L 10 56 Z
+  use t2_sea
+
+emoji rowboat U+1F6A3 | boat row paddle lake
+  nofill
+  stroke #b9783a 3
+  line 20 30 54 58
+  fill $skin
+  stroke $skinl 1.6
+  circle 30 18 7
+  fill lin #ff7a5a #d8321c 0 24 0 44
+  stroke #8a140c 2
+  path M 22 26 L 38 26 L 40 44 L 20 44 Z
+  fill #6b4226
+  nostroke
+  path M 23 17 Q 23.5 10 30 10 Q 36.5 10 37 17 Q 30 13 23 17 Z
+  fill lin #c98a4a #8a4a1c 0 40 0 56
+  stroke #5f2a0c 2.2
+  path M 2 40 L 62 40 Q 58 56 44 56 L 20 56 Q 6 56 2 40 Z
+  use t2_sea 0 2
+
+emoji speedboat U+1F6A4 | boat fast motor water
+  fill lin #ffffff #dfe5ec 0 30 0 52
+  stroke #5d6a7c 2.2
+  path M 2 36 L 44 34 Q 56 36 62 40 Q 54 52 44 52 L 10 52 Q 4 46 2 36 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  path M 24 34.6 L 30 24 L 40 24 L 40 34 Z
+  fill #e2584a
+  nostroke
+  path M 3 40 L 60 41.4 Q 58 44 56 46 L 5 44 Z
+  use t2_sea
+
+emoji bicycle U+1F6B2 | bike cycle pedal ride
+  nofill
+  stroke $t2tyre 3
+  circle 14 42 11
+  circle 50 42 11
+  stroke #e2584a 3
+  line 14 42 26 24 42 24 50 42
+  line 26 24 32 42 14 42
+  line 32 42 42 24
+  stroke #3a3f4c 3
+  line 22 20 30 20
+  line 42 24 40 16 46 14
+
+emoji motor_boat U+1F6E5 | yacht cruiser boat sea
+  fill lin #ffffff #dfe5ec 0 18 0 38
+  stroke #5d6a7c 2
+  path M 22 38 L 26 20 L 44 20 L 50 38 Z
+  fill $t2glass
+  stroke $t2glassd 1.2
+  path M 28 30 L 30 24 L 42 24 L 45 30 Z
+  fill lin #ffffff #c9d6e6 0 36 0 54
+  stroke #5d6a7c 2.2
+  path M 2 38 L 62 38 Q 58 54 46 54 L 12 54 Q 4 48 2 38 Z
+  fill #3a78d8
+  nostroke
+  path M 4 43 L 60 43 Q 59 46 57 47.4 L 6 47.4 Z
+  use t2_sea
+
+emoji small_airplane U+1F6E9 | plane aircraft flight private
+  use t2_plane 0 0 0.82 45
+
+emoji airplane_departure U+1F6EB | takeoff flight leave travel
+  use t2_plane 0 -8 0.74 60
+  fill #6e7684
+  nostroke
+  rect 4 54 56 4 2
+
+emoji airplane_arriving U+1F6EC | landing flight arrive travel
+  use t2_plane 0 -8 0.74 120
+  fill #6e7684
+  nostroke
+  rect 4 54 56 4 2
+
+emoji passenger_ship U+1F6F3 | cruise liner boat voyage
+  fill #ffd23a
+  stroke #a8801c 1.8
+  rect 22 4 7 12 1
+  rect 35 4 7 12 1
+  fill lin #ffffff #dfe5ec 0 14 0 36
+  stroke #5d6a7c 2
+  rect 12 16 40 9 2
+  rect 7 25 50 11 2
+  fill $t2glass
+  nostroke
+  circle 15 30.5 2.2
+  circle 24 30.5 2.2
+  circle 33 30.5 2.2
+  circle 42 30.5 2.2
+  circle 51 30.5 2.2
+  fill lin #ffffff #c9d6e6 0 36 0 56
+  stroke #5d6a7c 2.2
+  path M 2 36 L 62 36 L 54 56 L 10 56 Z
+  fill #e2584a
+  nostroke
+  path M 3.4 40 L 60.6 40 L 59 44 L 5 44 Z
+  use t2_sea
+
+emoji kick_scooter U+1F6F4 | scooter ride push
+  nofill
+  stroke #6e7684 3.4
+  line 44 48 38 10
+  line 30 8 44 12
+  fill #e2584a
+  stroke #8a140c 2
+  path M 12 46 L 46 46 L 48 51 L 12 51 Z
+  use t2_wheel -20 20 0.9
+  use t2_wheel 17 20 0.9
+
+emoji motor_scooter U+1F6F5 | moped vespa ride
+  fill lin #6fd4c8 #2f9a8c 0 14 0 50
+  stroke #145a52 2.2
+  path M 8 44 Q 8 34 20 34 L 30 34 L 34 44 L 40 44 L 44 20 L 52 20 L 56 44 Q 50 50 44 50 L 8 50 Z
+  fill #3a2a1c
+  nostroke
+  rect 10 30 20 5 2
+  nofill
+  stroke #5d6670 3
+  line 44 20 40 12 48 10
+  use t2_wheel -17 19 1.1
+  use t2_wheel 19 19 1.1
+
+emoji canoe U+1F6F6 | kayak boat paddle river
+  nofill
+  stroke #b9783a 3
+  line 10 12 54 52
+  fill #b9783a
+  stroke #5f3414 1.4
+  ellipse 9 10 4 7 -45
+  ellipse 55 53 4 7 -45
+  fill lin #e2584a #a8201c 0 26 0 44
+  stroke #5f0c0c 2.2
+  path M 2 30 Q 32 38 62 30 Q 54 46 32 46 Q 10 46 2 30 Z
+  fill #ffd23a
+  nostroke
+  path M 8 36 Q 32 42 56 36 Q 55 38 54 39.6 Q 32 45 10 39.6 Z
+
+emoji sled U+1F6F7 | sledge toboggan snow winter
+  nofill
+  stroke #5d6670 3.2
+  curve 6 38 6 52 16 54 58 54
+  line 18 40 18 54
+  line 44 40 44 54
+  fill lin #ff7a5a #d8321c 0 30 0 42
+  stroke #8a140c 2.2
+  path M 8 32 L 54 32 Q 58 32 58 36 L 58 40 L 8 40 Z
+  nofill
+  stroke #8a140c 1.4
+  line 22 32 22 40
+  line 38 32 38 40
+
+emoji skateboard U+1F6F9 | skate board trick park
+  fill lin #ffb04a #e8701c 0 22 0 34
+  stroke #a8420a 2.2
+  path M 4 22 Q 8 30 16 30 L 48 30 Q 56 30 60 22 L 60 26 Q 56 36 48 36 L 16 36 Q 8 36 4 26 Z
+  fill #9aa6b6
+  nostroke
+  rect 14 36 8 4
+  rect 42 36 8 4
+  use t2_wheel -14 12 0.8
+  use t2_wheel 14 12 0.8
+
+emoji auto_rickshaw U+1F6FA | tuk tuk taxi three wheeler
+  fill lin #ffe27a #f2b01c 0 10 0 48
+  stroke #a87a0c 2.2
+  path M 6 48 L 6 22 Q 6 10 18 10 L 40 10 Q 48 10 52 18 L 58 34 L 58 48 Z
+  fill #3a8a4a
+  nostroke
+  path M 7 22 Q 7 11 18 11 L 40 11 Q 47 11 51 18 L 52 21 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  path M 38 23 L 50 23 L 55 34 L 38 34 Z
+  fill #2a2a2a
+  nostroke
+  rect 12 25 20 16 2
+  use t2_wheel -17 16
+  use t2_wheel 16 16
+
+emoji pickup_truck U+1F6FB | truck ute vehicle haul
+  fill lin #6fb8f0 #2f6ad8 0 16 0 46
+  stroke #1a3f9a 2.2
+  path M 3 30 L 28 30 L 32 18 L 46 18 L 52 30 Q 61 31 61 38 L 61 46 L 3 46 Z
+  fill $t2glass
+  stroke $t2glassd 1.4
+  path M 34.5 21 L 44 21 L 48.5 30 L 33 30 Z
+  use t2_wheel -17 14
+  use t2_wheel 15 14
+
+emoji roller_skate U+1F6FC | skate rink retro derby
+  fill lin #ffffff #dfe5ec 0 6 0 44
+  stroke #5d6a7c 2.2
+  path M 14 6 L 30 6 L 32 26 Q 50 28 54 38 L 54 44 L 12 44 Z
+  fill #ff7a8a
+  nostroke
+  path M 13 38 L 54 38 L 54 44 L 12 44 Z
+  nofill
+  stroke #ff7a8a 1.8
+  line 20 14 30 12
+  line 20 20 31 18
+  line 21 26 32 25
+  fill #ffd23a
+  stroke #a8801c 2
+  circle 20 52 7
+  circle 46 52 7
