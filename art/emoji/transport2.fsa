@@ -477,16 +477,25 @@ emoji monorail U+1F69D | train elevated rail
   rect 44 50 6 12
 
 emoji mountain_railway U+1F69E | train hill cog rail
-  fill lin #7c8fc4 #4b5c96 0 20 0 60
+  fill lin #9fdcff #dff4ff 0 6 0 40
+  stroke #5a9ad0 2
+  rect 3 6 58 52 8
+  fill lin #7c8fc4 #4b5c96 0 14 0 58
   stroke #33406e 2
-  poly 2 60 2 44 22 20 40 42 50 32 62 46 62 60
-  fill lin #ff7a5a #d8321c 0 0 60 60
+  path M 4 56 L 4 46 L 22 16 L 38 40 L 46 30 L 60 48 L 60 50 Q 60 57 53 57 L 11 57 Q 4 57 4 50 Z
+  fill #ffffff
+  nostroke
+  poly 22 16 27.4 24 23 22.6 19 25.4 17.6 23.4
+  nofill
+  stroke #5d6670 2.2
+  line 8 52 56 34
+  fill lin #ff7a5a #d8321c 0 28 0 48
   stroke #8a140c 2
-  path M 20 34 L 46 22 Q 50 20 52 24 L 56 34 Q 58 38 54 40 L 28 52 Q 24 54 22 50 L 18 40 Q 16 36 20 34 Z
-  fill $t2glass
-  stroke $t2glassd 1.2
-  poly 25 37 33 33.4 36 40 28 43.6
-  poly 38 31 46 27.4 49 34 41 37.6
+  path M 20 36 L 44 26.6 Q 47 25.6 48 28.6 L 50 36 Q 50.6 38.6 48 39.6 L 24 49 Q 21 50 20 47 L 18 40 Q 17.4 37 20 36 Z
+  fill #bfe6ff
+  stroke #4f6a8a 1.2
+  poly 24 38.4 31 35.6 32.6 40.4 25.6 43.2
+  poly 34.6 34.2 41.6 31.4 43.2 36.2 36.2 39
 
 emoji suspension_railway U+1F69F | hanging train monorail
   fill #6e7684

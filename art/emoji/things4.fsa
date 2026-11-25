@@ -110,16 +110,25 @@ emoji flying_disc U+1F94F | frisbee throw park ultimate
 category objects
 
 emoji sari U+1F97B | indian dress clothes traditional
-  fill lin #ff9ac4 #e23c86 0 4 0 60
+  fill lin #ffc6dc #f07aa8 0 4 0 14
+  stroke #a31a5a 2
+  path M 22 4 L 28 4 Q 32 10 36 4 L 42 4 L 42 18 L 22 18 Z
+  fill lin #ff9ac4 #e23c86 0 16 0 60
   stroke #a31a5a 2.2
-  path M 24 4 L 40 4 L 42 22 L 52 60 L 12 60 L 22 22 Z
-  fill lin #ffd23a #f2901c 0 4 0 60
+  path M 22 18 L 42 18 Q 52 40 54 60 L 10 60 Q 12 40 22 18 Z
+  fill lin #ffd86a #f2a01c 0 4 0 60
   stroke #a8680a 2
-  path M 40 4 L 48 8 L 40 30 L 30 60 L 12 60 L 24 34 L 34 16 Z
+  path M 42 4 L 50 10 Q 46 26 38 38 Q 30 50 26 60 L 14 60 Q 20 44 30 30 Q 38 18 42 4 Z
   nofill
-  stroke #a8680a 1.4
-  line 16 54 30 54
-  line 22 44 34 44
+  stroke #ffd86a 2.2
+  line 12 55 52 55
+  stroke #a8680a 1.2
+  curve 44 12 38 28 22 54
+  fill #e23c86
+  nostroke
+  circle 40 20 1.4
+  circle 34 32 1.4
+  circle 28 44 1.4
 
 emoji hiking_boot U+1F97E | boot trek mountain walk
   fill lin #b9783a #7a4a1c 0 6 0 50
@@ -624,7 +633,7 @@ emoji adhesive_bandage U+1FA79 | plaster band aid hurt
 
 emoji x_ray U+1FA7B | xray bones scan medical
   fill lin #3a4a6a #101a30 0 4 0 60
-  stroke #0a0e1c 2.4
+  stroke #4a5a8a 2.4
   rect 8 4 48 56 4
   nofill
   stroke #bfe6ff 3

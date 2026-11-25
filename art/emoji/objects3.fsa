@@ -757,7 +757,7 @@ category travel
 
 emoji kaaba U+1F54B | mecca islam hajj religion
   fill lin #3a3f4c #16181d 0 10 0 58
-  stroke #0e1014 2.4
+  stroke #6e7684 2.2
   path M 6 20 L 34 10 L 58 18 L 58 50 L 32 58 L 6 50 Z
   nofill
   stroke #0e1014 1.8
@@ -870,7 +870,7 @@ emoji levitating U+1F574 | man suit hover float business
   nostroke
   ellipse 32 59 16 3
   fill lin #3a3f4c #16181d 0 18 0 52
-  stroke #0e1014 2
+  stroke #6e7684 1.8
   path M 22 20 L 42 20 L 46 40 L 38 40 L 36 54 L 28 54 L 26 40 L 18 40 Z
   fill #ffffff
   nostroke
@@ -879,7 +879,7 @@ emoji levitating U+1F574 | man suit hover float business
   stroke $skinl 1.6
   circle 32 12 7
   fill lin #3a3f4c #16181d 0 2 0 10
-  stroke #0e1014 1.6
+  stroke #6e7684 1.6
   rect 25 2 14 6 1
   rect 21 7 22 3 1
   // face
@@ -909,12 +909,12 @@ category objects
 
 emoji dark_sunglasses U+1F576 | shades cool sun glasses
   fill lin #5a6270 #16181d 0 22 0 46
-  stroke #0e1014 2.4
+  stroke #7a86a0 2
   path M 4 26 L 28 26 Q 28 46 16 46 Q 4 46 4 26 Z
   path M 36 26 L 60 26 Q 60 46 48 46 Q 36 46 36 26 Z
   rect 26 26 12 4 1
   nofill
-  stroke #0e1014 3
+  stroke #7a86a0 3
   line 4 27 2 20
   line 60 27 62 20
   stroke #ffffff66 2
@@ -925,7 +925,7 @@ category nature
 
 emoji spider U+1F577 | bug arachnid web creepy halloween
   nofill
-  stroke #16181d 2.6
+  stroke #6e7684 2.6
   curve 26 28 14 20 8 8
   curve 24 32 10 30 4 22
   curve 24 38 10 40 4 48
@@ -935,7 +935,7 @@ emoji spider U+1F577 | bug arachnid web creepy halloween
   curve 40 38 54 40 60 48
   curve 38 42 50 50 54 60
   fill rad #5a6270 #16181d 28 30 20
-  stroke #0e1014 2
+  stroke #8a94a4 1.8
   ellipse 32 40 11 13
   circle 32 24 8
   fill #e2584a

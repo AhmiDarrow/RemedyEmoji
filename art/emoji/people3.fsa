@@ -54,12 +54,12 @@ emoji womans_hat U+1F452 | hat sun bonnet fashion
   circle 44 38 4
 
 emoji eyeglasses U+1F453 | glasses specs reading nerd
-  fill #bfe6ff66
-  stroke #2a2f3b 3.4
+  fill #bfe6ff99
+  stroke #7a86a0 3.4
   ellipse 18 34 12 11
   ellipse 46 34 12 11
   nofill
-  stroke #2a2f3b 3
+  stroke #7a86a0 3
   curve 28 30 32 26 36 30
   line 6 30 2 22
   line 58 30 62 22
@@ -586,33 +586,48 @@ emoji lipstick U+1F484 | makeup cosmetics beauty red
   rect 17 36 30 24 3
 
 emoji nail_polish U+1F485 | manicure nails beauty cosmetics
-  fill $skin
-  stroke $skinl 1.8
-  path M 2 42 L 20 34 Q 26 32 28 36 Q 30 40 24 42 L 2 52 Z
-  fill #ff7a8a
-  stroke #b83a4a 1.4
-  path M 20 34.6 Q 26 32 27.6 36 Q 26 39 22 39.6 Z
+  fill rad $skin $skind 18 40 26
+  stroke $skinl 2
+  path M 2 60 L 2 40 Q 4 30 14 28 L 16 12 Q 17 7 21 8 Q 25 9 24.4 14 L 23 28 L 27 14 Q 28.4 9 32.4 10 Q 36 12 35 16 L 31 32 Q 34 44 26 52 L 24 60 Z
+  fill #ff5a7a
+  stroke #b82a4a 1.4
+  path M 16.4 13 Q 17 7.4 21 8 Q 24.6 9 24.2 14 L 23.6 17.4 L 16 16.4 Z
+  path M 27.4 14.4 Q 28.6 9.4 32.4 10 Q 35.6 11.6 35 16 L 34.2 19 L 26.8 17.4 Z
   fill lin #3a3f4c #16181d 0 4 0 24
-  stroke #0e1014 2
-  rect 40 4 10 20 2
-  fill lin #ff9ac4 #e23c86 0 24 0 58
-  stroke #a31a5a 2.2
-  path M 34 28 Q 34 24 38 24 L 52 24 Q 56 24 56 28 L 58 52 Q 58 58 52 58 L 38 58 Q 32 58 32 52 Z
+  stroke #6e7684 1.8
+  rect 43 4 10 22 2
+  fill lin #ff7a9a #e23c6a 0 24 0 58
+  stroke #a31a44 2.2
+  path M 38 30 Q 38 24 44 24 L 52 24 Q 58 24 58 30 L 60 52 Q 60 58 54 58 L 42 58 Q 36 58 36 52 Z
+  fill #ffffff55
+  nostroke
+  rect 41 30 4 20 2
 
 category people
 
 emoji face_massage U+1F486 | spa relax massage head
   use p3_face
   use p3_short_hair
-  fill $skin
-  stroke $skinl 1.8
-  ellipse 12 24 6 9 20
-  ellipse 52 24 6 9 -20
   nofill
+  stroke $ink 2.2
+  mirror arc 24.5 34 3.4 2.6 25 155
+  fill $skin
+  nostroke
+  mirror ellipse 24.5 33 3 3.6
+  nofill
+  stroke $ink 2.2
+  mirror arc 24.5 33 3.4 2.6 25 155
+  fill rad $skin $skind 10 22 12
+  stroke $skinl 1.8
+  mirror path M 4 30 Q 2 20 8 16 Q 14 14 17 20 L 18 28 Q 14 32 8 32 Z
+  nofill
+  stroke $skinl 1.2
+  mirror line 8 18 9 26
+  mirror line 12 17 13 26
   stroke $pp_blue 2.4
   line 32 2 32 8
-  line 20 4 22 9
-  line 44 4 42 9
+  line 21 4 23 9
+  line 43 4 41 9
 
 emoji haircut U+1F487 | barber salon hair scissors
   use p3_face

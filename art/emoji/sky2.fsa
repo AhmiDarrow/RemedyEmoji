@@ -6,7 +6,7 @@ color skwin #ffe27a
 
 part sk_night
   fill lin #27346b #101633 0 9 0 55
-  stroke #0a0e22 2.2
+  stroke #3a4a8a 2.2
   rect 5 9 54 46 8
 
 part sk_dusk

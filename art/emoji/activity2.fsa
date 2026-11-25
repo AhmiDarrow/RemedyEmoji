@@ -793,64 +793,73 @@ emoji golfer U+1F3CC | golf club swing sport
   fill #5fbf3c
   stroke #2f7d1c 1.8
   ellipse 32 58 28 4
-  nofill
-  stroke #9aa6b6 2.2
-  line 36 28 52 54
-  fill #6e7684
-  nostroke
-  rect 50 52 8 4 1.5
-  nofill
-  stroke $skinl 6.6
-  line 28 26 36 28
-  line 28 42 24 56
-  line 34 42 38 56
-  nofill
-  stroke #2f3a4c 5
-  line 28 42 24 56
-  line 34 42 38 56
-  stroke $skin 4.4
-  line 28 26 36 28
-  fill lin #ffffff #dfe5ec 0 20 0 44
-  stroke #8793a3 2
-  path M 24 20 L 38 20 L 36 44 L 26 44 Z
-  fill $skin
-  stroke $skinl 1.6
-  circle 31 12 7
-  fill #e2584a
-  nostroke
-  path M 23.5 11 Q 24 4 31 4 Q 37 4 38 9 L 44 10 L 38 12 Z
   fill #ffffff
   stroke #8793a3 1.2
-  circle 46 56 2.4
-  // face
+  circle 50 56 2.4
+  nofill
+  stroke #6e7684 2.6
+  line 40 30 54 54
+  fill #6e7684
+  nostroke
+  path M 52 52 L 60 53 L 59 57 L 52 56 Z
+  nofill
+  stroke #1a2238 7
+  line 29 42 26 57
+  line 35 42 39 57
+  stroke #4a5a78 4.6
+  line 29 42 26 57
+  line 35 42 39 57
+  stroke $skinl 6.6
+  line 27 24 40 30
+  line 37 24 40 30
+  stroke $skin 4.4
+  line 27 24 40 30
+  line 37 24 40 30
+  fill lin #ffffff #dfe5ec 0 20 0 44
+  stroke #8793a3 2
+  path M 24 22 Q 24 19 27 19 L 37 19 Q 40 19 40 22 L 38 44 L 26 44 Z
+  fill $skin
+  stroke $skinl 1.6
+  circle 32 11 7.5
+  fill #e2584a
+  stroke #8a140c 1.2
+  path M 24.6 9.4 Q 25 2.6 32 2.6 Q 39 2.6 39.4 9.4 L 46 10.4 L 39.4 12 Q 32 8 24.6 9.4 Z
   fill $ink
   nostroke
-  ellipse 28.5 12.6 0.9 1.3
-  ellipse 33.5 12.6 0.9 1.3
+  ellipse 29.3 12 1 1.4
+  ellipse 34.7 12 1 1.4
   nofill
-  stroke $ink 1.1
-  arc 31.0 14.4 2.4 1.7 25 155
+  stroke $ink 1.2
+  arc 32 14 2.6 1.8 25 155
 
 category travel
 
 emoji racing_motorcycle U+1F3CD | motorbike bike race speed
   fill #2f343e
-  stroke #16181d 2.2
-  circle 13 46 10.5
-  circle 51 46 10.5
-  fill #9aa6b6
+  stroke #6e7684 2
+  circle 13 46 11
+  circle 50 46 11
+  fill #c4ccd6
   nostroke
-  circle 13 46 4
-  circle 51 46 4
-  fill lin #ff7a5a #d8321c 0 20 0 46
+  circle 13 46 4.4
+  circle 50 46 4.4
+  nofill
+  stroke #6e7684 3
+  line 50 46 42 22
+  fill lin #ff7a5a #d8321c 0 16 0 46
   stroke #8a140c 2.2
-  path M 10 36 L 24 26 L 38 26 L 44 18 L 54 20 L 48 28 L 52 44 L 44 44 L 36 38 L 22 44 Z
-  fill #1e1e22
-  nostroke
-  path M 24 26 L 38 26 L 34 32 L 26 32 Z
+  path M 8 34 Q 14 26 26 28 L 34 20 Q 42 14 48 18 L 52 26 Q 50 32 44 32 L 40 42 L 26 44 L 20 38 Z
+  fill #2a2f3b
+  stroke #0e1014 1.6
+  path M 18 27 Q 24 22 33 24 L 31 29 L 20 31 Z
   fill #bfe6ff
-  stroke #5d6a7c 1.4
-  path M 44 18 L 50 12 L 54 20 Z
+  stroke #4f6a8a 1.4
+  path M 42 14 L 50 10 L 51 18 Z
+  fill #ffd23a
+  nostroke
+  circle 52 23 2.4
+  fill #5d6670
+  rect 26 42 14 4 2
 
 emoji racing_car U+1F3CE | formula race fast speed f1
   fill #2f343e

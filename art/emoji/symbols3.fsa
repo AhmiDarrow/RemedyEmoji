@@ -781,7 +781,7 @@ category objects
 
 emoji black_nib U+2712 | pen fountain write ink
   fill lin #5a6270 #22262e 0 0 60 60
-  stroke #0e1014 2.2
+  stroke #8a94a4 2
   path M 58 6 L 46 30 L 34 42 L 22 30 L 34 18 Z
   path M 22 30 L 34 42 L 12 54 L 10 52 Z
   fill #c4ccd6

@@ -266,31 +266,32 @@ emoji pregnant_woman U+1F930 | pregnancy expecting mother baby
   arc 32.0 16.9 2.9 2.0 25 155
 
 emoji breast_feeding U+1F931 | nursing baby mother feeding
-  fill $p3brown
-  path M 14 34 Q 10 6 30 6 Q 50 6 46 34 Z
-  fill lin #b98cf5 #7a48d6 0 28 0 60
+  fill #6b4226
+  nostroke
+  path M 12 40 Q 8 6 30 6 Q 52 6 48 40 Z
+  fill lin #b98cf5 #7a48d6 0 30 0 60
   stroke #4a2596 2
-  path M 8 60 Q 8 34 30 34 Q 52 34 52 60 Z
+  path M 6 60 Q 6 36 30 36 Q 54 36 54 60 Z
   fill $skin
   stroke $skinl 1.6
-  circle 30 18 10.5
-  fill $p3brown
+  circle 30 20 11
+  fill #6b4226
   nostroke
-  path M 19.5 17 Q 20 7 30 7 Q 40 7 40.5 17 Q 30 12 19.5 17 Z
+  path M 18.6 19 Q 19 8.6 30 8.6 Q 41 8.6 41.4 19 Q 34 13 26 15 Q 21 15 18.6 19 Z
+  nofill
+  stroke $ink 1.6
+  arc 26 22 2.4 1.8 25 155
+  arc 34 22 2.4 1.8 25 155
+  arc 30 25.6 3 2 25 155
   fill lin #ffffff #dfe5ec 0 40 0 58
-  stroke #8793a3 1.6
-  ellipse 40 49 14 8 -15
+  stroke #8793a3 1.8
+  path M 22 46 Q 32 38 48 42 Q 56 46 52 54 Q 40 60 26 56 Q 18 52 22 46 Z
   fill $skin
   stroke $skinl 1.4
-  circle 30 44 6
-  // face
-  fill $ink
-  nostroke
-  ellipse 26.2 18.8 1.4 1.9
-  ellipse 33.8 18.8 1.4 1.9
+  circle 30 46 6.4
   nofill
-  stroke $ink 1.7
-  arc 30.0 21.6 3.6 2.5 25 155
+  stroke $ink 1.2
+  arc 30 46.6 2.4 1.6 25 155
 
 emoji palms_up U+1F932 | pray dua open hands offering
   use pp_hand -13 6 0.62 -18
@@ -505,7 +506,7 @@ emoji handball U+1F93E | throw ball sport jump
 
 emoji ninja U+1F977 | stealth warrior shinobi mask
   fill lin #3a3f4c #16181d 0 6 0 60
-  stroke #0e1014 2.2
+  stroke #6e7684 2
   circle 32 34 22
   fill $skin
   stroke #0e1014 1.6

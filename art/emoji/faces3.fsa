@@ -328,18 +328,26 @@ emoji ok_person U+1F646 | okay yes circle agree
 emoji bow U+1F647 | sorry thanks respect apologize bowing
   fill lin #86b8f4 #4a86d8 0 40 0 62
   stroke #2f5fa8 2
-  path M 5 63 Q 5 42 32 42 Q 59 42 59 63 Z
-  fill #6b4226
-  circle 32 31 17
+  path M 5 63 Q 5 44 32 44 Q 59 44 59 63 Z
   fill $skin
   stroke $skinl 1.8
-  path M 19.5 38 Q 32 50 44.5 38 Q 40 44.5 32 44.5 Q 24 44.5 19.5 38 Z
+  circle 32 30 16
+  fill #6b4226
+  nostroke
+  path M 15.6 30 Q 14 10 32 10 Q 50 10 48.4 30 Q 46 20 32 26 Q 18 20 15.6 30 Z
   nofill
-  stroke #4a2c16 1.6
-  curve 22 24 32 19 42 24
+  stroke $ink 2.2
+  mirror arc 25 36 3.4 2.6 25 155
+  arc 32 41 4 2.4 25 155
+  fill $skin
+  stroke $skinl 1.8
+  path M 20 50 Q 32 44 44 50 L 42 58 Q 32 54 22 58 Z
+  nofill
+  stroke $skinl 1.2
+  line 32 48 32 56
   stroke #9ab8e8 2.4
-  mirror line 8 30 4 24
-  mirror line 13 23 10.5 16.5
+  mirror line 9 26 5 20
+  mirror line 13 19 10.6 12.6
 
 emoji raising_hand U+1F64B | me question volunteer hello pick
   use f3_shirt
