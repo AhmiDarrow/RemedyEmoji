@@ -734,7 +734,7 @@ emoji hard_drive | hdd disk storage drive
   circle 14 54 2.2
 
 emoji usb | flash drive thumb stick storage
-  xf 0 0 1.08 45
+  xf 0.9 0 1.03 45
   fill lin #f2f5f9 #9aa3ad 20 0 44 0
   stroke $steeld 2.2
   rect 21 3 22 18 2
