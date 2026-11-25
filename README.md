@@ -13,6 +13,19 @@ rasterizer in this crate. The crate has no dependencies.
 - A glyph draws sharply at any size, from a 20 pixel chat line to a 160 pixel sticker.
 - Six skin tones, chosen when drawing.
 
+## Gallery
+
+Smileys, the built-in sticker pack, and nature, drawn at 72 pixels (the sticker sheet at 96):
+
+![Smileys](docs/images/smileys.png)
+
+![Stickers](docs/images/stickers.png)
+
+![Nature](docs/images/nature.png)
+
+Each sheet is a plain contact sheet from the crate's `sheet` example, so you can redraw it
+any time (see [The art](#the-art) below).
+
 ## Use
 
 There are three ways in, all from the same art.

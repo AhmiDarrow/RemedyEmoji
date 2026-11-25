@@ -709,17 +709,19 @@ emoji canoe U+1F6F6 | kayak boat paddle river
 
 emoji sled U+1F6F7 | sledge toboggan snow winter
   nofill
-  stroke #5d6670 3.2
-  curve 6 38 6 52 16 54 58 54
-  line 18 40 18 54
-  line 44 40 44 54
-  fill lin #ff7a5a #d8321c 0 30 0 42
-  stroke #8a140c 2.2
-  path M 8 32 L 54 32 Q 58 32 58 36 L 58 40 L 8 40 Z
+  stroke #5d6670 3.4
+  curve 9 24 7 50 18 53 60 53
+  line 18 41 17 53
+  line 46 40 46 53
+  fill lin #f7b173 #c8561f 0 26 0 42
+  stroke #7a3412 2.2
+  path M 12 28 Q 34 22 56 28 Q 60 30 58 36 Q 34 42 10 38 Q 8 32 12 28 Z
   nofill
-  stroke #8a140c 1.4
-  line 22 32 22 40
-  line 38 32 38 40
+  stroke #7a3412 1.4
+  line 26 25 25 40
+  line 40 25 39 41
+  stroke #8a6a40 1.6
+  curve 50 28 54 22 56 14 52 10
 
 emoji skateboard U+1F6F9 | skate board trick park
   fill lin #ffb04a #e8701c 0 22 0 34
