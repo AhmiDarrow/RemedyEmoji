@@ -11,6 +11,5 @@ readme = "README.md"
 keywords = ["emoji", "stickers", "vector", "rasterizer"]
 categories = ["graphics", "rendering"]
 include = ["src/**", "art/**", "examples/**", "docs/**", "README.md", "LICENSE-*"]
-publish = false
 
 [dependencies]
