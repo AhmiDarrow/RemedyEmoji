@@ -1,5 +1,9 @@
 # Remedy Emoji
 
+[![crates.io](https://img.shields.io/crates/v/remedy-emoji.svg)](https://crates.io/crates/remedy-emoji)
+[![docs.rs](https://img.shields.io/docsrs/remedy-emoji)](https://docs.rs/remedy-emoji)
+[![license](https://img.shields.io/crates/l/remedy-emoji.svg)](#license)
+
 Our own emoji and stickers: 1,670 emoji in 14 categories and 46 stickers, all original art.
 Every standard single emoji is drawn (1,386), plus 284 of our own.
 No emoji font and no third-party image set. First drawn for FreeSpeak.
