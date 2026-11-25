@@ -192,7 +192,7 @@ emoji low_battery U+1FAAB | empty dying charge power
   rect 10 21 9 22 2.5
 
 emoji plug U+1F50C | power electric socket cable
-  xf 0 0 1.08 45
+  xf 0.6 0 0.99 45
   stroke #8b96a5 7.5
   line 32 44 32 62
   stroke #3a4452 4.2
@@ -235,12 +235,15 @@ emoji gear U+2699-FE0F | settings cog config options
   circle 32 32 9
 
 emoji wrench U+1F527 | tool fix spanner repair
+  xf -4.1 4.1 1.000
   use tk_wrench 0 0 1.12 45
 
 emoji hammer U+1F528 | tool build nail hit
+  xf 1.6 5.3 0.981
   use tk_hammer 1 1 1.08 -45
 
 emoji tools U+1F6E0-FE0F | hammer wrench fix build repair
+  xf -0.3 3.2 1.000
   use tk_wrench 0 0 1 45
   use tk_hammer 1 1 1 -45
 
@@ -312,6 +315,7 @@ emoji shield U+1F6E1-FE0F | protect security defense safe
   path M 32 9.5 L 14 15.5 L 14 30 C 14 42 23 50 32 54.5 Z
 
 emoji satellite_dish U+1F4E1 | antenna signal broadcast radar
+  xf 0.0 3.9 0.942
   fill lin #c3ccd6 #7f8b9a 0 40 0 60
   stroke $steeld 2
   poly 22 36 34 40 40 58 14 58

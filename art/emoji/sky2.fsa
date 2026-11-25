@@ -488,11 +488,7 @@ emoji sunflower U+1F33B | flower yellow summer bloom
   path M 32 55 Q 42 44 51 47 Q 46 58 32 55 Z
   fill #ffcf2a
   stroke #d8900a 1.6
-  ellipse 32 8 5 8
-  ellipse 32 8 5 8 45
-  ellipse 32 8 5 8 90
-  ellipse 32 8 5 8 135
-  xf 0 -8
+  xf 0 -6.8 0.97
   ellipse 32 16 5 8
   ellipse 46.5 22 5 8 60
   ellipse 46.5 38 5 8 120

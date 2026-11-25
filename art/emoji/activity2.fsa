@@ -361,6 +361,7 @@ emoji ferris_wheel U+1F3A1 | fair amusement park ride
   rect 12.5 40 8 7 2
 
 emoji roller_coaster U+1F3A2 | ride amusement park thrill
+  xf 1.0 2.7 0.969
   nofill
   stroke #8793a3 2.4
   line 10 60 10 46

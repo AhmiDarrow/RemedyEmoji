@@ -33,6 +33,7 @@ emoji scorpion U+1F982 | sting desert arachnid scorpio
   use a4_eye 2 11 0.8
 
 emoji turkey U+1F983 | thanksgiving bird gobble poultry
+  xf 0.0 2.2 0.985
   fill rad #e8804a #b8401c 32 26 30
   stroke #7a2408 1.8
   ellipse 12 28 6 14 -40
@@ -273,6 +274,7 @@ emoji cricket_insect U+1F997 | grasshopper insect chirp bug
   use a4_eye 19 -3 0.9
 
 emoji kangaroo U+1F998 | australia joey hop marsupial
+  xf 0.0 1.9 1.000
   fill rad #d9a05a #a8681c 12 48 14
   stroke #5f3a0c 2
   path M 22 48 Q 4 52 2 60 L 10 60 Q 18 56 26 54 Z

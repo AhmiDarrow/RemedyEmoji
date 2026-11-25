@@ -65,6 +65,7 @@ emoji drooling U+1F924 | drool hungry want yum
   path M 38 47 Q 37 58 41 59.5 Q 45 58 43.5 47 Z
 
 emoji lying_face U+1F925 | liar pinocchio lie nose
+  xf 1.5 0.0 1.000
   use face -4 0
   use eyes -4 0
   stroke $ink 3
@@ -296,6 +297,7 @@ emoji palms_up U+1F932 | pray dua open hands offering
   use pp_hand 13 6 0.62 18 flip
 
 emoji selfie U+1F933 | phone camera photo arm
+  xf 0.0 -2.4 0.991
   nofill
   stroke $skinl 12
   line 14 60 26 34
@@ -385,6 +387,7 @@ emoji cartwheel U+1F938 | gymnastics flip acrobat sport
   use sp_mini 0 -4 1 180
 
 emoji juggling U+1F939 | juggle circus balls skill
+  xf 0.0 1.5 1.000
   fill #e2584a
   stroke #8a140c 1.4
   circle 14 10 4
@@ -554,6 +557,7 @@ emoji superhero U+1F9B8 | hero power cape save
   mirror ellipse 26 21.5 2.6 1.8
 
 emoji supervillain U+1F9B9 | villain evil bad power cape
+  xf 0.0 1.0 0.975
   fill lin #5a4a7a #2a2044 0 28 0 62
   stroke #16102a 2
   path M 14 34 L 50 34 L 60 62 L 4 62 Z
@@ -703,6 +707,7 @@ emoji headscarf U+1F9D5 | hijab scarf woman muslim
   arc 32 39 6 4.4 25 155
 
 emoji steamy_room U+1F9D6 | sauna steam spa relax
+  xf 0.0 1.1 0.971
   nofill
   stroke $fdsteam 2.6
   curve 10 16 6 10 12 6 8 0
@@ -752,6 +757,7 @@ emoji lotus_position U+1F9D8 | yoga meditate calm zen
   use sp_mini 0 5
 
 emoji mage U+1F9D9 | wizard witch magic sorcerer
+  xf 0.0 1.5 0.991
   use p3_face 0 8 0.86
   fill $p3grey
   nostroke
@@ -797,6 +803,7 @@ emoji vampire U+1F9DB | dracula fangs undead halloween
   poly 37 39.6 35 44 33.4 40.4
 
 emoji merperson U+1F9DC | mermaid merman sea fantasy
+  xf 0.0 1.3 0.963
   fill lin #6fd4c8 #2f9a8c 0 34 0 62
   stroke #145a52 2
   path M 22 36 L 42 36 Q 44 48 36 54 L 46 62 L 18 62 L 28 54 Q 20 48 22 36 Z

@@ -404,6 +404,7 @@ emoji fondue U+1FAD5 | cheese pot melt swiss dip
   path M 32 48 Q 36 54 32 58 Q 28 54 32 48 Z
 
 emoji teapot U+1FAD6 | tea pot brew kettle
+  xf 1.0 0.0 0.967
   nofill
   stroke #2f6ad8 5
   curve 16 28 2 26 4 40 14 44

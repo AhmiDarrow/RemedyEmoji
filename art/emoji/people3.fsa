@@ -319,6 +319,7 @@ emoji police_officer U+1F46E | cop law police guard
   poly 32 9 35 13 32 19 29 13
 
 emoji people_with_bunny_ears U+1F46F | dancers party bunny show
+  xf 0.0 2.4 1.000
   fill #2a2018
   stroke #0e0a06 1.6
   ellipse 24 9 4 10 -12
@@ -542,6 +543,7 @@ emoji guardsman U+1F482 | guard royal bearskin soldier
   curve 19 40 22 50 32 52 42 50 45 40
 
 emoji dancer U+1F483 | dance salsa flamenco party woman
+  xf 0.0 -0.8 0.968
   nofill
   stroke $skinl 6.2
   line 28 22 14 12

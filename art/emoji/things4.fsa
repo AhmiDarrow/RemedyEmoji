@@ -915,6 +915,7 @@ emoji sewing_needle U+1FAA1 | needle thread stitch sew
   ellipse 50 12 2 4 45
 
 emoji knot U+1FAA2 | rope tie tangle string
+  xf 0.0 0.0 0.918
   nofill
   stroke #6e4a0c 10
   path M 3 46 C 24 46 46 52 46 30 C 46 10 18 10 18 30
@@ -935,6 +936,7 @@ emoji knot U+1FAA2 | rope tie tangle string
   line 36 12.6 37 17.6
 
 emoji bucket U+1FAA3 | pail water carry mop
+  xf 0.0 2.8 1.000
   nofill
   stroke #5d6a7c 3
   curve 10 22 12 2 52 2 54 22

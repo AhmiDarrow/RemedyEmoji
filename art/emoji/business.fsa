@@ -390,6 +390,7 @@ emoji newspaper U+1F4F0 | news press headline article paper
   line 35 50 47 50
 
 emoji id_badge U+1FAAA | pass name tag lanyard access staff
+  xf 0.0 1.7 1.000
   stroke #2f6fd0 5
   line 27 1.5 32 13 37 1.5
   fill lin #ffffff #dde3ec 0 12 0 60

@@ -353,6 +353,7 @@ emoji strawberry U+1F353 | berry fruit red sweet
   poly 32 21 23 24 12 19 20 14 15 6 27 10 32 3 37 10 49 6 44 14 52 19 41 24
 
 emoji grapes U+1F347 | fruit purple wine bunch
+  xf 0.0 -3.3 0.945
   nofill
   stroke #6e3f14 3
   line 32 14 34 4
@@ -415,6 +416,7 @@ emoji hot_pepper U+1F336-FE0F | chili spicy hot red
   curve 19 12 18 7 13 4
 
 emoji carrot U+1F955 | vegetable orange root healthy
+  xf -1.7 1.2 1.000
   fill rad #8fdc5a #4ea82c 50 12 14
   stroke $fdleafd 1.8
   ellipse 46 9 4.6 8.5 -5
@@ -449,6 +451,7 @@ emoji coffee U+2615 | hot drink mug cafe espresso
   ellipse 28 27 17.6 3.9
 
 emoji tea U+1F375 | green tea cup matcha hot
+  xf 0.0 1.9 0.994
   use fd_steam -8 -6
   use fd_steam 6 -6
   fill #3f6fc0
@@ -534,6 +537,7 @@ emoji cup_with_straw U+1F964 | soda drink soft drink juice
   rect 10 15.5 44 8 3.5
 
 emoji ramen U+1F35C | noodles soup bowl japanese
+  xf 0.0 4.0 0.921
   nofill
   stroke #8a5520 3
   line 40 27 58 4
@@ -692,7 +696,7 @@ emoji lollipop U+1F36D | candy sweet swirl sucker
   curve 34 24 34 26 32 27.7 28.8 27.2 26.6 24 27.6 19.6 32 16.9 37.6 18.4 40.8 24 38.8 30.8 32 34.5 24 32 19.8 24 22.8 14.8 32 10.1 42.4 13.6 47.6 24 43.6 35.6
 
 emoji chocolate U+1F36B | bar candy cocoa sweet
-  xf 0 0 1 12
+  xf 0 -1.2 0.95 12
   fill lin #9a5a2c #6a3414 14 4 50 40
   stroke #a87248 2.2
   rect 13 4 38 44 4

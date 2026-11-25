@@ -728,6 +728,7 @@ emoji quest | exclamation mission npc task alert
   ellipse 27.5 12 1.6 5.5 -6
 
 emoji quest_done | question turn in npc complete
+  xf 0.0 1.7 0.989
   fill #7a808c77
   ellipse 32 59 13 2.8
   nofill
@@ -791,7 +792,7 @@ emoji sword | blade weapon attack melee knight
   use gm_sword 0 0 1.04
 
 emoji staff | wizard mage magic caster rod
-  xf 2 2 1 20
+  xf 2 2.8 0.96 20
   stroke $gm_woodd 7
   line 32 61 32 26
   stroke $gm_wood 3.6
@@ -885,6 +886,7 @@ emoji crosshair | aim target reticle fps scope
   circle 32 32 3.6
 
 emoji headshot | kill crit snipe aim skull
+  xf 0.0 0.0 0.940
   use gm_skull 0 1 0.72
   nofill
   stroke #8a1414 6.4

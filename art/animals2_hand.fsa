@@ -228,6 +228,7 @@ emoji tiger U+1F42F | cat face stripes wild
   use a3_mouthline
 
 emoji rabbit U+1F430 | bunny face easter hop
+  xf 0.0 2.8 1.000
   fill rad #ffffff #d6dde6 24 20 46
   stroke #8793a3 2.2
   ellipse 22 14 6.5 15 -8
@@ -510,6 +511,7 @@ emoji chipmunk U+1F43F | squirrel rodent nut animal
   ellipse 39 45.5 3.6 4.4
 
 emoji rat U+1F400 | rodent pest grey animal
+  xf 1.0 0.0 0.936
   nofill
   stroke #b86a7a 5
   curve 9 44 1 46 2 57 16 60 26 57
@@ -546,6 +548,7 @@ emoji rat U+1F400 | rodent pest grey animal
   ellipse 44 42 3.4 2.2
 
 emoji mouse2 U+1F401 | rodent white lab animal small
+  xf 1.8 0.0 0.960
   nofill
   stroke #d0788a 5
   curve 9 44 1 46 2 57 16 60 26 57

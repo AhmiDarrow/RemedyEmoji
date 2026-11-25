@@ -275,7 +275,7 @@ emoji win | victory won first winner
   use gc_spark 22 -20 0.1
 
 emoji lose | defeat lost sad second
-  xf 0 -3 1 7
+  xf 1 -3 0.96 7
   fill lin #6f8196 #4a5a6e 0 26 0 52
   stroke #2f3c4c 2
   mirror poly 2 27 14 27 14 51 2 51 7.5 39
@@ -367,6 +367,7 @@ emoji pro | professional skilled expert laurel
   use star 0 -22 0.2
 
 emoji gank | ambush daggers surprise attack
+  xf 0.0 2.4 0.990
   use gc_dagger -5 5 1 -40
   use gc_dagger 5 5 1 40
   fill #7a0f0f
@@ -499,6 +500,7 @@ emoji rekt | wrecked destroyed owned stamp
   xf
 
 emoji f_respects | respect rip press f tribute
+  xf -2.0 0.0 0.968
   fill lin #aab4c2 #6f7a8a 0 8 0 58
   stroke #4a5361 2.4
   rect 3 9 46 50 9
@@ -595,6 +597,7 @@ emoji toxic | poison rude nasty slime
   circle 32 27.5 1.8
 
 emoji bot | robot ai npc fake player
+  xf 0.0 1.5 1.000
   stroke $steeld 2.6
   line 32 25 32 19
   fill #17325e
@@ -705,11 +708,11 @@ emoji sleepy_gamer | tired late night headset exhausted
   nostroke
   ellipse 32 46 4.4 5
   xf
-  use gc_headset 3 1 1 13
+  use gc_headset 0.6 1 0.95 13
   fill $white
-  text 54 13 10 Z 4.4
+  text 52.6 13 10 Z 4.4
   fill #2f8de0
-  text 54 13 10 Z 2
+  text 52.6 13 10 Z 2
 
 emoji winner | champion crown victory first confetti
   fill #ff5fa2
@@ -819,9 +822,9 @@ emoji cope | coping denial breathe mask fine
 
 emoji not_like_this | despair no disaster hands on head
   stroke $skinl 9.4
-  mirror curve 5 56 2.5 36 11 20
+  mirror curve 7.4 56 5.6 36 12 20
   stroke $skin 5.6
-  mirror curve 5 56 2.5 36 11 20
+  mirror curve 7.4 56 5.6 36 12 20
   use face 0 7 0.82
   xf 0 7 0.82
   use eyes_wide 0 2

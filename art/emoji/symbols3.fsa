@@ -643,6 +643,7 @@ emoji ferry U+26F4 | boat ship crossing car ferry
   use t2_sea
 
 emoji sailboat U+26F5 | boat sail yacht sea wind
+  xf 0.0 -1.7 1.000
   nofill
   stroke #6e4526 3
   line 30 4 30 46

@@ -295,6 +295,7 @@ emoji rewind U+23EA | back replay previous button
   poly 30 21.5 30 42.5 15 32
 
 emoji film U+1F39E-FE0F | frames movie reel strip cinema
+  xf 0.0 0.0 0.946
   use st_film 0 0 1 12
 
 emoji popcorn_time | popcorn movie watch drama snacks
@@ -357,6 +358,7 @@ emoji rec | recording record red dot capture
   text 39.5 39.5 14 REC 2.4
 
 emoji on_air | broadcast live studio sign radio
+  xf 0.0 -1.0 0.975
   fill rad #ff6a5e99 #ff6a5e00 32 33 34
   circle 32 33 32
   stroke $steeld 2.6
@@ -424,6 +426,7 @@ emoji webcam | camera cam video facecam
   circle 48 12 2.2
 
 emoji ring_light | light glow selfie lighting lamp
+  xf 0.0 4.1 0.882
   fill rad #ffe98a99 #ffe98a00 32 25 34
   nostroke
   circle 32 25 33
@@ -485,6 +488,7 @@ emoji capture | screenshot screen record grab
   circle 32 26.5 6.5
 
 emoji clip | cut moment highlight short
+  xf 1.8 -1.1 0.997
   use st_film -9 0 0.9 -14
   use scissors 13 13 0.6 30
 
@@ -626,6 +630,7 @@ emoji raid | charge flags attack invade rush
   poly 58 22 34 28 55.6 41
 
 emoji host_wave | hello hi wave greet welcome
+  xf 0.0 1.0 0.983
   use st_mon 0 6 0.9
   use st_hand 0 -7 0.82 12
   nofill
@@ -1080,6 +1085,7 @@ emoji mic_muted | muted silent mic off quiet
   line 10 9 54 55
 
 emoji hot_mic | live mic open oops talking
+  xf 0.0 4.6 0.968
   fill rad #ff4a3a99 #ff4a3a00 32 26 32
   nostroke
   circle 32 26 31

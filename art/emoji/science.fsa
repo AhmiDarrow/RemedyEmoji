@@ -115,6 +115,7 @@ emoji telescope U+1F52D | stars astronomy space observe look
   xf
 
 emoji microscope U+1F52C | lab science zoom biology cells
+  xf 0.0 1.5 1.000
   fill lin #7f93b5 #4a5d82 0 52 0 60
   stroke $sci_line 2
   rect 10 52 44 8 3
@@ -215,7 +216,7 @@ emoji atom U+269B-FE0F | physics science nucleus electron
   circle 46 7.8 3
 
 emoji magnet U+1F9F2 | attract pull magnetic horseshoe
-  xf 0 1 0.95 40
+  xf -1.6 1 0.88 40
   fill lin #ff7a70 $red 8 0 56 0
   stroke $redd 2.2
   path M 7 6 L 7 34 C 7 66 57 66 57 34 L 57 6 L 41 6 L 41 34 C 41 45 23 45 23 34 L 23 6 Z

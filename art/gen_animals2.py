@@ -37,6 +37,7 @@ def animal(name, code, keywords, light, dark, line, *, muzzle=None, nose="#3a2a2
            tail="thin", before=(), body=(), head=(), legs=None, blush=False, mouth=True):  # fmt: skip
     legs = legs or dark
     L = [f"emoji {name} U+{code:X} | {keywords}"]
+    L.append("  xf -1.6 0.6 0.93")  # the head reaches the right edge; this keeps ears and horns inside
     add = L.append
     # Tail, behind everything.
     if tail == "thin":
@@ -76,8 +77,8 @@ def animal(name, code, keywords, light, dark, line, *, muzzle=None, nose="#3a2a2
     elif ears == "floppy":
         add("  ellipse 30.5 24 5 10 12"); add("  ellipse 59.5 24 5 10 -12")
     elif ears == "long":
-        add("  ellipse 38 8 4.6 12 -8"); add("  ellipse 52 8 4.6 12 8")
-        add(f"  fill {inner}"); add("  nostroke"); add("  ellipse 38 9 2 8 -8"); add("  ellipse 52 9 2 8 8")
+        add("  ellipse 38 10.5 4.6 10.5 -8"); add("  ellipse 52 10.5 4.6 10.5 8")
+        add(f"  fill {inner}"); add("  nostroke"); add("  ellipse 38 11 2 7 -8"); add("  ellipse 52 11 2 7 8")
     elif ears == "side":
         add("  ellipse 29 20 6 4 -25"); add("  ellipse 61 20 6 4 25")
     # Head.
@@ -143,7 +144,7 @@ animal("racehorse", 0x1F40E, "horse gallop race equestrian animal", "#d99a5a", "
        head=["fill #4a2a12", "nostroke", "path M 38 11.5 Q 45 6 52 11.5 Q 49 16 45 20 Q 41 16 38 11.5 Z", "fill #4a2208", "ellipse 42.4 33 1.3 1.8", "ellipse 47.6 33 1.3 1.8"])  # fmt: skip
 animal("elephant", 0x1F418, "trunk big grey animal", "#cfd6de", "#8f99a8", "#4a525c", tail="tuft", ears="none", mouth=False, nose="#00000000", legs="#a3adba",
        before=[],
-       head=["fill rad #dfe5ec #a3adba 28 22 14", "stroke #4a525c 2.2", "ellipse 29 26 8 12 8", "ellipse 61 26 8 12 -8", "fill rad #cfd6de #8f99a8 40 18 26", "circle 45 26 15.5",
+       head=["fill rad #dfe5ec #a3adba 28 22 14", "stroke #4a525c 2.2", "ellipse 31 26 7 11.5 8", "ellipse 58 26 7 11.5 -8", "fill rad #cfd6de #8f99a8 40 18 26", "circle 45 26 15.5",
              "path M 41 30 Q 40 46 46 50 Q 52 50 51 44 Q 48 44 48 40 L 49 30 Z", "nofill", "stroke #4a525c 1.2", "line 42 37 48 37", "line 42.6 42 48 41.4",
              "fill #fff6e0", "stroke #b8a37a 1.2", "path M 38 33 Q 34 40 38 43 Q 38 38 40 34 Z", "path M 52 33 Q 56 40 52 43 Q 52 38 50 34 Z"])  # fmt: skip
 HUMP = lambda xs, l, d, ln: [f"fill rad {l} {d} 20 26 20", f"stroke {ln} 2.2"] + [f"path M {x - 8} 36 Q {x - 8} 12 {x} 12 Q {x + 8} 12 {x + 8} 36 Z" for x in xs]  # noqa: E731
@@ -152,7 +153,7 @@ animal("dromedary_camel", 0x1F42A, "camel desert one hump animal", "#f5d896", "#
 animal("camel", 0x1F42B, "bactrian two humps desert animal", "#ecc878", "#b8862a", "#6e4a0c", tail="tuft", ears="side", muzzle="#f5e0b0", nose="#5a3a0c",
        body=HUMP([12, 27], "#ecc878", "#b8862a", "#6e4a0c"), head=["nofill", "stroke #6e4a0c 1.4", "arc 38.5 22 3.4 2 200 340", "arc 51.5 22 3.4 2 200 340"])  # fmt: skip
 animal("poodle", 0x1F429, "dog fluffy pet fancy animal", "#ffffff", "#dfe5ec", "#8793a3", tail="none", ears="none", muzzle="#ffffff", nose="#2a1c14", legs="#f2f5f8",
-       before=["nofill", "stroke #8793a3 4.4", "line 7 38 3 28", "stroke #ffffff 2.2", "line 7 38 3 28", "fill rad #ffffff #dfe5ec 3 24 6", "stroke #8793a3 2", "circle 3 24 5"],
+       before=["nofill", "stroke #8793a3 4.4", "line 9 38 8 28", "stroke #ffffff 2.2", "line 9 38 8 28", "fill rad #ffffff #dfe5ec 8 24 6", "stroke #8793a3 2", "circle 8 23 4.6"],
        body=["fill rad #ffffff #dfe5ec 14 56 6", "stroke #8793a3 1.8", "circle 12.7 57 5", "circle 21.7 58 4.6", "circle 31.7 58 4.6", "circle 40.7 57 5"],
        head=["fill rad #ffffff #dfe5ec 44 10 12", "stroke #8793a3 2", "circle 45 10 8.5", "circle 31 24 7", "circle 59 24 7"])  # fmt: skip
 
@@ -189,7 +190,7 @@ animal("raccoon", 0x1F99D, "trash panda bandit mask animal", "#c8ced6", "#868f9c
 animal("badger", 0x1F9A1, "honey badger stripe animal", "#8a94a0", "#4f5762", "#22262e", tail="puff", ears="round", inner="#ffffff", muzzle="#ffffff", nose="#16181d",
        head=["fill #ffffff", "nostroke", "path M 42 11 Q 45 10 48 11 L 49 30 L 41 30 Z", "fill #22262e", "ellipse 38.5 25 4.6 6", "ellipse 51.5 25 4.6 6"])  # fmt: skip
 animal("mammoth", 0x1F9A3, "woolly extinct ice age tusks animal", "#b98a5c", "#7a4e26", "#3f240c", tail="tuft", ears="none", mouth=False, nose="#00000000", legs="#8a5c30",
-       head=["fill rad #c99a6c #8a5c30 28 22 14", "stroke #3f240c 2.2", "ellipse 30 26 7 11 8", "ellipse 60 26 7 11 -8", "fill rad #b98a5c #7a4e26 40 18 26", "circle 45 26 15.5",
+       head=["fill rad #c99a6c #8a5c30 28 22 14", "stroke #3f240c 2.2", "ellipse 31 26 6.6 10.6 8", "ellipse 58 26 6.6 10.6 -8", "fill rad #b98a5c #7a4e26 40 18 26", "circle 45 26 15.5",
              "fill #7a4e26", "nostroke", "path M 33 15 Q 45 4 57 15 Q 51 12 45 16 Q 39 12 33 15 Z",
              "fill rad #b98a5c #7a4e26 45 40 10", "stroke #3f240c 2.2", "path M 41 30 Q 40 46 46 50 Q 52 50 51 44 Q 48 44 48 40 L 49 30 Z",
              "fill #fff6e0", "stroke #b8a37a 1.4", "path M 38 33 Q 28 44 36 50 Q 34 42 40 35 Z", "path M 52 33 Q 62 44 54 50 Q 56 42 50 35 Z"])  # fmt: skip
@@ -201,7 +202,7 @@ animal("skunk", 0x1F9A8, "smell stink stripe animal", "#5a6270", "#22262e", "#0e
        body=["fill #ffffff", "nostroke", "path M 8 34 Q 22 26 40 31 L 40 35 Q 22 31 9 38 Z"],
        head=["fill #ffffff", "nostroke", "path M 43 11 Q 45 10 47 11 L 47.6 22 L 42.4 22 Z"])  # fmt: skip
 animal("beaver", 0x1F9AB, "dam builder teeth river animal", "#b9824c", "#7a4a1c", "#3f240c", tail="none", ears="round", inner="#7a4a1c", muzzle="#f0d2a8", nose="#2a1c14", mouth=False,
-       before=["fill rad #6a4a2c #3f2a14 4 44 10", "stroke #2a1808 2", "ellipse 5 46 6 11 -15", "nofill", "stroke #2a1808 1", "line 1 42 9 42", "line 0.6 47 9.6 47", "line 1.6 52 9 52"],
+       before=["fill rad #6a4a2c #3f2a14 4 44 10", "stroke #2a1808 2", "ellipse 8 46 5.4 10 -15", "nofill", "stroke #2a1808 1", "line 4.6 42 11.4 42", "line 4 47 12 47", "line 5 52 11.6 52"],
        head=["fill #ffffff", "stroke #3f240c 1", "rect 42.4 34 2.6 4.4 0.6", "rect 45 34 2.6 4.4 0.6"])  # fmt: skip
 animal("bison", 0x1F9AC, "buffalo plains herd animal", "#8a5c36", "#4f3018", "#24140a", tail="tuft", ears="side", mouth=False, nose="#00000000", legs="#4f3018",
        body=["fill rad #6a4424 #3a220e 16 30 16", "stroke #24140a 2", "path M 8 34 Q 12 20 26 22 Q 38 24 40 36 Q 30 30 22 34 Q 14 30 8 34 Z"],

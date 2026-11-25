@@ -101,6 +101,7 @@ emoji green_salad U+1F957 | salad healthy vegetables bowl
   use f2_bowl
 
 emoji shallow_pan U+1F958 | paella pan food cooking
+  xf 0.0 0.0 0.945
   fill #5a6270
   stroke #16181d 2
   rect 0 26 8 6 2

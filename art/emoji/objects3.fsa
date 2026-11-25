@@ -67,6 +67,7 @@ emoji currency_exchange U+1F4B1 | money exchange convert rate
   poly 11 40 21 40 16 33
 
 emoji heavy_dollar_sign U+1F4B2 | dollar money cash price
+  xf 0.0 0.0 0.872
   fill $sym_greend
   text 32 57 50 $ 10
   fill $sym_green
